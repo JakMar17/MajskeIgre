@@ -34,6 +34,6 @@ function buildCssClass(baseClass = "") {
 @import "@/assets/styles/main.scss";
 
 .card--no-radius {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 </style>

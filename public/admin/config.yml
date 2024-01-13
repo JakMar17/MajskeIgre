@@ -8,6 +8,43 @@ media_folder: public/img
 public_folder: /img
 
 collections:
+  - name: "majskeIgre"
+    label: "Majske igre"
+    format: "json"
+    files:
+      - name: "organizationalTeam"
+        label: "Organizacijska ekipa"
+        format: "json"
+        file: "content/majske-igre/organizational-team.json"
+        create: true
+        slug: "{{slug}}"
+        fields:
+          - label: "Predstavitveni opis"
+            name: "intro"
+            widget: "markdown"
+          - label: "Člani ekipe"
+            name: "members"
+            widget: "list"
+            fields:
+              - label: "Ime in priimek"
+                name: "name"
+                widget: "string"
+              - label: "Funkcija"
+                name: "functionTitle"
+                widget: "string"
+              - label: "Email"
+                name: "email"
+                widget: "string"
+              - label: "Telefon"
+                name: "phone"
+                widget: "string"
+              - label: "Slika"
+                name: "imageUrl"
+                widget: "image"
+
+
+
+
   - name: "Pages"
     label: "Strani"
     files:

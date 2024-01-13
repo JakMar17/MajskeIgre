@@ -1,0 +1,301 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: public/img
+public_folder: /img
+
+collections:
+  - name: "Pages"
+    label: "Strani"
+    files:
+    - name: "projects"
+      label: "Projekti"
+      format: "json"
+      file: "content/pages/projects.json"
+      create: true
+      slug: "{{slug}}"
+      editor:
+        preview: true
+      fields:
+        - { label: "Naslov", name: "siteTitle", widget: "string", required: true }
+        - { label: "Podnaslov", name: "siteSubtitle", widget: "string" }
+        - {
+          label: "Featured Image",
+          name: "featureImage",
+          widget: "image",
+          required: true,
+        }
+        - { label: "Intro", name: "intro", widget: "markdown" }
+        - label: "Projekti"
+          name: "projects"
+          widget: "list"
+          fields:
+            - { label: "Naslov", name: "title", widget: "string", required: true }
+            - { label: "Podnaslov", name: "subtitle", widget: "string" }
+            - { label: "Opis", name: "description", widget: "markdown", required: true }
+            - { label: "Slika", name: "image", widget: "image", required: true }
+            - label: "Povezave"
+              name: "links"
+              widget: "list"
+              fields:
+                - { label: "Naslov", name: "title", widget: "string", required: true }
+                - { label: "Povezava", name: "link", widget: "string", required: true }
+                - { label: "Vrsta gumba", name: "buttonType", widget: "select", options: [ { label: "Primarni", value: "is-primary" },{ label: "Sekundarni", value: "is-secondary" }, { label: "Tekstovni", value: "is-text" } ], default: "primary" }
+    - name: "contacts"
+      label: "Kontakti"
+      format: "json"
+      file: "content/pages/contacts.json"
+      create: true
+      slug: "{{slug}}"
+      editor:
+        preview: true
+      fields:
+        - label: "Kontakt funkcionarjev"
+          name: "person_contact"
+          widget: "list"
+          fields:
+            - { label: "Ime in priimek", name: "name", widget: "string", required: true }
+            - { label: "Funkcija", name: "function", widget: "string", required: true }
+            - { label: "Email", name: "email", widget: "string", required: true }
+            - { label: "Telefon", name: "phone", widget: "string", required: true }
+        - label: "Socialna omrežja"
+          name: "social"
+          widget: "object"
+          fields:
+            - label: "Facebook"
+              name: "facebook"
+              widget: "list"
+              fields:
+                - { label: "Naslov", name: "title", widget: "string", required: true }
+                - { label: "Povezava", name: "link", widget: "string", required: true }
+            - label: "Instagram"
+              name: "instagram"
+              widget: "list"
+              fields:
+                - { label: "Naslov", name: "title", widget: "string", required: true }
+                - { label: "Povezava", name: "link", widget: "string", required: true }
+            - label: "Druga omrežja"
+              name: "other"
+              widget: "list"
+              fields:
+                  - { label: "Naslov", name: "title", widget: "string", required: true }
+                  - { label: "Povezava", name: "link", widget: "string", required: true }
+
+
+
+
+  - name: "SSSmembers"
+    label: "Člani ŠSS"
+    format: "json"
+    folder: "content/sss"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - name: title
+        label: Naslov
+        widget: string
+      - name: subtitle
+        label: Podnaslov
+        widget: string
+      - name: intro
+        label: Intro
+        widget: markdown
+      - name: imageUrl
+        label: Slika
+        widget: image
+      - name: leadership
+        label: Vodstvo
+        widget: list
+        fields:
+          - name: name
+            label: Ime in priimek
+            widget: string
+          - name: function
+            label: Funkcija
+            widget: string
+          - name: email
+            label: Email
+            widget: string
+          - name: phone
+            label: Telefon
+            widget: string
+          - name: image
+            label: Slika
+            widget: image
+          - name: backgroundImage
+            label: Ozadje
+            widget: image
+      - name: memberDorms
+        label: Domovi
+        widget: list
+        fields:
+          - name: name
+            label: Naziv doma
+            widget: string
+          - name: location
+            label: Naselje
+            widget: string
+          - name: noOfStudents
+            label: Število prebivalcev
+            widget: number
+          - name: dormMotto
+            label: Moto
+            widget: string
+            required: false
+          - name: dormImage
+            label: Slika doma
+            widget: image
+          - name: presidentName
+            label: Predstavnik
+            widget: string
+            required: false
+          - name: presidentImage
+            label: Slika predstavnika
+            widget: image
+            required: false
+          - name: subPresidentName
+            label: Namestnik predstavnika
+            widget: string
+            required: false
+          - name: subPresidentImage
+            label: Slika namestnika predstavnika
+            widget: image
+            required: false
+
+  - name: "SSSpage"
+    label: "Študentski svet stanovalcev"
+    format: "json"
+    folder: "content/sss-pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - name: title
+        label: Naslov
+        widget: string
+      - name: subtitle
+        label: Podnaslov
+        widget: string
+      - name: menuButton
+        label: "Besedilo gumba"
+        widget: string
+      - name: link
+        label: Povezava
+        widget: string
+      - name: cover
+        label: Naslovnica
+        widget: image
+      - name: intro
+        label: Intro
+        widget: markdown
+        required: false
+      - name: paragraphs
+        label: Kartice
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Naslov
+            widget: string
+          - name: description
+            label: Opis
+            widget: markdown
+          - name: image
+            label: Slika
+            widget: image
+            required: false
+
+  - name: "Slideshows"
+    label: "Galerije"
+    format: "json"
+    folder: "content/slideshow"
+    create: true
+    fields:
+      - name: title
+        label: "Id galerije (določen s kodo - ne spreminjaj)"
+        widget: string
+      - name: images
+        label: Slike
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Slika
+            widget: image
+            required: true
+  - name: "BlogCategories"
+    label: "Blog: kategorije"
+    format: "json"
+    folder: "content/blog/categories"
+    create: true
+    fields:
+      - name: title
+        label: Naslov kategorije
+        widget: string
+        required: true
+  - name: "BlogAuthors"
+    label: "Blog: avtorji"
+    format: "json"
+    folder: "content/blog/authors"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - name: name
+        label: "Ime in priimek"
+        widget: string
+        required: true
+      - name: image
+        label: Slika
+        widget: image
+      - name: description
+        label: Opis
+        widget: markdown
+        required: true
+  - name: "BlogPosts"
+    label: "Blog: objave"
+    format: "json"
+    folder: "content/blog/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - name: title
+        label: Naslov objave
+        widget: string
+        required: true
+      - name: subtitle
+        label: Podnaslov objave
+        widget: string
+        required: false
+      - name: author
+        label: Avtor
+        widget: relation
+        collection: "BlogAuthors"
+        value_field: "name"
+        search_fields: [ "name" ]
+        display_fields: [ "name", "image" ]
+      - name: category
+        label: Kategorija
+        widget: relation
+        collection: "BlogCategories"
+        search_fields: [ "title" ]
+        display_fields: [ "title" ]
+        value_field: "title"
+      - name: date
+        label: Datum
+        widget: datetime
+        format: "X"
+      - name: cover
+        label: Naslovnica
+        widget: image
+      - name: summary
+        label: Povzetek
+        widget: markdown
+        required: true
+        buttons: [ 'bold', 'italic', 'link' ]
+        editor_components: [ ]
+      - name: body
+        label: Vsebina
+        widget: markdown
+        required: true

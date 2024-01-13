@@ -1,0 +1,170 @@
+// Import Bulma's core
+@import 'node_modules/bulma/sass/utilities/_all';
+@import "flex";
+
+// Set your colors
+$primary: #0072AF;
+$info: #5FADDB;
+$warning: #FFBC70;
+$danger: #F25F5C;
+$success: #76C31D;
+
+
+$neutral: #5F7174;
+
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+
+$info-light: findLightColor($info);
+$info-dark: findDarkColor($info);
+$info-invert: findColorInvert($info);
+
+$warning-light: findLightColor($warning);
+$warning-dark: findDarkColor($warning);
+$warning-invert: findColorInvert($warning);
+
+$danger-light: findLightColor($danger);
+$danger-dark: findDarkColor($danger);
+$danger-invert: findColorInvert($danger);
+
+$success-light: findLightColor($success);
+$success-dark: findDarkColor($success);
+$success-invert: findColorInvert($success);
+
+$twitter: #4099ff;
+$twitter-invert: findColorInvert($twitter);
+
+// Lists and maps
+$custom-colors: null !default;
+$custom-shades: null !default;
+
+$background: #F3F9FB;
+
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: mergeColorMaps(
+                (
+                        'white': (
+                                $white,
+                                $black,
+                        ),
+                        'black': (
+                                $black,
+      $white,
+    ),
+    'light': (
+      $light,
+      $light-invert,
+    ),
+    'dark': (
+      $dark,
+      $dark-invert,
+    ),
+    'primary': (
+      $primary,
+      $primary-invert,
+      $primary-light,
+      $primary-dark,
+    ),
+    'link': (
+      $link,
+      $link-invert,
+      $link-light,
+      $link-dark,
+    ),
+    'info': (
+      $info,
+      $info-invert,
+      $info-light,
+      $info-dark,
+    ),
+    'success': (
+      $success,
+      $success-invert,
+      $success-light,
+      $success-dark,
+    ),
+    'warning': (
+      $warning,
+      $warning-invert,
+      $warning-light,
+      $warning-dark,
+    ),
+    'danger': (
+      $danger,
+      $danger-invert,
+      $danger-light,
+      $danger-dark,
+    ),
+  ),
+  $custom-colors
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+// Import Bulma and Buefy styles
+@import 'node_modules/bulma/bulma.sass';
+@import "markdown";
+
+
+.block_padding {
+  padding: 3em 4em;
+}
+
+.is-clickable {
+  cursor: pointer;
+}
+
+body {
+    //background-image: url('@/assets/images/svgs/stacked-waves-haikei.svg');
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    background: $background;
+    min-height: 100vh;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-100 {
+    margin: 0;
+}
+
+/**
+used to fix margins for columns on mobile displays
+otherwise they are too wide for html body
+*/
+@media screen and (max-width: 1024px) {
+    .columns {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.card {
+    border-radius: 1em;
+
+    .card-image {
+        &__top {
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+        }
+    }
+}
+
+.pre-wrap {
+    white-space: pre-wrap;
+}

@@ -39,7 +39,7 @@ $twitter-invert: findColorInvert($twitter);
 $custom-colors: null !default;
 $custom-shades: null !default;
 
-$background: #F3F9FB;
+$background: $primary;
 
 // majske igre colors
 $zabava-primary: rgba(96, 164, 218, 1);

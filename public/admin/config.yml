@@ -41,7 +41,30 @@ collections:
               - label: "Slika"
                 name: "imageUrl"
                 widget: "image"
-
+  - name: "concerts"
+    label: "Zabava"
+    folder: "content/concerts"
+    create: true
+    fields:
+      - label: "Ime dogodka"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Lokacija"
+        name: "location"
+        widget: "string"
+        required: true
+      - label: "Datum dogodka"
+        name: "date"
+        widget: "date"
+        required: true
+      - label: "Slika"
+        name: "imageUrl"
+        widget: "image"
+        required: true
+      - label: "Nastopajoči"
+        name: "performers"
+        widget: "markdown"
 
 
 

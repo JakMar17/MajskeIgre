@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts" setup>
-import {ConcertModel} from "~/models/concert.model";
+import {ConcertEventModel} from "~/models/events/concert-event.model";
 
 const fetchData = async () => {
   const data = await queryContent('concerts').sort({date: 1}).find();
@@ -27,7 +27,7 @@ const fetchData = async () => {
   });
 }
 
-const concertsRef: ref<ConcertModel[]> = ref([]);
+const concertsRef: ref<ConcertEventModel[]> = ref([]);
 fetchData().then(val => concertsRef.value = val);
 
 

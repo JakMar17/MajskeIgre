@@ -1,4 +1,4 @@
-export type ConcertModel = {
+export type ConcertEventModel = {
     title: string;
     location: string;
     date: string;

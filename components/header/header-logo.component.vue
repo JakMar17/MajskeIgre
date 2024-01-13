@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss" scoped>
-wrapper {
+.wrapper {
   display: flex;
   justify-content: center;
   text-align: center;

@@ -1,6 +1,7 @@
 export type CultureEventModel = {
-    name: string;
+    title: string;
     date: Date;
+    location?: string;
     description?: string;
     imageUrl?: string;
 };

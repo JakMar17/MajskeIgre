@@ -1,8 +1,9 @@
 export type SportEventModel = {
-    name: string;
+    title: string;
     date: Date;
+    location: string;
     price?: string;
-    teamForm?: string;
+    teamFormation?: string;
     registerLink?: string;
     description?: string;
     imageUrl?: string;

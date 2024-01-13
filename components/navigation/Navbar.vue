@@ -3,12 +3,7 @@
         <div class="navbar-brand is-vcentered is-flex is-align-items-center">
             <div class="level-item has-text-centered">
                 <nuxt-link class="navbar-item" to="/">
-                    <img class="is-centered image logo" src="@/assets/images/svgs/logo-sss.svg"/>
-                    <div class="ml-2">
-                        <div class="has-text-weight-bold">
-                            Študentski svet stanovalcev
-                        </div>
-                    </div>
+                    <img class="is-centered image logo" src="@/assets/images/svgs/logo-majske.svg"/>
                 </nuxt-link>
             </div>
             <a :class="isMobileMenuActive" aria-expanded="false" aria-label="menu" class="navbar-burger" data-target="navMenu" role="button" @click="this.toggleMobileMenu()">
@@ -21,23 +16,23 @@
         <div :class="isMobileMenuActive" class="navbar-menu">
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <NuxtLink class="navbar-item" to="/sss/clani">
-                        Kdo smo
+                    <NuxtLink class="navbar-item" to="/sport">
+                        Šport
                     </NuxtLink>
                 </div>
                 <div class="navbar-item">
-                    <NuxtLink class="navbar-item" to="/projekti">
-                        Projekti
+                    <NuxtLink class="navbar-item" to="/zabava">
+                        Zabava
                     </NuxtLink>
                 </div>
                 <div class="navbar-item">
-                    <NuxtLink class="navbar-item" to="/blog">
-                        Novice
+                    <NuxtLink class="navbar-item" to="/kultura">
+                        Kultura
                     </NuxtLink>
                 </div>
                 <div class="navbar-item">
                     <NuxtLink class="navbar-item" to="/kontakt">
-                        Kontakt
+                        Organizator & kontakt
                     </NuxtLink>
                 </div>
             </div>
@@ -79,10 +74,14 @@ nav {
 
 .navbar {
     //background: linear-gradient(to bottom, rgba($primary, 0.45), transparent);
-    background: transparent;
+    background: $primary;
 }
 
 .logo {
     min-height: 5em;
+}
+
+.navbar-item {
+  color: white
 }
 </style>

@@ -16,7 +16,7 @@
 
 
 <script lang="ts" setup>
-import {MemberModel} from "~/types/models/member.model";
+import {MemberModel} from "~/models/member.model";
 
 const props = defineProps<MemberModel>();
 

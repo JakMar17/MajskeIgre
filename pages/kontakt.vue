@@ -13,7 +13,7 @@
 
 </template>
 <script setup lang="ts">
-import {MemberModel} from "~/types/models/member.model";
+import {MemberModel} from "~/models/member.model";
 
 const introRef = ref<string | null>(null);
 const membersRef = ref<MemberModel[] | null>(null);

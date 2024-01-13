@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts" setup>
-import {CardModel} from "~/types/models";
+import {CardModel} from "models";
 import {parseMarkdown} from "~/utils/parseMarkdown";
 
 const props = withDefaults(defineProps<CardModel>(), {

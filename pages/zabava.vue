@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts" setup>
-import {ConcertModel} from "~/types/models/concert.model";
+import {ConcertModel} from "~/models/concert.model";
 
 const fetchData = async () => {
   const data = await queryContent('concerts').sort({date: 1}).find();

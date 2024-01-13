@@ -45,7 +45,6 @@
 </template>
 
 <script>
-
 export default {
   async setup() {
     const {data} = await useAsyncData('slideshow', async () => (await queryContent('slideshow').where({title: 'index'}).findOne()));
@@ -93,7 +92,7 @@ hr {
 .content {
   z-index: 200;
   position: absolute;
-  background: rgba($neutral, 0.75);
+  background: rgba($neutral, 0.25);
   height: 100vh;
   width: 100%;
   display: flex;

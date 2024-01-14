@@ -80,23 +80,28 @@ collections:
         required: true
       - label: "Datum dogodka"
         name: "date"
-        widget: "date"
+        widget: "datetime"
         required: true
-      - label: "Price"
+      - label: "Cena"
         name: "price"
         widget: "string"
+        required: false
       - label: "Sestava ekipe"
         name: "teamFormation"
         widget: "string"
-      - label: "Registracija"
+        required: false
+      - label: "Prijava"
         name: "registerLink"
         widget: "string"
+        required: false
       - label: "Opis"
         name: "description"
         widget: "markdown"
+        required: false
       - label: "Slika"
         name: "imageUrl"
         widget: "image"
+        required: false
 
   - name: "Slideshows"
     label: "Galerije"

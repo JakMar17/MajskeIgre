@@ -47,7 +47,7 @@ $zabava-dark: rgb(70, 124, 160);
 $kultura-primary: rgba(247, 148, 29, 1);
 $kultura-dark: rgba(216, 135, 46, 1);
 $sport-primary: rgba(164, 205, 57, 1);
-$sport-dark: rgba(151, 178, 66, 1);
+$sport-dark: rgba(151, 178, 66);
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: mergeColorMaps(

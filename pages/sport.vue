@@ -1,4 +1,5 @@
 <template>
+  <ModalCardImageComponent v-if="modalEventRef" v-bind="modalEventRef" @close-modal="onEventSelected(null)"></ModalCardImageComponent>
   <main class="wrapper">
     <HeaderLogoComponent/>
     <CardComponent style="margin-bottom: 3em" content="Športni program je sestavljen iz 4 koncertnih dogodkov"/>
@@ -12,7 +13,7 @@
       <template v-slot:content>
         <div class="container mt-4">
           <h4 v-for="event in dayEvent.events">
-            <a class="title is-5 has-text-link">{{ getEventStartTime(event) }} - {{ event.title }}</a>
+            <a v-on:click="onEventSelected(event)" class="title is-5 has-text-link">{{ getEventStartTime(event) }} - {{ event.title }}</a>
           </h4>
         </div>
       </template>
@@ -25,10 +26,15 @@
 import {SportEventModel} from "~/models/events/sport-event.model";
 
 const dayEventsRef: ref<dayEvents[]> = ref([]);
+const modalEventRef: ref<SportEventModel | null> = ref(null);
 
 type dayEvents = {
   date: Date;
   events: SportEventModel[];
+}
+
+const onEventSelected = (event: SportEventModel | null) => {
+  modalEventRef.value = event;
 }
 
 const fetchData = async () => {

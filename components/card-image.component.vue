@@ -56,7 +56,10 @@ export default {
     }
   },
   data() {
-    parseMarkdown(this.content).then(parsed => this.parsedContent = parsed);
+    parseMarkdown(this.content).then((parsed) => {
+      this.parsedContent = parsed;
+      setTimeout(() => this.onResize(), 0);
+    });
     return {
       clientWidth: null,
       clientHeight: null,

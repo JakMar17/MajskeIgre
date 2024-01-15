@@ -45,7 +45,6 @@
 <script>
 export default {
     data() {
-        console.log(useRoute().meta)
         this.fetchPosts();
         this.fetchCategories();
         return {

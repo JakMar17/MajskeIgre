@@ -58,16 +58,18 @@ export default {
   data() {
     parseMarkdown(this.content).then((parsed) => {
       this.parsedContent = parsed;
-      setTimeout(() => this.onResize(), 0);
     });
     return {
       clientWidth: null,
       clientHeight: null,
-      parsedContent: null
+      parsedContent: null,
+      resizeObservable: null,
     }
   },
   mounted() {
     window.addEventListener("resize", () => this.onResize());
+    this.resizeObservable = new ResizeObserver(() => this.onResize());
+    this.resizeObservable.observe(this.$refs.content__card);
     this.onResize();
   },
   methods: {

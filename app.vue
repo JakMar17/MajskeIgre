@@ -16,7 +16,7 @@ useHead({
   // as a string,
   // where `%s` is replaced with the title
   // of the current page
-  title: "Welcome ",
-  titleTemplate: "Študentski svet stanovalcev",
+  title: "%s - Majske igre",
+  titleTemplate: "Majske igre",
 });
 </script>

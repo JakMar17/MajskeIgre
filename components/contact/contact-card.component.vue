@@ -31,7 +31,15 @@ const {name, functionTitle, phone, email, imageUrl} = toRefs(props);
 .wrapper {
   @extend .card, .p-2;
   text-align: center;
-  flex-basis: 50%;
+  flex-basis: 100%;
+
+  @media screen and (min-width: 425px) {
+    flex-basis: 75%;
+  }
+
+  @media screen and (min-width: 576px) {
+    flex-basis: 50%;
+  }
 
   @media screen and (min-width: 768px) {
     flex-basis: 33%;

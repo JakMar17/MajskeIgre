@@ -7,15 +7,20 @@
 
         <div class="posastko__row">
           <NuxtLink to="/sport" id="sportko" class="posastko__wrapper">
-            <img class="posastko__img" alt="logo" src="../../assets/images/majske-igre/sportko.svg"/>
+            <div>
+              <img id="sportko-static" class="posastko__img" alt="logo" src="../../assets/images/majske-igre/sportko.svg"/>
+              <img id="sportko-gif" class="posastko__img" alt="logo" src="../../assets/images/gifs/sport_gif.gif"/>
+            </div>
             <h2 class="title is-5 m-0">Šport</h2>
           </NuxtLink>
           <NuxtLink to="/zabava" id="zabavko" class="posastko__wrapper">
-            <img class="posastko__img" alt="logo" src="../../assets/images/majske-igre/zabavko.svg"/>
+            <img id="zabavko-static" class="posastko__img" alt="logo" src="../../assets/images/majske-igre/zabavko.svg"/>
+            <img id="zabavko-gif" class="posastko__img" alt="logo" src="../../assets/images/gifs/zabavko_gif.gif"/>
             <h2 class="title is-5 m-0">Zabava</h2>
           </NuxtLink>
           <NuxtLink to="/kultura" id="kulturko" class="posastko__wrapper">
-            <img class="posastko__img" alt="logo" src="../../assets/images/majske-igre/kulturko.svg"/>
+            <img id="kulturko-static" class="posastko__img" alt="logo" src="../../assets/images/majske-igre/kulturko.svg"/>
+            <img id="kulturko-gif" class="posastko__img" alt="logo" src="../../assets/images/gifs/kulturko_gif.gif"/>
             <h2 class="title is-5 m-0">Kultura</h2>
           </NuxtLink>
         </div>
@@ -188,15 +193,53 @@ hr {
   }
 }
 
+#kulturko-gif {
+  display: none;
+}
+
+#zabavko-gif {
+  display: none;
+}
+
+#sportko-gif {
+  display: none;
+}
+
 #kulturko:hover {
   background: $kultura-dark;
+
+  #kulturko-static {
+    display: none;
+  }
+
+  #kulturko-gif {
+    display: block;
+  }
 }
+
 
 #zabavko:hover {
   background: $zabava-dark;
+
+  #zabavko-static {
+    display: none;
+  }
+
+  #zabavko-gif {
+    display: block;
+  }
 }
 
 #sportko:hover {
   background: $sport-dark;
+
+  #sportko-static {
+    display: none;
+  }
+
+  #sportko-gif {
+    display: block;
+  }
 }
+
 </style>

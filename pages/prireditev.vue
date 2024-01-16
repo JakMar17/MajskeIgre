@@ -2,7 +2,7 @@
   <main v-if="descriptionRef">
 
     <div class="flex justify-content--center">
-      <img style="max-width: 50em" src="../assets/images/svgs/logo-majske.svg"/>
+      <img style="width: 50em; width: 100%" src="../assets/images/svgs/logo-majske.svg"/>
     </div>
 
     <div>

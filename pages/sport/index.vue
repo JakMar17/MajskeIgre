@@ -1,5 +1,4 @@
 <template>
-  <ModalCardImageComponent v-if="modalEventRef" v-bind="modalEventRef" @close-modal="onEventSelected(null)"></ModalCardImageComponent>
   <main class="wrapper">
     <HeaderLogoComponent/>
     <CardComponent style="margin-bottom: 3em" content="Športni program je sestavljen iz 4 koncertnih dogodkov"/>
@@ -13,7 +12,7 @@
       <template v-slot:content>
         <div class="container mt-4">
           <h4 v-for="event in dayEvent.events">
-            <a v-on:click="onEventSelected(event)" class="title is-5 has-text-link">{{ getEventStartTime(event) }} - {{ event.title }}</a>
+            <NuxtLink :to="`/sport/${event.title}`" class="title is-5 has-text-link">{{ getEventStartTime(event) }} - {{ event.title }}</NuxtLink>
           </h4>
         </div>
       </template>
@@ -27,15 +26,10 @@ import {SportEventModel} from "~/models/events/sport-event.model";
 import {Ref} from "vue";
 
 const dayEventsRef: ref<dayEvents[]> = ref([]);
-const modalEventRef: ref<SportEventModel | null> = ref(null);
 
 type dayEvents = {
   date: Date;
   events: SportEventModel[];
-}
-
-const onEventSelected = (event: SportEventModel | null) => {
-  modalEventRef.value = event;
 }
 
 const getDayString = (date: Date) => {
@@ -66,6 +60,7 @@ function mapData({value}: Ref<SportEventModel[] | null>) {
   }
 
   const dayEvents: dayEvents[] = [];
+
   value.map(event => {
     event.date = new Date(event.date);
     return event;
@@ -90,7 +85,7 @@ function mapData({value}: Ref<SportEventModel[] | null>) {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/styles/main.scss";
+@import "assets/styles/main";
 
 .wrapper {
   background: $sport-primary;

@@ -1,8 +1,7 @@
 <template>
   <main class="wrapper">
     <HeaderLogoComponent/>
-    <CardComponent style="margin-bottom: 3em" content="Zabavni program je sestavljen iz 4 koncertnih dogodkov"/>
-
+    <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef.description"/>
     <section class="concert__section" v-for="(concert, index) in concertsRef">
       <div class="concert__title__wrapper">
         <div class="container concert__title__container">
@@ -18,19 +17,24 @@
 
 <script lang="ts" setup>
 import {ConcertEventModel} from "~/models/events/concert-event.model";
+import {DescriptionModel} from "~/models/description.model";
 
-const fetchData = async () => {
-  const data = await queryContent('concerts').sort({date: 1}).find();
-  return data.map(v => {
-    v.date = new Date(v.date).toLocaleDateString();
-    return v;
-  });
-}
+const concertsRef = ref<ConcertEventModel[]>([]);
+const descriptionRef = ref<DescriptionModel | null>(null);
 
-const concertsRef: ref<ConcertEventModel[]> = ref([]);
-fetchData().then(val => concertsRef.value = val);
+// data fetching
+useAsyncData('fetchConcerts', () => queryContent<ConcertEventModel>('concerts').sort({date: 1}).find())
+    .then(({data}) => {
+      concertsRef.value = (data.value ?? []).map(v => {
+        v.date = new Date(v.date).toLocaleDateString();
+        return v;
+      });
+    });
 
-
+useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/concert').findOne())
+    .then(({data}) => {
+      descriptionRef.value = data.value;
+    });
 </script>
 
 <style lang="scss" scoped>

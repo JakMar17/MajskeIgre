@@ -4,7 +4,7 @@
       <div ref="content" class="content">
         <div ref="content__card" class="content__card">
           <slot name="title">
-            <h1 class="title is-2 mb-0">{{ title }}</h1>
+            <h1 v-if="title" class="title is-2 mb-0">{{ title }}</h1>
           </slot>
           <slot name="subtitle">
             <h2 v-if="subtitle" class="title is-6 mt-2 has-text-primary">{{ subtitle.toUpperCase() }}</h2>
@@ -34,7 +34,6 @@ export default {
   props: {
     title: {
       type: String,
-      required: true,
     },
     subtitle: {
       type: String

@@ -182,6 +182,10 @@ collections:
         widget: "list"
         required: false
         fields:
+          - label: "Čas dogodka"
+            name: "time"
+            widget: "string"
+            required: true
           - label: "Ime dogodka"
             name: "title"
             required: true
@@ -194,10 +198,6 @@ collections:
             name: "imageUrl"
             widget: "image"
             required: false
-          - label: "Čas dogodka"
-            name: "time"
-            widget: "string"
-            required: true
           - label: "Lokacija dogodka"
             name: "location"
             widget: "string"

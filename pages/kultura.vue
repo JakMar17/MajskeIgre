@@ -34,8 +34,6 @@ const componentStateRef = ref<ComponentState>('loading');
 const descriptionRef = ref<DescriptionModel | null>(null);
 const cultureEventsRef = ref<CultureEventModel[]>([]);
 
-const xxx = (c) => parseMarkdown(c);
-
 // data fetching
 useAsyncData('fetchCultureEvents', () => queryContent<CultureEventModel>('culture-events').sort({date: 1}).find())
     .then(({data}) => {

@@ -62,7 +62,7 @@ console.log(route.params.id);
 //     `${event.value.date.toLocaleDateString('sl-SL', {weekday: 'long'})}, ${event.value.date.toLocaleDateString('sl-SL', {day: 'numeric', month: 'long', year: 'numeric'})}, ob ${event.value.date.toLocaleTimeString('sl-SL', {minute: '2-digit', hour: '2-digit'})}`);
 
 
-useAsyncData('fetchSportEvent', () => queryContent<SportEventModel>('sport-events').where({title: route.query.id}).findOne())
+useAsyncData(`fetchSportEvent~~${route.params.id}`, () => queryContent<SportEventModel>('sport-events').where({title: route.query.id}).findOne())
     .then(({data}) => {
       event.value = data.value;
       componentStateRef.value = 'loaded';

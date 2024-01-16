@@ -11,7 +11,7 @@
           <i class="ri-arrow-left-line"></i>
           <span class="ml-2">Nazaj</span>
         </NuxtLink>
-        <!--              <h2 class="title is-6 has-text-info mb-0 pb-0">{{ dateFormatted }}</h2>-->
+        <h2 v-if="dateFormatted" class="title is-6 has-text-info mb-0 pb-0">{{ dateFormatted }}</h2>
         <h1 class="title is-1 mt-0 pt-0 mb-2">{{ event.title }}</h1>
       </template>
 
@@ -53,16 +53,24 @@ import {useRoute} from "#app";
 import {ComponentState} from "~/models/component-state.model";
 
 const route = useRoute();
+const id = computed(() => route.params.id);
 const event = ref<SportEventModel | null>(null);
 const componentStateRef = ref<ComponentState>('loading');
 
-console.log(route.params.id);
 
-// const dateFormatted = computed(() => event.value === null ? '':
-//     `${event.value.date.toLocaleDateString('sl-SL', {weekday: 'long'})}, ${event.value.date.toLocaleDateString('sl-SL', {day: 'numeric', month: 'long', year: 'numeric'})}, ob ${event.value.date.toLocaleTimeString('sl-SL', {minute: '2-digit', hour: '2-digit'})}`);
+const dateFormatted = computed(() => {
+  if(event.value == null) {
+    return null;
+  }
 
+  const date = new Date(event.value.date);
+  return `${date.toLocaleDateString('sl-SL', {weekday: 'long'})}, ${date.toLocaleDateString('sl-SL', {day: 'numeric', month: 'long', year: 'numeric'})}, ob ${date.toLocaleTimeString('sl-SL', {minute: '2-digit', hour: '2-digit'})}`;
+})
 
-useAsyncData(`fetchSportEvent~~${route.params.id}`, () => queryContent<SportEventModel>('sport-events').where({title: route.query.id}).findOne())
+useAsyncData(`fetchSportEvent~~${route.params.id}`, () => queryContent<SportEventModel>('sport-events')
+    .where({title: id.value})
+    .findOne()
+)
     .then(({data}) => {
       event.value = data.value;
       componentStateRef.value = 'loaded';

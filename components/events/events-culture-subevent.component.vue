@@ -1,0 +1,49 @@
+<template>
+  <h4 @click="toggleDetails" class="has-text-info-dark is-clickable">{{ event.time }} - {{ event.title }}</h4>
+  <div v-if="showDetailsRef" class="m-2">
+
+    <div v-if="event.location || event.price" class="mb-3">
+      <div v-if="event.location" class="content__header-row">
+        <i class="ri-map-2-fill"></i>
+        <div class="has-text-weight-bold">{{ event.location }}</div>
+      </div>
+      <div v-if="event.price" class="content__header-row">
+        <i class="ri-money-euro-circle-fill"></i>
+        <div class="has-text-weight-bold">{{ event.price }}</div>
+      </div>
+    </div>
+
+    <ContentRendererMarkdown v-if="parsedDescriptionRef" :value="parsedDescriptionRef"/>
+
+    <img v-if="event.imageUrl" :src="event.imageUrl" alt="event image" class="mt-4"/>
+  </div>
+</template>
+
+<script lang="ts" setup>
+
+import {CultureSubEventModel} from "~/models/events/culture-event.model";
+
+const parsedDescriptionRef = ref<string | null>(null);
+const showDetailsRef = ref<boolean>(false);
+
+const props = defineProps<{ event: CultureSubEventModel }>();
+const {event} = toRefs(props);
+
+parseMarkdown(event.value.description).then((d) => parsedDescriptionRef.value = d);
+
+const toggleDetails = () => {
+  showDetailsRef.value = !showDetailsRef.value;
+}
+
+</script>
+
+<style lang="scss" scoped>
+
+.content {
+  &__header-row {
+    display: flex;
+    align-items: baseline;
+    gap: 1em
+  }
+}
+</style>

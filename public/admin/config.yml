@@ -160,6 +160,58 @@ collections:
         widget: "image"
         required: false
 
+  - name: "cultureEvents"
+    label: "Kultura"
+    folder: "content/culture-events"
+    create: true
+    fields:
+      - label: "Ime otočka"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Datum dogodka"
+        name: "date"
+        widget: "datetime"
+        required: true
+      - label: "Slika"
+        name: "imageUrl"
+        widget: "image"
+        required: false
+      - label: "Dogodki"
+        name: "events"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Ime dogodka"
+            name: "title"
+            required: true
+            widget: "string"
+          - label: "Opis dogodka"
+            name: "description"
+            required: true
+            widget: "markdown"
+          - label: "Slika"
+            name: "imageUrl"
+            widget: "image"
+            required: false
+          - label: "Čas dogodka"
+            name: "time"
+            widget: "string"
+            required: true
+          - label: "Lokacija dogodka"
+            name: "location"
+            widget: "string"
+            required: false
+          - label: "Cena dogodka"
+            name: "price"
+            widget: "string"
+            required: false
+          - label: "Prijavni link"
+            name: "registerLink"
+            widget: "string"
+            required: false
+
+
   - name: "Slideshows"
     label: "Galerije"
     format: "json"

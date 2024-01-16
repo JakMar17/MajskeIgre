@@ -1,9 +1,7 @@
 <template>
   <HeaderLogoComponent class="background"/>
-  <ComponentStateLoadingComponent class="background" v-if="componentStateRef === 'loading'"/>
-  <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
   <main v-if="componentStateRef === 'loaded'" class="background">
-    <CardComponent style="margin-bottom: 3em" content="Športni program je sestavljen iz 4 koncertnih dogodkov"/>
+    <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef.description"/>
 
     <CardImageComponent v-for="(dayEvent, index) in dayEventsRef"
                         :key="index"
@@ -20,6 +18,8 @@
       </template>
     </CardImageComponent>
   </main>
+  <ComponentStateLoadingComponent class="background" v-if="componentStateRef === 'loading'"/>
+  <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
 </template>
 
 <script lang="ts" setup>
@@ -27,15 +27,22 @@
 import {SportEventModel} from "~/models/events/sport-event.model";
 import {Ref} from "vue";
 import {ComponentState} from "~/models/component-state.model";
+import {parseMarkdown} from "~/utils/parseMarkdown";
+import {DescriptionModel} from "~/models/description.model";
 
-const dayEventsRef: ref<dayEvents[]> = ref([]);
 const componentStateRef = ref<ComponentState>('loading');
+const dayEventsRef= ref<dayEvents[]>([]);
+const descriptionRef = ref<DescriptionModel | null>(null);
 
 type dayEvents = {
   date: Date;
   events: SportEventModel[];
 }
 
+/**
+ * Returns day string in format: Day, DD. Month YYYY
+ * @param date date to format
+ */
 const getDayString = (date: Date) => {
   const dayOfWeek = date.toLocaleDateString('sl-SI', {weekday: 'long'});
   const monthLong = date.toLocaleDateString('sl-SI', {month: 'long'});
@@ -45,6 +52,10 @@ const getDayString = (date: Date) => {
   return `${dayOfWeek.charAt(0).toUpperCase()}${dayOfWeek.slice(1)}, ${day}. ${monthLong} ${year}`;
 }
 
+/**
+ * Returns cover image url for day event
+ * @param dayEvent day event
+ */
 const getCoverImage = (dayEvent: dayEvents) => {
   for (const event of dayEvent.events) {
     if (event.imageUrl) {
@@ -53,14 +64,18 @@ const getCoverImage = (dayEvent: dayEvents) => {
   }
 }
 
+/**
+ * Returns event start time in format: HH:MM
+ * @param date date to format
+ */
 const getEventStartTime = ({date}: SportEventModel) =>
     new Date(date).toLocaleTimeString('sl-SL', {hour: '2-digit', minute: '2-digit'});
 
-useAsyncData('fetch', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find())
-    .then(({data}) => dayEventsRef.value = mapData(data))
-    .catch(() => componentStateRef.value = 'error');
-
-function mapData({value}: Ref<SportEventModel[] | null>) {
+/**
+ * Maps fetched data to sport events
+ * @param value fetched data
+ */
+function mapSportEvents({value}: Ref<SportEventModel[] | null>) {
   if(value == null) {
     return [];
   }
@@ -88,6 +103,14 @@ function mapData({value}: Ref<SportEventModel[] | null>) {
   componentStateRef.value = 'loaded';
   return dayEvents;
 }
+
+// data fetching
+useAsyncData('fetchSportEvents', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find())
+    .then(({data}) => dayEventsRef.value = mapSportEvents(data))
+    .catch(() => componentStateRef.value = 'error');
+
+useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/sport').findOne())
+    .then(async ({data}) => descriptionRef.value = data.value);
 
 </script>
 

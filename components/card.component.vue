@@ -5,8 +5,8 @@
         <h1 v-if="title" :class="buildCssClass('title is-2 mb-0')">{{ title }}</h1>
         <h2 v-if="subtitle" :class="buildCssClass('title is-6 mt-2 has-text-primary')">{{ subtitle.toUpperCase() }}</h2>
       </div>
-      <div class="content">
-        <ContentRendererMarkdown v-if="content" :value="content"/>
+      <div v-if="content" class="content">
+        <ContentRendererMarkdown  :value="content"/>
       </div>
     </div>
   </div>

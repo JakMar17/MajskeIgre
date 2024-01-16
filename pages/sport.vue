@@ -24,6 +24,7 @@
 <script lang="ts" setup>
 
 import {SportEventModel} from "~/models/events/sport-event.model";
+import {Ref} from "vue";
 
 const dayEventsRef: ref<dayEvents[]> = ref([]);
 const modalEventRef: ref<SportEventModel | null> = ref(null);
@@ -35,31 +36,6 @@ type dayEvents = {
 
 const onEventSelected = (event: SportEventModel | null) => {
   modalEventRef.value = event;
-}
-
-const fetchData = async () => {
-  const data = (await queryContent('sport-events').sort({date: 1}).find()).map(event => {
-    event.date = new Date(event.date);
-    return event;
-  });
-  const dayEvents: dayEvents[] = [];
-
-  data.forEach(event => {
-    const {date} = event;
-    const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-
-    const dayEvent = dayEvents.find(v => v.date.getTime() === day.getTime());
-    if (dayEvent) {
-      dayEvent.events.push(event);
-    } else {
-      dayEvents.push({
-        date: day,
-        events: [event]
-      })
-    }
-  });
-
-  return dayEvents;
 }
 
 const getDayString = (date: Date) => {
@@ -82,8 +58,34 @@ const getCoverImage = (dayEvent: dayEvents) => {
 const getEventStartTime = ({date}: SportEventModel) =>
     new Date(date).toLocaleTimeString('sl-SL', {hour: '2-digit', minute: '2-digit'});
 
+useAsyncData('fetch', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find()).then(({data}) => dayEventsRef.value = mapData(data));
 
-fetchData().then(val => dayEventsRef.value = val);
+function mapData({value}: Ref<SportEventModel[] | null>) {
+  if(value == null) {
+    return [];
+  }
+
+  const dayEvents: dayEvents[] = [];
+  value.map(event => {
+    event.date = new Date(event.date);
+    return event;
+  }).forEach(event => {
+    const {date} = event;
+    const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+
+    const dayEvent = dayEvents.find(v => v.date.getTime() === day.getTime());
+    if (dayEvent) {
+      dayEvent.events.push(event);
+    } else {
+      dayEvents.push({
+        date: day,
+        events: [event]
+      })
+    }
+  });
+
+  return dayEvents;
+}
 
 </script>
 

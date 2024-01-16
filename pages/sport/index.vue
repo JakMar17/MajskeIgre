@@ -1,6 +1,8 @@
 <template>
-  <main class="wrapper">
-    <HeaderLogoComponent/>
+  <HeaderLogoComponent class="background"/>
+  <ComponentStateLoadingComponent class="background" v-if="componentStateRef === 'loading'"/>
+  <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
+  <main v-if="componentStateRef === 'loaded'" class="background">
     <CardComponent style="margin-bottom: 3em" content="Športni program je sestavljen iz 4 koncertnih dogodkov"/>
 
     <CardImageComponent v-for="(dayEvent, index) in dayEventsRef"
@@ -24,8 +26,10 @@
 
 import {SportEventModel} from "~/models/events/sport-event.model";
 import {Ref} from "vue";
+import {ComponentState} from "~/models/component-state.model";
 
 const dayEventsRef: ref<dayEvents[]> = ref([]);
+const componentStateRef = ref<ComponentState>('loading');
 
 type dayEvents = {
   date: Date;
@@ -52,7 +56,9 @@ const getCoverImage = (dayEvent: dayEvents) => {
 const getEventStartTime = ({date}: SportEventModel) =>
     new Date(date).toLocaleTimeString('sl-SL', {hour: '2-digit', minute: '2-digit'});
 
-useAsyncData('fetch', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find()).then(({data}) => dayEventsRef.value = mapData(data));
+useAsyncData('fetch', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find())
+    .then(({data}) => dayEventsRef.value = mapData(data))
+    .catch(() => componentStateRef.value = 'error');
 
 function mapData({value}: Ref<SportEventModel[] | null>) {
   if(value == null) {
@@ -79,6 +85,7 @@ function mapData({value}: Ref<SportEventModel[] | null>) {
     }
   });
 
+  componentStateRef.value = 'loaded';
   return dayEvents;
 }
 
@@ -87,8 +94,8 @@ function mapData({value}: Ref<SportEventModel[] | null>) {
 <style lang="scss" scoped>
 @import "assets/styles/main";
 
-.wrapper {
-  background: $sport-primary;
+.background {
+  background-color: $sport-primary;
 }
 
 </style>

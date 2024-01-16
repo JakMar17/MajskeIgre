@@ -1,0 +1,1 @@
+export type ComponentState = 'loading' | 'error' | 'loaded';

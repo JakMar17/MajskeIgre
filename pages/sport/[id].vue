@@ -1,16 +1,17 @@
 <template>
-  <main class="wrapper">
+  <HeaderLogoComponent imageStyle="width: 25em"/>
+  <main v-if="componentStateRef === 'loaded'" class="wrapper background">
     <CardImageComponent v-if="event"
-        :title="event.title"
-        :content="event.description"
-        :imageUrl="event.imageUrl"
+                        :title="event.title"
+                        :content="event.description"
+                        :imageUrl="event.imageUrl"
     >
       <template v-slot:title>
-              <NuxtLink to="/sport" class="button is-info is-small is-outlined">
-                <i class="ri-arrow-left-line"></i>
-                <span class="ml-2">Nazaj</span>
-              </NuxtLink>
-<!--              <h2 class="title is-6 has-text-info mb-0 pb-0">{{ dateFormatted }}</h2>-->
+        <NuxtLink to="/sport" class="button is-info is-small is-outlined">
+          <i class="ri-arrow-left-line"></i>
+          <span class="ml-2">Nazaj</span>
+        </NuxtLink>
+        <!--              <h2 class="title is-6 has-text-info mb-0 pb-0">{{ dateFormatted }}</h2>-->
         <h1 class="title is-1 mt-0 pt-0 mb-2">{{ event.title }}</h1>
       </template>
 
@@ -42,14 +43,18 @@
 
     </CardImageComponent>
   </main>
+  <ComponentStateLoadingComponent class="background" v-if="componentStateRef === 'loading'"/>
+  <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
 </template>
 
 <script lang="ts" setup>
-import { SportEventModel } from '~/models/events/sport-event.model'
+import {SportEventModel} from '~/models/events/sport-event.model'
 import {useRoute} from "#app";
+import {ComponentState} from "~/models/component-state.model";
 
 const route = useRoute();
 const event = ref<SportEventModel | null>(null);
+const componentStateRef = ref<ComponentState>('loading');
 
 console.log(route.params.id);
 
@@ -57,23 +62,24 @@ console.log(route.params.id);
 //     `${event.value.date.toLocaleDateString('sl-SL', {weekday: 'long'})}, ${event.value.date.toLocaleDateString('sl-SL', {day: 'numeric', month: 'long', year: 'numeric'})}, ob ${event.value.date.toLocaleTimeString('sl-SL', {minute: '2-digit', hour: '2-digit'})}`);
 
 
-useAsyncData('fetchSportEvent', () => queryContent<SportEventModel>('sport-events').where({title: route.query.id}).findOne()).then(({data}) => event.value = data.value);
+useAsyncData('fetchSportEvent', () => queryContent<SportEventModel>('sport-events').where({title: route.query.id}).findOne())
+    .then(({data}) => {
+      event.value = data.value;
+      componentStateRef.value = 'loaded';
+    }).catch(() => componentStateRef.value = 'error');
 
 </script>
 
 <style lang="scss" scoped>
 @import "@/assets/styles/main.scss";
 
-.wrapper {
-  background: $sport-primary;
-  padding: 4em 0;
-  height: 100%;
+.background {
+  background-color: $sport-primary;
 }
 
-.event-modal-content {
-  position: relative;
-  min-width: 100%;
-  min-height: 100%;
+.wrapper {
+  padding-bottom: 4em;
+  height: 100%;
 }
 
 .content {

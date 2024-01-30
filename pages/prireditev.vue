@@ -2,14 +2,14 @@
   <main v-if="descriptionRef">
 
     <div class="flex justify-content--center">
-      <img style="width: 50em; width: 100%" src="../assets/images/svgs/logo-majske.svg"/>
+      <img style="width: 50em" src="../assets/images/svgs/logo-majske.svg"/>
     </div>
 
     <div>
 
       <CardComponent
           class="mb-4"
-          title="Kaj so Majske igre?"
+          title="Majske igre – festival študentskih domov"
           :centered-titles="true"
           :content="descriptionRef.description"
       />
@@ -68,6 +68,7 @@
       title="Organizacijska ekipa"
       :image-url="descriptionRef.teamImage"
       :content="descriptionRef.teamDescription"
+      :links="[contactLink]"
       :reversed="true"
     />
 
@@ -78,6 +79,12 @@
 <script lang="ts" setup>
 
 import {MajskeDescriptionModel} from "~/models/majske-description.model";
+
+const contactLink = {
+  title: 'Kontakt ekipe',
+  link: '/kontakt',
+  buttonType: 'is-primary'
+}
 
 const descriptionRef = ref<MajskeDescriptionModel | null>(null);
 useAsyncData('fetchDescriptions', () => queryContent('descriptions/event').findOne()).then(console.log)

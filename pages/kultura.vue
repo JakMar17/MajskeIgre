@@ -21,7 +21,6 @@
       </template>
     </CardImageComponent>
   </main>
-  <ComponentStateLoadingComponent class="background" v-if="componentStateRef === 'loading'"/>
   <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
 </template>
 

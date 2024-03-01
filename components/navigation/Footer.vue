@@ -24,26 +24,26 @@
         <div class="column mt-6">
           <hr class="is-hidden-touch"/>
           <div class="is-centered mb-0">
-            <a class="button is-ghost button__icon">
+            <a href="https://www.facebook.com/majskeigre" target="_blank" class="button is-ghost button__icon">
               <span>
                 <i class="ri-facebook-circle-fill"></i>
               </span>
               <span>Facebook</span>
             </a>
-            <a class="button is-ghost button__icon">
+            <a href="https://www.instagram.com/majskeigre/" target="_blank" class="button is-ghost button__icon">
               <span class="icon">
                 <i class="ri-instagram-fill"></i>
               </span>
               <span>Instagram</span>
             </a>
           </div>
-          <a class="button is-ghost button__icon">
+          <a href="https://www.tiktok.com/@majskeigre" target="_blank" class="button is-ghost button__icon">
             <i class="ri-tiktok-fill"></i>
             <span>TikTok</span>
           </a>
         </div>
       </div>
-      <div class="m-0 p-0">© 2023 Študentski svet stanovalcev</div>
+      <div class="m-0 p-0">© 2024 Študentski svet stanovalcev</div>
       <div class="help m-0 p-0">Vse pravice pridržane.</div>
       <em class="help m-0 p-0">Create with ♥️ by <a href="https://github.com/jakmar17">JakMar17</a></em>
     </div>

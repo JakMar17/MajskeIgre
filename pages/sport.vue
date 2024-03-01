@@ -4,10 +4,10 @@
     <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef.description"/>
 
     <CardImageComponent v-for="(dayEvent, index) in dayEventsRef"
-                        :key="sport"
+                        :key="index"
                         :imageUrl="getCoverImage(dayEvent)"
                         :title="getDayString(dayEvent.date)"
-                        :reversed="sport % 2 === 0"
+                        :reversed="index % 2 === 0"
     >
       <template v-slot:content>
         <div class="container mt-4">
@@ -16,7 +16,6 @@
       </template>
     </CardImageComponent>
   </main>
-  <ComponentStateLoadingComponent class="background" v-if="componentStateRef === 'loading'"/>
   <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
 </template>
 

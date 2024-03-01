@@ -32,7 +32,6 @@
             </div>
         </div>
     </main>
-    <ComponentStateLoadingComponent v-if="componentState === 'loading'"/>
     <ComponentStateErrorComponent v-if="componentState === 'error'"/>
 </template>
 

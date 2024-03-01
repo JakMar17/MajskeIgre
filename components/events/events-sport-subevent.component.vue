@@ -1,5 +1,5 @@
 <template>
-  <h4 :ref="(el) => elementRef = el" @click="toggleDetails" class="has-text-info-dark is-clickable">{{ event.time }} - {{ event.title }}</h4>
+  <h4 :ref="(el) => elementRef = el" @click="toggleDetails" class="has-text-info-dark is-clickable">{{ eventDate }} - {{ event.title }}</h4>
   <div v-if="showDetailsRef" class="m-2">
 
     <div v-if="event.location || event.price" class="mb-3">
@@ -21,14 +21,14 @@
 
 <script lang="ts" setup>
 
-import {CultureSubEventModel} from "~/models/events/culture-event.model";
+import {SportEventModel} from "~/models/events/sport-event.model";
 
 const elementRef = ref(null);
 
 const parsedDescriptionRef = ref<string | null>(null);
 const showDetailsRef = ref<boolean>(false);
 
-const props = defineProps<{ event: CultureSubEventModel }>();
+const props = defineProps<{ event: SportEventModel }>();
 const {event} = toRefs(props);
 
 parseMarkdown(event.value.description).then((d) => parsedDescriptionRef.value = d);
@@ -39,6 +39,11 @@ const toggleDetails = () => {
     setTimeout(() => elementRef.value?.scrollIntoView({behavior: 'smooth'}), 100);
   }
 }
+
+const eventDate = computed(() => {
+  const d = new Date(event.value.date);
+  return `${d.toLocaleTimeString('sl-SI', {minute: 'numeric', hour: 'numeric'})}`;
+});
 
 </script>
 

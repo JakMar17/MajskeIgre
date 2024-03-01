@@ -48,7 +48,6 @@ useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descripti
   descriptionRef.value = data.value;
 });
 
-
 </script>
 
 <style lang="scss" scoped>

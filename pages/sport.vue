@@ -100,13 +100,26 @@ function mapSportEvents({value}: Ref<SportEventModel[] | null>) {
   return dayEvents;
 }
 
+const onDescriptionFetch = (description: DescriptionModel) => {
+  descriptionRef.value = description;
+  useServerSeoMeta({
+    title: "Šport - Majske igre",
+    description: description.description,
+    imageUrl: description.imageUrl,
+    ogImageUrl: description.imageUrl,
+    twitterCard: 'summary_large_image',
+    ogTitle: "Šport - Majske igre",
+  })
+};
+
 // data fetching
 useAsyncData('fetchSportEvents', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find())
     .then(({data}) => dayEventsRef.value = mapSportEvents(data))
     .catch(() => componentStateRef.value = 'error');
 
 useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/sport').findOne())
-    .then(async ({data}) => descriptionRef.value = data.value);
+    .then(({data}) => onDescriptionFetch(data.value));
+
 
 </script>
 

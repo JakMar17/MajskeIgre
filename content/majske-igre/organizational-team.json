@@ -37,15 +37,8 @@
       "imageUrl": "/img/petro_brez.png"
     },
     {
-      "name": "Mihela Janežič",
-      "functionTitle": "vodja zabavnega programa",
-      "email": "zabava@ssvets.si",
-      "phone": "031 407 437",
-      "imageUrl": "/img/mihela_brez.png"
-    },
-    {
       "name": "Tjaša Vraničar",
-      "functionTitle": "pomočnica vodje zabavnega programa",
+      "functionTitle": "vodja zabavnega programa",
       "email": "zabava@ssvets.si",
       "phone": "051 879 731",
       "imageUrl": "/img/tjasa_brez.png"
@@ -62,7 +55,7 @@
       "functionTitle": "pomočnik vodje kulturnega programa",
       "email": "kultura@ssvets.si",
       "phone": "031 294 760",
-      "imageUrl": "/img/sportko.svg"
+      "imageUrl": "/img/dominik_brez.png"
     },
     {
       "name": "Sara Ambrož",
@@ -84,6 +77,13 @@
       "email": "gostinstvo@ssvets.si",
       "phone": "041 852 606",
       "imageUrl": "/img/oskar_brez.png"
+    },
+    {
+      "name": "Peter Lazar",
+      "functionTitle": "namestnik vodje gostinstva",
+      "phone": "041 925 325",
+      "email": "gostinstvo@ssvets.si",
+      "imageUrl": "/img/pero_brez.png"
     }
   ],
   "coverImg": "/img/pustovanje_2024-171-1-.jpg"

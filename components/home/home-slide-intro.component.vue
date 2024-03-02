@@ -49,36 +49,61 @@
   </div>
 </template>
 
-<script>
-export default {
-  async setup() {
-    const {data} = await useAsyncData('slideshow', async () => (await queryContent('slideshow').where({title: 'index'}).findOne()));
-    const imageUrls = data.value.images.map(img => img.image);
-    return {imageUrls}
-  },
-  data() {
-    return {
-      backgroundSrc: '',
-      backgroundSrcIndex: 0,
-      imageUrls: []
-    }
-  },
-  mounted() {
-    if (this.imageUrls.length > 0) {
-      this.backgroundSrc = this.imageUrls[0];
-      this.setImageInterval();
-    }
-  },
-  methods: {
-    setImageInterval() {
-      setInterval(() => {
-        this.backgroundSrcIndex++;
-        this.backgroundSrc = this.imageUrls[this.backgroundSrcIndex % this.imageUrls.length];
-      }, 5000)
-    }
+<script lang="ts" setup>
+const images = defineProps<{ imageUrls: Array<{images: {}}> }>();
+const backgroundSrc = ref('');
+const backgroundSrcIndex = ref(0);
+
+const imageUrls = computed(() => {
+  return images.imageUrls.images.map(img => img.image)
+});
+
+const setImageInterval = () =>
+  setInterval(() => {
+    backgroundSrcIndex.value++;
+    backgroundSrc.value = imageUrls.value[backgroundSrcIndex.value % imageUrls.value.length];
+  }, 5000);
+
+onMounted(() => {
+  if (imageUrls.value.length > 0) {
+    backgroundSrc.value = imageUrls.value[0];
+    setImageInterval();
   }
-}
+});
+
+
 </script>
+
+<!--<script>-->
+<!--export default {-->
+<!--  async setup() {-->
+<!--    const {data} = await useAsyncData('slideshow', async () => (await queryContent('slideshow').where({title: 'index'}).findOne()));-->
+<!--    const imageUrls = data.value.images.map(img => img.image);-->
+<!--    return {imageUrls}-->
+<!--  },-->
+<!--  data() {-->
+<!--    return {-->
+<!--      backgroundSrc: '',-->
+<!--      backgroundSrcIndex: 0,-->
+<!--      imageUrls: []-->
+<!--    }-->
+<!--  },-->
+<!--  mounted() {-->
+<!--    if (this.imageUrls.length > 0) {-->
+<!--      this.backgroundSrc = this.imageUrls[0];-->
+<!--      this.setImageInterval();-->
+<!--    }-->
+<!--  },-->
+<!--  methods: {-->
+<!--    setImageInterval() {-->
+<!--      setInterval(() => {-->
+<!--        this.backgroundSrcIndex++;-->
+<!--        this.backgroundSrc = this.imageUrls[this.backgroundSrcIndex % this.imageUrls.length];-->
+<!--      }, 5000)-->
+<!--    }-->
+<!--  }-->
+<!--}-->
+<!--</script>-->
 
 <style lang="scss" scoped>
 @import "assets/styles/main";

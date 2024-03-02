@@ -14,6 +14,7 @@
 </template>
 <script setup lang="ts">
 import {MemberModel} from "~/models/member.model";
+import {createSeoFunction} from "~/functions/create-seo.function";
 
 const introRef = ref<string | null>(null);
 const coverImgRef = ref<string | null>(null);
@@ -25,6 +26,12 @@ const fetchData = async () => {
   introRef.value = intro;
   coverImgRef.value = coverImg;
   membersRef.value = members;
+
+  createSeoFunction({
+    title: "Organizacijska ekipa - Majske igre",
+    description: intro,
+    imageUrl: coverImg
+  });
 }
 
 fetchData();

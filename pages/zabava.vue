@@ -18,6 +18,7 @@
 <script lang="ts" setup>
 import {ConcertEventModel} from "~/models/events/concert-event.model";
 import {DescriptionModel} from "~/models/description.model";
+import {createSeoFunction} from "~/functions/create-seo.function";
 
 const concertsRef = ref<ConcertEventModel[]>([]);
 const descriptionRef = ref<DescriptionModel | null>(null);
@@ -33,7 +34,15 @@ useAsyncData('fetchConcerts', () => queryContent<ConcertEventModel>('concerts').
 
 useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/concert').findOne())
     .then(({data}) => {
-      descriptionRef.value = data.value;
+      const description = data.value;
+      descriptionRef.value = description;
+      if (description != null) {
+        createSeoFunction({
+          title: "Zabava - Majske igre",
+          description: description.description,
+          imageUrl: description.coverImage
+        });
+      }
     });
 </script>
 

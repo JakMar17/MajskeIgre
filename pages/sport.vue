@@ -104,9 +104,9 @@ function mapSportEvents({value}: Ref<SportEventModel[] | null>) {
 const onDescriptionFetch = (description: DescriptionModel) => {
   descriptionRef.value = description;
   createSeoFunction({
-    title: description.title,
+    title: "Šport - Majske igre",
     description: description.description,
-    imageUrl: description.imageUrl
+    imageUrl: description.coverImage
   });
 };
 

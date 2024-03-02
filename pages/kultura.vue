@@ -28,6 +28,7 @@
 import {ComponentState} from "~/models/component-state.model";
 import {DescriptionModel} from "~/models/description.model";
 import {CultureEventModel} from "~/models/events/culture-event.model";
+import {createSeoFunction} from "~/functions/create-seo.function";
 
 const componentStateRef = ref<ComponentState>('loading');
 const descriptionRef = ref<DescriptionModel | null>(null);
@@ -45,7 +46,15 @@ useAsyncData('fetchCultureEvents', () => queryContent<CultureEventModel>('cultur
     });
 
 useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/culture').findOne()).then(({data}) => {
-  descriptionRef.value = data.value;
+  const description = data.value;
+  descriptionRef.value = description;
+  if (description != null) {
+    createSeoFunction({
+      title: "Kultura - Majske igre",
+      description: description.description,
+      imageUrl: description.coverImage
+    });
+  }
 });
 
 </script>

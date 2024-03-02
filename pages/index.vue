@@ -1,19 +1,33 @@
 <template>
     <div class="snap-y__wrapper">
         <div class="snap-y__section">
-            <HomeSlideIntroComponent/>
+            <HomeSlideIntroComponent v-if="indexSlideshowRef != null" :image-urls="indexSlideshowRef"/>
         </div>
     </div>
 </template>
 
 <script lang="ts" setup>
-import {createSeoObject} from "~/utils/seo";
+
+import {createSeoFunction} from "~/functions/create-seo.function";
 
 definePageMeta({
     layout: "no-navbar-layout"
 });
 
-useSeoMeta(createSeoObject());
+const indexSlideshowRef = ref<{} | null>(null);
+
+useAsyncData('fetchSlideshow', () => queryContent('slideshow').where({title: 'index'}).findOne())
+    .then(({data}) => {
+      indexSlideshowRef.value = data.value;
+      if(data.value != null) {
+        createSeoFunction({
+          title: "Majske igre",
+          description: "Majske igre so največji študentski festival v Sloveniji, ki se odvija v Mariboru. Vsako leto se v okviru festivala odvijajo športne, kulturne in zabavne prireditve.",
+          imageUrl: data.value?.images[0].image
+        });
+      }
+    });
+
 </script>
 
 <style lang="scss" scoped>

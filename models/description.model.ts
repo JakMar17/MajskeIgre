@@ -1,4 +1,4 @@
 export type DescriptionModel = {
     description: string;
-    imageUrl?: string;
+    coverImage?: string;
 }

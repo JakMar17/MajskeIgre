@@ -79,6 +79,7 @@
 <script lang="ts" setup>
 
 import {MajskeDescriptionModel} from "~/models/majske-description.model";
+import {createSeoFunction} from "~/functions/create-seo.function";
 
 const contactLink = {
   title: 'Kontakt ekipe',
@@ -90,7 +91,16 @@ const descriptionRef = ref<MajskeDescriptionModel | null>(null);
 useAsyncData('fetchDescriptions', () => queryContent('descriptions/event').findOne()).then(console.log)
 
 useAsyncData('fetchDescriptions', () => queryContent<MajskeDescriptionModel>('descriptions/event').findOne())
-    .then(({data}) => descriptionRef.value = data.value);
+    .then(({data}) => {
+      descriptionRef.value = data.value;
+      if(data.value != null) {
+        createSeoFunction({
+          title: "Majske igre",
+          description: data.value?.description,
+          imageUrl: data.value?.concertImage
+        });
+      }
+    });
 
 </script>
 

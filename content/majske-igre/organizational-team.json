@@ -6,48 +6,48 @@
       "functionTitle": "vodja prireditve",
       "email": "deni.cerovac@ssvets.si",
       "phone": "041 398 407",
-      "imageUrl": "/img/deni_brez.png"
+      "imageUrl": "/img/deni_brez.png.webp"
     },
     {
       "name": "Jakob Marušič",
       "functionTitle": "vodja trženja in odnosov s sponzorji, pomočnik vodje prireditve",
       "email": "jakob.marusic@ssvets.si",
       "phone": "041 337 631",
-      "imageUrl": "/img/jakob_brez.png"
+      "imageUrl": "/img/jakob_brez.png.webp"
     },
     {
       "name": "Maja Trušnovec",
       "functionTitle": "Odnosi z javnostjo (PR)",
       "email": "pr.promocija@ssvets.si",
       "phone": "040 870 492",
-      "imageUrl": "/img/maja_brez.png"
+      "imageUrl": "/img/maja_brez.png.webp"
     },
     {
       "name": "Vito Založnik",
       "functionTitle": "vodja športnega programa",
       "email": "sport@ssvets.si",
       "phone": "051 256 796",
-      "imageUrl": "/img/vito_brez.png"
+      "imageUrl": "/img/vito_brez.png.webp"
     },
     {
       "name": "Rok Petrovčič",
       "functionTitle": "pomočnik vodje športnega programa",
       "phone": "040 277 652",
       "email": "sport@ssvets.si",
-      "imageUrl": "/img/petro_brez.png"
+      "imageUrl": "/img/petro_brez.png.webp"
     },
     {
       "name": "Tjaša Vraničar",
       "functionTitle": "vodja zabavnega programa",
       "email": "zabava@ssvets.si",
       "phone": "051 879 731",
-      "imageUrl": "/img/tjasa_brez.png"
+      "imageUrl": "/img/tjasa_brez.png.webp"
     },
     {
       "name": "Žiga Gerdina",
       "functionTitle": "vodja kulturnega programa",
       "email": "kultura@ssvets.si",
-      "imageUrl": "/img/dscf2156-scaled-250x250.jpg",
+      "imageUrl": "/img/dscf2156-scaled-250x250.jpg.webp",
       "phone": "040 798 889"
     },
     {
@@ -55,36 +55,36 @@
       "functionTitle": "pomočnik vodje kulturnega programa",
       "email": "kultura@ssvets.si",
       "phone": "031 294 760",
-      "imageUrl": "/img/dominik_brez.png"
+      "imageUrl": "/img/dominik_brez.png.webp"
     },
     {
       "name": "Sara Ambrož",
       "functionTitle": "Grafično oblikovanje",
       "email": "ambroz.oblikovanje@gmail.com",
       "phone": "030 431 223",
-      "imageUrl": "/img/sara_brez.png"
+      "imageUrl": "/img/sara_brez.png.webp"
     },
     {
       "name": "Primož Hrovat",
       "functionTitle": "vodja tehnike",
       "email": "tehnika@ssvets.si",
       "phone": "070 566 499",
-      "imageUrl": "/img/primoz_brez.png"
+      "imageUrl": "/img/primoz_brez.png.webp"
     },
     {
       "name": "Oskar Rosc",
       "functionTitle": "vodja gostinstva",
       "email": "gostinstvo@ssvets.si",
       "phone": "041 852 606",
-      "imageUrl": "/img/oskar_brez.png"
+      "imageUrl": "/img/oskar_brez.png.webp"
     },
     {
       "name": "Peter Lazar",
       "functionTitle": "namestnik vodje gostinstva",
       "phone": "041 925 325",
       "email": "gostinstvo@ssvets.si",
-      "imageUrl": "/img/pero_brez.png"
+      "imageUrl": "/img/pero_brez.png.webp"
     }
   ],
-  "coverImg": "/img/pustovanje_2024-171-1-.jpg"
+  "coverImg": "/img/pustovanje_2024-171-1-.jpg.webp"
 }

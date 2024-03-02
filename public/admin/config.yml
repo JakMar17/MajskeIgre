@@ -62,6 +62,10 @@ collections:
           - label: "Naslovna slika"
             name: "coverImage"
             widget: "image"
+          - label: "Prikaži spored"
+            name: "showSchedule"
+            widget: "boolean"
+            default: true
       - label: "Predstavitev zabave"
         name: "concertDescription"
         format: "json"
@@ -75,6 +79,10 @@ collections:
           - label: "Naslovna slika"
             name: "coverImage"
             widget: "image"
+          - label: "Prikaži spored"
+            name: "showSchedule"
+            widget: "boolean"
+            default: true
       - label: "Predstavitev kulture"
         name: "cultureDescription"
         format: "json"
@@ -88,6 +96,10 @@ collections:
           - label: "Naslovna slika"
             name: "coverImage"
             widget: "image"
+          - label: "Prikaži spored"
+            name: "showSchedule"
+            widget: "boolean"
+            default: true
       - label: "Organizacijska ekipa"
         name: "organizationalTeam"
         format: "json"

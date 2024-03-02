@@ -3,7 +3,7 @@
   <main v-if="componentStateRef === 'loaded'" class="background">
     <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef.description"/>
 
-    <CardImageComponent v-for="(dayEvent, index) in dayEventsRef"
+    <CardImageComponent v-if="showScheduleRef" v-for="(dayEvent, index) in dayEventsRef"
                         :key="index"
                         :imageUrl="getCoverImage(dayEvent)"
                         :title="getDayString(dayEvent.date)"
@@ -15,6 +15,7 @@
         </div>
       </template>
     </CardImageComponent>
+    <EventsNoContentComponent v-else type="sport" title="Razpored športa še ni objavljen" content="Spremljaj nas na socialnih omrežjih in bodi na tekočem"/>
   </main>
   <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
 </template>
@@ -22,14 +23,14 @@
 <script lang="ts" setup>
 
 import {SportEventModel} from "~/models/events/sport-event.model";
-import {Ref} from "vue";
 import {ComponentState} from "~/models/component-state.model";
 import {DescriptionModel} from "~/models/description.model";
 import {createSeoFunction} from "~/functions/create-seo.function";
 
 const componentStateRef = ref<ComponentState>('loading');
-const dayEventsRef= ref<dayEvents[]>([]);
+const dayEventsRef = ref<dayEvents[]>([]);
 const descriptionRef = ref<DescriptionModel | null>(null);
+const showScheduleRef = ref<boolean>(false);
 
 type dayEvents = {
   date: Date;
@@ -72,8 +73,8 @@ const getEventStartTime = ({date}: SportEventModel) =>
  * Maps fetched data to sport events
  * @param value fetched data
  */
-function mapSportEvents({value}: Ref<SportEventModel[] | null>) {
-  if(value == null) {
+function mapSportEvents(value: SportEventModel[]) {
+  if (value == null) {
     return [];
   }
 
@@ -101,6 +102,7 @@ function mapSportEvents({value}: Ref<SportEventModel[] | null>) {
   return dayEvents;
 }
 
+
 const onDescriptionFetch = (description: DescriptionModel) => {
   descriptionRef.value = description;
   createSeoFunction({
@@ -110,14 +112,22 @@ const onDescriptionFetch = (description: DescriptionModel) => {
   });
 };
 
+async function fetchData() {
+  const description = await queryContent<DescriptionModel>('descriptions/sport').findOne();
+  onDescriptionFetch(description);
+
+  showScheduleRef.value = description.showSchedule;
+  if (showScheduleRef.value) {
+    const sportEvents = await queryContent<SportEventModel>('sport-events').sort({date: 1}).find();
+    dayEventsRef.value = mapSportEvents(sportEvents);
+  }
+
+  componentStateRef.value = 'loaded';
+}
+
+
 // data fetching
-useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/sport').findOne())
-    .then(({data}) => onDescriptionFetch(data.value));
-
-useAsyncData('fetchSportEvents', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find())
-    .then(({data}) => dayEventsRef.value = mapSportEvents(data))
-    .catch(() => componentStateRef.value = 'error');
-
+useAsyncData('fetchData', () => fetchData());
 
 
 </script>

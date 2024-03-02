@@ -183,3 +183,15 @@ otherwise they are too wide for html body
 .navbar-burger {
     color: white;
 }
+
+.has-text- {
+    &sport {
+        color: $sport-dark;
+    }
+    &kultura {
+        color: $kultura-dark;
+    }
+    &zabava {
+        color: $zabava-dark;
+    }
+}

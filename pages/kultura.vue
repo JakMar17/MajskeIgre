@@ -3,11 +3,13 @@
   <main v-if="componentStateRef === 'loaded'" class="background">
     <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef.description"/>
 
-    <CardImageComponent v-for="(event, index) in cultureEventsRef"
-                        :key="index"
-                        :imageUrl="event.imageUrl"
-                        :title="`${event.date} | ${event.title.toUpperCase()}`"
-                        :reversed="index % 2 === 0"
+    <CardImageComponent
+        v-if="showScheduleRef"
+        v-for="(event, index) in cultureEventsRef"
+        :key="index"
+        :imageUrl="event.imageUrl"
+        :title="`${event.date} | ${event.title.toUpperCase()}`"
+        :reversed="index % 2 === 0"
     >
 
       <template v-slot:title>
@@ -20,6 +22,7 @@
         </div>
       </template>
     </CardImageComponent>
+    <EventsNoContentComponent v-else type="kultura" title="Kulturni otočki še samevajo" content="A ne za dolgo, spremljaj naša socialna omrežja in kmalu boš izvedel kdo jih bo napolnil!"/>
   </main>
   <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
 </template>
@@ -33,20 +36,12 @@ import {createSeoFunction} from "~/functions/create-seo.function";
 const componentStateRef = ref<ComponentState>('loading');
 const descriptionRef = ref<DescriptionModel | null>(null);
 const cultureEventsRef = ref<CultureEventModel[]>([]);
+const showScheduleRef = ref<boolean>(false);
+
 
 // data fetching
-useAsyncData('fetchCultureEvents', () => queryContent<CultureEventModel>('culture-events').sort({date: 1}).find())
-    .then(({data}) => {
-      cultureEventsRef.value = (data.value ?? []).map(v => {
-        v.date = new Date(v.date).toLocaleDateString('sl-SL');
-        parseMarkdown(v.description).then((d) => v.description = d);
-        return v;
-      });
-      componentStateRef.value = 'loaded';
-    });
-
-useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/culture').findOne()).then(({data}) => {
-  const description = data.value;
+async function fetchData() {
+  const description = await queryContent<DescriptionModel>('descriptions/culture').findOne();
   descriptionRef.value = description;
   if (description != null) {
     createSeoFunction({
@@ -54,8 +49,23 @@ useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descripti
       description: description.description,
       imageUrl: description.coverImage
     });
+
+    showScheduleRef.value = description.showSchedule;
+    if (showScheduleRef.value) {
+      const events = await queryContent<CultureEventModel>('culture-events').sort({date: 1}).find();
+      cultureEventsRef.value = (events ?? []).map(v => {
+        v.date = new Date(v.date).toLocaleDateString('sl-SL');
+        parseMarkdown(v.description).then((d) => v.description = d);
+        return v;
+      });
+    }
+
+    componentStateRef.value = 'loaded';
   }
-});
+}
+
+
+useAsyncData('fetch', () => fetchData())
 
 </script>
 

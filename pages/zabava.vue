@@ -2,7 +2,7 @@
   <main class="wrapper">
     <HeaderLogoComponent/>
     <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef.description"/>
-    <section class="concert__section" v-for="(concert, index) in concertsRef">
+    <section v-if="showScheduleRef" class="concert__section" v-for="(concert, index) in concertsRef">
       <div class="concert__title__wrapper">
         <div class="container concert__title__container">
           <h1 class="title is-1 mb-2">{{ concert.title }}</h1>
@@ -12,6 +12,8 @@
 
       <CardImageComponent style="text-align: center" :imageUrl="concert.imageUrl" :content="concert.performers" :reversed="index % 2 === 0"/>
     </section>
+
+    <EventsNoContentComponent v-else type="zabava" title="Kdo bo stopil na oder je še skrivnost" content="...a ne za dolgo - spremljal naša socialna omrežja in bodi prvi, ki boš izvedel!"/>
   </main>
 </template>
 
@@ -22,28 +24,29 @@ import {createSeoFunction} from "~/functions/create-seo.function";
 
 const concertsRef = ref<ConcertEventModel[]>([]);
 const descriptionRef = ref<DescriptionModel | null>(null);
+const showScheduleRef = ref<boolean>(false);
 
-// data fetching
-useAsyncData('fetchConcerts', () => queryContent<ConcertEventModel>('concerts').sort({date: 1}).find())
-    .then(({data}) => {
-      concertsRef.value = (data.value ?? []).map(v => {
-        v.date = new Date(v.date).toLocaleDateString();
-        return v;
-      });
-    });
+async function fetchData() {
+  const description = await queryContent<DescriptionModel>('descriptions/concert').findOne();
+  descriptionRef.value = description;
+  showScheduleRef.value = description.showSchedule;
 
-useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/concert').findOne())
-    .then(({data}) => {
-      const description = data.value;
-      descriptionRef.value = description;
-      if (description != null) {
-        createSeoFunction({
-          title: "Zabava - Majske igre",
-          description: description.description,
-          imageUrl: description.coverImage
-        });
-      }
+  createSeoFunction({
+    title: "Zabava - Majske igre",
+        description: description.description,
+      imageUrl: description.coverImage
+  });
+
+  if(showScheduleRef.value) {
+    const concerts = await queryContent<ConcertEventModel>('concerts').sort({date: 1}).find();
+    concertsRef.value = (concerts ?? []).map(v => {
+      v.date = new Date(v.date).toLocaleDateString();
+      return v;
     });
+  }
+}
+
+useAsyncData('fetchData', () => fetchData());
 </script>
 
 <style lang="scss" scoped>

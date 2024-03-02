@@ -1,12 +1,12 @@
 export async function createSeoFunction({title, description, imageUrl}: SeoModel) {
-    const parsedDescription = await parseMarkdown(description);
+    const parsedDescription = (await parseMarkdown(description)).description;
     return useServerSeoMeta({
         title,
         ogTitle: title,
         twitterTitle: title,
         description: parsedDescription,
         ogDescription: parsedDescription,
-        imageUrl,
+        image: imageUrl,
         ogImageUrl: imageUrl,
         twitterCard: "summary_large_image",
         author: "Jakob Marušič"

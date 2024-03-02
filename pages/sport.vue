@@ -25,6 +25,7 @@ import {SportEventModel} from "~/models/events/sport-event.model";
 import {Ref} from "vue";
 import {ComponentState} from "~/models/component-state.model";
 import {DescriptionModel} from "~/models/description.model";
+import {createSeoFunction} from "~/functions/create-seo.function";
 
 const componentStateRef = ref<ComponentState>('loading');
 const dayEventsRef= ref<dayEvents[]>([]);
@@ -102,23 +103,21 @@ function mapSportEvents({value}: Ref<SportEventModel[] | null>) {
 
 const onDescriptionFetch = (description: DescriptionModel) => {
   descriptionRef.value = description;
-  useServerSeoMeta({
-    title: "Šport - Majske igre",
+  createSeoFunction({
+    title: description.title,
     description: description.description,
-    imageUrl: description.imageUrl,
-    ogImageUrl: description.imageUrl,
-    twitterCard: 'summary_large_image',
-    ogTitle: "Šport - Majske igre",
-  })
+    imageUrl: description.imageUrl
+  });
 };
 
 // data fetching
+useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/sport').findOne())
+    .then(({data}) => onDescriptionFetch(data.value));
+
 useAsyncData('fetchSportEvents', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find())
     .then(({data}) => dayEventsRef.value = mapSportEvents(data))
     .catch(() => componentStateRef.value = 'error');
 
-useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/sport').findOne())
-    .then(({data}) => onDescriptionFetch(data.value));
 
 
 </script>

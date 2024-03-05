@@ -1,8 +1,8 @@
 ---
-title: "Dan Mestnega loga 2023 "
+title: Dan Mestnega loga 2024
 location: Mestni log
-date: 2023-05-08T22:00:00.000Z
-imageUrl: https://majske-igre.si/wp-content/uploads/2022/04/VIT_7310-1030x585.jpg
+date: 2024-05-13T22:00:00.000Z
+imageUrl: /img/fb_img_1709477437727.jpg.webp
 performers: |-
   ### Uninvited
   ### SMETNAKI

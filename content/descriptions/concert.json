@@ -1,4 +1,5 @@
 {
   "description": "Vsako leto organiziramo **4 različne dogodke**, ki se razvrstijo skozi maj. Namenjeni so vsem našim stanovalcem in zunanjim obiskovalcem. Line up je vedno pester; nastopajoči so mnogi, od največjih imen glasbene scene, do tistih, ki svojo prepoznavnost šele pridobivajo.\n\nKoncerti se odvijajo po vseh večjih študentskih naseljih, v Rožni dolini, Mestnem logu, na Kardeljevi ploščadi ter na jasi na Rožniku. **Vsi dogodki so brezplačni.**\n\nKot predpripravo na Majske igre organiziramo tudi **Študentsko pustovanje** v februarju in **Predmajski špil** v aprilu.",
-  "coverImage": "/img/347269340_761751668759482_5891382283528008371_n.webp"
+  "coverImage": "/img/347269340_761751668759482_5891382283528008371_n.webp",
+  "showSchedule": true
 }

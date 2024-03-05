@@ -1,8 +1,8 @@
 ---
-title: Pohod na Rožnik 2023
+title: Pohod na Rožnik 2024
 location: Jasa na Rožniku
-date: 2023-05-16T22:00:00.000Z
-imageUrl: https://majske-igre.si/wp-content/uploads/2022/04/VIT_7310-1030x585.jpg
+date: 2024-05-21T22:00:00.000Z
+imageUrl: /img/fb_img_1709477320574.jpg.webp
 performers: |-
   ### Uninvited
   ### SMETNAKI

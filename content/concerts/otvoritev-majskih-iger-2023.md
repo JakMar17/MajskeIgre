@@ -1,8 +1,8 @@
 ---
-title: Otvoritev Majskih iger 2023
+title: Otvoritev Majskih iger 2024
 location: Rožna dolina
-date: 2023-05-02T22:00:00.000Z
-imageUrl: https://majske-igre.si/wp-content/uploads/2022/04/VIT_7310-1030x585.jpg
+date: 2024-05-06T22:00:00.000Z
+imageUrl: /img/fb_img_1709478715402.jpg.webp
 performers: |-
   ### Uninvited
   ### SMETNAKI

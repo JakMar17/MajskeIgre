@@ -38,15 +38,9 @@ jobs:
         path: ./.output/public
 
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.0.0
+      uses: SamKirkland/FTP-Deploy-Action@v3.1.1
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /test.majske-igre.si/
-        local-dir: ./.output/public/
-        log-level: verbose
-        security: strict
-        protocol: ftps-legacy
-        timeout: 60000
+        ftp-server: ${{ secrets.FTP_SERVER }}
+        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
         

@@ -1,5 +1,5 @@
 # https://github.com/actions/deploy-pages#usage
-name: Deploy to GitHub Pages
+name: Deploy to FTP
 on:
   workflow_dispatch:
   push:
@@ -37,11 +37,11 @@ jobs:
         name: build-artifact
         path: ./.output/public
 
-    - name: Upload ftp
-      uses: sebastianpopp/ftp-action@releases/v2
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        host: ${{ secrets.FTP_SERVER }}
-        user: ${{ secrets.FTP_USERNAME }}
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "./.output/public"
-        remoteDir: "/test.majske-igre.si"
+        server-dir: /test.majske-igre.si/
+        local-dir: ./.output/public/

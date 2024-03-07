@@ -28,4 +28,7 @@ export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
     ],
+    experimental: {
+        payloadExtraction: false
+    }
 })

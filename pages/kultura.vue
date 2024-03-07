@@ -30,42 +30,33 @@
 <script lang="ts" setup>
 import {ComponentState} from "~/models/component-state.model";
 import {DescriptionModel} from "~/models/description.model";
-import {CultureEventModel} from "~/models/events/culture-event.model";
+import {CultureEventModel, CultureSubEventModel} from "~/models/events/culture-event.model";
 import {createSeoFunction} from "~/functions/create-seo.function";
 
 const componentStateRef = ref<ComponentState>('loading');
 const descriptionRef = ref<DescriptionModel | null>(null);
-const cultureEventsRef = ref<CultureEventModel[]>([]);
+const cultureEventsRef = ref<any[]>([]);
 const showScheduleRef = ref<boolean>(false);
 
 
-// data fetching
-async function fetchData() {
-  const description = await queryContent<DescriptionModel>('descriptions/culture').findOne();
-  descriptionRef.value = description;
-  if (description != null) {
-    createSeoFunction({
-      title: "Kultura - Majske igre",
-      description: description.description,
-      imageUrl: description.coverImage
-    });
+useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/culture').findOne().then((res) => {
+  descriptionRef.value = res;
+  showScheduleRef.value = res.showSchedule;
+  createSeoFunction({
+    title: "Kultura - Majske igre",
+    description: res.description,
+    imageUrl: res.coverImage
+  });
+}));
 
-    showScheduleRef.value = description.showSchedule;
-    if (showScheduleRef.value) {
-      const events = await queryContent<CultureEventModel>('culture-events').sort({date: 1}).find();
-      cultureEventsRef.value = (events ?? []).map(v => {
-        v.date = new Date(v.date).toLocaleDateString('sl-SL');
-        parseMarkdown(v.description).then((d) => v.description = d);
-        return v;
-      });
-    }
-
-    componentStateRef.value = 'loaded';
-  }
-}
-
-
-useAsyncData('fetch', () => fetchData())
+useAsyncData('fetchCultureEvents', () => queryContent('culture-events').sort({date: 1}).find().then((data) => {
+  cultureEventsRef.value = (data ?? []).map(v => {
+    v.date = new Date(v.date).toLocaleDateString('sl-SL');
+    parseMarkdown(v.description).then((d) => v.description = d);
+    return v;
+  });
+  componentStateRef.value = 'loaded';
+}));
 
 </script>
 

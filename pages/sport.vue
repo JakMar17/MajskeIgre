@@ -105,6 +105,7 @@ function mapSportEvents(value: SportEventModel[]) {
 
 const onDescriptionFetch = (description: DescriptionModel) => {
   descriptionRef.value = description;
+  showScheduleRef.value = description.showSchedule;
   createSeoFunction({
     title: "Šport - Majske igre",
     description: description.description,
@@ -112,22 +113,12 @@ const onDescriptionFetch = (description: DescriptionModel) => {
   });
 };
 
-async function fetchData() {
-  const description = await queryContent<DescriptionModel>('descriptions/sport').findOne();
-  onDescriptionFetch(description);
+useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/sport').findOne())
+    .then(({data}) => onDescriptionFetch(data.value!));
 
-  showScheduleRef.value = description.showSchedule;
-  if (showScheduleRef.value) {
-    const sportEvents = await queryContent<SportEventModel>('sport-events').sort({date: 1}).find();
-    dayEventsRef.value = mapSportEvents(sportEvents);
-  }
-
-  componentStateRef.value = 'loaded';
-}
-
-
-// data fetching
-useAsyncData('fetchData', () => fetchData());
+useAsyncData('fetchSportEvents', () => queryContent<SportEventModel>('sport-events').sort({date: 1}).find())
+    .then(({data}) => dayEventsRef.value = mapSportEvents(data.value!))
+    .catch(() => componentStateRef.value = 'error');
 
 
 </script>

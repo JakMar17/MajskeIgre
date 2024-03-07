@@ -26,27 +26,22 @@ const concertsRef = ref<ConcertEventModel[]>([]);
 const descriptionRef = ref<DescriptionModel | null>(null);
 const showScheduleRef = ref<boolean>(false);
 
-async function fetchData() {
-  const description = await queryContent<DescriptionModel>('descriptions/concert').findOne();
+useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/concert').findOne().then((description) => {
   descriptionRef.value = description;
   showScheduleRef.value = description.showSchedule;
-
   createSeoFunction({
     title: "Zabava - Majske igre",
-        description: description.description,
-      imageUrl: description.coverImage
+    description: description.description,
+    imageUrl: description.coverImage
   });
+}));
 
-  if(showScheduleRef.value) {
-    const concerts = await queryContent<ConcertEventModel>('concerts').sort({date: 1}).find();
-    concertsRef.value = (concerts ?? []).map(v => {
-      v.date = new Date(v.date).toLocaleDateString();
-      return v;
-    });
-  }
-}
-
-useAsyncData('fetchData', () => fetchData());
+useAsyncData('fetchConcerts', () => queryContent<ConcertEventModel>('concerts').sort({date: 1}).find().then((concerts) => {
+  concertsRef.value = (concerts ?? []).map(v => {
+    v.date = new Date(v.date).toLocaleDateString();
+    return v;
+  });
+}));
 </script>
 
 <style lang="scss" scoped>

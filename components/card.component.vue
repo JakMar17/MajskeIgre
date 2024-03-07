@@ -13,8 +13,8 @@
 </template>
 
 <script lang="ts" setup>
-import {CardModel} from "models";
 import {parseMarkdown} from "~/utils/parseMarkdown";
+import type {CardModel} from "~/models";
 
 const props = withDefaults(defineProps<CardModel>(), {
   centeredTitles: false,

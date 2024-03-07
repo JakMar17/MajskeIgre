@@ -36,14 +36,12 @@ jobs:
       with:
         name: build-artifact
         path: ./.output/public
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+
+    - name: Upload ftp
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
+        host: ${{ secrets.FTP_SERVER }}
+        user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /test.majske-igre.si/
-        local-dir: ./.output/public/
-        protocol: ftp
-          
+        localDir: "./.output/public"
+        remoteDir: "/test.majske-igre.si"

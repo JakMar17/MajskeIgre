@@ -45,4 +45,5 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /test.majske-igre.si/
         local-dir: ./.output/public/
+        protocol: ftp
           

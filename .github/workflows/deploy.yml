@@ -46,5 +46,5 @@ jobs:
         server-dir: /test.majske-igre.si/
         local-dir: ./.output/public/
         log-level: verbose
-        timeout: 200000
+        security: strict
         

@@ -47,4 +47,5 @@ jobs:
         local-dir: ./.output/public/
         log-level: verbose
         security: strict
+        protocol: ftps-legacy
         

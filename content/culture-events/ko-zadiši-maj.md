@@ -1,7 +1,7 @@
 ---
 title: Ko zadiši maj
 date: 2023-05-03T16:09:48.203Z
-imageUrl: /img/341117119_206051115460832_4442049543559234761_n.webp
+imageUrl: /img/kultura_slideshow-2.jpg.webp
 events:
   - title: Majski bograč
     description: >-

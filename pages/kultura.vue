@@ -1,5 +1,6 @@
 <template>
   <HeaderLogoComponent class="background"/>
+  <p>TEST</p>
   <main v-if="componentStateRef === 'loaded'" class="background">
     <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef.description"/>
 

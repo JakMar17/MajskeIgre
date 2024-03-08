@@ -46,4 +46,7 @@ jobs:
         remote-password: ${{ secrets.FTP_PASSWORD }}
         remote-path: "/test.majske-igre.si/"
         local-path: ./.output/public
+        sync: full
+        proxy: false
+        debug: true
         

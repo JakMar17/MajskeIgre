@@ -51,6 +51,6 @@ jobs:
         target-server: ${{ secrets.SSH_URL }}
         remote-user: ${{ secrets.SSH_USER }}
         private-ssh-key: ${{ secrets.SSH_KEY }}
-        destination-path: /test.majske-igre.si/
+        destination-path: /home/majskeigre/test.majske-igre.si/
         source-path: ./.output/public/
         

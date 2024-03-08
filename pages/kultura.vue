@@ -24,6 +24,9 @@
       </template>
     </CardImageComponent>
     <EventsNoContentComponent v-else type="kultura" title="Kulturni otočki še samevajo" content="A ne za dolgo, spremljaj naša socialna omrežja in kmalu boš izvedel kdo jih bo napolnil!"/>
+    <div v-if="descriptionRef?.additionalInfo" style="padding-bottom: 3em">
+      <CardComponent :content="descriptionRef.additionalInfo"/>
+    </div>
   </main>
   <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
 </template>

@@ -16,6 +16,9 @@
       </template>
     </CardImageComponent>
     <EventsNoContentComponent v-else type="sport" title="Razpored športa še ni objavljen" content="Spremljaj nas na socialnih omrežjih in bodi na tekočem"/>
+    <div v-if="descriptionRef?.additionalInfo" style="padding-bottom: 3em">
+      <CardComponent :content="descriptionRef.additionalInfo"/>
+    </div>
   </main>
   <ComponentStateErrorComponent class="background" v-if="componentStateRef === 'error'"/>
 </template>

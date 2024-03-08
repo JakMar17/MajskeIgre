@@ -16,5 +16,5 @@ description: >-
 
 
   **Vsak dom, ki na brucovanje pripelje vsaj 6 brucev, dobi za udeležbo 10 točk. Če se ekipa uvrsti med najboljše tri, za prvo mesto dobijo dodatnih 12 točk, za drugo 10 točk in za tretje 8 točk.**
-imageUrl: /img/278283379_3169498153370054_4277497227909295839_n.webp
+imageUrl: /img/slideshow_sport_5.jpg.webp
 ---

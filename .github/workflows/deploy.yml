@@ -11,7 +11,7 @@ on:
       sync:
         description: "File synchronization"
         required: true
-        default: "delta"
+        default: "full"
       
 jobs:
   build:
@@ -54,7 +54,7 @@ jobs:
         remote-password: ${{ secrets.FTP_PASSWORD }}
         remote-path: "/test.majske-igre.si/"
         local-path: ./.output/public
-        sync: full
+        sync: "full"
         proxy: false
         debug: true
         

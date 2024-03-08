@@ -1,7 +1,7 @@
 ---
 title: Demo bt kulturni
 date: 2023-05-04T16:32:24.460Z
-imageUrl: /img/347391426_580670594198749_7452858149497941656_n.jpg
+imageUrl: /img/kultura_slideshow-7.jpg.webp
 events:
   - title: Slikanje platna
     description: Delavnica slikanja platna je namenjena vsem študentskim otrokom

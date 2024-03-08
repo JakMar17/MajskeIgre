@@ -44,6 +44,10 @@ jobs:
       with:
         name: build-artifact
         path: ./.output/public
+    - name: X
+      run: "ls -lh ./.output/public"
+    - name: Y
+      run: "ls -lh"
 
     - name: 📂 Sync Files
       uses: SamKirkland/web-deploy@v1

@@ -48,6 +48,6 @@ jobs:
         target-server: ${{ secrets.SSH_URL }}
         remote-user: ${{ secrets.SSH_USER }}
         private-ssh-key: ${{ secrets.SSH_KEY }}
-        destination-path: ${{ var.DESTINATION_PATH }}
+        destination-path: ${{ vars.DESTINATION_PATH }}
         source-path: ./.output/public/
         

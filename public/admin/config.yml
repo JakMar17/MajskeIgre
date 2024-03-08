@@ -68,6 +68,10 @@ collections:
             name: "showSchedule"
             widget: "boolean"
             default: true
+          - label: "Dodatne informacije"
+            name: "additionalInfo"
+            widget: "markdown"
+            required: false
       - label: "Predstavitev zabave"
         name: "concertDescription"
         format: "json"
@@ -85,6 +89,10 @@ collections:
             name: "showSchedule"
             widget: "boolean"
             default: true
+          - label: "Dodatne informacije"
+            name: "additionalInfo"
+            widget: "markdown"
+            required: false
       - label: "Predstavitev kulture"
         name: "cultureDescription"
         format: "json"
@@ -102,6 +110,10 @@ collections:
             name: "showSchedule"
             widget: "boolean"
             default: true
+          - label: "Dodatne informacije"
+            name: "additionalInfo"
+            widget: "markdown"
+            required: false
       - label: "Organizacijska ekipa"
         name: "organizationalTeam"
         format: "json"

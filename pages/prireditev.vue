@@ -18,7 +18,8 @@
           class="sport__wrapper"
           title="Šport"
           :image-url="descriptionRef.sportImage"
-          :content="descriptionRef.sportDescription">
+          :content="descriptionRef.sportDescription"
+      :links="[links.sport]">
         <template v-slot:title>
           <div class="flex justify-content--between align-items--baseline">
             <h1 class="title is-2">Šport</h1>
@@ -32,6 +33,7 @@
           title="Kultura"
           :image-url="descriptionRef.cultureImage"
           :content="descriptionRef.cultureDescription"
+          :links="[links.culture]"
       >
         <template v-slot:title>
           <div class="flex justify-content--between align-items--baseline">
@@ -39,7 +41,6 @@
             <img style="height: 8em" src="../assets/images/majske-igre/kulturko.svg"/>
           </div>
         </template>
-
       </CardImageComponent>
 
       <CardImageComponent
@@ -47,6 +48,7 @@
           title="Zabava"
           :image-url="descriptionRef.concertImage"
           :content="descriptionRef.concertDescription"
+          :links="[links.concerts]"
       >
         <template v-slot:title>
           <div class="flex justify-content--between align-items--baseline">
@@ -80,6 +82,24 @@
 
 import {MajskeDescriptionModel} from "~/models/majske-description.model";
 import {createSeoFunction} from "~/functions/create-seo.function";
+
+const links = {
+  concerts: {
+    title: 'Kdo nastopa?',
+    link: '/zabava',
+    buttonType: 'is-primary is-fullwidth'
+  },
+  culture: {
+    title: 'Razpored kulturnih otočkov',
+    link: '/kultura',
+    buttonType: 'is-primary is-fullwidth'
+  },
+  sport: {
+    title: 'Razpored športov',
+    link: '/sport',
+    buttonType: 'is-primary is-fullwidth'
+  }
+}
 
 const contactLink = {
   title: 'Kontakt ekipe',

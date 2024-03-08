@@ -45,12 +45,12 @@ jobs:
         name: build-artifact
         path: ./.output/public
 
-    - name: "Deploy"
-      uses: airvzxf/ftp-deployment-action@latest
+    - name: 📂 Sync Files
+      uses: SamKirkland/web-deploy@v1
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        user: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        remote_dir: "/test.majske-igre.si"
-        local_dir: "./.output/public"
+        target-server: ${{ secrets.SSH_URL }}
+        remote-user: ${{ secrets.SSH_USER }}
+        private-ssh-key: ${{ secrets.SSH_KEY }}
+        destination-path: /test.majske-igre.si/
+        source-path: ./.output/public/
         

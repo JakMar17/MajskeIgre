@@ -30,5 +30,10 @@ export default defineNuxtConfig({
     ],
     experimental: {
         payloadExtraction: false
+    },
+    runtimeConfig: {
+        public: {
+            gtagId: G-QLS16E0KC9
+        }
     }
 })

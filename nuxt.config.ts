@@ -33,7 +33,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
-            gtagId: G-QLS16E0KC9
+            gtagId: "G-QLS16E0KC9"
         }
     }
 })

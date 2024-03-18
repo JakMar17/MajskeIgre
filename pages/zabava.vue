@@ -13,7 +13,7 @@
       <CardImageComponent style="text-align: center" :imageUrl="concert.imageUrl" :content="concert.performers" :reversed="index % 2 === 0"/>
     </section>
 
-    <EventsNoContentComponent v-else type="zabava" title="Kdo bo stopil na oder je še skrivnost" content="...a ne za dolgo - spremljal naša socialna omrežja in bodi prvi, ki boš izvedel!"/>
+    <EventsNoContentComponent v-else type="zabava" title="Kdo bo stopil na oder je še skrivnost" content="...a ne za dolgo - spremljaj naša socialna omrežja in bodi prvi, ki boš izvedel!"/>
     <div v-if="descriptionRef?.additionalInfo" style="padding-bottom: 3em">
       <CardComponent :content="descriptionRef.additionalInfo"/>
     </div>

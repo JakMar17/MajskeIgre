@@ -1,7 +1,7 @@
 <template>
   <HeaderPageComponent
-      title="Organizacijska ekipa"
-      subtitle="Kdo smo in naš kontakt"
+      title="Organizator"
+      subtitle="Kdo sestavlja organizatorsko ekipo?"
       :image-url="coverImgRef ?? ''"
   />
 

@@ -1,9 +1,10 @@
 ---
 title: Strelastika
 location: Rožna dolina, pred menzo Rožna kuh'na
-date: 2023-05-04T15:00:06.260Z
+date: 2024-05-08T15:00:06.260Z
 price: 6 €
 teamFormation: Posamezno
+registerLink: https://forms.gle/mwHJLihuVAQrPLgF7
 description: >-
   Najbolj zabavna lesena igra na svetu že ponovno osvaja Majske igre z obilico
   zabave in velikim številom obiskovalcev. Zaradi enostavnosti igre, predhodno

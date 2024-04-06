@@ -1,7 +1,7 @@
 ---
 title: Tarok
 location: Rožna dolina, Rožna Kuh'na
-date: 2023-05-04T14:00:54.076Z
+date: 2024-05-15T14:00:54.076Z
 price: 6 €
 teamFormation: Posamezno
 registerLink: https://forms.gle/CpWj2xGCpRFBFU2S8

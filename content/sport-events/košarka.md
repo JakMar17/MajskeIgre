@@ -9,17 +9,13 @@ description: >-
   <!--StartFragment-->
 
 
-  Košarka je eden najpopularnejših in najbolj gledanih športov na svetu. Na Majskih igrah se bodo pomerile moške in ženske ekipe v dvoranski košarki (v ločenih kategorijah). Ekipo sestavlja 5 igralcev, dovoljene pa so tri  rezerve. Ob igranju velja pravilnik dvoranske košarke Košarkarske zveze Slovenije, za upoštevanje katerega bo skrbel tudi sodnik. Igralni sistem bo določen na samem turnirju in bo odvisen od števila prijavljenih ekip v posamezni (moški ter ženski) kategoriji. Turnir je namenjen vsem študentom in študentkam.
+  Košarka je eden najpopularnejših in najbolj gledanih športov na svetu. Na Majskih igrah se bodo pomerile moške in ženske ekipe v dvoranski košarki (v ločenih kategorijah). Ekipo sestavlja 5 igralcev, dovoljene pa so tri  rezerve. Ob igranju velja pravilnik dvoranske košarke Košarkarske zveze Slovenije, za upoštevanje katerega bo skrbel tudi sodnik. Igralni sistem bo določen na samem turnirju in bo odvisen od števila prijavljenih ekip v posamezni (moški ter ženski) kategoriji. Turnir je namenjen vsem študentom.
 
 
   **Če želite domu prinesti točke, mora VEČ kot polovica ekipe biti sestavljena iz stanovalcev istega doma, hkrati pa se morate uvrstiti med najboljše tri. Prva ekipa prejme 12 točk, druga 10 točk ter tretja 8 točk.**
 
 
-
-
   **O﻿MEJITEV!!!!!!!!!!!!!!!!!!!!!!!!!**
-
-
 
 
   <!--EndFragment-->

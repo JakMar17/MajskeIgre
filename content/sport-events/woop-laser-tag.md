@@ -1,5 +1,5 @@
 ---
-title: WOOP! LASER TAG
+title: WOOP! LASER TAG (NOVO)
 location: WOOP! Arena, BTC
 date: 2024-05-23T16:30:00.000Z
 price: 8 €

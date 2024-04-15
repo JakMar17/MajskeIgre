@@ -1,5 +1,5 @@
 ---
-title: Kronometer (tek po stopnicah)
+title: KRONOMETER (TEK PO STOPNICAH)
 location: Rožna dolina, dom ??? - ILIRC?????
 date: 2024-05-21T15:00:18.162Z
 price: 6 €

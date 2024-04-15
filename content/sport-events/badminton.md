@@ -1,5 +1,5 @@
 ---
-title: Badminton
+title: BADMINTON
 location: Rožna dolina, športna dvorana
 date: 2024-05-20T10:00:03.538Z
 price: 6 €

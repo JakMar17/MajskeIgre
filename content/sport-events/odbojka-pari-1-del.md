@@ -1,6 +1,6 @@
 ---
-title: Odbojka pari
-location: Rožna dolina, odbojkarsko igrišče na mivki
+title: ODBOJKA PARI
+location: Rožna dolina in Mestni log, odbojkarsko igrišče na mivki
 date: 2024-05-08T10:00:50.006Z
 price: 6 €
 teamFormation: Dvojice

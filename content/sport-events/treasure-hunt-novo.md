@@ -1,7 +1,7 @@
 ---
 title: TREASURE HUNT (NOVO)
 location: Tivoli
-date: 2024-04-15T15:43:09.695Z
+date: 2024-05-23T11:00:00.000Z
 price: 8 €
 teamFormation: Ekipe po 4 tekmovalce
 description: >-

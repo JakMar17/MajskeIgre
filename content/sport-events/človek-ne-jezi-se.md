@@ -1,5 +1,5 @@
 ---
-title: Človek ne jezi se
+title: ČLOVEK NE JEZI SE
 location: Rožna dolina, travnik med domom I in domom XIV
 date: 2024-05-08T14:00:27.625Z
 price: Brezplačno

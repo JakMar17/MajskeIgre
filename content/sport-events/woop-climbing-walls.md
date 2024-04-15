@@ -12,8 +12,6 @@ description: |-
 
   Omejeno na 20 oseb
 
-  Šport ne šteje za točke.
-
 
 
   <!--EndFragment-->

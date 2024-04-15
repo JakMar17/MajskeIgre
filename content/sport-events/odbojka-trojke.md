@@ -21,4 +21,5 @@ description: >-
 
 
   <!--EndFragment-->
+imageUrl: /img/odbojka-trojke.jpg
 ---

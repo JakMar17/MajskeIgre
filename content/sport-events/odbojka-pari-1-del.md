@@ -18,6 +18,6 @@ description: >-
   ki prvi poravnajo prijavnino.**
 
 
-  **Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk. Oba tekmovalca morata biti iz istega doma, da prineseta svojemu domu točke.**
+  **Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk. Oba tekmovalca morata biti iz istega doma, da prineseta svojemu domu točke. Če sta oba tekmovalca iz različnih domov, izbereta za kateri dom bodo štele točke. Če je en član iz doma, drug pa ne, ne dobista točk.**
 imageUrl: /img/odbojka-pari.jpg
 ---

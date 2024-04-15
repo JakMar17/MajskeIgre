@@ -23,5 +23,5 @@ description: >-
 
 
   **Če tekmujete za svoj študentski dom, boste v primeru uvrstitve med prve tri prinesli domu za 1. mesto 8 točk, za 2. mesto 6 točk in za 3. mesto 4 točke.**
-imageUrl: https://majske-igre.si/wp-content/uploads/2022/03/tarok.jpg
+imageUrl: /img/tarok.jpg
 ---

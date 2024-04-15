@@ -27,5 +27,5 @@ description: >-
   \
 
   **Športa se lahko udeležijo vsi študentje, točke pa domu prinesejo le stanovalci študentskih domov. Tekmovanje bo potekalo mešano (skupaj moški in ženske). Prvouvrščeni/a bo prinesel/la domu za 1. mesto 8 točk, za 2. mesto 6 točk in za 3. mesto 4 točke.**
-imageUrl: https://majske-igre.si/wp-content/uploads/2022/03/strelastika-1536x1022.jpg
+imageUrl: /img/strelastika.jpg
 ---

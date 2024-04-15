@@ -1,5 +1,5 @@
 ---
-title: Briškula
+title: BRIŠKULA
 location: " Rožna dolina, Rožna Kuh'na"
 date: 2024-05-16T14:00:49.424Z
 price: 6 €

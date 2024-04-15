@@ -1,6 +1,6 @@
 ---
 title: KRONOMETER (TEK PO STOPNICAH)
-location: Rožna dolina, dom ??? - ILIRC?????
+location: Rožna dolina, dom 10
 date: 2024-05-21T15:00:18.162Z
 price: 6 €
 teamFormation: Posamezno. Ločeno moški in ženske

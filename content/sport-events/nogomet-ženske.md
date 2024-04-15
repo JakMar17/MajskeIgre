@@ -1,5 +1,5 @@
 ---
-title: Nogomet ženske
+title: NOGOMET ŽENSKE
 location: Rožna dolina, športna dvorana
 date: 2024-05-15T11:00:19.942Z
 price: 6 €

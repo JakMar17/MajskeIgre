@@ -1,7 +1,7 @@
 ---
 title: NOGOMET 1. del
 location: Rožna dolina, nogometno igrišče
-date: 2024-05-13T08:00:41.036Z
+date: 2024-05-13T07:00:00.000Z
 price: 6 €
 teamFormation: 5 tekmovalcev + 3 rezerve
 registerLink: https://forms.gle/Hrjjf5XzkKYboD3A9

@@ -1,5 +1,5 @@
 ---
-title: Majsko brucovanje
+title: MAJSKO BRUCOVANJE
 location: " Rožna dolina, pred domom IV"
 date: 2024-05-07T14:00:00.000Z
 price: Brezplačno

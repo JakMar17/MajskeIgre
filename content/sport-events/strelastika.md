@@ -1,5 +1,5 @@
 ---
-title: Strelastika
+title: STRELASTIKA
 location: Rožna dolina, pred menzo Rožna kuh'na
 date: 2024-05-08T15:00:06.260Z
 price: 6 €

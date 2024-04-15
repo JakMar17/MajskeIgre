@@ -18,4 +18,5 @@ description: >-
 
 
   <!--EndFragment-->
+imageUrl: /img/briškula.jpg
 ---

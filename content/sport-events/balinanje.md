@@ -1,7 +1,7 @@
 ---
 title: Balinanje
 location: Rožna dolina, pred domom I
-date: 2024-04-08T13:00:38.990Z
+date: 2024-05-13T13:00:38.990Z
 price: 6 €
 teamFormation: dvojice
 registerLink: https://forms.gle/Q3yBLBuygB7oquXn9

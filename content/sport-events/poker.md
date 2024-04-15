@@ -1,5 +1,5 @@
 ---
-title: Poker
+title: POKER
 location: Kardeljeva, dom A in dom B
 date: 2024-05-20T16:00:00.000Z
 price: Brezplačno

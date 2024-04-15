@@ -1,5 +1,5 @@
 ---
-title: Bowling
+title: BOWLING
 location: WOOP! Arena, BTC
 date: 2024-05-16T16:00:33.436Z
 price: 8 €

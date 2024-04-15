@@ -1,5 +1,5 @@
 ---
-title: Šnops
+title: ŠNOPS
 location: Rožna dolina,  Rožna Kuh'na
 date: 2024-05-14T13:00:29.963Z
 price: 6 €

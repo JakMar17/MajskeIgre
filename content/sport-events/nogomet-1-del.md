@@ -18,4 +18,5 @@ description: >-
 
 
   <!--EndFragment-->
+imageUrl: /img/nogomet-1.del.jpg
 ---

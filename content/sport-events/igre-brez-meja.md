@@ -1,5 +1,5 @@
 ---
-title: Igre brez meja
+title: IGRE BREZ MEJA
 location: Jasa na vrhu Rožnika
 date: 2024-05-22T12:00:00.000Z
 price: Brezplačno

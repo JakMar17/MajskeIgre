@@ -1,7 +1,7 @@
 ---
 title: ODBOJKA 4+2
 location: " Rožna dolina, odbojkarsko igrišče na mivki"
-date: 2024-05-12T13:00:45.036Z
+date: 2024-05-13T13:00:45.036Z
 price: 6 €
 teamFormation: 6 tekmovalcev (od tega vsaj 2 dekleti) + 2 rezervi
 registerLink: https://forms.gle/XiBgALMMWPA6eXaP8

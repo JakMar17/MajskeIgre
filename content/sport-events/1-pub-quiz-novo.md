@@ -9,7 +9,7 @@ description: >-
   <!--StartFragment-->
 
 
-  Novost letošnjih Majskih iger so **PUB QUIZI**! V maju se jih bo odvilo kar 5. Pričakujete lahko raznovrstna vprašanja iz raznolikih tem in seveda mrzlo točeno Laško. 
+  Novost letošnjih Majskih iger so **PUB QUIZI!** V maju se jih bo odvilo kar 5. Pričakujete lahko raznovrstna vprašanja iz raznolikih tem in seveda mrzlo točeno Laško. 
 
 
   Na kvize se lahko prijavijo le ekipe, ki so sestavljene izključno **iz 4 članov, ki prihajajo z istega doma**. Prijave bomo obravnavali po ključu prvi pride prvi melje, vendar bomo upoštevali, da bodo domovi sorazmerno zastopani na kvizih. **Prijave potekajo do ponedeljka, 6. 5.** V torek, 7. 5., zvečer bodo ekipe, ki so se uvrstile na kvize, obveščene o terminu preko e-maila. Prijavo potrdite s plačilom prijavnine na INFO točki Majskih iger 2024. **S prijavami pohitite, saj so mesta zelo omejena.**

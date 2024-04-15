@@ -1,5 +1,5 @@
 ---
-title: " WOOP! CLIMBING WALLS"
+title: " WOOP! CLIMBING WALLS (NOVO)"
 location: "Fun park, Leskoškova cesta 2 "
 date: 2024-05-08T15:00:59.066Z
 price: 8 €

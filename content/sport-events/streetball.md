@@ -1,5 +1,5 @@
 ---
-title: Streetball
+title: STREETBALL
 location: " Rožna dolina, nogometno igrišče"
 date: 2024-05-16T12:00:01.652Z
 price: 6 €

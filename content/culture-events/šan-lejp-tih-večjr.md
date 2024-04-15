@@ -78,6 +78,7 @@ events:
       The Woblers ter bivši dolgoletni član Akademskega pevskega zbora Vinko Vodopivec, ki se redno
 
       udejstvuje na polju jazzovske, klasične in zabavne glasbe.
+    imageUrl: /img/img_20240107_192138_949.jpg
   - time: 21:40
     title: "Kino pod zvezdami: Gepack"
     description: V vznemirljivi pustolovščini se običajna pot na morje štirih

@@ -2,6 +2,7 @@
 title: Nogomet 2. del
 location: " Rožna dolina, nogometno igrišče."
 date: 2024-05-14T08:00:00.000Z
+price: /
 description: >-
   <!--StartFragment-->
 

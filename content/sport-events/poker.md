@@ -1,7 +1,7 @@
 ---
 title: Poker
 location: Kardeljeva, dom A in dom B
-date: 2024-04-06T12:43:32.823Z
+date: 2024-05-20T16:00:00.000Z
 price: /
 teamFormation: Posamezno
 registerLink: " https://forms.gle/MhBu5kiZZNHTkmLb8"

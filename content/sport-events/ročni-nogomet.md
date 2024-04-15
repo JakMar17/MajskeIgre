@@ -1,6 +1,6 @@
 ---
 title: ROČNI NOGOMET
-location: Rožna dolina, pred domom I, kasneje premakne v dom 3
+location: Rožna dolina, za domom 3
 date: 2024-05-27T14:00:00.000Z
 price: 6 €
 teamFormation: Dvojice
@@ -12,7 +12,7 @@ description: >-
   Ročni nogomet je družabna igra, kjer se merijo nogometne veščine malo drugače. Pri takšnem nogometu ni tako pomembna fizična kondicija kot pa ročna spretnost in hitro razmišljanje. V tej disciplini je pomembno to, kar imamo v zapestju. Je gostilniška igra, katero študentje običajno vsaj malo poznajo. Sistem tekmovanja bo prilagojen številu prijavljenih parov in ga določa organizator. Pari so lahko moški, ženski ali pa tudi mešani, vendar vsi tekmujejo v skupnem sistemu. Turnirja se lahko udeležijo tudi študentje, ki ne živijo v študentskih domovih.
 
 
-  **Prijavijo se lahko vsi študentje, če pa želite domu prinesti točke, morate biti stanovalec študentskega doma. Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk.** 
+  **Prijavijo se lahko vsi študentje, če pa želite domu prinesti točke, morata oba tekmovalca biti prebivalca istega doma.  Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk.** 
 
 
   <!--EndFragment-->

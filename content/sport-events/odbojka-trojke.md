@@ -1,5 +1,5 @@
 ---
-title: Odbojka trojke
+title: ODBOJKA TROJKE
 location: " Rožna dolina, odbojkarsko igrišče na mivki"
 date: 2024-05-21T11:00:27.996Z
 price: 6 €

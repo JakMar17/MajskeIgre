@@ -1,5 +1,5 @@
 ---
-title: Odbojka 4+2
+title: ODBOJKA 4+2
 location: " Rožna dolina, odbojkarsko igrišče na mivki"
 date: 2024-05-12T13:00:45.036Z
 price: 6 €

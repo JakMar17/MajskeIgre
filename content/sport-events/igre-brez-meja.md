@@ -2,7 +2,9 @@
 title: Igre brez meja
 location: Jasa na vrhu Rožnika
 date: 2024-04-15T14:03:46.951Z
-price: ZASTONJ
+price: brezplačno
+teamFormation: 8 tekmovalcev (4 moški + 4 ženske)
+registerLink: https://forms.gle/TvrJpwXBzNxoWBMT9
 description: >-
   <!--StartFragment-->
 
@@ -14,4 +16,5 @@ description: >-
 
 
   <!--EndFragment-->
+imageUrl: /img/igre-brez-meja.jpg
 ---

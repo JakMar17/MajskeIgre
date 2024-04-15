@@ -15,9 +15,7 @@ description: >-
   link za prijavo: <https://forms.gle/eDyPqYHxqKhNxWof6>
 
 
-  **Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk. Oba tekmovalca morata biti iz istega doma, da prineseta domu točke. V primeru, da par sestavljata stanovalca različnih domov, morata ob prijavi določiti, za kateri dom nabirata točke. Če je eden izmed dvojice stanovalec doma, drugi pa ni, dom prvega tekmovalca dobi točke, če se uvrstita med prve tri.**
-
-
+  **Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk. Oba tekmovalca morata biti iz istega doma, da prineseta domu točke.**
 
 
   <!--EndFragment-->

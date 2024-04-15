@@ -17,4 +17,5 @@ description: |-
 
 
   <!--EndFragment-->
+imageUrl: /img/woop-climbing.jpg
 ---

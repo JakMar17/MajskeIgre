@@ -1,5 +1,5 @@
 ---
-title: Woop! IZZIVI
+title: WOOP! IZZIVI
 location: " WOOP! Enota v Supernovi, Rudnik"
 date: 2024-05-15T16:00:42.919Z
 price: 8 €

@@ -1,5 +1,5 @@
 ---
-title: Košarka
+title: KOŠARKA
 location: " Rožna dolina, športna dvorana"
 date: 2024-05-15T07:00:58.355Z
 price: 6 €

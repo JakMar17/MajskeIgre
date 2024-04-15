@@ -1,7 +1,7 @@
 ---
 title: Nogomet 2. del - PREVERI URO
 location: " Rožna dolina, nogometno igrišče."
-date: 2024-05-14T12:15:47.257Z
+date: 2024-05-14T08:00:00.000Z
 description: >-
   <!--StartFragment-->
 
@@ -12,4 +12,5 @@ description: >-
 
 
   <!--EndFragment-->
+imageUrl: /img/nogomet-2.del.jpg
 ---

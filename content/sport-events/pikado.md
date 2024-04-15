@@ -1,5 +1,5 @@
 ---
-title: Pikado
+title: PIKADO
 location: ŠD Gerbičeva 59
 date: 2024-05-14T14:00:52.708Z
 price: 6 €

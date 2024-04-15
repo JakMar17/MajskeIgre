@@ -19,4 +19,5 @@ description: >-
 
 
   <!--EndFragment-->
+imageUrl: /img/košarka.jpg
 ---

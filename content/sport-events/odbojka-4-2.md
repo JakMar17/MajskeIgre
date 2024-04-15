@@ -18,4 +18,5 @@ description: >-
 
 
   <!--EndFragment-->
+imageUrl: /img/odbojka-4-2.jpg
 ---

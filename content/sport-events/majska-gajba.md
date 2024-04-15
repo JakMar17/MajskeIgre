@@ -1,5 +1,5 @@
 ---
-title: Majska gajba
+title: MAJSKA GAJBA
 location: Rožna dolina in Rožnik, zbor pred domom III
 date: 2024-05-22T12:00:00.000Z
 price: 8 €

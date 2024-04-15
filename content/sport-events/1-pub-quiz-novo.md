@@ -1,5 +1,5 @@
 ---
-title: 1.  PUB QUIZ  (Novo)
+title: 1.  PUB QUIZ  (NOVO)
 location: Dom 11
 date: 2024-05-08T16:00:00.000Z
 price: 8 €

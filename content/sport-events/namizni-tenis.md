@@ -1,5 +1,5 @@
 ---
-title: Namizni tenis
+title: NAMIZNI TENIS
 location: Rožna dolina, športna dvorana
 date: 2024-05-20T10:00:10.417Z
 price: 6 €

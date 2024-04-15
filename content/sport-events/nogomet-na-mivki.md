@@ -1,5 +1,5 @@
 ---
-title: Nogomet na mivki
+title: NOGOMET NA MIVKI
 location: Rožna dolina, odbojkarsko igrišče na mivki
 date: 2024-05-16T14:00:19.657Z
 price: 6 €

@@ -1,5 +1,5 @@
 ---
-title: 3. PUB QUIZ (Novo)
+title: 3. PUB QUIZ (NOVO)
 location: ŠD Gerbičeva 59
 date: 2024-05-15T17:00:00.000Z
 price: 8 €

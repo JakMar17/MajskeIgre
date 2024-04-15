@@ -2,7 +2,7 @@
 title: Majsko brucovanje
 location: " Rožna dolina, pred domom IV"
 date: 2024-05-07T14:00:00.000Z
-price: brezplačno
+price: Brezplačno
 teamFormation: Ekipe z minimalno 6 bruci
 registerLink: Pri predstavnikih domov
 description: >-

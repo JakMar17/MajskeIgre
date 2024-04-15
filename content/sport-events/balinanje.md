@@ -1,5 +1,5 @@
 ---
-title: Balinanje
+title: BALINANJE
 location: Rožna dolina, pred domom I
 date: 2024-05-13T13:00:38.990Z
 price: 6 €

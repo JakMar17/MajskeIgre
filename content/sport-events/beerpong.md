@@ -1,5 +1,5 @@
 ---
-title: Beerpong
+title: BEERPONG
 location: " Rožna dolina, nogometno igrišče"
 date: 2024-05-20T14:00:16.347Z
 price: 8 €

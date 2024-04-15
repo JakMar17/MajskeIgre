@@ -3,7 +3,7 @@ title: 1.  PUB QUIZ  (Novo)
 location: Dom 11
 date: 2024-05-08T16:00:00.000Z
 price: 8 €
-teamFormation: Ekipe po 4 tekmovalcev
+teamFormation: Ekipe po 4 tekmovalce
 registerLink: https://forms.gle/99kHjJDy3Aznw17B8
 description: >-
   <!--StartFragment-->

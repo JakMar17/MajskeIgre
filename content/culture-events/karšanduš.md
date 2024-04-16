@@ -1,6 +1,7 @@
 ---
 title: Karšanduš
 date: 2024-05-20T19:01:38.086Z
+imageUrl: /img/33456.jpg
 events:
   - time: 17:00
     title: "DrogArt: Izpitni doping"
@@ -15,7 +16,7 @@ events:
 
       Katere substance se za ta namen najpogosteje uporabljajo, kakšne so posledice njihove uporabe, ali so zares učinkovite in kako lahko zmanjšamo škodo, če se odločimo za uporabo bodo teme predavanja, ki ga organizira združenje DrogArt.
     imageUrl: /img/nootropiki.jpg.webp
-    location: menza Rožna Ku'hna
+    location: Menza Rožna Ku'hna (mala kulturna dvorana)
   - time: 18:30
     title: Amy's escape
     description: Amy's Escape smo Janez, Jernej, Niko in Žan. Naša glasba se
@@ -31,12 +32,22 @@ events:
     description: |-
       Razglasitev zmagovalcev ter podelitev nagrad za naslednje športe: 
 
-      Badminton, Namizni tenis, Beerpong, Poker
+      **Badminton, Namizni tenis, Beerpong, Poker**
   - time: 20:15
     title: Mojstri pasivne agresije
-    description: So glasbeni trio, nastal nekje na poti iz Mozirja v sosednje
-      Nazarje. Spogledujejo se predvsem z rokovsko enostavnostjo in punkovsko
-      iskrenostjo.
+    description: Mojstri pasivne agresije so glasbeni trio, nastal nekje na poti iz
+      Mozirja v sosednje Nazarje. Skozi dva kraja, ki na zemljevidu slovenskega
+      modernega rocka nimata večje prepoznavnosti, je tokrat potegnil veter, ki
+      se ne obrača po vseh nujnih zakonitostih, ampak piha skozi špranje,
+      kolikor je to mogoče nedorečenega v tej glasbeni kategoriji. Spogledujejo
+      se predvsem z rokovsko enostavnostjo in punkovsko iskrenostjo.  Zasedba,
+      ki je po arzenalu minimalistična (boben, bas in kitara), ustvarja precej
+      masiven zvok, ki daje kanček prednosti ritmu pred melodijo in ga na
+      momente zanaša v funk. Zdi se, da si fantje želijo plesa. Pa ne pasivno
+      agresivnega plesa z vsemi mogočimi maskami, ki si jih ljudje lahko
+      nadanemo, ampak iskrenega, divjega, preprostega plesa, ki spaja človeške
+      duhove od začetka civilizacije.
+    imageUrl: /img/mpa_foto-2.jpg
   - time: 21:30
     title: UM & KUNA
     description: >-

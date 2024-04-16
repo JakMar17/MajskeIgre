@@ -78,7 +78,7 @@ events:
       Kaj vzameš?
 
 
-      Sara Gradišnik (2000) je magistrska študentka Komunikologije - medijskih in komunikacijskih študij, na Fakulteti za družbene vede Univerze v Ljubljani. Svoje fotografije je razstavljala v sklopu Festivala fotografije Maribor 2019 in 2022 ter projekta Kulturcollage, študentske iniciative Univerze v Lüneburgu Leuphana. ŠDL pa ji je lani spomladi ponudil prostor za svojo prvo samostojno razstavo z naslovom Analogni odmevi. Analogna fotografija jo je pritegnila s svojo originalnostjo, vznemirljivim procesom razvijanja ter nenehnimi presenečenji, ki jih predstavljajo rezultati.
+      **Sara Gradišnik** (2000) je magistrska študentka Komunikologije - medijskih in komunikacijskih študij, na Fakulteti za družbene vede Univerze v Ljubljani. Svoje fotografije je razstavljala v sklopu Festivala fotografije Maribor 2019 in 2022 ter projekta Kulturcollage, študentske iniciative Univerze v Lüneburgu Leuphana. ŠDL pa ji je lani spomladi ponudil prostor za svojo prvo samostojno razstavo z naslovom Analogni odmevi. Analogna fotografija jo je pritegnila s svojo originalnostjo, vznemirljivim procesom razvijanja ter nenehnimi presenečenji, ki jih predstavljajo rezultati.
   - time: 17:30
     title: Delavnica kvačkanja
     description: Na delavnici bomo spoznali osnove izdelave kvačkanja in skupaj

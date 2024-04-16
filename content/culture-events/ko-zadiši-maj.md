@@ -1,7 +1,7 @@
 ---
 title: Ko maj zadiši
 date: 2023-05-07T16:09:48.203Z
-imageUrl: ""
+imageUrl: /img/280477837_5617490551628304_1249485816069721341_n.jpg
 events:
   - title: Majski bograč
     description: >-

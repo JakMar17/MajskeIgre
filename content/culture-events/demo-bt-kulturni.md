@@ -90,7 +90,7 @@ events:
     price: Brezplačno
   - time: 19:00
     title: Midnight Nick
-    description: Smo Midnight Nick, prvi slovenski indie band s 4 fanti :^)  Svojo
+    description: Smo Midnight Nick, prvi slovenski indie band s štirimi fanti. Svojo
       pot smo začeli pred 2 letoma v šolskih kleteh v Celju, sedaj pa teče že
       drugo leto v kleteh po Ljubljani (smo le broke študentje).V tem času smo
       napisali že precejšen sveženj komadov in izdali pesem Polnočna
@@ -109,9 +109,9 @@ events:
     description: Žavbi brothers je skupina šestih bratov Žavbi. Band, ki je nastal
       doma in tam tudi živi. Nedavno so izdali svoj prvi avtorski album
       poimenovan Mali raj. Zasedbo sestavljajo Tadej, Matija, Jernej, Marko,
-      Luka in Tomaž, ki igrajo na različne instrumente in ob tem pojejo.
+      Luka in Tomaž, ki igrajo na različne inštrumente in ob tem pojejo.
       Večglasje krasi večino pesmi iz njihovega glasbenega opusa, ki skupaj z
-      instrumentalom sestavlja zmes folk-a in pop-rocka.
+      glasbili ustvarja zmes folk-a in pop-rocka.
     imageUrl: /img/img-0612.jpg
   - time: "21.20"
     title: Stand up mlade nade

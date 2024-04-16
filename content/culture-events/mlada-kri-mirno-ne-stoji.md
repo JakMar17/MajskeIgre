@@ -10,6 +10,8 @@ events:
       katerih ste se naveličali je izmenjevalnica za vas. Nikar ne zamudi
       priložnosti, da svoje zamenjaš z drugimi.
     imageUrl: /img/284718631_5674889942555031_906089780768791832_n.jpg
+    location: Kulturni otoček za domom III, v primeru slabega vremena se prestavi v
+      menzo Rožna Ku'hna
   - time: 18:00
     title: Delavnica španščine, izvaja Zavod ŠOLT
     description: Pridružite se nam na naši delavnici španskega jezika, kjer boste
@@ -18,6 +20,7 @@ events:
       učenja, ki vam bo odprl vrata v svet španskega jezika! Potrebna je prijava
       preko spletne strani.
     imageUrl: /img/spain-flag.jpg
+    registerLink: https://forms.gle/BhojXgPd6FsEoKzu6
   - time: 18:30
     title: Audioholik 'loop sesh'
     description: >-
@@ -43,7 +46,7 @@ events:
     description: |-
       Razglasitev zmagovalcev ter podelitev nagrad za naslednje športe: 
 
-      Odbojka 4+2, Balinanje
+      **Odbojka 4+2, Balinanje**
   - time: 20:15
     title: Cona 40
     description: >-
@@ -64,14 +67,11 @@ events:
     imageUrl: /img/cona40_3.jpg
   - time: 21:30
     title: Tambura Team
-    description: >-
-      TamburaTeam smo štirje mladi "mwži" iz Vipave in tam okrog. Smo akustična
-      zasedba, ki jo sestavljajo bobni, kontrabas,
-
-      akustična kitara in brač(tamburica). Delujemo od avgusta 2016 in se zaenkrat še razumemo. Stilsko nismo opredeljeni, vseeno
-
-      pa se pri našem ustvarjanju čuti etno vpliv. Konec septembra 2023 smo izdali naš prvi album Se N' Mudi, ki smo ga napovedali s
-
-      prej izdanima singloma Jamr in Ko te jebe.
+    description: TamburaTeam smo štirje mladi "mwži" iz Vipave in tam okrog. Smo
+      akustična zasedba, ki jo sestavljajo bobni, kontrabas, akustična kitara in
+      brač(tamburica). Delujemo od avgusta 2016 in se zaenkrat še razumemo.
+      Stilsko nismo opredeljeni, vseeno pa se pri našem ustvarjanju čuti etno
+      vpliv. Konec septembra 2023 smo izdali naš prvi album Se N' Mudi, ki smo
+      ga napovedali s prej izdanima singloma Jamr in Ko te jebe.
     imageUrl: /img/tamburateam-slika-2.jpg
 ---

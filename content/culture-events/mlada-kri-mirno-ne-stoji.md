@@ -7,8 +7,8 @@ events:
     title: Študentska izmenjevalnica
     description: Skozi celotne Majske igre se vam bo nabralo precej spominov, hkrati
       pa tudi kosov oblačil ter knjig, morda tudi kakšen kaktus več. Razumljivo
-      je, da bi spomine radi ohranili a če ne veste kaj bi z ostalimi rečmi
-      katerih ste se naveličali je izmenjevalnica za vas. Nikar ne zamudi
+      je, da bi spomine radi ohranili, a če ne veste kaj bi z ostalimi rečmi
+      katerih ste se naveličali, je izmenjevalnica za vas. Nikar ne zamudi
       priložnosti, da svoje zamenjaš z drugimi.
     imageUrl: /img/284718631_5674889942555031_906089780768791832_n.jpg
     location: Kulturni otoček za domom III, v primeru slabega vremena se prestavi v

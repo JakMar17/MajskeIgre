@@ -1,18 +1,22 @@
 ---
 title: Šan lejp tih večjr
 date: 2024-05-21T19:29:25.104Z
+imageUrl: /img/280448089_5631346656909360_368810459111457446_n.jpg
 events:
   - time: 17:00
     title: Akrojoga
     description: >-
-      Akrojoga združuje elemente joge, akrobatike in partnerstva za razvoj
-      ravnotežja, moči in prožnosti. Pridi in se nam pridruži na delavnici na
-      zelenici pred domom IV. Delavnica je brezplačna vendar zahteva prijavo
-      preko spletne strani.
+      Se želite preizkusiti v vlogi pravega akrobata? Potem je akrojoga čudovita
+      priložnost, da na zabaven in enostaven način prepoznate nove zmožnosti
+      svojega telesa. V parih in trojkah se bomo poigrali z malce manj
+      vsakdanjimi perspektivami na svet. 
 
 
       S sabo je potrebno prinesti podlogo za telovadbo.
-    imageUrl: /img/img_2512-1-2.jpg
+    imageUrl: /img/screenshot-2024-04-16-at-14.12.59.png
+    location: Zelenica pred domom IV
+    price: Brezplačno
+    registerLink: https://forms.gle/MowdMraiWNH51ufy5
   - time: 17:30
     title: Delavnica retorike, izvaja Zavod ŠOLT
     description: Vam zmanjka besed takrat, ko bi jih najbolj potrebovali? Pred
@@ -21,6 +25,9 @@ events:
       zapisanih vprašanj, je ta delavnica prava odločitev za vas! Delavnica je
       brezplačna vendar zahteva prijavo preko spletne strani.
     imageUrl: /img/pexels-photo-1-.jpg
+    price: Brezplačno
+    location: Menza Rožna Ku'hna (mala kulturna dvorana)
+    registerLink: https://forms.gle/X5HhoGrGJx9wf93w8
   - time: 18:30
     title: Slackline delavnica
     description: Slackline je zabavna in dinamična aktivnost, ki zahteva ravnotežje,
@@ -28,12 +35,14 @@ events:
       dvemi drevesi. Na delavnici boste spoznali osnove, ki vam bodo pomagale
       ohranjati ravnotežje za hojo po vrvi.
     imageUrl: /img/screenshot-2024-04-15-at-21.34.59.png
+    location: Kulturni otoček za domom III
+    price: Brezplačno
   - time: 20:00
     title: Podelitev medalj
     description: |-
       Razglasitev zmagovalcev ter podelitev nagrad za naslednje športe: 
 
-      Odbojka trojke, Enka, Kronometer
+      **Odbojka trojke, Enka, Kronometer**
   - time: 20:15
     title: Bend 212
     description: >-

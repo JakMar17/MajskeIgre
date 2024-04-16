@@ -1,7 +1,7 @@
 ---
 title: Majska uvertura
 date: 2023-05-08T16:32:24.460Z
-imageUrl: ""
+imageUrl: /img/naslovna-2.jpg
 events:
   - time: 16:00
     title: Slikanje platna
@@ -9,6 +9,7 @@ events:
       študentskih družin in vsem otrokom po duši. Končna umetnina bo krasila
       oder kulturnih otočkov skozi ves maj.
     imageUrl: /img/342571791_260497919748266_5359055210999016302_n.jpg
+    location: Kulturni otoček
   - time: 16:30
     title: "Otvoritev fotografske razstave Srečanja: Analogne fotografije"
     location: Menza Rožna Kuh´na
@@ -84,6 +85,8 @@ events:
       začeli kvačkati enostavnejši izdelek. Delavnica je brezplačna vendar
       zahteva prijavo preko spletnega obrazca.
     imageUrl: /img/unnamed.jpg
+    location: Kulturni otoček (v primeru slabega vremena se prestavi v Zavod ŠOLT)
+    registerLink: https://forms.gle/N8xQESC2aujpAhZB9
   - time: 19:00
     title: Midnight Nick
     description: Smo Midnight Nick, prvi slovenski indie band s 4 fanti :^)  Svojo

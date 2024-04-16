@@ -1,7 +1,7 @@
 ---
 title: Majska uvertura
 date: 2023-05-08T16:32:24.460Z
-imageUrl: /img/naslovna-2.jpg
+imageUrl: /img/slideshow-5.jpg
 events:
   - time: 16:00
     title: Slikanje platna

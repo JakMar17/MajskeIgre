@@ -15,6 +15,6 @@ events:
     imageUrl: /img/280478435_5617493311628028_7419904112479044013_n.jpg
     time: 09:00
     location: Rožna dolina, teniško igrišče
-    price: 50€ / skupino
+    price: 55€ / skupino
     registerLink: https://forms.gle/Sbc1EqSHcrsV2Mdv6
 ---

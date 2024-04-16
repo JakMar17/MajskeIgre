@@ -87,6 +87,7 @@ events:
     imageUrl: /img/unnamed.jpg
     location: Kulturni otoček (v primeru slabega vremena se prestavi v Zavod ŠOLT)
     registerLink: https://forms.gle/N8xQESC2aujpAhZB9
+    price: Brezplačno
   - time: 19:00
     title: Midnight Nick
     description: Smo Midnight Nick, prvi slovenski indie band s 4 fanti :^)  Svojo
@@ -102,7 +103,7 @@ events:
     description: |-
       Razglasitev zmagovalcev ter podelitev nagrad za naslednje športe: 
 
-      Odbojka pari, Človek ne jezi se, Strelastika
+      **Odbojka pari, Človek ne jezi se, Strelastika**
   - time: 20:15
     title: Žavbi brothers
     description: Žavbi brothers je skupina šestih bratov Žavbi. Band, ki je nastal
@@ -115,6 +116,7 @@ events:
   - time: "21.20"
     title: Stand up mlade nade
     description: Mladi upi stand-upi. Nastop komikov, ki jih boste imeli med prvimi
-      priložnost videti na odru.
+      priložnost videti na odru. Če tudi sam želiš nastopiti na odru kulture,
+      nam piši na kultura@ssvets.si.
     imageUrl: /img/344755218_897528011315494_9068761242707688305_n.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 title: Mlada kri mirno ne stoji
 date: 2024-05-13T18:14:05.893Z
+imageUrl: /img/slideshow-3.jpg
 events:
   - time: 16:00
     title: Študentska izmenjevalnica

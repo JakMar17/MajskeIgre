@@ -30,7 +30,7 @@ events:
       Kavcija za stekleni kozarec: 5€ (se vrne ob prevzemu kozarca)
 
 
-      Prijava je uspešna s plačilom na info točki (dom III Rožna dolina) in ne z izpolnjenim obrazcem
+      Prijava je uspešna s plačilom na info točki (dom III Rožna dolina) in ne z izpolnjenim obrazcem.
 
 
       Prijave so odprte do ponedeljka 13.5. oz. zapolnitve mest.

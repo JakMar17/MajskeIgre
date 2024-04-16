@@ -25,9 +25,9 @@ events:
   - time: 18:30
     title: Audioholik 'loop sesh'
     description: >-
-      Matej Srebrnič je multi-inštrumentalist in glasbeni producent, ki ustvarja
-      pod umetniškim imenom AUDIOHOLIK. S glasbo se je začel ukvarjati pri 15ih
-      letih, kot samouk v punk skupini Pigs Parlament, s katero igra še
+      **Matej Srebrnič** je multi-inštrumentalist in glasbeni producent, ki
+      ustvarja pod umetniškim imenom AUDIOHOLIK. S glasbo se je začel ukvarjati
+      pri 15ih letih, kot samouk v punk skupini Pigs Parlament, s katero igra še
       dandanes. Prve posnetke omenjene skupine je začel sam snemati in se tako
       nehote spustil v snemalne vode, saj so ga ostale skupine takoj zaposlile s
       snemanjem njihovih zgoščenk. Tako je sčasoma pristal v profesionalno delo

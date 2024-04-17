@@ -1,6 +1,6 @@
 ---
 title: ROČNI NOGOMET
-location: Rožna dolina, za domom 3
+location: Rožna dolina, za domom III
 date: 2024-05-27T14:00:00.000Z
 price: 6 €
 teamFormation: Dvojice

@@ -4,6 +4,7 @@ location: Woop karting, BTC
 date: 2024-05-21T16:00:38.331Z
 price: 8 €
 teamFormation: Posamezno
+registerLink: https://forms.gle/tiGRdakUrXwZXdfJ8
 description: >-
   <!--StartFragment-->
 

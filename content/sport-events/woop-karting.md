@@ -20,4 +20,5 @@ description: >-
 
 
   <!--EndFragment-->
+imageUrl: /img/karting.jpg
 ---

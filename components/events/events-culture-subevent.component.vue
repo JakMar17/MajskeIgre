@@ -11,6 +11,15 @@
         <i class="ri-money-euro-circle-fill"></i>
         <div class="has-text-weight-bold">{{ event.price }}</div>
       </div>
+      <div v-if="event.registerLink" class="content__header-row">
+        <i class="ri-edit-line"></i>
+        <div class="has-text-weight-bold">
+          <a :href="event.registerLink" target="_blank" v-if="isRegisterLinkValidUrl">
+            {{event.registerLink}}
+          </a>
+          <span v-else>{{event.registerLink}}</span>
+        </div>
+      </div>
     </div>
 
     <ContentRendererMarkdown v-if="parsedDescriptionRef" :value="parsedDescriptionRef"/>
@@ -39,6 +48,14 @@ const toggleDetails = () => {
     setTimeout(() => elementRef.value?.scrollIntoView({behavior: 'smooth'}), 100);
   }
 }
+
+const isRegisterLinkValidUrl = computed(() => {
+  try {
+    return Boolean(new URL(event.value.registerLink));
+  } catch (e) {
+    return false;
+  }
+});
 
 </script>
 

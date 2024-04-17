@@ -1,6 +1,6 @@
 ---
 title: ODBOJKA TROJKE
-location: " Rožna dolina, odbojkarsko igrišče na mivki"
+location: Rožna dolina, odbojkarsko igrišče na mivki
 date: 2024-05-21T11:00:27.996Z
 price: 6 €
 teamFormation: " 3 + 1 rezerva. Vsaj eno dekle v ekipi."
@@ -14,7 +14,7 @@ description: >-
 
   **Turnir je namenjen vsem študentom. Če tekmujete v okviru študentskega doma, mora ekipo sestavljati VEČ kot polovica stanovalcev istega doma, hkrati pa se morate uvrstiti med najboljše tri. Prva ekipa prejme 12 točk, druga 10 točk ter tretja 8 točk.**
 
-   Disciplina je omejena na 64 ekip , ki prve plačajo prijavnino  
+   Disciplina je omejena na 64 ekip, ki prve plačajo prijavnino.
 
   <!--EndFragment-->
 imageUrl: /img/odbojka-trojke.jpg

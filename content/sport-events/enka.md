@@ -1,6 +1,6 @@
 ---
 title: ENKA
-location: Rožna dolina, odbojkarsko igrišče na mivki
+location: " Rožna dolina, Rožna Kuh'na"
 date: 2024-05-21T11:00:05.039Z
 price: 6 €
 teamFormation: Posamezno

@@ -176,17 +176,17 @@ hr {
     text-align: center;
     color: white;
 
-    text-decoration: underline transparent;
-    transition: text-decoration-color 0.25s ease-in-out;
+    transition: text-decoration-color 0.125s ease-in;
 
     &:hover {
-      text-decoration-color: white;
+      text-decoration: underline white;
     }
   }
 }
 
 .text {
   &__has-shadow {
+    text-decoration-color: transparent;
     text-shadow: 0.15rem 0.15rem 0.25rem rgba(0, 0, 0, 0.75);
   }
 }

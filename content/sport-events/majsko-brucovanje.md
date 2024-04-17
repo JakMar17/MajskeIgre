@@ -3,7 +3,7 @@ title: MAJSKO BRUCOVANJE
 location: " Rožna dolina, pred domom IV"
 date: 2024-05-07T14:00:00.000Z
 price: Brezplačno
-teamFormation: Ekipe z minimalno 6 bruci
+teamFormation: 8 tekmovalcev (4 moški + 4 ženske)
 registerLink: Pri predstavnikih domov
 description: >-
   <!--StartFragment-->

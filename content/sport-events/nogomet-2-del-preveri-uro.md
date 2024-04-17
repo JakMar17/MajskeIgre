@@ -1,6 +1,6 @@
 ---
 title: NOGOMET 2. del
-location: " Rožna dolina, nogometno igrišče."
+location: Rožna dolina, nogometno igrišče.
 date: 2024-05-14T09:00:00.000Z
 price: /
 description: >-

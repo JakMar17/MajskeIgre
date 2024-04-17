@@ -24,7 +24,7 @@
 
     <ContentRendererMarkdown v-if="parsedDescriptionRef" :value="parsedDescriptionRef"/>
 
-    <img v-if="event.imageUrl" :src="event.imageUrl" alt="event image" class="mt-4"/>
+    <EventsImageSubeventComponent v-if="event.imageUrl" :imageUrl="event.imageUrl"/>
   </div>
 </template>
 

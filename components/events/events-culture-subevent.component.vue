@@ -15,16 +15,15 @@
         <i class="ri-edit-line"></i>
         <div class="has-text-weight-bold">
           <a :href="event.registerLink" target="_blank" v-if="isRegisterLinkValidUrl">
-            {{event.registerLink}}
+            {{ event.registerLink }}
           </a>
-          <span v-else>{{event.registerLink}}</span>
+          <span v-else>{{ event.registerLink }}</span>
         </div>
       </div>
     </div>
 
     <ContentRendererMarkdown v-if="parsedDescriptionRef" :value="parsedDescriptionRef"/>
-
-    <img v-if="event.imageUrl" :src="event.imageUrl" alt="event image" class="mt-4"/>
+    <EventsImageSubeventComponent v-if="event.imageUrl" :imageUrl="event.imageUrl"/>
   </div>
 </template>
 
@@ -44,7 +43,7 @@ parseMarkdown(event.value.description).then((d) => parsedDescriptionRef.value = 
 
 const toggleDetails = () => {
   showDetailsRef.value = !showDetailsRef.value;
-  if(showDetailsRef.value) {
+  if (showDetailsRef.value) {
     setTimeout(() => elementRef.value?.scrollIntoView({behavior: 'smooth'}), 100);
   }
 }

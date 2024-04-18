@@ -14,7 +14,7 @@ description: >-
 
   **Turnir je namenjen vsem študentom. Če tekmujete v okviru študentskega doma, mora ekipo sestavljati VEČ kot polovica stanovalcev istega doma, hkrati pa se morate uvrstiti med najboljše tri. Prva ekipa prejme 12 točk, druga 10 točk ter tretja 8 točk.**
 
-   Disciplina je omejena na 64 ekip, ki prve plačajo prijavnino.
+   **Disciplina je omejena na 64 ekip.** **Prijavnino je potrebno poravnati najpozneje do 17.5. V nasprotnem primeru bomo prijavo zbrisali in ponovno odprli prijavni obrazec ter sproščena mesta prepustili prvim ekipam, ki na info točki poravnajo prijavnino.** 
 
   <!--EndFragment-->
 imageUrl: /img/odbojka-trojke.jpg

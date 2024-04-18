@@ -1,7 +1,7 @@
 ---
 title: ENKA
 location: " Rožna dolina, Rožna Kuh'na"
-date: 2024-05-21T11:00:05.039Z
+date: 2024-05-21T14:00:00.000Z
 price: 6 €
 teamFormation: Posamezno
 registerLink: https://forms.gle/WdF2jLwZejjneThi8

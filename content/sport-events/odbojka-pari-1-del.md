@@ -15,7 +15,10 @@ description: >-
   števila prijav. Na vseh tekmah do finala se bo igralo na en dobljeni set do 21
   točk, v finalu pa bosta ekipi za zmago potrebovali dva dobljena seta, ki se
   bosta igrala do 15 točk. Turnirja se lahko udeležijo vsi študentje. Disciplina
-  je **omejena na 64 parov ki prvi poravnajo prijavnino.**
+  je **omejena na 64 parov. Prijavnino je potrebno poravnati najpozneje do 6.5.
+  V nasprotnem primeru bomo prijavo zbrisali in ponovno odprli prijavni obrazec
+  ter sproščena mesta prepustili prvim ekipam, ki na info točki poravnajo
+  prijavnino.** 
 
 
   **Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk. Oba tekmovalca morata biti iz istega doma, da prineseta svojemu domu točke. Če sta oba tekmovalca iz različnih domov, izbereta za kateri dom bodo štele točke. Če je en član iz doma, drug pa ne, ne dobista točk.**

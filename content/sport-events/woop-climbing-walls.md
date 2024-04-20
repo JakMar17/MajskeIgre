@@ -15,7 +15,7 @@ description: >-
   **Zbor na lokaciji je pol ure pred začetkom, torej ob 17:30.**
 
 
-  Disciplina je **omejena na 20 tekmovalcev. Prijavnino je potrebno poravnati najpozneje do 30.4. V nasprotnem primeru bomo prijavo zbrisali in ponovno odprli prijavni obrazec ter sproščena mesta prepustili prvim ekipam, ki na info točki poravnajo prijavnino.** 
+  Disciplina je **omejena na 20 tekmovalcev. Prijavnino je potrebno poravnati najpozneje do 25.4. V nasprotnem primeru bomo prijavo zbrisali in ponovno odprli prijavni obrazec ter sproščena mesta prepustili prvim ekipam, ki na info točki poravnajo prijavnino.** 
 
 
   **Šport ne šteje za točkovanje v tekmovanju študentskih domov.**

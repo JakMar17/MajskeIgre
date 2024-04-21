@@ -3,7 +3,7 @@ title: WOOP! LASER TAG (NOVO)
 location: WOOP! Arena, BTC
 date: 2024-05-23T16:30:00.000Z
 price: 8 €
-teamFormation: Ekipe po 6
+teamFormation: Ekipe po 6 tekmovalcev
 registerLink: https://forms.gle/e91Bq8N1pw3T7Sg49
 description: >-
   <!--StartFragment-->

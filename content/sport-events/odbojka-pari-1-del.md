@@ -1,5 +1,5 @@
 ---
-title: ODBOJKA PARI
+title: ODBOJKA PARI (MOŠKI)
 location: Rožna dolina in Mestni log, odbojkarsko igrišče na mivki
 date: 2024-05-08T10:00:50.006Z
 price: 6 €

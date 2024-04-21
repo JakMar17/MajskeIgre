@@ -1,7 +1,7 @@
 <template>
   <main class="wrapper">
     <HeaderLogoComponent/>
-    <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef.description"/>
+    <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef?.description"/>
     <section v-if="showScheduleRef" class="concert__section" v-for="(concert, index) in concertsRef">
       <div class="concert__title__wrapper">
         <div class="container concert__title__container">
@@ -15,7 +15,7 @@
 
     <EventsNoContentComponent v-else type="zabava" title="Kdo bo stopil na oder je še skrivnost" content="...a ne za dolgo - spremljaj naša socialna omrežja in bodi prvi, ki boš izvedel!"/>
     <div v-if="descriptionRef?.additionalInfo" style="padding-bottom: 3em">
-      <CardComponent :content="descriptionRef.additionalInfo"/>
+      <CardComponent :content="descriptionRef?.additionalInfo"/>
     </div>
   </main>
 </template>
@@ -29,7 +29,7 @@ const concertsRef = ref<ConcertEventModel[]>([]);
 const descriptionRef = ref<DescriptionModel | null>(null);
 const showScheduleRef = ref<boolean>(false);
 
-useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descriptions/concert').findOne().then((description) => {
+const fetchDescription = () => queryContent<DescriptionModel>('descriptions/concert').findOne().then((description) => {
   descriptionRef.value = description;
   showScheduleRef.value = description.showSchedule;
   createSeoFunction({
@@ -37,14 +37,21 @@ useAsyncData('fetchDescription', () => queryContent<DescriptionModel>('descripti
     description: description.description,
     imageUrl: description.coverImage
   });
-}));
+})
 
-useAsyncData('fetchConcerts', () => queryContent<ConcertEventModel>('concerts').sort({date: 1}).find().then((concerts) => {
+const fetchConcerts = () => queryContent<ConcertEventModel>('concerts').sort({date: 1}).find().then((concerts) => {
   concertsRef.value = (concerts ?? []).map(v => {
     v.date = new Date(v.date).toLocaleDateString();
     return v;
   });
-}));
+});
+
+
+useAsyncData('fetchData', () => {
+  fetchDescription();
+  fetchConcerts();
+});
+
 </script>
 
 <style lang="scss" scoped>

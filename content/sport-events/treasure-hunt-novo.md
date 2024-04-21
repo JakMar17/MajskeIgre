@@ -11,6 +11,11 @@ description: >-
   Novost letošnjih Majskih iger je Treasure Hunt! Domske ekipe boste raziskovale Ljubljano, skušale razvozlati namige in karseda najhitreje rešiti skrivnostne uganke. Vsak dom lahko prijavi eno ekipo, ki je sestavljena izključno **iz 4 članov, ki prihajajo z istega doma.**
 
 
+
+
+  **D﻿isciplina je namenjena samo stanovalcem študentskih domov.  Prijave potekajo pri predstavniku doma.** 
+
+
   <!--EndFragment-->
 imageUrl: /img/treasure.webp
 ---

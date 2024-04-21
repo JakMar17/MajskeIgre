@@ -2,7 +2,7 @@
   <h4 :ref="(el) => elementRef = el" @click="toggleDetails" class="has-text-info-dark is-clickable">{{ event.time }} - {{ event.title }}</h4>
   <div v-if="showDetailsRef" class="m-2">
 
-    <div v-if="event.location || event.price" class="mb-3">
+    <div v-if="event.location || event.price || event.registerLink" class="mb-3">
       <div v-if="event.location" class="content__header-row">
         <i class="ri-map-2-fill"></i>
         <div class="has-text-weight-bold">{{ event.location }}</div>
@@ -38,6 +38,7 @@ const showDetailsRef = ref<boolean>(false);
 
 const props = defineProps<{ event: CultureSubEventModel }>();
 const {event} = toRefs(props);
+console.log(event.value)
 
 parseMarkdown(event.value.description).then((d) => parsedDescriptionRef.value = d);
 

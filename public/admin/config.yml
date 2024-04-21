@@ -148,6 +148,35 @@ collections:
                 widget: "image"
 
 
+      - label: "Sponzorji dogodka"
+        name: "sponsors"
+        format: "json"
+        file: "content/majske-igre/sponsorsors.json"
+        create: true
+        slug: "{{slug}}"
+        fields:
+          - label: "Sponzorji opis"
+            name: "description"
+            widget: "markdown"
+          - label: "Sponzorji"
+            name: "sponsors"
+            widget: "list"
+            fields:
+              - label: "Ime sponzorja"
+                name: "name"
+                widget: "string"
+              - label: "Slika"
+                name: "imageUrl"
+                widget: "image"
+              - label: "Povezava"
+                name: "link"
+                widget: "string"
+              - label: "Tip sponzorja"
+                name: "type"
+                widget: "select"
+                options: ["Generalni", "XL", "L", "M", "S"]
+                default: "M"
+
   - name: "concerts"
     label: "Zabava"
     folder: "content/concerts"

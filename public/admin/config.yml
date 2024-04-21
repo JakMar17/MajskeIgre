@@ -151,13 +151,17 @@ collections:
       - label: "Sponzorji dogodka"
         name: "sponsors"
         format: "json"
-        file: "content/majske-igre/sponsorsors.json"
+        file: "content/majske-igre/sponsors.json"
         create: true
         slug: "{{slug}}"
         fields:
           - label: "Sponzorji opis"
             name: "description"
             widget: "markdown"
+          - label: "Pokaži sponzorje"
+            name: "showSponsors"
+            widget: "boolean"
+            default: false
           - label: "Sponzorji"
             name: "sponsors"
             widget: "list"
@@ -171,6 +175,7 @@ collections:
               - label: "Povezava"
                 name: "link"
                 widget: "string"
+                required: false
               - label: "Tip sponzorja"
                 name: "type"
                 widget: "select"

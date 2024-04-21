@@ -1,7 +1,7 @@
 ---
 title: ODBOJKA PARI (ŽENSKE)
 location: Rožna dolina in Mestni log, odbojkarsko igrišče na mivki
-date: 2024-05-07T22:00:01.995Z
+date: 2024-05-08T10:00:01.995Z
 price: 6 €
 teamFormation: Dvojice
 registerLink: https://forms.gle/uXVVmrXUndqEFKGj6

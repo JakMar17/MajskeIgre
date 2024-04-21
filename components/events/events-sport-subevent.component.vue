@@ -11,6 +11,10 @@
         <i class="ri-money-euro-circle-fill"></i>
         <div class="has-text-weight-bold">{{ event.price }}</div>
       </div>
+      <div v-if="event.teamFormation" class="content__header-row">
+        <i class="ri-team-fill"></i>
+        <div class="has-text-weight-bold">{{ event.teamFormation }}</div>
+      </div>
       <div v-if="event.registerLink" class="content__header-row">
         <i class="ri-edit-line"></i>
         <div class="has-text-weight-bold">

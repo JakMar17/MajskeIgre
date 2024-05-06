@@ -44,6 +44,13 @@
       "imageUrl": "/img/tjasa_brez.png.webp"
     },
     {
+      "name": "David Pivk",
+      "functionTitle": "pomočnik vodje zabave",
+      "email": "zabava@ssvets.si",
+      "phone": "041 277 391",
+      "imageUrl": "/img/david_brez.png"
+    },
+    {
       "name": "Žiga Gerdina",
       "functionTitle": "vodja kulturnega programa",
       "email": "kultura@ssvets.si",
@@ -84,13 +91,6 @@
       "phone": "041 925 325",
       "email": "gostinstvo@ssvets.si",
       "imageUrl": "/img/pero_brez.png.webp"
-    },
-    {
-      "name": "David Pivk",
-      "functionTitle": "pomočnik vodje zabave",
-      "email": "zabava@ssvets.si",
-      "phone": "041 277 391",
-      "imageUrl": "/img/david_brez.png"
     }
   ],
   "coverImg": "/img/organizator.webp"

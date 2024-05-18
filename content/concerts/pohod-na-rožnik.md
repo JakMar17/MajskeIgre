@@ -16,10 +16,14 @@ performers: >-
   # Big Foot Mama
 
 
-  ### Cover Lover
+  ### Cover Lover‎
 
 
+  ‎
 
 
-  ***K﻿oncert bo izveden na nadomestni lokaciji v Rožni dolini in ne na prvotni načrtovani jasi na Rožniku***
+  ‎
+
+
+  ***K﻿oncert bo izveden na nadomestni lokaciji v Rožni dolini in ne na prvotni načrtovani jasi na Rožniku - [izjava za javnost](https://ssvets.si/blog/objava/Izjava%20za%20javnost%3A%20Odhod%20z%20Ro%C5%BEnika)***
 ---

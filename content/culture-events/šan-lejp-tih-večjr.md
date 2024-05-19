@@ -18,13 +18,13 @@ events:
     price: Brezplačno
     registerLink: https://forms.gle/MowdMraiWNH51ufy5
   - time: 17:30
-    title: Delavnica retorike, izvaja Zavod ŠOLT
+    title: Delavnica retorike z Suzano Perman
     description: Vam zmanjka besed takrat, ko bi jih najbolj potrebovali? Pred
       zahtevnejšim pogovorom, nastopom, čutite cmok v grlu, metuljčke v želodcu
       in nestabilnost v nogah? Če lahko z DA odgovorite na katero izmed
       zapisanih vprašanj, je ta delavnica prava odločitev za vas! Delavnica je
       brezplačna vendar zahteva prijavo preko spletne strani.
-    imageUrl: /img/pexels-photo-1-.jpg
+    imageUrl: /img/dbec09c916ca2cfdf56a3f41ab17bf65.jpeg
     price: Brezplačno
     location: Menza Rožna Ku'hna (mala kulturna dvorana)
     registerLink: https://forms.gle/X5HhoGrGJx9wf93w8

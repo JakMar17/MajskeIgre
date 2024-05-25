@@ -21,5 +21,5 @@ description: >-
 
 
   **Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk. Oba tekmovalca morata biti iz istega doma, da prineseta svojemu domu točke. Če sta oba tekmovalca iz različnih domov, izbereta za kateri dom bodo štele točke. Če je en član iz doma, drug pa ne, ne dobista točk.**
-imageUrl: https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/345465316_713510534107910_1450461359224019041_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=P7tiPOiYsrUAb7WYdvT&_nc_ht=scontent-vie1-1.xx&oh=00_AfAAf5QlfEh3YfCEmdN-Q9UX1_PM4oonbUvb-FnLiFfTBA&oe=662B0560
+imageUrl: /img/odbojka-pari.jpg
 ---

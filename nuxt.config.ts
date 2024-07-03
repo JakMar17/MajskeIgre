@@ -27,6 +27,7 @@ export default defineNuxtConfig({
     ],
     modules: [
         '@nuxt/content',
+        'v-plausible'
     ],
     experimental: {
         payloadExtraction: false
@@ -35,5 +36,13 @@ export default defineNuxtConfig({
         public: {
             gtagId: "G-QLS16E0KC9"
         }
+    },
+    plausible: {
+        init: {
+            domain: 'majske-igre.si',
+            apiHost: 'https://plausible.sven.marela.team/',
+            trackLocalhost: false
+        },
+        partytown: false,
     }
 })

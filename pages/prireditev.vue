@@ -108,7 +108,6 @@ const contactLink = {
 }
 
 const descriptionRef = ref<MajskeDescriptionModel | null>(null);
-useAsyncData('fetchDescriptions', () => queryContent('descriptions/event').findOne()).then(console.log)
 
 useAsyncData('fetchDescriptions', () => queryContent<MajskeDescriptionModel>('descriptions/event').findOne())
     .then(({data}) => {

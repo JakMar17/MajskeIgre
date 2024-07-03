@@ -4,7 +4,7 @@ date: 2024-05-27T19:40:41.360Z
 imageUrl: /img/284640320_5674895309221161_226314858637169849_n.jpg
 events:
   - time: 16:00
-    title: Popravljalnica koles
+    title: Popravljalnica koles - Izvaja Zavod 404
     description: >-
       Če že ne boste šli maja s kolesom na faks, si ga pa vsaj pridite popravit.
       Sezona kolesarjenja je že v polnem teku, zato je skrajni čas, da si
@@ -14,7 +14,7 @@ events:
 
 
       Potrebno je pripeljati svoje kolo.
-    imageUrl: /img/servis_koles_trio_sport_grande.jpg.jxl
+    imageUrl: /img/screenshot-2024-05-23-at-17.52.14.png
     location: Kulturni otoček za domom III
     price: Brezplačno
   - time: 17:30

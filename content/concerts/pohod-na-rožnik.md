@@ -1,15 +1,29 @@
 ---
-title: Pohod na Rožnik
-location: jasa na Rožniku
+title: Odhod z Rožnika
+location: Rožna dolina
 date: 2024-05-22T11:31:05.899Z
 imageUrl: /img/fb_img_1709477320574.jpg.webp
-performers: "### Špatula\r
+performers: >-
+  ### Špatula
 
-  ### Šesti metek\r
 
-  ## Jet Black Diamonds\r
+  ### Šesti metek
 
-  # Big Foot Mama\r
 
-  ### Cover Lover"
+  ## Jet Black Diamonds
+
+
+  # Big Foot Mama
+
+
+  ### Cover Lover‎
+
+
+  ‎
+
+
+  ‎
+
+
+  ***K﻿oncert bo izveden na nadomestni lokaciji v Rožni dolini in ne na prvotni načrtovani jasi na Rožniku - [izjava za javnost](https://ssvets.si/blog/objava/Izjava%20za%20javnost%3A%20Odhod%20z%20Ro%C5%BEnika)***
 ---

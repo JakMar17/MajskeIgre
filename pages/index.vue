@@ -22,7 +22,7 @@ useAsyncData('fetchSlideshow', () => queryContent('slideshow').where({title: 'in
       if(data.value != null) {
         createSeoFunction({
           title: "Majske igre",
-          description: "Majske igre so največji študentski festival v Sloveniji, ki se odvija v Mariboru. Vsako leto se v okviru festivala odvijajo športne, kulturne in zabavne prireditve.",
+          description: "Majske igre so največji študentski festival v Sloveniji, ki se odvija v Ljubljani. Vsako leto se v okviru festivala odvijajo športne, kulturne in zabavne prireditve.",
           imageUrl: data.value?.images[0].image
         });
       }

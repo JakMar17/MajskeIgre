@@ -1,62 +1,64 @@
-# Nuxt 3 Minimal Starter (Typescript) / Vuetify 3.1.3
+<div align="center">
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Website][website-shield]][website-url]
+</div>
 
-## Setup
 
-Make sure to install the dependencies:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+<h1 align="center">Majske igre</h1>
 
-Required node version: >=19.0.0
+  <p align="center">
+    <b>Homepage of biggest student event in Slovenia</b>
+    <br />
+    <br />
+    <a href="https://majske-igre.si">🌐 Website</a>
+    ·
+    <a href="https://jakob.marela.team">🌐 My personal website</a>
+    ·
+    <a href="https://github.com/JakMar17">💼 Other projects</a>
+  </p>
+</div>
 
-Basic middleware was added to project for auth. You can use it as a template for your own middleware.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Auth middleware control in /composables/useAuth
+Majske igre is the biggest student project in Slovenia, it contains more the 40 sport competitions, 20 culture events and 4 big concerts. This is Majske igre's homepage.
 
-Pinia was implemented in /store folder.
 
-2 Layouts added (default, auth).
+### Built With
 
-Vuetify v3.1.3 was implemented.
+Project was built with the following technologies, tools and dependencies:
+* **NuxtJS** frontend framework
+* **BulmaCSS** CSS framework
+* **DecapCMS** for content management
 
-```bash
-# yarn
-yarn install
+## Getting Started
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
+Project can be run using the following commands:
 
 ```bash
-npm run preview
+yarn install # install dependencies
+yarn dev # run development server
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Server is now running on `localhost:3000`.
 
-## Any questions?
-Reach out to me on [ugur@burakturkis.com](mailto:ugur@burakturkis.com)
+## License
 
-## Buy me a coffee
-[![Buy me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/burakturkis)
+Distributed under the MIT License.
 
-*** Happy Coding ***
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[website-shield]:https://img.shields.io/badge/Jakob's%20homepage-white?style=for-the-badge&logo=superuser&color=555&link=https%3A%2F%2Fjakob.marela.team
+[website-url]: https://jakob.marela.team
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/jakmar17

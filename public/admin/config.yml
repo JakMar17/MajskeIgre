@@ -3,6 +3,7 @@ local_backend: true
 backend:
   name: git-gateway
   branch: master
+  repo: jakmar17/MajskeIgre
 
 media_folder: public/img
 public_folder: /img

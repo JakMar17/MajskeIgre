@@ -4,6 +4,8 @@ backend:
   name: git-gateway
   branch: master
   repo: jakmar17/MajskeIgre
+  identity_url: "https://majske-igre.si/.netlify/identity"
+  gateway_url: "https://majske-igre.si/.netlify/git"
 
 media_folder: public/img
 public_folder: /img

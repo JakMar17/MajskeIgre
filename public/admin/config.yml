@@ -3,7 +3,7 @@ local_backend: true
 backend:
   name: git-gateway
   branch: master
-  repo: jakmar17/MajskeIgre
+  #repo: jakmar17/MajskeIgre
   identity_url: "https://majske-igre.netlify.app/.netlify/identity"
   gateway_url: "https://majske-igre.netlify.app/.netlify/git"
 

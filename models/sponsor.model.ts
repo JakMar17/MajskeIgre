@@ -1,5 +1,6 @@
 export type SponsorsModel = {
     description: string;
+    showSponsors: boolean;
     sponsors: SponsorModel[];
 }
 

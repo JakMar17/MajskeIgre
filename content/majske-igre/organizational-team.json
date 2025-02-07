@@ -6,7 +6,7 @@
       "functionTitle": "vodja prireditve",
       "email": "primoz.hrovat@ssvets.si",
       "phone": "041 398 407",
-      "imageUrl": "/img/primoz_2025.jpg"
+      "imageUrl": "/img/primoz_2025.webp"
     },
     {
       "name": "Jakob Marušič",
@@ -20,14 +20,14 @@
       "functionTitle": "odnosi z javnostjo (PR)",
       "email": "pr.promocija@ssvets.si",
       "phone": "040 501 490",
-      "imageUrl": "/img/ade_2025.jpg"
+      "imageUrl": "/img/ade_2025.webp"
     },
     {
       "name": "Miha Praznik",
       "functionTitle": "vodja športnega programa",
       "email": "sport@ssvets.si",
       "phone": "068 126 601",
-      "imageUrl": "/img/miha_2025.jpg"
+      "imageUrl": "/img/miha_2025.webp"
     },
     {
       "name": "Tina Seme",
@@ -41,20 +41,20 @@
       "functionTitle": "vodja zabavnega programa",
       "email": "zabava@ssvets.si",
       "phone": "041 357 048",
-      "imageUrl": "/img/dejan_2025.jpg"
+      "imageUrl": "/img/dejan_2025.webp"
     },
     {
       "name": "Andraž Fidel",
       "functionTitle": "pomočnik vodje zabave",
       "email": "zabava@ssvets.si",
       "phone": "041 856 055",
-      "imageUrl": "/img/andraz_2025.jpg"
+      "imageUrl": "/img/andraz_2025.webp"
     },
     {
       "name": "Peter Lazar",
       "functionTitle": "vodja kulturnega programa",
       "email": "kultura@ssvets.si",
-      "imageUrl": "/img/pero_2025.jpg",
+      "imageUrl": "/img/pero_2025.webp",
       "phone": "041 925 325"
     },
     {
@@ -62,35 +62,35 @@
       "functionTitle": "grafično oblikovanje",
       "email": "info@ssvets.si",
       "phone": "031 356 591",
-      "imageUrl": "/img/ziva_2025.jpg"
+      "imageUrl": "/img/ziva_2025.webp"
     },
     {
       "name": "Nejc Mikec",
       "functionTitle": "vodja tehnike",
       "email": "tehnika@ssvets.si",
       "phone": "030 273 390",
-      "imageUrl": "/img/nejc_2025.jpg"
+      "imageUrl": "/img/nejc_2025.webp"
     },
     {
       "name": "Kaja Baler",
       "functionTitle": "pomočnica vodje tehnike",
       "email": "tehnika@ssvets.si",
       "phone": "031 445 476",
-      "imageUrl": "/img/kaja_2025.jpg"
+      "imageUrl": "/img/kaja_2025.webp"
     },
     {
       "name": "Nejc Gajšak",
       "functionTitle": "vodja gostinstva",
       "email": "gostinstvo@ssvets.si",
       "phone": "051 415 207",
-      "imageUrl": "/img/nejcg_2025.jpg"
+      "imageUrl": "/img/nejcg_2025.webp"
     },
     {
       "name": "Jakob Račič",
       "functionTitle": "pomočnik vodje gostinstva",
       "phone": "040 762 886",
       "email": "gostinstvo@ssvets.si",
-      "imageUrl": "/img/jakob_2025.jpg"
+      "imageUrl": "/img/jakob_2025.webp"
     }
   ],
   "coverImg": "/img/organizator.webp"

@@ -2,11 +2,11 @@
   "intro": "Majske igre predstavljajo priložnost, da vsako novo generacijo študentov popeljemo skozi čaroben mesec maj na način, ki ostane v spominu – poln zabave, športa in kulture. \n\nKot glavni organizator Majskih iger in drugih interesnih dejavnosti v sklopu Študentskega doma Ljubljana, Študentski svet stanovalcev (ŠSS) igra ključno vlogo pri ohranjanju živahnosti in povezanosti študentske skupnosti. \n\nMajske igre organiziramo študenti, ki smo v času študija stanovalci Študentskega doma Ljubljana in člani Študentskega sveta stanovalcev. Naše glavno vodilo, da ustvarjamo nepoznabna doživetja za študente, in sicer na področju športa, kulture in zabave. Sledimo konceptu od študentov za študente! Pridruži se nam, da skupaj ustvarimo nepozabne trenutke v srcu študentskega doživetja!",
   "members": [
     {
-      "name": "Deni Cerovac",
+      "name": "Primož Hrovat",
       "functionTitle": "vodja prireditve",
-      "email": "deni.cerovac@ssvets.si",
+      "email": "primoz.hrovat@ssvets.si",
       "phone": "041 398 407",
-      "imageUrl": "/img/deni_brez.png.webp"
+      "imageUrl": "/img/primoz_2025.jpg"
     },
     {
       "name": "Jakob Marušič",
@@ -16,81 +16,81 @@
       "imageUrl": "/img/jakob_brez.png.webp"
     },
     {
-      "name": "Alen Fuks",
+      "name": "Adelina Osmanaj",
       "functionTitle": "odnosi z javnostjo (PR)",
       "email": "pr.promocija@ssvets.si",
-      "phone": "070 609 078",
-      "imageUrl": "/img/alen_brez.webp"
+      "phone": "040 501 490",
+      "imageUrl": "/img/ade_2025.jpg"
     },
     {
-      "name": "Vito Založnik",
+      "name": "Miha Praznik",
       "functionTitle": "vodja športnega programa",
       "email": "sport@ssvets.si",
-      "phone": "051 256 796",
-      "imageUrl": "/img/vito_brez.png.webp"
+      "phone": "068 126 601",
+      "imageUrl": "/img/miha_2025.jpg"
     },
     {
-      "name": "Rok Petrovčič",
-      "functionTitle": "pomočnik vodje športnega programa",
-      "phone": "040 277 652",
+      "name": "Tina Seme",
+      "functionTitle": "pomočnica vodje športnega programa",
+      "phone": "040 366 623",
       "email": "sport@ssvets.si",
-      "imageUrl": "/img/petro_brez.png.webp"
+      "imageUrl": "/img/sportko.svg"
     },
     {
-      "name": "Tjaša Vraničar",
+      "name": "Dejan Hladnik",
       "functionTitle": "vodja zabavnega programa",
       "email": "zabava@ssvets.si",
-      "phone": "051 879 731",
-      "imageUrl": "/img/tjasa_brez.png.webp"
+      "phone": "041 357 048",
+      "imageUrl": "/img/dejan_2025.jpg"
     },
     {
-      "name": "David Pivk",
+      "name": "Andraž Fidel",
       "functionTitle": "pomočnik vodje zabave",
       "email": "zabava@ssvets.si",
-      "phone": "041 277 391",
-      "imageUrl": "/img/david_brez.png"
-    },
-    {
-      "name": "Žiga Gerdina",
-      "functionTitle": "vodja kulturnega programa",
-      "email": "kultura@ssvets.si",
-      "imageUrl": "/img/ziga_brez.webp",
-      "phone": "040 798 889"
-    },
-    {
-      "name": "Dominik Rusjan",
-      "functionTitle": "pomočnik vodje kulturnega programa",
-      "email": "kultura@ssvets.si",
-      "phone": "031 294 760",
-      "imageUrl": "/img/dominik_brez.png.webp"
-    },
-    {
-      "name": "Sara Ambrož",
-      "functionTitle": "grafično oblikovanje",
-      "email": "ambroz.oblikovanje@gmail.com",
-      "phone": "030 431 223",
-      "imageUrl": "/img/sara_brez.png.webp"
-    },
-    {
-      "name": "Primož Hrovat",
-      "functionTitle": "vodja tehnike",
-      "email": "tehnika@ssvets.si",
-      "phone": "070 566 499",
-      "imageUrl": "/img/primoz_brez.png.webp"
-    },
-    {
-      "name": "Oskar Rosc",
-      "functionTitle": "vodja gostinstva",
-      "email": "gostinstvo@ssvets.si",
-      "phone": "041 852 606",
-      "imageUrl": "/img/oskar_brez.png.webp"
+      "phone": "041 856 055",
+      "imageUrl": "/img/andraz_2025.jpg"
     },
     {
       "name": "Peter Lazar",
-      "functionTitle": "pomočnik vodje gostinstva",
-      "phone": "041 925 325",
+      "functionTitle": "vodja kulturnega programa",
+      "email": "kultura@ssvets.si",
+      "imageUrl": "/img/pero_2025.jpg",
+      "phone": "041 925 325"
+    },
+    {
+      "name": "Živa Juvančič",
+      "functionTitle": "grafično oblikovanje",
+      "email": "info@ssvets.si",
+      "phone": "031 356 591",
+      "imageUrl": "/img/ziva_2025.jpg"
+    },
+    {
+      "name": "Nejc Mikec",
+      "functionTitle": "vodja tehnike",
+      "email": "tehnika@ssvets.si",
+      "phone": "030 273 390",
+      "imageUrl": "/img/nejc_2025.jpg"
+    },
+    {
+      "name": "Kaja Baler",
+      "functionTitle": "pomočnica vodje tehnike",
+      "email": "tehnika@ssvets.si",
+      "phone": "031 445 476",
+      "imageUrl": "/img/kaja_2025.jpg"
+    },
+    {
+      "name": "Nejc Gajšak",
+      "functionTitle": "vodja gostinstva",
       "email": "gostinstvo@ssvets.si",
-      "imageUrl": "/img/pero_brez.png.webp"
+      "phone": "051 415 207",
+      "imageUrl": "/img/nejcg_2025.jpg"
+    },
+    {
+      "name": "Jakob Račič",
+      "functionTitle": "pomočnik vodje gostinstva",
+      "phone": "040 762 886",
+      "email": "gostinstvo@ssvets.si",
+      "imageUrl": "/img/jakob_2025.jpg"
     }
   ],
   "coverImg": "/img/organizator.webp"

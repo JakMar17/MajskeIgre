@@ -2,7 +2,7 @@
 title: "1.  PUB QUIZ "
 location: Dom XIV
 date: 2025-05-07T19:00:00.000Z
-price: 8 €
+price: 10 €
 teamFormation: Ekipe po 4 tekmovalce
 registerLink: ""
 description: >-

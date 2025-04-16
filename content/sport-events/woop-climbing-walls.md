@@ -1,10 +1,10 @@
 ---
-title: " WOOP! CLIMBING WALLS"
-location: "Fun park, Leskoškova cesta 2 "
-date: 2024-05-08T16:00:59.066Z
-price: 8 €
+title: " WOOP! CLIMBING WALLS / Fun Walls"
+location: "Fun park, Leskoškova cesta 3 "
+date: 2025-05-13T14:30:00.000Z
+price: 10 €
 teamFormation: Posamezno
-registerLink: " https://forms.gle/XGG1C4Ni4RkYVzTt5"
+registerLink: https://forms.gle/axEXUP6EK6WBcwrw8
 description: >-
   <!--StartFragment-->
 

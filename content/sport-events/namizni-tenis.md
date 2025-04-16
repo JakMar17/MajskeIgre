@@ -1,10 +1,10 @@
 ---
 title: NAMIZNI TENIS
 location: Rožna dolina, športna dvorana
-date: 2024-05-20T10:00:10.417Z
-price: 6 €
+date: 2025-05-19T11:00:00.000Z
+price: 8 €
 teamFormation: Posamezno. Ločeno moški in ženske
-registerLink: https://forms.gle/Avh717PcJrBdgE9j9
+registerLink: https://forms.gle/PYHFRcnGYHdwQogp9
 description: >-
   <!--StartFragment-->
 

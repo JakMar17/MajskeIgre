@@ -2,7 +2,7 @@
 title: WOOP! Pixels
 location: WOOP! Arena, BTC
 date: 2025-05-13T14:30:00.000Z
-price: "12"
+price: 12 €
 teamFormation: posamično
 registerLink: https://forms.gle/KEnZXLPLE4ueGCGcA
 description: >-

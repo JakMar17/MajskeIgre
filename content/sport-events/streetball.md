@@ -1,10 +1,10 @@
 ---
 title: STREETBALL
 location: " Rožna dolina, nogometno igrišče"
-date: 2024-05-16T12:00:01.652Z
-price: 6 €
+date: 2025-05-15T00:00:00.000Z
+price: 8 €
 teamFormation: 3 + 1 rezerva, ločeno moške in ženske ekipe
-registerLink: https://forms.gle/TsmTb2Fe8KnjuuHT7
+registerLink: https://forms.gle/aZ9z1qcvwH5C6zU36
 description: >-
   <!--StartFragment-->
 

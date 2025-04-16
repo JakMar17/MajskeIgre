@@ -1,10 +1,10 @@
 ---
 title: TAROK
 location: Rožna dolina, Rožna Kuh'na
-date: 2024-05-15T14:00:54.076Z
-price: 6 €
+date: 2025-05-14T14:00:00.000Z
+price: 8 €
 teamFormation: Posamezno
-registerLink: https://forms.gle/iy9a3uWpEqxgBkHu8
+registerLink: https://forms.gle/7BVGLHg34tdQKfPi8
 description: >-
   Tarok lahko igramo na več načinov, glede na število igralcev. Možna je igra za
   dva igralca, vendar je bolj zanimivo igrati v skupini treh ali štirih. Glede

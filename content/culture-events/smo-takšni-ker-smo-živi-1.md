@@ -10,7 +10,7 @@ events:
       ne morajo držati svojih rok v žepu! Da bi se lažje znašli v deželi, ki na
       splošno ne govori najbolje angleščine, vam bo vsekakor znanje
       italijanščine še kako prav prišlo!
-    imageUrl: /img/web3-letter-pen-writting-ink-memories-alvaro-serrano-unsplash.jpg-2.webp
+    imageUrl: ""
     location: Sejna soba doma III
     price: Brezplačno
     registerLink: https://forms.gle/bY1miaZwxPBwE3fr5
@@ -22,7 +22,7 @@ events:
       tehnologijo, raziskovalno področje, ekonomijo in še kaj.
     location: Mala kulturna dvorana
     price: 5€
-    imageUrl: /img/kaj-je-mlado-vino-feat.jpg.webp
+    imageUrl: ""
     registerLink: https://forms.gle/FQNe9uEs6JDxyvB6A
   - time: 18:00
     title: Delavnica navtike
@@ -37,14 +37,14 @@ events:
       prišel pokazat sosedom svoje neverjetne sposobnosti, je to prava delavnica
       zate. Vabljeni vsi bodoči vrvohodci in tisti, ki boste samo opazovali
       spektakularne padce s pivom u roki.
-    imageUrl: /img/343169401_980557789620925_3954934512170696496_n.jpg
+    imageUrl: ""
     location: Kulturni otoček z domom III
   - time: 20:00
     title: Medalje
     description: "Podelitev medalj za športe: **Odbojka 4+2, košarka, šnops,
       plezalna stena, pixel, nogomet moški, nogomet ženske, pikado, tarok,
       bowling.**"
-    imageUrl: /img/slavkoivančić_5_jureogrin.jpg
+    imageUrl: ""
     location: Kulturni otoček z domom III
   - time: 20:15
     title: Trenutno stanje

@@ -1,10 +1,10 @@
 ---
 title: STRELASTIKA
 location: Rožna dolina, pred menzo Rožna kuh'na
-date: 2024-05-08T15:00:06.260Z
-price: 6 €
+date: 2025-05-07T15:00:00.000Z
+price: 8 €
 teamFormation: Posamezno
-registerLink: https://forms.gle/mwHJLihuVAQrPLgF7
+registerLink: https://forms.gle/B4kkv9Y1saLSrYUUA
 description: >-
   <!--StartFragment-->
 

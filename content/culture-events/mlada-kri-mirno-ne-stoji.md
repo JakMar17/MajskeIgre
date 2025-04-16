@@ -13,7 +13,10 @@ events:
     location: Mala kulturna dvorana
   - time: 17:00
     title: Delavnica mažoretk
-    description: A
+    description: Delavnica je namenjena vsem ljubiteljem in ljubiteljicam ritma,
+      elegance in usklajenosti gibanja. Tam se bomo naučili nekaj ponovnih
+      elementov tehnik dela z mažoretsko palico in cofi. Na koncu pa nas čaka še
+      krajši nastop mažoretk.
     imageUrl: ""
     registerLink: https://forms.gle/BhojXgPd6FsEoKzu6
     location: Teniško igrišče v Rožni dolini

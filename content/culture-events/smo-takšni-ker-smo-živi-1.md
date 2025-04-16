@@ -11,8 +11,7 @@ events:
       splošno ne govori najbolje angleščine, vam bo vsekakor znanje
       italijanščine še kako prav prišlo!
     imageUrl: /img/web3-letter-pen-writting-ink-memories-alvaro-serrano-unsplash.jpg-2.webp
-    location: Kulturni otoček za domom III, v primeru slabega vremena se prestavi v
-      prostore Zavoda Šolt
+    location: Sejna soba doma III
     price: Brezplačno
     registerLink: https://forms.gle/bY1miaZwxPBwE3fr5
   - time: 17:00
@@ -21,7 +20,7 @@ events:
       in pisavo, državo in kulturo, ki je popolnoma drugačna od tega kar
       poznamo. Japonska je hitro rastoča velesila, ki ima dobro razvito
       tehnologijo, raziskovalno področje, ekonomijo in še kaj.
-    location: Menza Rožna Ku'hna
+    location: Mala kulturna dvorana
     price: 5€
     imageUrl: /img/kaj-je-mlado-vino-feat.jpg.webp
     registerLink: https://forms.gle/FQNe9uEs6JDxyvB6A
@@ -31,6 +30,7 @@ events:
       v svet jadranja! Na delavnici boš spoznal osnove navtike, obenem pa
       prisluhnil kratkemu predavanju o VHF postaji – kako jo uporabljati, kdaj
       jo potrebujemo in zakaj je ključna za varnost na morju.
+    location: Mala kulturna dvorana
   - time: 19:00
     title: Slackline
     description: Če bi rad preizkusil svoje ravnotežje na malo drugačen način ali pa
@@ -38,22 +38,26 @@ events:
       zate. Vabljeni vsi bodoči vrvohodci in tisti, ki boste samo opazovali
       spektakularne padce s pivom u roki.
     imageUrl: /img/343169401_980557789620925_3954934512170696496_n.jpg
+    location: Kulturni otoček z domom III
   - time: 20:00
     title: Medalje
     description: "Podelitev medalj za športe: **Odbojka 4+2, košarka, šnops,
       plezalna stena, pixel, nogomet moški, nogomet ženske, pikado, tarok,
       bowling.**"
     imageUrl: /img/slavkoivančić_5_jureogrin.jpg
+    location: Kulturni otoček z domom III
   - time: 20:15
     title: Trenutno stanje
     description: Trenutno Stanje je odraz časa, ki ga ni več. Izražamo ga skozi
       no-bullshit rock. Poleg divjega popotovanja po prostoru in času naše bivše
       republike vas popeljemo tudi onstran meja in čez lužo, kjer se je vse
       skupaj začelo.
+    location: Kulturni otoček z domom III
   - time: 21:30
     title: Majmunska posla
     description: Kaos, akordi, red, zmeda, pop, etno in pank - to so Majmunska
       Posla. Majmuni so bojda ljubitelji starih balkanskih balad in
       ljubljanskega punka, narodnozabavnih viž in nemškega industriala, igrajo
       pa pop.
+    location: Kulturni otoček z domom III
 ---

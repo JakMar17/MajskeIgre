@@ -1,10 +1,10 @@
 ---
 title: POKER
 location: Kardeljeva, dom A in dom B
-date: 2024-05-20T16:00:00.000Z
+date: 2025-05-19T16:00:00.000Z
 price: Brezplačno
 teamFormation: Posamezno
-registerLink: " https://forms.gle/MhBu5kiZZNHTkmLb8"
+registerLink: https://forms.gle/o2CqFvg7j2MZaSzj9
 description: >-
   <!--StartFragment-->
 

@@ -10,7 +10,7 @@ events:
       zaključku tečaja boste pridobili večjo samozavest pri vzpostavljanju
       stikov z gluhimi uporabniki znakovnega jezika.
     imageUrl: /img/screenshot-2024-04-16-at-14.12.59.png
-    location: Zelenica pred domom IV
+    location: Mala kulturna dvorana
     price: Brezplačno
     registerLink: https://forms.gle/MowdMraiWNH51ufy5
   - time: 18:00
@@ -23,7 +23,7 @@ events:
       svojo študentsko sobo v pravo urbano džunglo!
     imageUrl: /img/dbec09c916ca2cfdf56a3f41ab17bf65.jpeg
     price: Brezplačno
-    location: Menza Rožna Ku'hna (mala kulturna dvorana)
+    location: Mala kulturna dvorana
     registerLink: https://forms.gle/X5HhoGrGJx9wf93w8
   - time: 19:00
     title: Delavnica uporabe AI
@@ -32,7 +32,7 @@ events:
       inteligenca ne prinaša le tehnoloških inovacij, temveč tudi etične in
       pravne izzive. Pridi in jih spoznaj.
     imageUrl: /img/screenshot-2024-04-15-at-21.34.59.png
-    location: Kulturni otoček za domom III
+    location: Mala kulturna dvorana
     price: Brezplačno
   - time: 20:00
     title: Podelitev medalj
@@ -40,10 +40,12 @@ events:
       Podelitev medalj za športe: 
 
       **Poker, odbojka trojke, kronometer, enka, laser tag.**
+    location: Kulturni otoček z domom III
   - time: 20:15
     title: Impro liga
     description: AA
     imageUrl: /img/img_20240107_192138_949.jpg
+    location: Kulturni otoček z domom III
   - time: 22:00
     title: Kino pod zvezdami
     description: V čudovitemu ambientu si bomo ogledali film V leru, ki govori o
@@ -51,4 +53,5 @@ events:
       oglejte, kako je leta 1999 izgledalo študentsko življenje in kakšni so
       bili naši ljubi domovi.
     imageUrl: /img/gepack-1024x486.jpg.webp
+    location: Kulturni otoček z domom III
 ---

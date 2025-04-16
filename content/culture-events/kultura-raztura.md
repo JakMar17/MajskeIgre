@@ -8,7 +8,7 @@ events:
     description: Strokovna komisija bo okušala študentska vina ter izbrala tisto, ki
       si bo prislužilo naziv najboljšega. Po končanem strokovnem ocenjevanju bo
       mogoče poizkusiti zmagovalna in malo manj zmagovalna vina.
-    imageUrl: /img/screenshot-2024-05-23-at-17.52.14.png
+    imageUrl: ""
     location: Sejna soba doma III
     price: Brezplačno
   - time: 17:00

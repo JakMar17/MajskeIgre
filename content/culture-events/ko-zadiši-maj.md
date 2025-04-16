@@ -1,6 +1,6 @@
 ---
-title: Ko maj zadiši
-date: 2023-05-07T16:09:48.203Z
+title: Vroči špargerti v tvoji okolici
+date: 2025-05-06T07:00:00.000Z
 imageUrl: /img/slideshow-1.jpg
 events:
   - title: Majski bograč

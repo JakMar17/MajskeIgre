@@ -1,15 +1,18 @@
 ---
 title: BOWLING
 location: WOOP! Arena, BTC
-date: 2024-05-16T16:00:33.436Z
-price: 8 €
+date: 2025-05-14T16:30:00.000Z
+price: 10 €
 teamFormation: ekipe po 5 tekmovalcev
-registerLink: https://forms.gle/zChzQ9gpFe9ZZuqz7
+registerLink: https://forms.gle/PW1WndvtzDDakeF86
 description: >-
   <!--StartFragment-->
 
 
-  Bowling je za tiste z mirno roko precej preprosta igra. Glavni cilj je, da s kroglo, ki jo zakotališ po progi, poskušaš podreti keglje. Tekmovalo se bo v ekipah po štirih, pri čemer bo ena ekipa igrala na eni progi in skupaj nabirala točke. Igra bo trajala eno uro. Hkrati se bo igralo na 9 progah. Nato bo na vrsti druga polovica ekip, ki bo prav tako igrala 1 uro. Na koncu se bodo primerjale točke vseh ekip, ki so v roku dveh ur igrale na progah in bomo tako določili zmagovalno ekipo. Hkrati se bo določilo najboljšega igralca večera. **Število ekip bo omejeno na 8**, tako da se čimprej prijavite! **Zbor na lokaciji je pol ure pred začetkom, torej ob 17:30.**
+  Woop bowling v tekmovalni različici ponuja dinamično in napeto izkušnjo, kjer se igralci pomerijo v natančnosti, moči in taktiki pod časovnim pritiskom. Cilj je podreti čim več kegljev v čim manj poskusih, pri čemer šteje vsak met. Sistem točkovanja omogoča sprotno primerjavo rezultatov, kar spodbuja tekmovalni duh in željo po zmagi. Primeren je tako za posameznike kot za ekipe, ki si želijo resnega izziva v zabavnem okolju. 
+
+
+  **Zbor na lokaciji je pol ure pred začetkom, torej ob 16:00.**
 
 
   **Šport ne šteje za točkovanje v tekmovanju študentskih domov.**

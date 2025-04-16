@@ -1,10 +1,10 @@
 ---
 title: ČLOVEK NE JEZI SE
-location: Rožna dolina, travnik med domom I in domom XIV
-date: 2024-05-08T14:00:27.625Z
+location: Rožna dolina, travnik med domom I in domom XIII
+date: 2025-05-07T15:00:00.000Z
 price: Brezplačno
 teamFormation: Ekipe po 5 igralcev
-registerLink: https://forms.gle/63RJd2Do56VrkCBY7
+registerLink: https://forms.gle/d1PrVhW6Psyk2vTY9
 description: >-
   <!--StartFragment-->
 

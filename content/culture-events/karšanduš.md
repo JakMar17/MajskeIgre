@@ -34,7 +34,7 @@ events:
   - time: 20:15
     title: UM & KUNA
     description: "Podelitev medalj za športe: **Balinčkanje**"
-    imageUrl: /img/346089722_774874737532130_3232023553656348497_n.jpg
+    imageUrl: ""
     location: Kulturni otoček z domom III
   - time: 20:30
     title: Špatula

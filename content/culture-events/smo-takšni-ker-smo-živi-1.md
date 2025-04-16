@@ -37,7 +37,7 @@ events:
       prišel pokazat sosedom svoje neverjetne sposobnosti, je to prava delavnica
       zate. Vabljeni vsi bodoči vrvohodci in tisti, ki boste samo opazovali
       spektakularne padce s pivom u roki.
-    imageUrl: ""
+    imageUrl: /img/screenshot-2024-04-15-at-21.34.59.png
     location: Kulturni otoček z domom III
   - time: 20:00
     title: Medalje

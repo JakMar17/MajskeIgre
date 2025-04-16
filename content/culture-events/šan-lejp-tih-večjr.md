@@ -9,7 +9,7 @@ events:
       naglušnih, kot so kretnje, obrazna mimika in telesna govorica. Po
       zaključku tečaja boste pridobili večjo samozavest pri vzpostavljanju
       stikov z gluhimi uporabniki znakovnega jezika.
-    imageUrl: /img/screenshot-2024-04-16-at-14.12.59.png
+    imageUrl: ""
     location: Mala kulturna dvorana
     price: Brezplačno
     registerLink: https://forms.gle/MowdMraiWNH51ufy5
@@ -21,7 +21,7 @@ events:
       potaknjenci, osnov nege, prepoznavanja težav in ukrepanja ob boleznih.
       Prinesi dobro voljo in po želji kakšno rastlino za propagacijo in spremeni
       svojo študentsko sobo v pravo urbano džunglo!
-    imageUrl: /img/dbec09c916ca2cfdf56a3f41ab17bf65.jpeg
+    imageUrl: ""
     price: Brezplačno
     location: Mala kulturna dvorana
     registerLink: https://forms.gle/X5HhoGrGJx9wf93w8
@@ -31,7 +31,7 @@ events:
       želijo spoznati z naprednimi tehnologijami in njihovimi možnostmi. Umetna
       inteligenca ne prinaša le tehnoloških inovacij, temveč tudi etične in
       pravne izzive. Pridi in jih spoznaj.
-    imageUrl: /img/screenshot-2024-04-15-at-21.34.59.png
+    imageUrl: ""
     location: Mala kulturna dvorana
     price: Brezplačno
   - time: 20:00
@@ -44,7 +44,7 @@ events:
   - time: 20:15
     title: Impro liga
     description: AA
-    imageUrl: /img/img_20240107_192138_949.jpg
+    imageUrl: ""
     location: Kulturni otoček z domom III
   - time: 22:00
     title: Kino pod zvezdami
@@ -52,6 +52,6 @@ events:
       študentskem življenju, posnet pa je bil v Rožni dolini. Pridite in si
       oglejte, kako je leta 1999 izgledalo študentsko življenje in kakšni so
       bili naši ljubi domovi.
-    imageUrl: /img/gepack-1024x486.jpg.webp
+    imageUrl: ""
     location: Kulturni otoček z domom III
 ---

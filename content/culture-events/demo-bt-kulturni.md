@@ -9,7 +9,7 @@ events:
       duši. Umetnina, ki jo bomo ustvarili bo cel maj krasila mali oder za domom
       III.
     imageUrl: /img/342571791_260497919748266_5359055210999016302_n.jpg
-    location: Za domom 3
+    location: Kulturni otoček za domom 3
   - time: 17:00
     title: Potopisno predavanje
     location: Mala kulturna dvorana
@@ -17,14 +17,14 @@ events:
       v južni Aziji. Pot jo je vodila vse od Himalaje, pa do barvite in
       raznolike Indije, kjer je med drugim živela pri lokalnih družinah in se
       udeležila 10-dnevne meditacije v tišini.
-  - time: 18:!5
+  - time: 18:15
     title: Delavnica kvačkanja, izvaja Zavod ŠOLT
     description: Vas zanima raziskovanje sveta preje, kvačk, petelj in zank? Si
       želite ustvariti prikupno in edinstveno mojstrovino v družbi drugih
       ustvarjalcev? Na delavnici kvačkanja bomo spoznali osnove izdelave
       kvačkanih izdelkov. Predhodno znanje ni potrebno.
     imageUrl: /img/unnamed.jpg
-    location: Kulturni otoček (v primeru slabega vremena se prestavi v Zavod ŠOLT)
+    location: Mala kulturna dvorana
     registerLink: https://forms.gle/N8xQESC2aujpAhZB9
     price: Brezplačno
   - time: 19:30
@@ -33,6 +33,7 @@ events:
       se boste lahko svojim prijateljem pohvalili, da ste jih videli davnega
       leta 25 na otočku Majskih iger.
     imageUrl: /img/slika-nas.jpg
+    location: Kulturni otoček za domom 3
   - time: 20:15
     title: Podelitev medalj
     description: |-

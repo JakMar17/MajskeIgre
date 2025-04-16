@@ -1,7 +1,7 @@
 ---
 title: BADMINTON
 location: Rožna dolina, športna dvorana
-date: 2025-05-19T13:00:00.000Z
+date: 2025-05-19T11:00:00.000Z
 price: 8 €
 teamFormation: Posamezno. Ločeno moške in ženske ekipe.
 registerLink: https://forms.gle/dfzwJ9aspYcNR3Mm8

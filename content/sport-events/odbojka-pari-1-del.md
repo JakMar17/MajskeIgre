@@ -1,10 +1,10 @@
 ---
 title: ODBOJKA PARI (MOŠKI)
 location: Rožna dolina in Mestni log, odbojkarsko igrišče na mivki
-date: 2024-05-08T10:00:50.006Z
-price: 6 €
+date: 2025-05-07T10:00:00.000Z
+price: 8 €
 teamFormation: Dvojice
-registerLink: https://forms.gle/G4y2hT9CuDNz69ze7
+registerLink: https://forms.gle/jKe2txHCU9daTBxq5
 description: >-
   Poleg odbojke 4+2 ter odbojkarskih trojk, Majske igre ponujajo tudi tekmovanje
   v odbojkarskih parih. Tekmovanje, ki vsako leto privabi veliko število

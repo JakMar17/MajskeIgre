@@ -9,7 +9,7 @@ events:
       na domski dražbi je čas da preveriš zavore in namažeš verigo. Za nasvete
       in izposojo orodja bodo na voljo študentski strokovnjaki za kolesa. Pridi,
       tvoje kolo ti bo hvaležno.
-    imageUrl: /img/nootropiki.jpg.webp
+    imageUrl: /img/screenshot-2024-05-23-at-17.52.14.png
     location: Pred domom I
   - time: 17:00
     title: Gobenjak

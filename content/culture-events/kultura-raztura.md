@@ -8,7 +8,7 @@ events:
     description: Strokovna komisija bo okušala študentska vina ter izbrala tisto, ki
       si bo prislužilo naziv najboljšega. Po končanem strokovnem ocenjevanju bo
       mogoče poizkusiti zmagovalna in malo manj zmagovalna vina.
-    imageUrl: ""
+    imageUrl: /img/kaj-je-mlado-vino-feat.jpg.webp
     location: Sejna soba doma III
     price: Brezplačno
   - time: 17:00

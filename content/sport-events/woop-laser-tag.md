@@ -2,7 +2,7 @@
 title: WOOP! LASER TAG
 location: WOOP! Arena, BTC
 date: 2025-05-20T14:30:00.000Z
-price: 10 €
+price: 12 €
 teamFormation: Ekipe po 6 tekmovalcev
 registerLink: https://forms.gle/wDn6H7YiA5zcHUJc8
 description: >-

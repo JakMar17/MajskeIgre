@@ -1,10 +1,10 @@
 ---
 title: PIKADO
 location: ŠD Gerbičeva 59
-date: 2024-05-14T14:00:52.708Z
-price: 6 €
+date: 2024-05-13T14:00:00.000Z
+price: 8 €
 teamFormation: Posamezno (mešano moški in ženske)
-registerLink: https://forms.gle/D4Vt2d4KCr2h3BfD6
+registerLink: https://forms.gle/PcYX5zvVwg6JGhEf6
 description: >-
   <!--StartFragment-->
 

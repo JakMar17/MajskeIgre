@@ -9,10 +9,10 @@ events:
       duši. Umetnina, ki jo bomo ustvarili bo cel maj krasila mali oder za domom
       III.
     imageUrl: /img/342571791_260497919748266_5359055210999016302_n.jpg
-    location: Kulturni otoček
+    location: Za domom 3
   - time: 17:00
     title: Potopisno predavanje
-    location: Menza Rožna Kuh´na
+    location: Mala kulturna dvorana
     description: Katarina je popotnica, ki je del absolventa preživela z nahrbtnikom
       v južni Aziji. Pot jo je vodila vse od Himalaje, pa do barvite in
       raznolike Indije, kjer je med drugim živela pri lokalnih družinah in se

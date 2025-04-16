@@ -1,6 +1,6 @@
 ---
 title: 3. PUB QUIZ
-location: DOM XIV
+location: Dom XIV
 date: 2025-05-14T19:00:00.000Z
 price: 10 €
 teamFormation: Ekipe po 4 tekmovalce

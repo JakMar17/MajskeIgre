@@ -1,10 +1,10 @@
 ---
 title: KRONOMETER (TEK PO STOPNICAH)
 location: Rožna dolina, dom X
-date: 2024-05-21T15:00:18.162Z
-price: 6 €
+date: 2025-05-20T14:00:00.000Z
+price: 8 €
 teamFormation: Posamezno. Ločeno moški in ženske
-registerLink: https://forms.gle/TfZna26BgCXjXyr67
+registerLink: https://forms.gle/zqdpVFaRvbDuYSe46
 description: >-
   <!--StartFragment-->
 

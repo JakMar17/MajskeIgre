@@ -1,7 +1,7 @@
 ---
 title: ŠAH
 location: Rožna dolina, Rožna Kuh'na
-date: 2025-05-22T16:00:00.000Z
+date: 2025-05-22T14:00:00.000Z
 price: 8 €
 teamFormation: Posamezno
 registerLink: https://forms.gle/46VuXMxzfDFAKzZB9

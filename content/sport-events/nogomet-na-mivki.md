@@ -1,10 +1,10 @@
 ---
 title: NOGOMET NA MIVKI
 location: Rožna dolina, odbojkarsko igrišče na mivki
-date: 2024-05-16T14:00:19.657Z
-price: 6 €
+date: 2025-05-15T14:00:00.000Z
+price: 8 €
 teamFormation: " 3 igralci + 1 rezerva"
-registerLink: https://forms.gle/3XVqNSUFdfzYxvPn9
+registerLink: https://forms.gle/yXFWkZGFWEAw7cnq7
 description: >-
   <!--StartFragment-->
 

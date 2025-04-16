@@ -1,7 +1,7 @@
 ---
 title: ČIŠČENJE ROŽNIKA
 location: Rožna dolina, Rožna Kuh’na
-date: 2024-05-23T06:00:00.000Z
+date: 2025-05-22T06:00:00.000Z
 price: Brezplačno
 teamFormation: Neomejeno
 registerLink: Ni prijave

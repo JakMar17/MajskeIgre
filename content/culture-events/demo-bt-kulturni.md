@@ -40,11 +40,13 @@ events:
       Razglasitev zmagovalcev ter podelitev nagrad za naslednje športe: 
 
       **Odbojka pari, Človek ne jezi se, Strelastika**
+    location: Kulturni otoček z domom III
   - time: 20:30
     title: Stand up
     description: Smeh je pol zdravja. Če greš najprej na šport in potem na stand-up
       boš večno zdrav.
     imageUrl: /img/img-0612.jpg
+    location: Kulturni otoček z domom III
   - time: "21.45"
     title: Plejade
     description: Zgodba Plejad se je začela, med snemanjem nekega videospota,
@@ -53,4 +55,5 @@ events:
       in dojemanja realnosti, ki jih skozi besedila izražajo na oseben in
       introspektiven način.
     imageUrl: /img/344755218_897528011315494_9068761242707688305_n.jpg
+    location: Kulturni otoček z domom III
 ---

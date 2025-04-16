@@ -43,7 +43,10 @@ events:
     location: Kulturni otoček z domom III
   - time: 20:15
     title: Impro liga
-    description: AA
+    description: Na tekmi se bosta dve ekipi izkušenih improvizatorjev izzivali v
+      odrskih veščinah, medtem ko bosta za korektnost izzivov, penale in
+      ocenjevanje poskrbela strokovna sodnika gledališke improvizacije.
+      Pripravite se na buren večer poln smeha.
     imageUrl: ""
     location: Kulturni otoček z domom III
   - time: 22:00

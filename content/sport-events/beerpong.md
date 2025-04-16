@@ -1,15 +1,15 @@
 ---
 title: BEERPONG
 location: " Rožna dolina, nogometno igrišče"
-date: 2024-05-20T14:00:16.347Z
-price: 8 €
+date: 2025-05-19T16:00:00.000Z
+price: 10 €
 teamFormation: Dvojice
-registerLink: https://forms.gle/RURNvHtSH8NoFe9i9
+registerLink: https://forms.gle/wjhj2N7utJE3WTD29
 description: >-
   <!--StartFragment-->
 
 
-  Beerpong je relativno enostavna igra, ki ne zahteva predznanja in miselnih naporov, prinese pa veliko zabave ob igranju in je posledično ena najbolj obiskanih disciplin športnega dogajanja Majskih iger. Igra se v dvojicah, ki pa so lahko tudi mešane. Namen igre je zadeti žogico v kozarček. Če z žogico zadenete v nasprotnikov kozarček, se ta umakne iz igre, nasprotnik pa spije vsebino kozarčka. Pri metu pa komolec ne sme segati čez rob mize. Če se izvede normalen met, pri katerem se žogica ne dotakne mize, nasprotnik žogice v zraku ne sme izbijati. V nasprotnem primeru (ko se žogica dotakne mize) je nasprotniku dovoljeno izbijanje žogice. V obeh primerih je dovoljeno izpihanje žogice iz kozarčka. Če zadaneš kozarček, ki ga tekmovalec drži v roki ali tistega, ki ga je pustil na mizi in ga še ni izpil, tvoja ekipa avtomatsko zmaga. Tekom igre lahko dvojica le enkrat zaprosi za preurejanje kozarčkov v drugačno pozicijo. Ekipa, ki zadane vse nasprotnikove kozarčke, je zmagovalna. Turnir bo potekal po sistemu izločanja. 
+  Beerpong je ena najbolj sproščenih in zabavnih disciplin Majskih iger, ki prinaša veliko tekmovalnega duha. Igrajo jo dvojice (tudi mešane), cilj pa je z metom žogice zadeti nasprotnikov kozarček, ki ga nato odstranijo, vsebina pa se popije. Veljajo osnovna pravila glede metov, izbijanja in izpihovanja žogice. Vsaka ekipa lahko enkrat v igri zahteva preureditev kozarčkov. Zmaga ekipa, ki prva zadene vse nasprotnikove kozarčke, turnir pa poteka po sistemu izločanja. 
 
 
   **Disciplina je omejena na 128 parov. Prijavnino je potrebno poravnati najpozneje do 17.5. V nasprotnem primeru bomo prijavo zbrisali in ponovno odprli prijavni obrazec ter sproščena mesta prepustili prvim ekipam, ki na info točki poravnajo prijavnino.** 

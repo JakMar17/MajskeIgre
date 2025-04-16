@@ -1,10 +1,10 @@
 ---
 title: BALINANJE
 location: Rožna dolina, pred domom I
-date: 2024-05-13T13:00:38.990Z
-price: 6 €
+date: 2025-05-12T15:00:00.000Z
+price: 8 €
 teamFormation: Dvojice
-registerLink: https://forms.gle/Q3yBLBuygB7oquXn9
+registerLink: https://forms.gle/sq6eJdqPwxWTobfU7
 description: >-
   <!--StartFragment-->
 

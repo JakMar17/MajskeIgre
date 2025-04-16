@@ -1,10 +1,10 @@
 ---
 title: WOOP! Karting
 location: Woop karting, BTC
-date: 2024-05-21T16:00:38.331Z
-price: 8 €
+date: 2025-05-21T14:30:00.000Z
+price: 10 €
 teamFormation: Posamezno
-registerLink: https://forms.gle/tiGRdakUrXwZXdfJ8
+registerLink: https://forms.gle/HrFrCSyYtwPSdyt48
 description: >-
   <!--StartFragment-->
 

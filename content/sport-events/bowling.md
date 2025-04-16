@@ -1,7 +1,7 @@
 ---
 title: BOWLING
 location: WOOP! Arena, BTC
-date: 2025-05-14T16:30:00.000Z
+date: 2025-05-14T14:30:00.000Z
 price: 10 €
 teamFormation: ekipe po 5 tekmovalcev
 registerLink: https://forms.gle/PW1WndvtzDDakeF86

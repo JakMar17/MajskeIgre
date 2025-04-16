@@ -1,22 +1,22 @@
 ---
-title: Odhod z Rožnika
-location: Rožna dolina
+title: Pohod na Rožnik
+location: Jasa na Rožniku
 date: 2024-05-22T11:31:05.899Z
 imageUrl: /img/fb_img_1709477320574.jpg.webp
 performers: >-
-  ### Špatula
+  ### Slow Monkeys
 
 
-  ### Šesti metek
+  ### Šesti band
 
 
-  ## Jet Black Diamonds
+  ## Pigs Parlament
 
 
-  # Big Foot Mama
+  # Zablujena generacija
 
 
-  ### Cover Lover‎
+  ## Elvis Jackson
 
 
   ‎

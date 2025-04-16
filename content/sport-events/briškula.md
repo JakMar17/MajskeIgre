@@ -1,7 +1,7 @@
 ---
 title: BRIŠKULA
 location: " Rožna dolina, Rožna Kuh'na"
-date: 2025-05-15T16:00:00.000Z
+date: 2025-05-15T14:00:00.000Z
 price: 8 €
 teamFormation: Dvojice
 registerLink: https://forms.gle/amVizGriUVPtsUQr6

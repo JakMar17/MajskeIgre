@@ -16,7 +16,7 @@ events:
     description: Na Majskih igrah bomo v praksi z Gobenjakom in študenti iz
       Študentskih skupnostnih vrtov spoznavali gojenje gob na hlodih. Naučili se
       bomo uporabljati medicinske in kulinarične gobe.
-    imageUrl: /img/promo-foto1.jpg
+    imageUrl: ""
     location: mala kulturna dvorana
   - time: 18:00
     title: Šprwni
@@ -29,11 +29,14 @@ events:
     description: So sveža goriška formacija strastnih muzičistov, ki z odprtim
       pogledom na zgodovino kitarske muzike ustvarjajo sodoben transžanrski
       rock'n roll, ki najbolj zaživi na odru.
-    imageUrl: /img/mpa_foto-2.jpg
+    imageUrl: ""
     location: Kulturni otoček z domom III
   - time: 20:15
-    title: UM & KUNA
-    description: "Podelitev medalj za športe: **Balinčkanje**"
+    title: Podelitev medalj
+    description: |-
+      Podelitev medalj za športe: 
+
+      **Balinčkanje**
     imageUrl: ""
     location: Kulturni otoček z domom III
   - time: 20:30

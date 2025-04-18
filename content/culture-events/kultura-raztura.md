@@ -25,7 +25,7 @@ events:
     description: 'Tradicionalni nastop Vodopivcev na kulturi je možnost, da fante na
       odru vidite bolj sproščene. Po njihovem nastopu pa jih lahko najdete pod
       odrom ali kjer se bo slišal njihov zloglasni vzklik: "BRUUUUC"'
-    imageUrl: /img/6.jpg
+    imageUrl: /img/343169401_980557789620925_3954934512170696496_n.jpg
     location: Kulturni otoček z domom III
   - time: 19:00
     title: Lift off

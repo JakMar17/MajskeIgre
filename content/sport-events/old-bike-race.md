@@ -4,7 +4,7 @@ location: Rožna dolina
 date: 2025-05-22T15:00:00.000Z
 price: 8 €
 teamFormation: Posamezno. Ločene moški in ženske
-registerLink: https://forms.gle/kdxiGKvjnsic5hJ68
+registerLink: https://forms.gle/L77UHYN3nqmaJPZw8
 description: >-
   <!--StartFragment-->
 

@@ -12,7 +12,7 @@ events:
     imageUrl: ""
     location: Mala kulturna dvorana
     price: Brezplačno
-    registerLink: https://forms.gle/MowdMraiWNH51ufy5
+    registerLink: ""
   - time: 18:00
     title: Eva in njene cvetke - delavnica skrbi za rastline
     description: Si naveličan/-a praznih omar in pustih okenskih polic? Imaš že
@@ -24,7 +24,7 @@ events:
     imageUrl: ""
     price: Brezplačno
     location: Mala kulturna dvorana
-    registerLink: https://forms.gle/X5HhoGrGJx9wf93w8
+    registerLink: ""
   - time: 19:00
     title: Delavnica uporabe AI
     description: Umetna inteligenca je tema, ki pritegne pozornost vseh, ki se

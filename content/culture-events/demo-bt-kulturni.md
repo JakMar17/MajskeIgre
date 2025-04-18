@@ -25,7 +25,7 @@ events:
       kvačkanih izdelkov. Predhodno znanje ni potrebno.
     imageUrl: /img/unnamed.jpg
     location: Mala kulturna dvorana
-    registerLink: https://forms.gle/N8xQESC2aujpAhZB9
+    registerLink: ""
     price: Brezplačno
   - time: 19:30
     title: Mlade nade

@@ -32,7 +32,7 @@ events:
     description: Mladi upi stand-upa. Ko jih boste čez 10 let videli na televiziji
       se boste lahko svojim prijateljem pohvalili, da ste jih videli davnega
       leta 25 na otočku Majskih iger.
-    imageUrl: ""
+    imageUrl: /img/344755218_897528011315494_9068761242707688305_n.jpg
     location: Kulturni otoček za domom 3
   - time: 20:15
     title: Podelitev medalj
@@ -45,7 +45,7 @@ events:
     title: Stand up
     description: Smeh je pol zdravja. Če greš najprej na šport in potem na stand-up
       boš večno zdrav.
-    imageUrl: /img/344755218_897528011315494_9068761242707688305_n.jpg
+    imageUrl: /img/345644225_2468671656641535_6142883176233122747_n.jpg
     location: Kulturni otoček z domom III
   - time: "21.45"
     title: Plejade

@@ -1,7 +1,7 @@
 ---
 title: MED DVEMA OGNJEMA
 location: Rožna dolina, odbojkarsko igrišče
-date: 2025-05-22T13:00:00.000Z
+date: 2025-05-22T15:00:00.000Z
 price: 8 €
 teamFormation: Ekipa po 6 igralcev, od tega morata biti vsaj 2 dekleti
 registerLink: https://forms.gle/x2bp4isMA2dwZJ1o7

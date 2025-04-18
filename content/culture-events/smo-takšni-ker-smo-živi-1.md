@@ -13,7 +13,7 @@ events:
     imageUrl: ""
     location: Sejna soba doma III
     price: Brezplačno
-    registerLink: https://forms.gle/bY1miaZwxPBwE3fr5
+    registerLink: ""
   - time: 17:00
     title: Delavnica Japonščine, izvaja Zavod ŠOLT
     description: Pri učenju japonščine boste odkrili nov svet. Spoznali boste jezik
@@ -23,7 +23,7 @@ events:
     location: Mala kulturna dvorana
     price: Brezplačno
     imageUrl: ""
-    registerLink: https://forms.gle/FQNe9uEs6JDxyvB6A
+    registerLink: ""
   - time: 18:00
     title: Delavnica navtike
     description: Pridruži se navtični delavnici v sklopu Majskih iger 2025 in zapluj

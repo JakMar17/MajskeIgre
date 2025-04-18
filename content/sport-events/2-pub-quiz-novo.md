@@ -4,7 +4,7 @@ location: Dom XIV
 date: 2025-05-12T16:00:00.000Z
 price: 10 €
 teamFormation: Ekipe po 4 tekmovalce
-registerLink: ""
+registerLink: https://forms.gle/azBXkwNyvZmRnDjo7
 description: >-
   <!--StartFragment-->
 

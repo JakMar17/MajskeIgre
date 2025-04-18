@@ -21,7 +21,7 @@ events:
       poznamo. Japonska je hitro rastoča velesila, ki ima dobro razvito
       tehnologijo, raziskovalno področje, ekonomijo in še kaj.
     location: Mala kulturna dvorana
-    price: 5€
+    price: Brezplačno
     imageUrl: ""
     registerLink: https://forms.gle/FQNe9uEs6JDxyvB6A
   - time: 18:00
@@ -41,9 +41,11 @@ events:
     location: Kulturni otoček z domom III
   - time: 20:00
     title: Medalje
-    description: "Podelitev medalj za športe: **Odbojka 4+2, košarka, šnops,
-      plezalna stena, pixel, nogomet moški, nogomet ženske, pikado, tarok,
-      bowling.**"
+    description: >-
+      Podelitev medalj za športe: 
+
+
+      **Odbojka 4+2, košarka, šnops, plezalna stena, pixel, nogomet moški, nogomet ženske, pikado, tarok, bowling.**
     imageUrl: ""
     location: Kulturni otoček z domom III
   - time: 20:15

@@ -18,7 +18,7 @@ events:
       elementov tehnik dela z mažoretsko palico in cofi. Na koncu pa nas čaka še
       krajši nastop mažoretk.
     imageUrl: ""
-    registerLink: https://forms.gle/BhojXgPd6FsEoKzu6
+    registerLink: ""
     location: Teniško igrišče v Rožni dolini
   - time: 18:45
     title: The Multicentral
@@ -30,8 +30,11 @@ events:
     location: Kulturni otoček z domom III
   - time: 20:00
     title: Podelitev medalj
-    description: "Podelitev medalj za športe: **streetball, nogomet na mivki,
-      briškula, badminton, ping pong, beer pong.**"
+    description: >-
+      Podelitev medalj za športe: 
+
+
+      **streetball, nogomet na mivki, briškula, badminton, ping pong, beer pong.**
     location: Kulturni otoček z domom III
   - time: 20:15
     title: Uninvited

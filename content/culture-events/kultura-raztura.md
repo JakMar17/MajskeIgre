@@ -19,7 +19,7 @@ events:
       karieri in osebnem življenju.
     imageUrl: /img/debata_2_orig.jpg
     location: Mala kulturna dvorana
-    registerLink: https://forms.gle/LgKPRQTppUQHyjXEA
+    registerLink: ""
   - time: 18:15
     title: Primorski akademski zbor Vinko Vodopivec
     description: 'Tradicionalni nastop Vodopivcev na kulturi je možnost, da fante na

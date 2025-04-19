@@ -41,7 +41,7 @@ events:
     location: Kulturni otoček z domom III
     registerLink: "https://forms.gle/pLz4AQ7aDDwRNk9q6 "
   - time: 20:00
-    title: Medalje
+    title: Podelitev medalj
     description: >-
       Podelitev medalj za športe: 
 

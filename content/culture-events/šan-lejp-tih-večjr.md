@@ -14,7 +14,7 @@ events:
     price: Brezplačno
     registerLink: "https://forms.gle/2RneAMLXtxfFEGi77 "
   - time: 18:00
-    title: "  in njene cvetke - delavnica skrbi za rastline"
+    title: Eva in njene cvetke - delavnica skrbi za rastline
     description: Si naveličan/-a praznih omar in pustih okenskih polic? Imaš že
       nekaj rastlin pa bi jih rad/-a imel še več? Potem je delavnica “Eva in
       njene cvetke” kot nalašč zate! Naučili se bomo razmnoževanja s

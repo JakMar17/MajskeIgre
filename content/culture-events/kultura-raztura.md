@@ -11,6 +11,7 @@ events:
     imageUrl: /img/kaj-je-mlado-vino-feat.jpg.webp
     location: Sejna soba doma III
     price: Brezplačno
+    registerLink: https://forms.gle/DsVEHk4EXTUnPgs1A
   - time: 17:00
     title: Javno nastopanje
     description: V sodobnem svetu so učinkovite komunikacijske veščine ključne za
@@ -19,7 +20,7 @@ events:
       karieri in osebnem življenju.
     imageUrl: /img/debata_2_orig.jpg
     location: Mala kulturna dvorana
-    registerLink: ""
+    registerLink: "https://forms.gle/Si9mktqnsMhGf5rL7 "
   - time: 18:15
     title: Primorski akademski zbor Vinko Vodopivec
     description: 'Tradicionalni nastop Vodopivcev na kulturi je možnost, da fante na

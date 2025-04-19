@@ -18,6 +18,7 @@ events:
       bomo uporabljati medicinske in kulinarične gobe.
     imageUrl: ""
     location: mala kulturna dvorana
+    registerLink: "https://forms.gle/7BHbqBX8R3Ge8ej59 "
   - time: 18:00
     title: Šprwni
     description: So petčlanski punk rock bend iz Primorske, ki že eno leto ustvarja

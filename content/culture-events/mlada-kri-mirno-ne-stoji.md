@@ -11,6 +11,7 @@ events:
       pristnih okusih.
     imageUrl: ""
     location: Mala kulturna dvorana
+    registerLink: "https://forms.gle/3jMoks5eZ5Vus73c9 "
   - time: 17:00
     title: Delavnica mažoretk
     description: Delavnica je namenjena vsem ljubiteljem in ljubiteljicam ritma,
@@ -18,7 +19,7 @@ events:
       elementov tehnik dela z mažoretsko palico in cofi. Na koncu pa nas čaka še
       krajši nastop mažoretk.
     imageUrl: ""
-    registerLink: ""
+    registerLink: "https://forms.gle/TDxutKJ5nMh9NaGMA "
     location: Teniško igrišče v Rožni dolini
   - time: 18:45
     title: The Multicentral

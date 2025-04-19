@@ -1,6 +1,6 @@
 {
   "description": "Kultura je pesem, je sprostitev in zabava, je kotiček, kjer se dogaja kreativnost prava. Vsako leto organiziramo **6** **kulturnih otočkov**, kjer se zabavamo, sproščamo, ustvarjamo, izvemo marsikaj novega in spoznamo cel kup zanimivih ljudi.\n\nKoncerti znanih in manj znanih ustvarjalcev so le začetek odkrivanja kulturnega sveta Majskih iger. Vabimo vas v svet stand-upa, razstav, družabnih iger, plesa, petja, dobrih rim, potopisov, filmskega večera pod zvezdami, poezije, zanimivih delavnic in razgibalnic.\n\nPridružite se nam v prijetnem ambientu na trati pod bujnimi krošnjami dreves in zvezdnim nebom. Naj vas zaziba in zapelje v poletje ta bogati kulturni rožni raj - **študentski KULturni mesec maj!**",
   "coverImage": "/img/kultura_naslovna.jpg.webp",
-  "showSchedule": false,
+  "showSchedule": true,
   "additionalInfo": "**I﻿nfo točka je odprta od 9.00-17.00.**\n\n**Organizator si pridržuje pravico do spremembe programa!**\n\nZa vse dodatne informacije se lahko obrnete na:\\\n**[kultura@ssvets.si](mailto:kultura@ssvets.si)**"
 }

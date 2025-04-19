@@ -17,6 +17,7 @@ events:
       v južni Aziji. Pot jo je vodila vse od Himalaje, pa do barvite in
       raznolike Indije, kjer je med drugim živela pri lokalnih družinah in se
       udeležila 10-dnevne meditacije v tišini.
+    registerLink: https://forms.gle/zWcZ6cRSPXYsCALY8
   - time: 18:15
     title: Delavnica kvačkanja, izvaja Zavod ŠOLT
     description: Vas zanima raziskovanje sveta preje, kvačk, petelj in zank? Si
@@ -25,7 +26,7 @@ events:
       kvačkanih izdelkov. Predhodno znanje ni potrebno.
     imageUrl: /img/unnamed.jpg
     location: Mala kulturna dvorana
-    registerLink: ""
+    registerLink: "https://forms.gle/qdoPLt7jG61KpFwW7 "
     price: Brezplačno
   - time: 19:30
     title: Mlade nade

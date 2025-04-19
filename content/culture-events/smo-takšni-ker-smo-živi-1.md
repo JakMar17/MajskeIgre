@@ -39,6 +39,7 @@ events:
       spektakularne padce s pivom u roki.
     imageUrl: /img/screenshot-2024-04-15-at-21.34.59.png
     location: Kulturni otoček z domom III
+    registerLink: "https://forms.gle/pLz4AQ7aDDwRNk9q6 "
   - time: 20:00
     title: Medalje
     description: >-

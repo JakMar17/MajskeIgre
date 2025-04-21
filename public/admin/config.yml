@@ -199,6 +199,7 @@ collections:
       - label: "Datum dogodka"
         name: "date"
         widget: "date"
+        date_format: true
         required: true
       - label: "Slika"
         name: "imageUrl"

@@ -198,7 +198,7 @@ collections:
         required: true
       - label: "Datum dogodka"
         name: "date"
-        widget: "date"
+        widget: "datetime"
         date_format: true
         required: true
       - label: "Slika"

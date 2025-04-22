@@ -1,7 +1,7 @@
 ---
 title: Zaključek Majskih iger 2025
 location: Kardeljeva ploščad
-date: 2024-05-28T11:31:55.516Z
+date: 2025-05-27
 imageUrl: /img/fb_img_1709477196011.jpg.webp
 performers: |-
   ### Kreera

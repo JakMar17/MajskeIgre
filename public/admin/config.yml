@@ -208,6 +208,10 @@ collections:
       - label: "Nastopajoči"
         name: "performers"
         widget: "markdown"
+      - label: "Spotify playlista"
+        name: "playlist"
+        widget: "string"
+        required: false
   - name: "sportEvents"
     label: "Šport"
     folder: "content/sport-events"

@@ -7,6 +7,14 @@
         <div class="container concert__title__container">
           <h1 class="title is-1 mb-2">{{ concert.title }}</h1>
           <h2 class="title is-6">{{ concert.location.toUpperCase() }} - {{ concert.date }}</h2>
+          <a v-if="concert.playlist" :href="concert.playlist" target="_blank" class="is-link" style="background: #122b41; padding: 0.5em 1em; border-radius: 999px; display: flex; gap: 1em; align-items: center">
+            <div>
+              <img src="../assets/images/playlist.png" style="height: 32px"/>
+            </div>
+            <div style="color: white">
+              Predvajaj na Spotify
+            </div>
+          </a>
         </div>
       </div>
 

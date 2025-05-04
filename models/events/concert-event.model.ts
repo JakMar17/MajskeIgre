@@ -4,4 +4,5 @@ export type ConcertEventModel = {
     date: string;
     imageUrl: string;
     performers?: string;
+    playlist?: string;
 }

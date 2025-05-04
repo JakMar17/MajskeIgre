@@ -13,4 +13,5 @@ performers: |-
   # Tabu
 
   ## Slon in Sadež
+playlist: https://open.spotify.com/playlist/1ng6EbZuh8Lqll3wgYvE4A?si=e9ebe83df0b24568
 ---

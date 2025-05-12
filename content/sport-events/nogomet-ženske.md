@@ -1,7 +1,7 @@
 ---
 title: NOGOMET ŽENSKE
 location: Rožna dolina, nogometno igrišče
-date: 2025-05-14T07:00:00.000Z
+date: 2025-05-14T08:00:00.000Z
 price: 8 €
 teamFormation: 5 igralk + 3 rezerve
 registerLink: https://forms.gle/WY3GNwJx3nZFtKwB8

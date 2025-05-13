@@ -1,7 +1,7 @@
 ---
 title: NOGOMET 2. del
 location: Rožna dolina, nogometno igrišče.
-date: 2025-05-14T08:00:00.000Z
+date: 2025-05-14T12:00:00.000Z
 price: /
 description: >-
   <!--StartFragment-->

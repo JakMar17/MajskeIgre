@@ -4,15 +4,15 @@ date: 2025-05-20T15:00:00.000Z
 imageUrl: /img/280448089_5631346656909360_368810459111457446_n.jpg
 events:
   - time: 17:00
-    title: Znakovni jezik
-    description: Na tečaju bomo spoznavali različne načine komunikacije gluhih in
-      naglušnih, kot so kretnje, obrazna mimika in telesna govorica. Po
-      zaključku tečaja boste pridobili večjo samozavest pri vzpostavljanju
-      stikov z gluhimi uporabniki znakovnega jezika.
+    title: Delavnica uporabe AI
+    description: Umetna inteligenca je tema, ki pritegne pozornost vseh, ki se
+      želijo spoznati z naprednimi tehnologijami in njihovimi možnostmi. Umetna
+      inteligenca ne prinaša le tehnoloških inovacij, temveč tudi etične in
+      pravne izzive. Pridi in jih spoznaj.
     imageUrl: ""
     location: Mala kulturna dvorana
     price: Brezplačno
-    registerLink: "https://forms.gle/2RneAMLXtxfFEGi77 "
+    registerLink: https://forms.gle/M5qbRA3HQcVrvSB26
   - time: 18:00
     title: Eva in njene cvetke - delavnica skrbi za rastline
     description: Si naveličan/-a praznih omar in pustih okenskih polic? Imaš že
@@ -26,14 +26,15 @@ events:
     location: Mala kulturna dvorana
     registerLink: "https://forms.gle/MzwszEVgHxR7M6e78 "
   - time: 19:00
-    title: Delavnica uporabe AI
-    description: Umetna inteligenca je tema, ki pritegne pozornost vseh, ki se
-      želijo spoznati z naprednimi tehnologijami in njihovimi možnostmi. Umetna
-      inteligenca ne prinaša le tehnoloških inovacij, temveč tudi etične in
-      pravne izzive. Pridi in jih spoznaj.
+    title: Delavnica slovenskega znakovnega jezika
+    description: Na tečaju bomo spoznavali različne načine komunikacije gluhih in
+      naglušnih, kot so kretnje, obrazna mimika in telesna govorica. Po
+      zaključku tečaja boste pridobili večjo samozavest pri vzpostavljanju
+      stikov z gluhimi uporabniki znakovnega jezika.
     imageUrl: ""
     location: Mala kulturna dvorana
     price: Brezplačno
+    registerLink: https://forms.gle/4PLqdKoYzQpsAHb38
   - time: 20:00
     title: Podelitev medalj
     description: |-

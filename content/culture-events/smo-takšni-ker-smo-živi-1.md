@@ -4,26 +4,35 @@ date: 2025-05-15T15:00:00.000Z
 imageUrl: /img/62034268_2611685045542218_665991574676570112_n.jpg
 events:
   - time: 17:00
-    title: Delavnica Italijanščine, izvaja Zavod ŠOLT
-    description: Jezik naših zahodih sosedov, ki včasih niti ne vedo, da so naši
-      sosedi. Da, to so Italijani, glasni in veseli ljudje, ki pri komunikaciji
-      ne morajo držati svojih rok v žepu! Da bi se lažje znašli v deželi, ki na
-      splošno ne govori najbolje angleščine, vam bo vsekakor znanje
-      italijanščine še kako prav prišlo!
+    title: Delavnica španščine, izvaja Zavod ŠOLT
+    description: >-
+      Delavnica španščine na Majskih igrah 2025 ponuja sproščen in zabaven uvod
+      v
+
+      učenje španščine. Vabljeni, da spoznate osnove jezika, ki ima pridih sonca, ritma in
+
+      dobre volje.
+
+      Delavnica bo potekala v sejni sobi doma III.
     imageUrl: ""
     location: Sejna soba doma III
     price: Brezplačno
-    registerLink: ""
+    registerLink: https://forms.gle/fZ4qWatDS673LvjD6
   - time: 17:00
-    title: Delavnica Japonščine, izvaja Zavod ŠOLT
-    description: Pri učenju japonščine boste odkrili nov svet. Spoznali boste jezik
-      in pisavo, državo in kulturo, ki je popolnoma drugačna od tega kar
-      poznamo. Japonska je hitro rastoča velesila, ki ima dobro razvito
-      tehnologijo, raziskovalno področje, ekonomijo in še kaj.
+    title: Delavnica francoščine, izvaja Zavod ŠOLT
+    description: >-
+      V sproščenem in zabavnem vzdušju se bomo naučili osnovnih fraz, kako se
+      znajti v
+
+      pariški kavarni, pozdraviti s stilom in spoznali drobce francoske kulture. Brez stresa,
+
+      brez slovničnih zapletov – samo dober jezik, dobra družba in ščepec joie de vivre.
+
+      Delavnica poteka v mali kulturni dvorani, izvaja jo Zavod ŠOLT.
     location: Mala kulturna dvorana
     price: Brezplačno
     imageUrl: ""
-    registerLink: ""
+    registerLink: https://forms.gle/HdGHc7erH5LWcAnGA
   - time: 18:00
     title: Delavnica navtike
     description: Pridruži se navtični delavnici v sklopu Majskih iger 2025 in zapluj

@@ -40,6 +40,7 @@ events:
       prisluhnil kratkemu predavanju o VHF postaji – kako jo uporabljati, kdaj
       jo potrebujemo in zakaj je ključna za varnost na morju.
     location: Mala kulturna dvorana
+    registerLink: https://forms.gle/gTg2rXEFfGiT9XGQ7
   - time: 19:00
     title: Slackline
     description: Če bi rad preizkusil svoje ravnotežje na malo drugačen način ali pa

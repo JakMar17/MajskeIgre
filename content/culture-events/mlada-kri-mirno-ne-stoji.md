@@ -20,7 +20,7 @@ events:
       krajši nastop mažoretk.
     imageUrl: ""
     registerLink: "https://forms.gle/TDxutKJ5nMh9NaGMA "
-    location: Teniško igrišče v Rožni dolini
+    location: Travnik za Športno dvorano v Rožni dolini
   - time: 18:45
     title: The Multicentral
     description: So novonastali severnoprimorski band, ki priredbe počasi nadomešča

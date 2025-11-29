@@ -56,7 +56,7 @@ export default defineNuxtConfig({
         'nitro:build:public-assets': async (nitro) => {
             const publicDir = resolve(nitro.options.output.publicDir);
             
-            const { serverQueryContent } = await import('#content/server');
+            const { serverQueryContent } = await import('node_modules/@nuxt/content/dist/runtime/server');
             
             const mockEvent = {};
 

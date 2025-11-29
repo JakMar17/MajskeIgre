@@ -1,10 +1,3 @@
-import { promises as fs } from 'node:fs';
-import { resolve } from 'node:path';
-
-const stableEndpoints = [
-    { path: '/majske-igre/organizational-team', filename: 'organizational-team.json' },
-];
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     css: [
@@ -34,7 +27,8 @@ export default defineNuxtConfig({
     ],
     modules: [
         '@nuxt/content',
-        'v-plausible'
+        'v-plausible',
+        './modules/static-content-exporter.ts'
     ],
     experimental: {
         payloadExtraction: false
@@ -51,24 +45,5 @@ export default defineNuxtConfig({
             trackLocalhost: false
         },
         partytown: false,
-    },
-    hooks: {
-        'nitro:build:public-assets': async (nitro) => {
-            const publicDir = resolve(nitro.options.output.publicDir);
-            
-            const { serverQueryContent } = await import('node_modules/@nuxt/content/dist/runtime/server');
-            
-            const mockEvent = {};
-
-            for (const endpoint of stableEndpoints) {
-                const data = await serverQueryContent(mockEvent)
-                    .where({ _path: endpoint.path })
-                    .findOne();
-                
-                const outputPath = resolve(publicDir, endpoint.filename);
-
-                await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf-8');
-            }
-        }
     }
 })

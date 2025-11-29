@@ -10,6 +10,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "pregenerate": "node scripts/export-content-collections.js",
+    "export-content-collections": "node scripts/export-content-collections.js",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -26,6 +28,7 @@
     "@nuxt/content": "^2.7.0",
     "@nuxtjs/markdownit": "^2.0.0",
     "bulma": "^0.9.4",
+    "gray-matter": "^4.0.3",
     "remixicon": "^3.0.0",
     "sass": "^1.58.0",
     "v-plausible": "^1.2.0"

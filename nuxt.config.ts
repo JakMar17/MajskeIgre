@@ -27,8 +27,7 @@ export default defineNuxtConfig({
     ],
     modules: [
         '@nuxt/content',
-        'v-plausible',
-        './modules/static-content-exporter.ts'
+        'v-plausible'
     ],
     experimental: {
         payloadExtraction: false

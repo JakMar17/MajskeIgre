@@ -80,10 +80,10 @@ const contactLink = {
   buttonType: 'is-primary'
 }
 
-const descriptionRef = ref<MajskeDescriptionModel | null>(null);
-
 const { data: contentData } = await useAsyncData('fetchDescriptions', () => queryContent<MajskeDescriptionModel>('descriptions/event').findOne());
-descriptionRef.value = contentData.value;
+
+const descriptionRef = computed(() => contentData.value ?? null);
+
 if (contentData.value != null) {
   createSeoFunction({
     title: "Majske igre",

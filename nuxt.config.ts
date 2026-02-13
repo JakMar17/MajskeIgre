@@ -1,48 +1,54 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    css: [
-        "@/assets/styles/main.scss",
-        "@/node_modules/remixicon/fonts/remixicon.css"
-    ],
-    build: {
-        transpile: [],
+  css: [
+    "@/assets/styles/main.scss",
+    "@/node_modules/remixicon/fonts/remixicon.css",
+  ],
+  build: {
+    transpile: [],
+  },
+  vite: {
+    define: {
+      "process.env.DEBUG": true,
     },
-    vite: {
-        define: {
-            'process.env.DEBUG': true,
-        },
-        server: {
-            hmr: {
-                port: 3008
-            }
-        },
-        css: {
-            preprocessorOptions: {
-                scss: {}
-            }
-        }
-
+    server: {
+      hmr: {
+        port: 3008,
+      },
     },
-    plugins: [
-    ],
-    modules: [
-        '@nuxt/content',
-        'v-plausible'
-    ],
-    experimental: {
-        payloadExtraction: false
+    css: {
+      preprocessorOptions: {
+        scss: {},
+      },
     },
-    runtimeConfig: {
-        public: {
-            gtagId: "G-QLS16E0KC9"
-        }
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/"], // Start crawling from homepage
+      // Optional: ignore API/dynamic routes
+      ignore: ["/api/**"],
     },
-    plausible: {
-        init: {
-            domain: 'majske-igre.si',
-            apiHost: 'https://plausible.sven.marela.team/',
-            trackLocalhost: false
-        },
-        partytown: false,
-    }
-})
+  },
+  routeRules: {
+    '/**': { prerender: true }
+  },
+  plugins: [],
+  modules: ["@nuxt/content", "v-plausible"],
+  experimental: {
+    payloadExtraction: false,
+  },
+  runtimeConfig: {
+    public: {
+      gtagId: "G-QLS16E0KC9",
+    },
+  },
+  plausible: {
+    init: {
+      domain: "majske-igre.si",
+      apiHost: "https://plausible.sven.marela.team/",
+      trackLocalhost: false,
+    },
+    partytown: false,
+  },
+});

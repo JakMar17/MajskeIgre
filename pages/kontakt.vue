@@ -1,20 +1,18 @@
 <template>
-  <HeaderPageComponent
-      title="Organizator"
-      subtitle="Kdo sestavlja organizatorsko ekipo?"
-      :image-url="coverImgRef ?? ''"
-  />
+  <HeaderPageComponent title="Organizator" subtitle="Kdo sestavlja organizatorsko ekipo?"
+    :image-url="coverImgRef ?? ''" />
 
   <CardComponent v-if="introRef" class="mb-6" :content="introRef"></CardComponent>
 
   <main class="container" style="display: flex; flex-wrap: wrap; gap: 3em; justify-content: center">
-    <ContactCardComponent v-for="member of membersRef" :key="member.name" :name="member.name" :functionTitle="member.functionTitle" :phone="member.phone" :email="member.email" :imageUrl="member.imageUrl"/>
+    <ContactCardComponent v-for="member of membersRef" :key="member.name" :name="member.name"
+      :functionTitle="member.functionTitle" :phone="member.phone" :email="member.email" :imageUrl="member.imageUrl" />
   </main>
 
 </template>
 <script setup lang="ts">
-import {MemberModel} from "~/models/member.model";
-import {createSeoFunction} from "~/functions/create-seo.function";
+import { MemberModel } from "~/models/member.model";
+import { createSeoFunction } from "~/functions/create-seo.function";
 
 
 // const fetchData = async () => {

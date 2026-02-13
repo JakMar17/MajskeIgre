@@ -1,17 +1,15 @@
 <template>
-  <main v-if="descriptionRef">
-
+  <main v-if="contentData">
     <div class="flex justify-content--center">
       <img style="width: 50em" src="../assets/images/svgs/logo-majske.svg" />
     </div>
 
     <div>
-
       <CardComponent class="mb-4" title="Majske igre – festival študentskih domov" :centered-titles="true"
-        :content="descriptionRef.description" />
+        :content="contentData.description" />
 
-      <CardImageComponent class="sport__wrapper" title="Šport" :image-url="descriptionRef.sportImage"
-        :content="descriptionRef.sportDescription" :links="[links.sport]">
+      <CardImageComponent class="sport__wrapper" title="Šport" :image-url="contentData.sportImage"
+        :content="contentData.sportDescription" :links="[links.sport]">
         <template v-slot:title>
           <div class="flex justify-content--between align-items--baseline">
             <h1 class="title is-2">Šport</h1>
@@ -20,8 +18,8 @@
         </template>
       </CardImageComponent>
 
-      <CardImageComponent class="culture__wrapper" title="Kultura" :image-url="descriptionRef.cultureImage"
-        :content="descriptionRef.cultureDescription" :links="[links.culture]">
+      <CardImageComponent class="culture__wrapper" title="Kultura" :image-url="contentData.cultureImage"
+        :content="contentData.cultureDescription" :links="[links.culture]">
         <template v-slot:title>
           <div class="flex justify-content--between align-items--baseline">
             <h1 class="title is-2">Kultura</h1>
@@ -30,8 +28,8 @@
         </template>
       </CardImageComponent>
 
-      <CardImageComponent class="concert__wrapper" title="Zabava" :image-url="descriptionRef.concertImage"
-        :content="descriptionRef.concertDescription" :links="[links.concerts]">
+      <CardImageComponent class="concert__wrapper" title="Zabava" :image-url="contentData.concertImage"
+        :content="contentData.concertDescription" :links="[links.concerts]">
         <template v-slot:title>
           <div class="flex justify-content--between align-items--baseline">
             <h1 class="title is-2">Zabava</h1>
@@ -42,18 +40,14 @@
     </div>
 
     <CardComponent class="mt-6" title="Organizator Majskih iger - Študentski svet stanovalcev" :centered-titles="true"
-      :content="descriptionRef.organizer" />
+      :content="contentData.organizer" />
 
-    <CardImageComponent title="Organizacijska ekipa" :image-url="descriptionRef.teamImage"
-      :content="descriptionRef.teamDescription" :links="[contactLink]" :reversed="true" />
-
+    <CardImageComponent title="Organizacijska ekipa" :image-url="contentData.teamImage"
+      :content="contentData.teamDescription" :links="[contactLink]" :reversed="true" />
   </main>
-
 </template>
 
 <script lang="ts" setup>
-
-import { MajskeDescriptionModel } from "~/models/majske-description.model";
 import { createSeoFunction } from "~/functions/create-seo.function";
 
 const links = {
@@ -72,26 +66,35 @@ const links = {
     link: '/sport',
     buttonType: 'is-primary is-fullwidth'
   }
-}
+};
 
 const contactLink = {
   title: 'Kontakt ekipe',
   link: '/kontakt',
   buttonType: 'is-primary'
-}
-
-const { data: contentData } = await useAsyncData('fetchDescriptions', () => queryContent<MajskeDescriptionModel>('descriptions/event').findOne());
-
-const descriptionRef = computed(() => contentData.value ?? null);
-
-if (contentData.value != null) {
-  createSeoFunction({
-    title: "Majske igre",
-    description: contentData.value?.description,
-    imageUrl: contentData.value?.concertImage
-  });
 };
 
+const { data: contentData } = await useAsyncData('fetchDescriptions', () => 
+  queryContent('descriptions/event').findOne()
+);
+
+// Safe SSR/prerender access using contentData directly
+useHead(() => ({
+  title: 'Majske igre',
+  meta: [
+    { name: 'description', content: contentData.value?.description ?? '' },
+    { property: 'og:image', content: contentData.value?.concertImage ?? '' }
+  ]
+}));
+
+// Or keep your createSeoFunction if it handles useHead/meta
+if (contentData.value) {
+  createSeoFunction({
+    title: "Majske igre",
+    description: contentData.value.description ?? '',
+    imageUrl: contentData.value.concertImage ?? ''
+  });
+}
 </script>
 
 <style scoped lang="scss">

@@ -16,23 +16,31 @@
 import {MemberModel} from "~/models/member.model";
 import {createSeoFunction} from "~/functions/create-seo.function";
 
-const introRef = ref<string | null>(null);
-const coverImgRef = ref<string | null>(null);
-const membersRef = ref<MemberModel[] | null>(null);
 
+// const fetchData = async () => {
+//   const {intro, coverImg, members} = await queryContent('majske-igre/organizational-team').findOne()
+//   introRef.value = intro;
+//   coverImgRef.value = coverImg;
+//   membersRef.value = members;
 
-const fetchData = async () => {
-  const {intro, coverImg, members} = await queryContent('majske-igre/organizational-team').findOne()
-  introRef.value = intro;
-  coverImgRef.value = coverImg;
-  membersRef.value = members;
+//   createSeoFunction({
+//     title: "Organizacijska ekipa - Majske igre",
+//     description: intro,
+//     imageUrl: coverImg
+//   });
+// }
 
-  createSeoFunction({
-    title: "Organizacijska ekipa - Majske igre",
-    description: intro,
-    imageUrl: coverImg
-  });
-}
+const { data: contentData } = await useAsyncData('organizational-team', () =>
+  queryContent('majske-igre/organizational-team').findOne()
+)
 
-fetchData();
+const introRef = computed(() => contentData.value?.intro ?? null)
+const coverImgRef = computed(() => contentData.value?.coverImg ?? null)
+const membersRef = computed(() => contentData.value?.members ?? null)
+
+createSeoFunction({
+  title: "Organizacijska ekipa - Majske igre",
+  description: introRef.value ?? '',
+  imageUrl: coverImgRef.value ?? ''
+});
 </script>

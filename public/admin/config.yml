@@ -148,6 +148,39 @@ collections:
                 name: "imageUrl"
                 widget: "image"
 
+      - label: "Info točka"
+        name: "infoPoint"
+        format: "json"
+        file: "content/majske-igre/info-point.json"
+        create: true
+        slug: "{{slug}}"
+        fields:
+          - label: "Opis info točke"
+            name: "description"
+            widget: "markdown"
+          - label: "Slika info točke"
+            name: "imageUrl"
+            widget: "image"
+            required: false
+          - label: "Odpiralni čas info točke"
+            name: "openingHours"
+            create: true
+            widget: "list"
+            fields:
+              - label: "Datum"
+                name: "date"
+                widget: "datetime"
+                date_format: true
+              - label: "Odpiralni čas"
+                name: "openingHour"
+                widget: "string"
+              - label: "Zapiralni čas"
+                name: "closingHour"
+                widget: "string"
+              - label: "Dodatne informacije"
+                name: "additionalInfo"
+                widget: "markdown"
+                required: false
 
       - label: "Sponzorji dogodka"
         name: "sponsors"

@@ -11,4 +11,5 @@ performers: |-
   # Rok'n'Band
 
   ### Yugo Nostalgica
+geoLocation: '{"type":"Point","coordinates":[14.5163697,46.0754008]}'
 ---

@@ -13,4 +13,5 @@ performers: |-
   # Zablujena generacija
 
   ## Elvis Jackson
+geoLocation: '{"type":"Point","coordinates":[14.4762831,46.0534296]}'
 ---

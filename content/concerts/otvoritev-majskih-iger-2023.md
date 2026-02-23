@@ -14,4 +14,5 @@ performers: |-
 
   ## Slon in Sadež
 playlist: https://open.spotify.com/playlist/1ng6EbZuh8Lqll3wgYvE4A?si=e9ebe83df0b24568
+geoLocation: '{"type":"Point","coordinates":[14.489096,46.0513604]}'
 ---

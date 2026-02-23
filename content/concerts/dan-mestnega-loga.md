@@ -11,4 +11,5 @@ performers: |-
   # Čuki
 
   ### Direkt
+geoLocation: '{"type":"Point","coordinates":[14.4879898,46.0372471]}'
 ---

@@ -7,4 +7,5 @@ export type SportEventModel = {
     registerLink?: string;
     description?: string;
     imageUrl?: string;
+    geoLocation?: string;
 }

@@ -20,19 +20,7 @@
 
       <CardImageComponent style="text-align: center" :imageUrl="concert.imageUrl" :content="concert.performers" :reversed="index % 2 === 0"/>
 
-      <div v-if="concert.mapEmbedUrl" class="concert__map__wrapper">
-        <div class="container">
-          <iframe
-            :src="concert.mapEmbedUrl"
-            width="100%"
-            height="220"
-            style="border: 0"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            :title="`Lokacija dogodka ${concert.title}`"
-          />
-        </div>
-      </div>
+      <MapComponent :geoLocation="concert.geoLocation"/>
     </section>
 
     <EventsNoContentComponent v-else type="zabava" title="Kdo bo stopil na oder je še skrivnost" content="...a ne za dolgo - spremljaj naša socialna omrežja in bodi prvi, ki boš izvedel!"/>
@@ -47,18 +35,9 @@ import {ConcertEventModel} from "~/models/events/concert-event.model";
 import {DescriptionModel} from "~/models/description.model";
 import {createSeoFunction} from "~/functions/create-seo.function";
 
-const concertsRef = ref<ConcertViewModel[]>([]);
+const concertsRef = ref<ConcertEventModel[]>([]);
 const descriptionRef = ref<DescriptionModel | null>(null);
 const showScheduleRef = ref<boolean>(false);
-
-type ConcertGeoPoint = {
-  type: string;
-  coordinates: [number, number];
-};
-
-type ConcertViewModel = ConcertEventModel & {
-  mapEmbedUrl?: string;
-};
 
 const fetchDescription = () => queryContent<DescriptionModel>('descriptions/concert').findOne().then((description) => {
   descriptionRef.value = description;
@@ -72,46 +51,12 @@ const fetchDescription = () => queryContent<DescriptionModel>('descriptions/conc
 
 const fetchConcerts = () => queryContent<ConcertEventModel>('concerts').sort({date: 1}).find().then((concerts) => {
   concertsRef.value = (concerts ?? []).map(v => {
-    const parsedGeoLocation = parseGeoLocation(v.geoLocation);
-    const mapEmbedUrl = parsedGeoLocation
-      ? createMapEmbedUrl(parsedGeoLocation.coordinates[1], parsedGeoLocation.coordinates[0])
-      : undefined;
-
     return {
       ...v,
       date: new Date(v.date).toLocaleDateString(),
-      mapEmbedUrl
-    } as ConcertViewModel;
+    } as ConcertEventModel;
   });
 });
-
-function parseGeoLocation(geoLocation?: string): ConcertGeoPoint | null {
-  if (!geoLocation) return null;
-
-  try {
-    const parsed = JSON.parse(geoLocation) as ConcertGeoPoint;
-    const [longitude, latitude] = parsed.coordinates ?? [];
-
-    if (typeof latitude !== 'number' || typeof longitude !== 'number') {
-      return null;
-    }
-
-    return parsed;
-  } catch {
-    return null;
-  }
-}
-
-function createMapEmbedUrl(latitude: number, longitude: number): string {
-  const zoom = 17;
-  const delta = 0.0012;
-  const left = longitude - delta;
-  const right = longitude + delta;
-  const top = latitude + delta;
-  const bottom = latitude - delta;
-  return `https://www.openstreetmap.org/export/embed.html?bbox=${left}%2C${bottom}%2C${right}%2C${top}&layer=mapnik&marker=${latitude}%2C${longitude}&zoom=${zoom}`;
-}
-
 
 useAsyncData('fetchData', () => {
   fetchDescription();

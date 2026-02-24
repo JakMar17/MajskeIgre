@@ -13,4 +13,5 @@ export type CultureSubEventModel = {
     price?: string;
     registerLink?: string;
     time?: string;
+    geoLocation?: string;
 }

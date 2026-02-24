@@ -11,6 +11,7 @@ events:
       tvoje kolo ti bo hvaležno.
     imageUrl: /img/screenshot-2024-05-23-at-17.52.14.png
     location: Pred domom I
+    geoLocation: '{"type":"Point","coordinates":[14.4880954,46.0503125]}'
   - time: 17:00
     title: Gobenjak
     description: Na Majskih igrah bomo v praksi z Gobenjakom in študenti iz
@@ -19,12 +20,14 @@ events:
     imageUrl: ""
     location: mala kulturna dvorana
     registerLink: "https://forms.gle/7BHbqBX8R3Ge8ej59 "
+    geoLocation: '{"type":"Point","coordinates":[14.487914,46.0514942]}'
   - time: 18:00
     title: Šprwni
     description: So petčlanski punk rock bend iz Primorske, ki že eno leto ustvarja
       glasbo. Čeprav delujejo relativno kratek čas pa so se predstavili že na
       mnogih primorskih odrih.
     location: Kulturni otoček z domom III
+    geoLocation: '{"type":"Point","coordinates":[14.4885737,46.0509276]}'
   - time: 19:00
     title: Samokres
     description: So sveža goriška formacija strastnih muzičistov, ki z odprtim
@@ -32,6 +35,7 @@ events:
       rock'n roll, ki najbolj zaživi na odru.
     imageUrl: ""
     location: Kulturni otoček z domom III
+    geoLocation: '{"type":"Point","coordinates":[14.4885824,46.0509282]}'
   - time: 20:15
     title: Podelitev medalj
     description: |-
@@ -40,11 +44,13 @@ events:
       **Balinčkanje**
     imageUrl: ""
     location: Kulturni otoček z domom III
+    geoLocation: '{"type":"Point","coordinates":[14.4885916,46.0509581]}'
   - time: 20:30
     title: Špatula
     description: So punk rock skupina, sz Krasa doma, ku igra po principi "Gas in
       douge luči". Jeseni 2024 so izdali naš prvi album Stara bajta.
     location: Kulturni otoček z domom III
+    geoLocation: '{"type":"Point","coordinates":[14.4884613,46.0508808]}'
   - time: 21:45
     description: Pank z bagerjem v čelo. Brez filtra, brez olepševanja, samo
       nebrzdana surovost in kanček lokalnega šarma, ki diši po poceni pivu in še

@@ -20,4 +20,5 @@ description: >-
 
   <!--EndFragment-->
 imageUrl: /img/beer-pong.jpg
+geoLocation: '{"type":"Point","coordinates":[14.4887046,46.0512598]}'
 ---

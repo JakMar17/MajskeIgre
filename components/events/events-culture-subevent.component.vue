@@ -24,7 +24,7 @@
 
     <ContentRendererMarkdown v-if="parsedDescriptionRef" :value="parsedDescriptionRef"/>
     <EventsImageSubeventComponent v-if="event.imageUrl" :imageUrl="event.imageUrl"/>
-    <MapComponent :geoLocation="event.geoLocation"/>
+    <MapComponent class="mt-2 mb-4" :geoLocation="event.geoLocation" :height="150"/>
   </div>
 </template>
 

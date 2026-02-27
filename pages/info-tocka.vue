@@ -144,25 +144,7 @@ import { parseMarkdown } from "~/utils/parseMarkdown";
 
 const { data: contentData } = await useAsyncData('info-point', () =>
   queryContent<InfoPoint>('majske-igre/info-point').findOne()
-)
-
-const links = {
-  sport: {
-    title: 'Razpored športov',
-    link: '/sport',
-    buttonType: 'is-primary is-fullwidth'
-  },
-  culture: {
-    title: 'Razpored kulture',
-    link: '/kultura',
-    buttonType: 'is-primary is-fullwidth'
-  },
-  concert: {
-    title: 'Razpored zabave',
-    link: '/zabava',
-    buttonType: 'is-primary is-fullwidth'
-  }
-};
+);
 
 const openPanels = ref<{
   sport: number | null;

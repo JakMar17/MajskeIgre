@@ -1,0 +1,84 @@
+{
+  "sportInfo": {
+    "description": "Za udeležbo na vseh športnih dogodkih se je potrebno predhodno prijaviti(1). Prijava je enostavna in vključuje spletno prijavo preko obrazca ter plačilo prijavnine na info točki:",
+    "notes": "**Subvencioniranje prijavnin:** nekateri domovi za svoje prebivalce subvencionirajo prijavnine v vrednosti 50 %. Preveri pri svojem predstavniku doma ali na info točki! Subvencijo priznamo ob poravnavi prijavnine.*\n\n*(1) Za nekatere športne dogodke obstaja drugačen način prijave, saj prijavo v imenu doma opravi predstavnik. Tudi to bo zapisano ob razporedu športov.*\n\n*(2) Plačilo prijavnine (če si opravil spletno prijavo vsaj dan pred dogodkom) je mogoče tudi na dan dogodka do začetka dogodka oziroma najkasneje do 12. ure. Na dan dogodka je prijavnina 2 € višja.*\n\n*(3) Majice Majskih iger prevzameš za vse člane svoje ekipe pri športih, kjer je potrebno poravnati prijavnino. Če je prijavnina brezplačna, je tvoja prijava potrjena že s spletno prijavo in obisk info točke ni potreben.*",
+    "steps": [
+      {
+        "title": "Spletna prijava",
+        "description": "Ko se odločiš za sodelovanje na športnem dogodku, čim hitreje [poišči svoj šport na razporedu](https://majske-igre.si/sport). Na razporedu boš našel prijavni link(1), preko katerega prijaviš sebe in svojo ekipo, če gre za skupinski šport. Potreboval boš osnovne podatke ekipe (ime ekipe, imena članov, domove članov in številke majic).\n\nNa športe se lahko prijaviš do dneva pred dogodkom oziroma dokler so še prosta mesta. Kasneje prijavni obrazec ne bo več deloval.",
+        "type": "number"
+      },
+      {
+        "title": "Plačilo prijavnine",
+        "description": "Čim prej, najkasneje pa dan pred dogodkom(2), se oglasi na info točki, kjer poravnaš prijavnino. Pri ekipnih športih se prijavnina poravna za celotno ekipo skupaj.\n\nOb prijavi prejmeš tudi sponzorsko mapico s ponudbami in popusti naših partnerjev ter prevzameš majice Majskih iger(3).",
+        "type": "number"
+      },
+      {
+        "title": "Pripravljeni, pozor … ZDAJ",
+        "description": "S poravnavo prijavnine na info točki je tvoja prijava uspešno zaključena. Na dan dogodka pridi na lokacijo discipline vsaj 15 minut prej. Vse dodatne informacije, razpored in potek bo ob začetku predstavil vodja športa.\n\n*Kakršnekoli dodatne informacije (posebne zahteve, odpoved ali prestavitev discipline ipd.) boš prejel preko elektronske pošte ali preko svojega predstavnika doma.*",
+        "type": "number"
+      },
+      {
+        "title": "Kaj pa, če je dogodek prestavljen ali odpovedan?",
+        "description": "Ker so športni dogodki odvisni od vremena, se lahko zgodi, da so nekateri prestavljeni ali odpovedani.\n\n**Če je dogodek prestavljen:** zate se ne spremeni nič – na nov termin preprosto pridi in zmagaj. *Vračilo prijavnine v primeru prestavitve ni mogoče, mogoča pa je sprememba ekipe.*\n\n**Če je dogodek odpovedan:** na voljo imaš dve možnosti – majico Majskih iger obdržiš ali pa ti na info točki vrnemo prijavnino. *Če je bila majica že nošena, vračilo prijavnine ni mogoče.*",
+        "type": "item"
+      },
+      {
+        "title": "Prijave so že zaprte",
+        "description": "Nekateri športi imajo omejeno število prijav, zato je pomembno, da se prijaviš čim prej. Če so prijave zaprte, boš na izbrani šport moral počakati do naslednjega leta. Ali pač?\n\nLahko se zgodi, da kdo prijavnine ne poravna ali odpove udeležbo, zato spremljaj naša družbena omrežja, kjer sproti objavljamo sproščena mesta.\n\n*Prijave na nekatere športe (npr. karting) se zapolnijo v nekaj minutah, druge pa v nekaj urah. Razpored športov bo objavljen že nekaj dni pred začetkom prijav – oglej si ga in se prijavi takoj ob odprtju prijav.*",
+        "type": "item"
+      }
+    ]
+  },
+  "sportImage": "/img/347430057_762016265575601_3888092211855349025_n.jpg.webp",
+  "cultureImage": "/img/kultura_naslovna.jpg.webp",
+  "paymentInfoConcert": "Na vseh štirih koncertih poteka plačevanje izključno s plačilnimi karticami Majskih iger.",
+  "concertInfo": {
+    "description": "Na vseh štirih velikih koncertih v sklopu zabav poteka plačevanje izključno s plačilnimi karticami Majskih iger. **Plačilne kartice so edini način plačila na dogodkih.**",
+    "info": [
+      {
+        "title": "Kje dobim kartico?",
+        "description": "Kartico lahko prevzameš na info točki Majskih iger ali na polnilni postaji na samem dogodku. Ob izdaji kartice poravnaš kavcijo, ki ti jo ob vračilu kartice vrnemo.\n\nČeprav je kartico mogoče prevzeti tudi na dogodku, priporočamo, da to storiš že prej in se tako izogneš čakanju."
+      },
+      {
+        "title": "Kako kartica deluje?",
+        "description": "Kartico napolniš na info točki ali na polnilni postaji (z gotovino ali kartičnim plačilom), na šanku pa se znesek samodejno odšteje.\n\nNa vsakem računu je prikazano tudi trenutno stanje na kartici."
+      },
+      {
+        "title": "Vračilo neporabljenih sredstev in kartice",
+        "description": "Neporabljena sredstva lahko kadarkoli dvigneš v gotovini na info točki ali na dogodku. Ob vračilu kartice prejmeš tudi kavcijo.\n\nVračilo kartic je možno še nekaj dni po zaključku Majskih iger, točen urnik bo objavljen na družbenih omrežjih. **Kasnejše vračilo kartic in sredstev ni mogoče.**\n\n*Na dogodkih je vračilo kupnine omejeno.*"
+      },
+      {
+        "title": "Ali lahko uporabim staro kartico Majskih iger?",
+        "description": "Starih kartic Majskih iger žal ni mogoče uporabiti. Sistem se vsako leto posodobi, podatki pa se ne prenašajo med leti.\n\nVsako leto je zato potrebno prevzeti novo kartico, stara pa ti lahko ostane za spomin."
+      }
+    ],
+    "notes": ""
+  },
+  "imageUrl": "/img/pustovanje_2024-171-1-.jpg.webp",
+  "concertImage": "/img/347391426_580670594198749_7452858149497941656_n.jpg.webp",
+  "subtitle": "Dom 3 (Rožna dolina) · 1. nadstropje",
+  "title": "Info točka",
+  "cultureInfo": {
+    "description": "Za udeležbo na nekaterih kulturnih otočkih (kjer je število mest omejeno) se je potrebno predhodno prijaviti. Prijava vključuje spletno prijavo preko obrazca ter plačilo prijavnine na info točki:",
+    "notes": "*(1) Za nekatere kulturne otočke obstaja drugačen način prijave, saj prijavo v imenu doma opravi predstavnik. To bo jasno označeno ob razporedu.*\n\n*Prijavnine na kulturne otočke niso subvencionirane s strani domov.*",
+    "steps": [
+      {
+        "title": "Spletna prijava",
+        "description": "Ko se odločiš za sodelovanje na kulturnem otočku, čim prej [poišči dogodek na razporedu](https://majske-igre.si/kultura). Tam boš našel prijavni link(1), preko katerega se prijaviš. Za skupinske dogodke boš potreboval osnovne podatke ekipe.\n\nPrijava je možna do dneva pred dogodkom oziroma do zapolnitve mest.",
+        "type": "number"
+      },
+      {
+        "title": "Plačilo prijavnine",
+        "description": "Čim prej, najkasneje pa dan pred dogodkom, se oglasi na info točki in poravnaj prijavnino. Prijavnina se poravna za celotno ekipo skupaj.",
+        "type": "number"
+      },
+      {
+        "title": "Pripravljeni, pozor … ZDAJ",
+        "description": "S poravnavo prijavnine je tvoja prijava zaključena. Na dan dogodka pridi na lokacijo kulturnega otočka vsaj 15 minut prej. Vse dodatne informacije prejmeš na kraju dogodka.\n\n*Morebitne spremembe, odpovedi ali posebne zahteve bodo sporočene preko elektronske pošte ali preko predstavnika doma.*",
+        "type": "number"
+      }
+    ]
+  },
+  "description": "Info točka na Majskih igrah je **osrednje mesto za prijave na šport in kulturo, informacije ter pomoč** vsem udeležencem. Nahaja se v **Rožni dolini, v domu 3**, v prvem nadstropju na stopnišču.\n\nNaša info točka je zasnovana kot prva stična točka študentov z Majskimi igrami – pri nas boš dobil vse informacije o poteku zabave, kulture in športa.\n\nČe potrebuješ dodatne informacije, se želiš prijaviti na dogodke ali pa želiš zgolj najti kakšen brezplačen *sample* naših partnerjev, nas obišči. Odprti smo od konca aprila do začetka junija."
+}

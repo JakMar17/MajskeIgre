@@ -27,6 +27,7 @@
 
         <div class="menu">
           <NuxtLink to="/prireditev">O prireditvi</NuxtLink>
+          <NuxtLink to="/info-tocka">Info točka</NuxtLink>
           <NuxtLink to="/kontakt">Organizator & kontakt</NuxtLink>
         </div>
 

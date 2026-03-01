@@ -147,7 +147,6 @@ collections:
               - label: "Slika"
                 name: "imageUrl"
                 widget: "image"
-
       - label: "Info točka"
         name: "infoPoint"
         format: "json"
@@ -235,7 +234,19 @@ collections:
                 name: "notes"
                 widget: "markdown"
                 required: false
-
+      - label: "Privacy policy (mobile app)"
+        name: "privacyPolicy"
+        format: "json"
+        file: "content/descriptions/privacy-policy.json"
+        create: true
+        slug: "{{slug}}"
+        fields:
+          - label: "Privacy policy (slovenščina)"
+            name: "descriptionSi"
+            widget: "markdown"
+          - label: "Privacy policy (angleščina)"
+            name: "descriptionEn"
+            widget: "markdown"
       - label: "Sponzorji dogodka"
         name: "sponsors"
         format: "json"

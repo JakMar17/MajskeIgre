@@ -45,6 +45,9 @@
       </div>
       <div class="m-0 p-0">© 2024 Študentski svet stanovalcev</div>
       <div class="help m-0 p-0">Vse pravice pridržane.</div>
+      <div class="help m-0 p-0">
+        <NuxtLink to="/zasebnost" class="has-text-dark">Politika zasebnosti</NuxtLink>
+      </div>
       <em class="help m-0 p-0">Create with ♥️ by <a href="https://jakob.marela.team/?utm_source=majske-igre&utm_medium=footerSignature&utm_campaign=footerSignature">JakMar17</a></em>
     </div>
   </footer>

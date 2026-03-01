@@ -247,6 +247,21 @@ collections:
           - label: "Privacy policy (angleščina)"
             name: "descriptionEn"
             widget: "markdown"
+      - label: "Povezave do mobilne aplikacije"
+        name: "appLinks"
+        format: "json"
+        file: "content/descriptions/app-links.json"
+        create: true
+        slug: "{{slug}}"
+        fields:
+          - label: "Google Play Store"
+            name: "googlePlayStore"
+            widget: "string"
+            required: false
+          - label: "Apple App Store"
+            name: "appleAppStore"
+            widget: "string"
+            required: false
       - label: "Sponzorji dogodka"
         name: "sponsors"
         format: "json"

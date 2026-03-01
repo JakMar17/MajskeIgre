@@ -4,6 +4,17 @@
       <img style="width: 50em" src="../assets/images/svgs/logo-majske.svg" />
     </div>
 
+    <div v-if="appLinks?.googlePlayStore || appLinks?.appleAppStore" class="flex justify-content--center app-links">
+      <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-primary is-rounded">
+        <span class="icon"><i class="ri-google-play-fill"></i></span>
+        <span>Google Play</span>
+      </a>
+      <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-primary is-rounded">
+        <span class="icon"><i class="ri-apple-fill"></i></span>
+        <span>App Store</span>
+      </a>
+    </div>
+
     <div>
       <CardComponent class="mb-4" title="Majske igre – festival študentskih domov" :centered-titles="true"
         :content="contentData.description" />
@@ -74,8 +85,14 @@ const contactLink = {
   buttonType: 'is-primary'
 };
 
+import type { AppLinksModel } from '~/models';
+
 const { data: contentData } = await useAsyncData('fetchDescriptions', () => 
   queryContent('descriptions/event').findOne()
+);
+
+const { data: appLinks } = await useAsyncData<AppLinksModel>('fetchAppLinks', () =>
+  queryContent<AppLinksModel>('descriptions/app-links').findOne()
 );
 
 // Safe SSR/prerender access using contentData directly
@@ -98,6 +115,12 @@ if (contentData.value) {
 </script>
 
 <style scoped lang="scss">
+.app-links {
+  gap: 0.75em;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
 @import "@/assets/styles/main.scss";
 
 .sport {

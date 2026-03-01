@@ -20,6 +20,17 @@
         </div>
         <div class="column is-narrow">
           <img class="img__logo" src="@/assets/images/svgs/logo-majske-crn.svg"/>
+
+           <div v-if="appLinks?.googlePlayStore || appLinks?.appleAppStore" class="buttons is-centered">
+             <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-primary is-outlined is-rounded button__icon">
+               <span class="icon"><i class="ri-apple-fill"></i></span>
+               <span>App Store</span>
+             </a>
+            <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-primary is-outlined is-rounded button__icon">
+              <span class="icon"><i class="ri-google-play-fill"></i></span>
+              <span>Google Play</span>
+            </a>
+          </div>
         </div>
         <div class="column mt-6">
           <hr class="is-hidden-touch"/>
@@ -78,4 +89,9 @@ hr {
 }
 </style>
 <script setup lang="ts">
+import type { AppLinksModel } from '~/models';
+
+const { data: appLinks } = await useAsyncData<AppLinksModel>('fetchAppLinks', () =>
+  queryContent<AppLinksModel>('descriptions/app-links').findOne()
+);
 </script>

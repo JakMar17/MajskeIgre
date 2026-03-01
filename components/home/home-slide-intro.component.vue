@@ -32,6 +32,16 @@
         </div>
 
         <hr/>
+        <div v-if="appLinks?.googlePlayStore || appLinks?.appleAppStore" class="app-links">
+          <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-rounded is-white">
+            <span class="icon"><i class="ri-google-play-fill"></i></span>
+            <span>Google Play</span>
+          </a>
+          <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-rounded is-white">
+            <span class="icon"><i class="ri-apple-fill"></i></span>
+            <span>App Store</span>
+          </a>
+        </div>
         <div class="social">
           <a href="https://www.facebook.com/majskeigre" target="_blank" title="Majske igre"><i class="ri-facebook-circle-fill" style="color: white; font-size: 2em"></i></a>
           <a href="https://www.instagram.com/majskeigre" target="_blank" title="Majske igre"><i class="ri-instagram-fill" style="color: white; font-size: 2em"></i></a>
@@ -51,7 +61,13 @@
 </template>
 
 <script lang="ts" setup>
+import type { AppLinksModel } from '~/models';
+
 const images = defineProps<{ imageUrls: Array<{images: {}}> }>();
+
+const { data: appLinks } = await useAsyncData<AppLinksModel>('fetchAppLinks', () =>
+  queryContent<AppLinksModel>('descriptions/app-links').findOne()
+);
 const backgroundSrc = ref('');
 const backgroundSrcIndex = ref(0);
 
@@ -149,6 +165,14 @@ hr {
   .social {
     display: flex;
     gap: 1em;
+  }
+
+  .app-links {
+    display: flex;
+    gap: 0.75em;
+    margin-bottom: 0.75em;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 

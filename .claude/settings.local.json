@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/jakob/Documents/01-projects/07-majske_igre_web/pages -type f -name \"*.vue\" | xargs ls -lh)"
+    ]
+  }
+}

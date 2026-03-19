@@ -24,6 +24,24 @@
     </section>
 
     <EventsNoContentComponent v-else type="zabava" title="Kdo bo stopil na oder je še skrivnost" content="...a ne za dolgo - spremljaj naša socialna omrežja in bodi prvi, ki boš izvedel!"/>
+
+    <section class="predmajski__teaser">
+      <div class="predmajski__spotlight"></div>
+      <div class="container predmajski__container">
+        <div class="predmajski__label">
+          <i class="ri-music-2-line"></i> Pred velikim večerom
+        </div>
+        <h2 class="predmajski__title">Predmajski špil</h2>
+        <p class="predmajski__subtitle">Boj za oder Majskih iger</p>
+        <p class="predmajski__description">
+          Preden zasedbe stopijo na glavni oder, se morajo najprej dokazati. Predmajski špil je tekmovalni glasbeni večer, kjer mladi izvajalci tekmujejo za priložnost nastopa na Majskih igrah.
+        </p>
+        <NuxtLink to="/predmajski-spil" class="button is-rounded is-primary">
+          <i class="ri-trophy-line mr-2"></i> Več o Predmajskem špilu
+        </NuxtLink>
+      </div>
+    </section>
+
     <div v-if="descriptionRef?.additionalInfo" style="padding-bottom: 3em">
       <CardComponent :content="descriptionRef?.additionalInfo"/>
     </div>
@@ -70,6 +88,73 @@ useAsyncData('fetchData', () => {
 
 .wrapper {
   background: $zabava-primary;
+}
+
+$predmajski-accent: rgba(255, 210, 80, 1);
+$predmajski-accent-glow: rgba(255, 210, 80, 0.35);
+
+.predmajski {
+  &__teaser {
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 4em 1em;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  &__spotlight {
+    position: absolute;
+    top: -4em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+    height: 20em;
+    background: radial-gradient(ellipse at top, rgba(255, 210, 80, 0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75em;
+  }
+
+  &__label {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: $predmajski-accent;
+    filter: drop-shadow(0 0 6px $predmajski-accent-glow);
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+  }
+
+  &__title {
+    font-size: 2.2em;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  &__subtitle {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    font-style: italic;
+  }
+
+  &__description {
+    max-width: 36em;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin: 0.5em 0 1em;
+  }
 }
 
 .concert {

@@ -40,7 +40,7 @@
       </CardImageComponent>
 
       <CardImageComponent class="concert__wrapper" title="Zabava" :image-url="contentData.concertImage"
-        :content="contentData.concertDescription" :links="[links.concerts]">
+        :content="contentData.concertDescription" :links="[links.concerts, links.predmajskiSpil]">
         <template v-slot:title>
           <div class="flex justify-content--between align-items--baseline">
             <h1 class="title is-2">Zabava</h1>
@@ -66,6 +66,11 @@ const links = {
     title: 'Kdo nastopa?',
     link: '/zabava',
     buttonType: 'is-primary is-fullwidth'
+  },
+  predmajskiSpil: {
+    title: 'Predmajski špil',
+    link: '/predmajski-spil',
+    buttonType: 'is-primary is-fullwidth is-outlined mt-2'
   },
   culture: {
     title: 'Razpored kulturnih otočkov',

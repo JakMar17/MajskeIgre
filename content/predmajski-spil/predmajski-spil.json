@@ -1,5 +1,6 @@
 {
   "eventDescription": "Do odra Majskih iger te ločijo samo trije koraki, ne odlašaj in stopi med zvezde",
+  "eventName": "Predmajski špil 2026",
   "eventTime": "20:00",
   "steps": [
     {
@@ -19,9 +20,20 @@
       "description": "Štirje zmagovalci Predmajskega špila si bodo izborili pot na velike odre Majskih iger - Otvoritev, Dan Mestnega loga, Rožnik ali Zaključek bo dan, ko se boš vpisal med zvezde."
     }
   ],
-  "eventDate": "TBA",
+  "eventDate": "2026-04-08",
   "eventLocation": "Dom III, Rožna dolina",
-  "groups": [],
+  "groups": [
+    {
+      "name": "LoveLorn",
+      "description": "Lovelorn je šestčlanska pop/rock skupina iz okolice Nove Gorice. Po dobrem letu koncertiranja z velikimi imeni slovenske glasbene scene kot so Vlado Kreslin, Siddharta in Omar Naber so uradno izdali že šest singlov, katerim se bo kmalu pridružil še album.🫶😍",
+      "imageUrl": "/img/480882929_1004723655037985_6763865832337967501_n.jpg"
+    },
+    {
+      "description": "Lovelorn je šestčlanska pop/rock skupina iz okolice Nove Gorice. Po dobrem letu koncertiranja z velikimi imeni slovenske glasbene scene kot so Vlado Kreslin, Siddharta in Omar Naber so uradno izdali že šest singlov, katerim se bo kmalu pridružil še album.🫶😍",
+      "name": "LoverLorn2",
+      "imageUrl": "/img/480882929_1004723655037985_6763865832337967501_n.jpg"
+    }
+  ],
   "imageUrl": "/img/480887019_1004757095034641_538336599508876106_n.jpg",
   "subtitle": "Boj za oder Majskih iger",
   "title": "Predmajski špil",

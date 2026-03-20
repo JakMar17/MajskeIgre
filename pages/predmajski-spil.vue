@@ -10,8 +10,8 @@
 
     <section class="p-4 has-text-centered has-background-white">
       
-     <h1 class="title is-1 mb-2">Predmajski špil 2026</h1>
-          <h2 class="title is-6">{{ contentData.eventLocation }} - {{ contentData.eventDate }}</h2>
+     <h1 class="title is-1 mb-2">{{ contentData.eventName }}</h1>
+          <h2 class="title is-6">{{ contentData.eventLocation }} - {{ formattedDate }}</h2>
     </section>
 
     <!-- Performing groups -->
@@ -82,6 +82,18 @@ import { parseMarkdown } from "~/utils/parseMarkdown";
 const { data: contentData } = await useAsyncData("predmajski-spil", () =>
   queryContent<PredmajskiSpil>("predmajski-spil/predmajski-spil").findOne()
 );
+
+const formattedDate = computed(() => {
+  const raw = contentData.value?.eventDate;
+  if (!raw) return '';
+
+  const date = new Date(raw);
+  if(isNaN(date.getTime())) {
+    return raw; 
+  }
+
+  return date.toLocaleDateString('sl-SI', { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' });
+});
 
 const openStep = ref<number | null>(null);
 const parsedGroups = ref<any[]>([]);

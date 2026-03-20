@@ -14,7 +14,8 @@ export interface PredmajskiSpil {
   subtitle: string;
   description: string;
   imageUrl: string;
-  eventDate: string;
+  eventName: string;
+  eventDate?: string;
   eventLocation: string;
   eventTime: string;
   eventDescription: string;

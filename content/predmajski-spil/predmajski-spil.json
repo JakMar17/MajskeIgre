@@ -22,7 +22,13 @@
   ],
   "eventDate": "2026-04-08",
   "eventLocation": "Dom III, Rožna dolina",
-  "groups": [],
+  "groups": [
+    {
+      "name": "Kazai",
+      "description": "Mi smo Kazai. Eva, Monika, Sašo in Rok.\n\nŠtirje ljudje, ena kitara, bobni, klaviature in precej optimistična predstava o naši glasbeni\n\nprihodnosti. Sprehajamo se nekje med indie in pop rockom in prinašamo samozavestno,\n\nseksi energijo. Naš prvi komad je na poti na Spotify, zato vas vljudno prosimo, da nas\n\nzačnete poslušati že zdaj, dokler smo še dostopni in nimamo garderob z lastnimi imeni.\n\nČe imate radi spevne komade in dobro energijo obstaja velika možnost, da vam bomo všeč.",
+      "imageUrl": "/img/kazai.jpg"
+    }
+  ],
   "imageUrl": "/img/480887019_1004757095034641_538336599508876106_n.jpg",
   "subtitle": "Boj za oder Majskih iger",
   "title": "Predmajski špil",

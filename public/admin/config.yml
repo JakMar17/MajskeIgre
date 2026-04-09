@@ -362,6 +362,10 @@ collections:
         name: "description"
         widget: "markdown"
         required: false
+      - label: "Navodila"
+        name: "instructions"
+        widget: "markdown"
+        required: false
       - label: "Slika"
         name: "imageUrl"
         widget: "image"

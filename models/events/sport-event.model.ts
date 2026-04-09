@@ -8,4 +8,5 @@ export type SportEventModel = {
     description?: string;
     imageUrl?: string;
     geoLocation?: string;
+    instructions?: string;
 }

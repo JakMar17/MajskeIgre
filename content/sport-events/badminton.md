@@ -16,5 +16,40 @@ description: >-
 
 
   <!--EndFragment-->
+instructions: >-
+  # Naslov 1
+
+  ## Naslov 2
+
+  ### Naslov 3
+
+  #### Naslov 4
+
+  ##### Naslov 5
+
+  ###### Naslov 6
+
+
+  #### Format tekmovanja
+
+  Tekmovanje poteka v skupinskem delu in izločilnih bojih. V skupinskem delu igra vsak z vsakim (round-robin), nato se najboljši uvrstijo v izločilne boje.
+
+
+  #### Pravila igre
+
+  Igra se po uradnih pravilih Badminton World Federation (BWF). 
+
+  - Vsak dvoboj je na 2 dobljeni seti, vsak set do 21 točk (pri 20:20 zmaga tisti, ki prvi doseže prednost 2 točk, max 30:29). 
+
+  - Servis poteka izmenično; servis se pridobi z vsako točko. 
+
+  - Žogica ne sme dotakniti mreže pri servisu. 
+
+  - Igralec izgubi točko, če žogica pristane izven igrišča ali dvakrat zapored udari žogico.
+
+
+  #### Oprema
+
+  Loparje in žogice zagotovi organizator. Lastne loparje je dovoljeno prinesti.
 imageUrl: /img/badminton.jpg
 ---

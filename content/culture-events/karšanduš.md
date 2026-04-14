@@ -1,7 +1,7 @@
 ---
 title: Tihi odmevi kulture
 date: 2026-05-11T16:30:00.000+02:00
-imageUrl: /img/33456.jpg
+imageUrl: /img/kultura-1.jpg
 events:
   - time: 16:30
     title: Potopisno predavanje - kolesarjenje po Balkanu

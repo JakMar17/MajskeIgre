@@ -1,15 +1,16 @@
 ---
-title: Maj na žlico
-date: 2025-05-05T09:00:00.000+02:00
+title: Kultura požen, mi smo parajt!
+date: 2025-05-06T15:00:00.000+02:00
 imageUrl: /img/slideshow-5.jpg
 events:
-  - time: 16:00
+  - time: 15:00
     title: Poslikava platna
     description: Delavnica poslikava platna je namenjena vsem otrokom in otrokom po
       duši. Umetnina, ki jo bomo ustvarili bo cel maj krasila mali oder za domom
       III.
-    imageUrl: /img/342571791_260497919748266_5359055210999016302_n.jpg
-    location: Kulturni otoček za domom 3
+    imageUrl: /img/poslikava-platna.jpg
+    location: Rožna kuh´na
+    geoLocation: '{"type":"Point","coordinates":[14.4875964,46.0515772]}'
   - time: 17:00
     title: Potopisno predavanje
     location: Mala kulturna dvorana

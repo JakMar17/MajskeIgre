@@ -45,34 +45,60 @@ events:
     imageUrl: /img/dariuszsankowski-glasses-1052023.jpg
     price: Brezplačno
     registerLink: '"https://docs.google.com/forms/d/e/1FAIpQLSdtG9i_lIQZRgauy8pZGLUUWqZ7_r9qYmyS2R-gEqpqz41SGQ/viewform?usp=publish-editor"'
-  - time: 19:00
-    title: Samokres
-    description: So sveža goriška formacija strastnih muzičistov, ki z odprtim
-      pogledom na zgodovino kitarske muzike ustvarjajo sodoben transžanrski
-      rock'n roll, ki najbolj zaživi na odru.
+  - time: 19:30
+    title: PAZ Vinko Vodopivec
+    description: Vodopivci vseskozi sledijo tradiciji moškega zborovskega petja.
+      Redko se zgodi, da se po pevskih vajah in koncertih takoj razidejo, saj
+      zelo radi zapojemo še kakšno na ulicah in trgih stare Ljubljane, dekletom
+      v študentskih domovih ali pa v domačih kleteh na Primorskem. Sestav,
+      ustanovljen leta 1953, sestavljajo sicer pretežno primorski študentje, ki
+      študiramo v okviru Univerze v Ljubljani. Od ustanovitve dalje so
+      prepotovali že skoraj vse evropske države, Južnoafriško republiko,
+      predlani oktobra pa so že drugič obiskali naše rojake v Severni Ameriki.
+      Poleg tega se redno udeležujejo številnih zborovskih festivalov in
+      tekmovanj na mednarodnih in domačih odrih, njihov zadnji uspeh je iz
+      aprila 2024, ko so na državnem tekmovanju dosegli srebrno plaketo in s tem
+      osvojili primat najboljšega moškega pevskega zbora v Sloveniji."
     imageUrl: ""
-    location: Kulturni otoček z domom III
+    location: Kulturni otoček za domom III
     geoLocation: '{"type":"Point","coordinates":[14.4885824,46.0509282]}'
   - time: 20:15
     title: Podelitev medalj
-    description: |-
-      Podelitev medalj za športe: 
-
-      **Balinčkanje**
+    description: "Podelitev medalj in pokalov za naslednje športe :"
     imageUrl: ""
-    location: Kulturni otoček z domom III
+    location: Kulturni otoček za domom III
     geoLocation: '{"type":"Point","coordinates":[14.4885916,46.0509581]}'
   - time: 20:30
-    title: Špatula
-    description: So punk rock skupina, sz Krasa doma, ku igra po principi "Gas in
-      douge luči". Jeseni 2024 so izdali naš prvi album Stara bajta.
-    location: Kulturni otoček z domom III
+    title: Folklora ASF France Marolt
+    description: Najstarejša in največja akademska folklorna skupina pri nas že več
+      kot sedem desetletij raziskuje, ohranja in na novo soustvarja slovensko
+      ljudsko izročilo. S sodobnimi odrskimi postavitvami ter predanostjo
+      študentov in mladih članov oblikujejo živ, ponosen in prepoznaven
+      maroltovski izraz. Skupina letos praznuje 78. obletnico delovanja, ki jo
+      bo v Cankarjevem domu, meseca maja, obeležila z letno predstavo Rajanje.
+      Vabljeni, da z njimi doživite pristne utrinke kulture in običajev, ki še
+      danes predstavljajo temelj naše zakladnice.
+    location: Kulturni otoček za domom III
     geoLocation: '{"type":"Point","coordinates":[14.4884613,46.0508808]}'
-  - time: 21:45
-    description: Pank z bagerjem v čelo. Brez filtra, brez olepševanja, samo
-      nebrzdana surovost in kanček lokalnega šarma, ki diši po poceni pivu in še
-      cenejših moralnih dilemah. Podgurska udarna brigada JAJA BOJZ je končno
-      vrgla na mizo svoj dolgo kuhani album To je PANK.
-    title: Jaja Boys
-    location: Kulturni otoček z domom III
+  - time: 21:00
+    description: Mladinsko folklorno skupino sestavljajo plesalke in plesalci,
+      dijaki in študentje, ki jih povezuje ljubezen do slovenskega ljudskega
+      plesa, pesmi in izročila. Skupina deluje v okviru Kulturnega društva
+      Svoboda Mengeš ter se redno predstavlja na občinskih, regijskih in
+      državnih prireditvah, folklornih revijah, šolskih dogodkih, sejmih ter
+      različnih kulturnih in dobrodelnih prireditvah doma in po Sloveniji.
+      Sodelujemo tudi na mednarodnih gostovanjih in festivalih, ki mladim
+      plesalcem omogočajo dragoceno izkušnjo povezovanja z vrstniki iz tujine
+      ter spoznavanja drugih kultur. V preteklih sezonah smo spoznavali in
+      poustvarjali plese različnih slovenskih pokrajin, pri čemer posebno skrb
+      posvečamo tudi ohranjanju lokalne dediščine Mengša in okolice. Naše
+      delovanje temelji na ustvarjalnosti, sodelovanju, prijateljstvu ter želji
+      po ohranjanju in prenašanju bogate slovenske kulturne dediščine med mlade
+      generacije.
+    title: Folklora MFS Mengeš
+    location: Kulturni otoček za domom III
+  - time: "21.30"
+    title: Kino na prostem
+    description: Te mika dobra družba in filmska čarovnija pod zvezdami?
+    location: Kulturni otoček za domom III
 ---

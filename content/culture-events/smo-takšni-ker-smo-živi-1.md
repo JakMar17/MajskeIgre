@@ -41,35 +41,40 @@ events:
     price: Brezplačno
     geoLocation: '{"type":"Point","coordinates":[14.4878778,46.0514861]}'
   - time: 19:00
-    title: Slackline
-    description: Če bi rad preizkusil svoje ravnotežje na malo drugačen način ali pa
-      prišel pokazat sosedom svoje neverjetne sposobnosti, je to prava delavnica
-      zate. Vabljeni vsi bodoči vrvohodci in tisti, ki boste samo opazovali
-      spektakularne padce s pivom u roki.
-    imageUrl: /img/screenshot-2024-04-15-at-21.34.59.png
-    location: Kulturni otoček z domom III
-    registerLink: "https://forms.gle/pLz4AQ7aDDwRNk9q6 "
+    title: De vu
+    description: De Vu so petčlanska indie skupina, katere korenine se razprostirajo
+      ob “dolenjki” od Novega mesta do Grosuplja. Njihov zvok izhaja iz
+      sanjavega, atmosferičnega indie rocka, a so včasih tudi glasni. Pojejo o
+      bivših, sedanjih in bodočih…dogodkih iz življenja. Trenutno jahajo novi
+      val glasbenega ustvarjanja in furajo proti izdaji prvega EP-ja z naslovom
+      LEPO.  Ajde lepo se mej!
+    imageUrl: ""
+    location: Kulturni otoček za Domom III
+    registerLink: ""
   - time: 20:00
     title: Podelitev medalj
-    description: >-
-      Podelitev medalj za športe: 
-
-
-      **Odbojka 4+2, košarka, šnops, plezalna stena, pixel, nogomet moški, nogomet ženske, pikado, tarok, bowling.**
+    description: Podelitev medalj za športe
     imageUrl: ""
-    location: Kulturni otoček z domom III
+    location: Kulturni otoček za Domom III
   - time: 20:15
-    title: Trenutno stanje
-    description: Trenutno Stanje je odraz časa, ki ga ni več. Izražamo ga skozi
-      no-bullshit rock. Poleg divjega popotovanja po prostoru in času naše bivše
-      republike vas popeljemo tudi onstran meja in čez lužo, kjer se je vse
-      skupaj začelo.
-    location: Kulturni otoček z domom III
+    title: The Homegrowns
+    description: >-
+      The Homegrowns je vedno razvijajoč se projekt jamajške glasbe s koreninami
+      v zaspanem mestu Radeče in vejami po celotni Sloveniji. Prvi zametki
+      projekta segajo v december 2019, ko je radeško-celjski warmup riddim band
+      nastopil na dogodku »Jamajška Noč« v Radečah, kjer so bili gosti stalni
+      akterji slovenskih reaggae prizorišč MC Krebl, Haris Pilton in Tadiman. 
+
+      Radeška trio zasedba je konec leta 2020 začela ustvarjati avtorski material, prvi večji zagon pa doživela leta 2022 z izdajo treh singlov in prvim koncertom na Pristavi Počakovo. V naslednjih letih so nastopali po Sloveniji in tujini ter igrali kot predskupina uveljavljenim izvajalcem, kot so Del Arno Band, The Toasters in The Slackers, ter nastopili na festivalih, kot so Roots In The Woods, Natural Mystic in SeaSound.
+    location: Kulturni otoček za Domom III
+    imageUrl: /img/the-homegrows-36-2.jpg
   - time: 21:30
-    title: Majmunska posla
-    description: Kaos, akordi, red, zmeda, pop, etno in pank - to so Majmunska
-      Posla. Majmuni so bojda ljubitelji starih balkanskih balad in
-      ljubljanskega punka, narodnozabavnih viž in nemškega industriala, igrajo
-      pa pop.
-    location: Kulturni otoček z domom III
+    title: DEMM
+    description: 𝗗𝗘𝗠𝗠 je punk. Skupina treh frendov - Jan, Marko in Urban, ki
+      skupaj ustvarjajo glasbo ki premakne riti, rahlo provocira in da misliti.
+      Seveda pa vse zapakirano v (samo)ironijo in zajebancijo. So "brez enega
+      hita", pa kljub temu zelo glasni. Od lejzbik, do gluposti in crknjenih
+      rož.
+    location: Kulturni otoček za Domom III
+    imageUrl: /img/glupinmlad_fotoshoot2.jpg
 ---

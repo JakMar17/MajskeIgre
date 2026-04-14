@@ -1,6 +1,6 @@
 ---
 title: Kultura požen, mi smo parajt!
-date: 2025-05-06T15:00:00.000+02:00
+date: 2026-05-06T15:00:00.000+02:00
 imageUrl: /img/slideshow-5.jpg
 events:
   - time: 15:00

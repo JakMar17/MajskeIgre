@@ -29,14 +29,17 @@ events:
     location: Sejna soba v domu III
     price: Brezplačno
     geoLocation: '{"type":"Point","coordinates":[14.4884504,46.051156]}'
-  - time: 18:45
-    title: The Multicentral
-    description: So novonastali severnoprimorski band, ki priredbe počasi nadomešča
-      z avtorsko glasbo. Njihov bandovski značaj je uporniški, udarni, s
-      pridihom southern stila ter združitev in preplet agresivnejših in
-      nežnejših načinov igranja.
-    imageUrl: ""
-    location: Kulturni otoček z domom III
+  - time: 18:00
+    title: Vinska degustacija
+    description: Si prijatelj vina in te je od nekdaj zanimalo, kako pravilno
+      uživati vino? Na degustaciji vina bomo šli čez teoretične osnove
+      preizkušnja vina, sledila pa bo degustacija vin iz različnih delov
+      Slovenije.
+    imageUrl: /img/degustacija-vina.jpg
+    location: Sejna soba v domu III
+    price: Brezplačno
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSc6RaJjo70mzktntCxVXZKOlioaCXweRAShh997t3y0tAq3Tw/viewform?usp=publish-editor
+    geoLocation: '{"type":"Point","coordinates":[14.4884167,46.0511914]}'
   - time: 20:00
     title: Podelitev medalj
     description: >-

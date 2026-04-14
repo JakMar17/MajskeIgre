@@ -1,33 +1,50 @@
 ---
-title: Gas in douge luči!
-date: 2025-05-12T13:00:00.000Z
+title: Tihi odmevi kulture
+date: 2026-05-11T16:30:00.000+02:00
 imageUrl: /img/33456.jpg
 events:
-  - time: 15:00
-    title: Popravljalnica koles
-    description: Če tvoje kolo sameva v kolesarnici ali pa če si ga ravnokar kupil
-      na domski dražbi je čas da preveriš zavore in namažeš verigo. Za nasvete
-      in izposojo orodja bodo na voljo študentski strokovnjaki za kolesa. Pridi,
-      tvoje kolo ti bo hvaležno.
-    imageUrl: /img/screenshot-2024-05-23-at-17.52.14.png
-    location: Pred domom I
-    geoLocation: '{"type":"Point","coordinates":[14.4880954,46.0503125]}'
+  - time: 16:30
+    title: Potopisno predavanje - kolesarjenje po Balkanu
+    description: "24-letna študentka Mina poleg umetniškega izražanja obožuje
+      izzive, avanturo in svobodo spontanih, nizkocenovnih potovanj. Spoznala
+      je, da ji prav potovanje s kolesom daje poseben smisel – čas, preživet na
+      prostem, in sprotno načrtovanje poti ji dajeta občutek svobode, ki ga drug
+      način potovanja težko nadomesti. Na potopisnem predavanju bo predstavila
+      svojo kolesarsko pot iz Slovenije do Krfa. Delila bo kako poteka takšno
+      potovanje – od načrtovanja poti in pakiranja opreme do vsakdanjega
+      življenja na poti: kaj je jedla, kje je spala in kako je premagovala
+      izzive na poti. Spregovorila bo tudi o tem, kaj jo je ta izkušnja naučila
+      ter kako je solo potovati kot ženska. Predavanje bo povezala z osebnimi
+      zgodbami in utrinki s poti."
+    imageUrl: /img/potopis-mina.jpg
+    location: Mala kulturna dvorana
+    geoLocation: '{"type":"Point","coordinates":[14.4877629,46.0514579]}'
+    price: Brezplačno
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLScIhuvciSOLvK3asNRywcRkeU7ckCs4Qe2orTeKH6yaf4joIg/viewform?usp=dialog
   - time: 17:00
-    title: Gobenjak
-    description: Na Majskih igrah bomo v praksi z Gobenjakom in študenti iz
-      Študentskih skupnostnih vrtov spoznavali gojenje gob na hlodih. Naučili se
-      bomo uporabljati medicinske in kulinarične gobe.
-    imageUrl: ""
-    location: mala kulturna dvorana
-    registerLink: "https://forms.gle/7BHbqBX8R3Ge8ej59 "
-    geoLocation: '{"type":"Point","coordinates":[14.487914,46.0514942]}'
+    title: Študentsko delo, izjava Mjob
+    description: >-
+      Študentsko delo: odskočna deska ali past?
+
+
+      Delavnica je namenjena spodbujanju razmisleka o karierni poti ter vlogi študentskega dela v času študija. Udeleženci bodo spoznali pomen prepoznavanja lastnih interesov in kompetenc ter možnosti nadaljnjega izobraževanja in zaposlovanja. Poseben poudarek bo na vplivu študentskega dela na razvoj izkušenj, zaposljivost in študijski proces, pa tudi na izzivih, kot so obremenjenost in vprašanja pravičnosti sistema. Skozi vodeno in interaktivno razpravo bodo udeleženci razvijali pogled na lastne odločitve in svojo prihodnjo karierno pot.
+    imageUrl: /img/delavnica-mjob-pravo.jpg
+    location: Sejna soba v domu III
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSfBxK1QFNYgDUgRQFEYITim74C-1qzNdPoW8vzypNagmg7Nmw/viewform?usp=publish-editor
+    geoLocation: '{"type":"Point","coordinates":[14.4884673,46.0511766]}'
+    price: Brezplačno
   - time: 18:00
-    title: Šprwni
-    description: So petčlanski punk rock bend iz Primorske, ki že eno leto ustvarja
-      glasbo. Čeprav delujejo relativno kratek čas pa so se predstavili že na
-      mnogih primorskih odrih.
-    location: Kulturni otoček z domom III
-    geoLocation: '{"type":"Point","coordinates":[14.4885737,46.0509276]}'
+    title: Predstavitev knjižnih prvencev študentov
+    description: "Trije študentje bodo letos stopili pred občinstvo s svojimi
+      knjižnimi prvenci: Metka u glavo (Matija Podbreznik), Tema se deduje po
+      očetu (Eva Šubic) in da ne (Iris Vinski). Kako sploh prideš do svoje prve
+      knjige? In kdo jo potem bere? Pogovor bo šel od pisanja do izdaje - in
+      nazaj. Za vse, ki vas zanima literatura, vabljeni, da se nam pridružite."
+    location: Mala kulturna dvorana
+    geoLocation: '{"type":"Point","coordinates":[14.4878356,46.0514387]}'
+    imageUrl: /img/dariuszsankowski-glasses-1052023.jpg
+    price: Brezplačno
+    registerLink: '"https://docs.google.com/forms/d/e/1FAIpQLSdtG9i_lIQZRgauy8pZGLUUWqZ7_r9qYmyS2R-gEqpqz41SGQ/viewform?usp=publish-editor"'
   - time: 19:00
     title: Samokres
     description: So sveža goriška formacija strastnih muzičistov, ki z odprtim

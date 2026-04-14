@@ -44,26 +44,31 @@ events:
     price: Brezplačno
     registerLink: https://docs.google.com/forms/d/e/1FAIpQLSdwmuCdetzgv-wQzrbsw1g73uEohUvRtBi0hcSNtBMJbWhI_g/viewform?usp=dialog
     geoLocation: '{"type":"Point","coordinates":[14.4877664,46.0514523]}'
-  - time: 20:15
-    title: Podelitev medalj
-    description: |-
-      Razglasitev zmagovalcev ter podelitev nagrad za naslednje športe: 
-
-      **Odbojka pari, Človek ne jezi se, Strelastika**
-    location: Kulturni otoček z domom III
   - time: 20:30
-    title: Stand up
-    description: Smeh je pol zdravja. Če greš najprej na šport in potem na stand-up
-      boš večno zdrav.
-    imageUrl: /img/345644225_2468671656641535_6142883176233122747_n.jpg
-    location: Kulturni otoček z domom III
-  - time: "21.45"
-    title: Plejade
-    description: Zgodba Plejad se je začela, med snemanjem nekega videospota,
-      njihovo glasbeno ustvarjanje pa je dobilo nove dimenzije, ko sta se
-      pridružila še Luka in Vane. V svojih pesmih raziskujejo ljubezenske teme
-      in dojemanja realnosti, ki jih skozi besedila izražajo na oseben in
-      introspektiven način.
+    title: Podelitev medalj
+    description: Razglasitev zmagovalcev ter podelitev nagrad.
+    location: Kulturni otoček za domom III
+  - time: 20:45
+    title: Stand up Mlade nade
+    description: Stand-up novincev
     imageUrl: ""
-    location: Kulturni otoček z domom III
+    location: Kulturni otoček za domom III
+    price: Brezplačno
+  - time: "22.00"
+    title: Ansambel Tram
+    description: >-
+      
+      Ansambel Tram so trije fantje iz Notranjske. Špilajo vedno na polno, da je žur pa veselo. Od nedeljskih pesmi za dušo pa do poskočnih ritmov pozno v noči. Pravijo, da je v njihovi družbi zmerej fajn.
+    imageUrl: ""
+    location: Kulturni otoček za domom III
+  - time: "19.00"
+    title: "Impro liga: Bruci vs Alumni"
+    description: Na Majske igre prihaja spektakel gledališkega športa, kjer se
+      izkušeni improvizatorji pomerijo v zabavnih odrskih izzivih, ter se borijo
+      za naklonjenost sodnikov ter občinstva. Celotna predstava poteka v obliki
+      priznanega formata Theatresports TM, ki zabava občinstva po celem svetu.
+      Pripravite se na buren večer poln smeha.
+    imageUrl: ""
+    price: Brezplačno
+    location: Kulturni otoček za domom III
 ---

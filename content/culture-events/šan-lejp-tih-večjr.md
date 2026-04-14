@@ -36,27 +36,51 @@ events:
     location: Mala kulturna dvorana
     price: Brezplačno
     registerLink: https://forms.gle/4PLqdKoYzQpsAHb38
-  - time: 20:00
-    title: Podelitev medalj
-    description: |-
-      Podelitev medalj za športe: 
-
-      **Poker, odbojka trojke, kronometer, enka, laser tag.**
-    location: Kulturni otoček z domom III
   - time: 20:15
-    title: Impro liga
-    description: Na tekmi se bosta dve ekipi izkušenih improvizatorjev izzivali v
-      odrskih veščinah, medtem ko bosta za korektnost izzivov, penale in
-      ocenjevanje poskrbela strokovna sodnika gledališke improvizacije.
-      Pripravite se na buren večer poln smeha.
-    imageUrl: ""
-    location: Kulturni otoček z domom III
-  - time: 22:00
-    title: Kino pod zvezdami
-    description: V čudovitemu ambientu si bomo ogledali film V leru, ki govori o
-      študentskem življenju, posnet pa je bil v Rožni dolini. Pridite in si
-      oglejte, kako je leta 1999 izgledalo študentsko življenje in kakšni so
-      bili naši ljubi domovi.
-    imageUrl: ""
-    location: Kulturni otoček z domom III
+    title: Podelitev medalj
+    description: Podelitev medalj za športe
+    location: Kulturni otoček za Domom III
+  - time: 19:15
+    title: Zina Ban
+    description: Zina je 25-letna Istrska kantavtorica, občutljiva duša s trdno
+      prezenco. Njena glasba pluje med folk in indie tokovi intime, glavno
+      vodilo in zvezda severnica pa je surovost. Svoje glasbene korake je začela
+      v srednješolskih letih, kot pevka v pop/punk skupini SNIZ, leta 2022 pa je
+      prvič stala na odru pod lastnim imenom. Zina želi s svojo glasbo ljudi
+      spustiti bližje, v svoj notranji svet in svoje procesiranje življenja.
+      Pristna besedila in čustven vokal stremijo k temu da nobenega poslušalca
+      ne pustijo ravnodušnega.
+    imageUrl: /img/slika-zina.jpg
+    location: Kulturni otoček za Domom III
+  - time: 20:30
+    title: Milan Kamnik
+    description: Kantavtor Milan Kamnik je koroška legenda, ambasador koroške
+      besede, ponos in glas Koroške, ki že več kot pol stoletja poje o rojstvu
+      in smrti, človeških zgodah in nezgodah, o veselju in bolečini, o vodi in
+      ognju Mežiške doline. Njegova glasba je globoko zakoreninjena v koroški
+      zemlji in življenju njenih ljudi. Njegov vzor je bil Bob Dylan, a tam,
+      kjer je Dylan pel o Ameriki, Kamnik poje o Koroški. Brez kompromisov in
+      olepševanja, vedno v svoji estetiki. Resnične zgodbe, šaljive prigode in
+      provokativne ideje se v country-folk-blues-rock obleki slišijo na njegovih
+      10 samostojnih zgoščenkah, med njimi je zgoščenko *Za mušter* v celoti
+      posnel v zibelki country glasbe - v ameriškem Nashvillu. Za svoje vestno
+      glasbeno in aktivistično delovanje je prejel številne nagrade od najvišjih
+      občinskih do festivalskih, med drugimi je leta 2019 bil razglašen na
+      Koroško osebnost leta. Na Koroškem redkokdaj mine veselica, na kateri se
+      ne bi zavrtela vsaj ena njegova skladba. Pozna ga čisto vsak - od vrtca do
+      doma za starejše. Vsak ima špranjo, skozi katero se Kamnik splazi z eno od
+      svojih tem, saj so vseživljenjske, vsekoroške, vsedušne. Je glasbenik,
+      ibržnik, samorastnik in kleni Korošec.
+    imageUrl: /img/untitled-foto-nika_hölcl-169.jpg
+    location: Kulturni otoček za Domom III
+  - time: 21:30
+    title: Andrej Šifrer
+    description: Kdor je že bil na koncertu Andreja Šifrerja, ve, da to ni le
+      koncert, ampak tudi zabava za vse tiste, ki imajo njegove pesmi za svoje
+      in trenutek premisleka za tiste, ki sledijo njegovim besedilom. Če
+      slučajno niste med prvimi in niti med drugimi, se ne bojte, saj vas bo
+      plaz pojoče množice potegnil za seboj.  Obeta se nam prijeten večer poln
+      pesmi in zgodb ter uspavanke :-).
+    imageUrl: /img/aš-barva-velike-8-.jpg
+    location: Kulturni otoček za Domom III
 ---

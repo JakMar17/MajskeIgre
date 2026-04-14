@@ -11,31 +11,39 @@ events:
     imageUrl: /img/poslikava-platna.jpg
     location: Rožna kuh´na
     geoLocation: '{"type":"Point","coordinates":[14.4875964,46.0515772]}'
-  - time: 17:00
-    title: Potopisno predavanje
-    location: Mala kulturna dvorana
-    description: Katarina je popotnica, ki je del absolventa preživela z nahrbtnikom
-      v južni Aziji. Pot jo je vodila vse od Himalaje, pa do barvite in
-      raznolike Indije, kjer je med drugim živela pri lokalnih družinah in se
-      udeležila 10-dnevne meditacije v tišini.
-    registerLink: https://forms.gle/zWcZ6cRSPXYsCALY8
-  - time: 18:15
-    title: Delavnica kvačkanja, izvaja Zavod ŠOLT
-    description: Vas zanima raziskovanje sveta preje, kvačk, petelj in zank? Si
-      želite ustvariti prikupno in edinstveno mojstrovino v družbi drugih
-      ustvarjalcev? Na delavnici kvačkanja bomo spoznali osnove izdelave
-      kvačkanih izdelkov. Predhodno znanje ni potrebno.
-    imageUrl: /img/unnamed.jpg
-    location: Mala kulturna dvorana
-    registerLink: "https://forms.gle/qdoPLt7jG61KpFwW7 "
     price: Brezplačno
-  - time: 19:30
-    title: Mlade nade
-    description: Mladi upi stand-upa. Ko jih boste čez 10 let videli na televiziji
-      se boste lahko svojim prijateljem pohvalili, da ste jih videli davnega
-      leta 25 na otočku Majskih iger.
-    imageUrl: /img/344755218_897528011315494_9068761242707688305_n.jpg
-    location: Kulturni otoček za domom 3
+  - time: 15:00
+    title: Poslikava obraza za otroke
+    location: Rožna kuh´na
+    description: Ob poslikavi platna bo za najmlajše potekala tudi poslikava obraza.
+    registerLink: ""
+    imageUrl: /img/poslikava-obraza.jpg
+    geoLocation: '{"type":"Point","coordinates":[14.4875985,46.0516091]}'
+    price: Brezplačno
+  - time: 16:30
+    title: Delavnica cirkuške pedagogike, izvaja združenje Cirkokrog
+    description: Cirkuška pedagogika je sveža metoda gradnje skupine, vzajemnega
+      zaupanja, učenja medsebojnega sodelovanja in krepi sposobnosti za
+      premagovanje osebnih ter skupinskih ovir. Na delavnici se bomo naučili
+      rokovanja z različnimi cirkuškimi rekviziti. Vabljeni, da se nam
+      pridružite.
+    imageUrl: /img/delavnica-žongliranja.jpg
+    location: Jasa med domom I in III
+    registerLink: ""
+    price: Brezplačno
+    geoLocation: '{"type":"Point","coordinates":[14.4884771,46.0509131]}'
+  - time: 18:00
+    title: Delavnica ročnega vezenja, izvaja zavod ŠOLT
+    description: Odkrij čar ročnega vezenja križcev! Na ŠOLT-ovi predstavitveni
+      delavnici v okviru Majskih iger 2026 spoznaš osnove te priljubljene
+      tehnike, vse potrebne materiale ter preproste vzorce za začetek. Dogodek
+      je namenjen vsem, ki si želite razvijati svojo ustvarjalnost, se sprostiti
+      ob ročnem delu in ustvariti svoj prvi unikatni izdelek.
+    imageUrl: /img/delavnica-vezenja.jpg
+    location: Mala kulturna dvorana
+    price: Brezplačno
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSdwmuCdetzgv-wQzrbsw1g73uEohUvRtBi0hcSNtBMJbWhI_g/viewform?usp=dialog
+    geoLocation: '{"type":"Point","coordinates":[14.4877664,46.0514523]}'
   - time: 20:15
     title: Podelitev medalj
     description: |-

@@ -44,6 +44,16 @@ events:
     price: Brezplačno
     registerLink: https://docs.google.com/forms/d/e/1FAIpQLSdwmuCdetzgv-wQzrbsw1g73uEohUvRtBi0hcSNtBMJbWhI_g/viewform?usp=dialog
     geoLocation: '{"type":"Point","coordinates":[14.4877664,46.0514523]}'
+  - time: "19.00"
+    title: "Impro liga: Bruci vs Alumni"
+    description: Na Majske igre prihaja spektakel gledališkega športa, kjer se
+      izkušeni improvizatorji pomerijo v zabavnih odrskih izzivih, ter se borijo
+      za naklonjenost sodnikov ter občinstva. Celotna predstava poteka v obliki
+      priznanega formata Theatresports TM, ki zabava občinstva po celem svetu.
+      Pripravite se na buren večer poln smeha.
+    imageUrl: ""
+    price: Brezplačno
+    location: Kulturni otoček za domom III
   - time: 20:30
     title: Podelitev medalj
     description: Razglasitev zmagovalcev ter podelitev nagrad.
@@ -60,15 +70,5 @@ events:
       
       Ansambel Tram so trije fantje iz Notranjske. Špilajo vedno na polno, da je žur pa veselo. Od nedeljskih pesmi za dušo pa do poskočnih ritmov pozno v noči. Pravijo, da je v njihovi družbi zmerej fajn.
     imageUrl: ""
-    location: Kulturni otoček za domom III
-  - time: "19.00"
-    title: "Impro liga: Bruci vs Alumni"
-    description: Na Majske igre prihaja spektakel gledališkega športa, kjer se
-      izkušeni improvizatorji pomerijo v zabavnih odrskih izzivih, ter se borijo
-      za naklonjenost sodnikov ter občinstva. Celotna predstava poteka v obliki
-      priznanega formata Theatresports TM, ki zabava občinstva po celem svetu.
-      Pripravite se na buren večer poln smeha.
-    imageUrl: ""
-    price: Brezplačno
     location: Kulturni otoček za domom III
 ---

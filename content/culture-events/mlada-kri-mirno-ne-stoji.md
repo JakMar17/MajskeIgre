@@ -42,24 +42,27 @@ events:
     geoLocation: '{"type":"Point","coordinates":[14.4884167,46.0511914]}'
   - time: 20:00
     title: Podelitev medalj
-    description: >-
+    description: |-
       Podelitev medalj za športe: 
 
-
-      **streetball, nogomet na mivki, briškula, badminton, ping pong, beer pong.**
-    location: Kulturni otoček z domom III
+      šah, kronometer
+    location: Kulturni otoček za Domom III
   - time: 20:15
-    title: Uninvited
-    description: Pet norcev, ki so skozi pisanje avtorske hard rock/heavy metal
-      glasbe našli način za odklop od vsakdanjega sranja, čeprav skoraj vsak
-      njihov komad govori ravno o tem.
+    title: Študentska poezija
+    description: Pridruži se večeru študentske poezije in stopi na oder s svojimi
+      deli! To je odlična priložnost, da svoje besede deliš z drugimi. Prijavi
+      se in pusti, da tvoja poezija zaživi.
     imageUrl: ""
-    location: Kulturni otoček z domom III
-  - time: 21:30
-    title: The Woblers
-    description: The Woblers so pobalini, ki jih združuje ljubezen do woblanja. Odri
-      majskih iger so jim že dobro poznani, saj je njihov nastop postal že prava
-      tradicija. Woblč!
+    location: Kulturni otoček za Domom III
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLScgRLkMhAR8Ec4fpSm4yzHNwb17qbCS5Iz2t0HaQOq8vtBsxQ/viewform?usp=publish-editor
+  - time: 21:00
+    title: "Stand-up "
+    description: >-
+      Ob 10-letnici Ficija v Rožni pripravljamo večer, ki ga ne smeš zamuditi.
+      Na odru
+
+      se bodo zvrstili vrhunski stand-up komiki: Marko Žerjal, David Gorinšek, Dejan Ikovic - Bushi, Aljaž Poredoš, Sebastian Spital in Alen Mastnak. Nastopil pa bo tudi slavljenec.
     imageUrl: ""
-    location: Kulturni otoček z domom III
+    location: Kulturni otoček za Domom III
+    price: ""
 ---

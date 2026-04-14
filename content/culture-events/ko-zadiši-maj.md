@@ -1,7 +1,7 @@
 ---
 title: Maj na žlico
-date: 2025-05-05T09:00:00.000+02:00
-imageUrl: /img/slideshow-1.jpg
+date: 2026-05-05T09:00:00.000+02:00
+imageUrl: /img/bograč.jpg
 events:
   - title: Majski bograč
     description: >-

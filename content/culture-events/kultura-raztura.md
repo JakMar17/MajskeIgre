@@ -1,31 +1,40 @@
 ---
-title: Trst je naš!
-date: 2025-05-26T14:00:00.000Z
+title: Vsed se gor na štango
+date: 2026-05-14T15:00:00.000+02:00
 imageUrl: /img/284640320_5674895309221161_226314858637169849_n.jpg
 events:
-  - time: 16:00
-    title: Vinski kralj
-    description: Strokovna komisija bo okušala študentska vina ter izbrala tisto, ki
-      si bo prislužilo naziv najboljšega. Po končanem strokovnem ocenjevanju bo
-      mogoče poizkusiti zmagovalna in malo manj zmagovalna vina.
-    imageUrl: /img/kaj-je-mlado-vino-feat.jpg.webp
-    location: Sejna soba doma III
+  - time: 15:00
+    title: Popravljalnica koles
+    description: >-
+      Tvoje kolo čudno škripa, imaš prazno gumo ali pa si kolo ravno kupil na
+      domski dražbi in potrebuje malo nege, je to tvoja priložnost, da ga
+      spraviš v red! Za nasvete in izposojo orodja bodo na voljo študentski
+      strokovnjaki za kolesa. Pridi, tvoje kolo ti bo hvaležno.
+
+
+      Popravila izvaja Matej Jager.
+    imageUrl: /img/popravljalnica-koles.jpg
+    location: Pred domom I
     price: Brezplačno
-    registerLink: https://forms.gle/DsVEHk4EXTUnPgs1A
-  - time: 17:00
-    title: Javno nastopanje
-    description: V sodobnem svetu so učinkovite komunikacijske veščine ključne za
-      osebni in profesionalni uspeh. Javno nastopanje ni več samo za tiste, ki
-      so pogosto na odru. Postaja nuja za vsakogar, ki želi uspeti v svoji
-      karieri in osebnem življenju.
-    imageUrl: /img/debata_2_orig.jpg
-    location: Mala kulturna dvorana
-    registerLink: "https://forms.gle/Si9mktqnsMhGf5rL7 "
-  - time: 18:15
-    title: Primorski akademski zbor Vinko Vodopivec
-    description: 'Tradicionalni nastop Vodopivcev na kulturi je možnost, da fante na
-      odru vidite bolj sproščene. Po njihovem nastopu pa jih lahko najdete pod
-      odrom ali kjer se bo slišal njihov zloglasni vzklik: "BRUUUUC"'
+    registerLink: ""
+    geoLocation: '{"type":"Point","coordinates":[14.4881082,46.0503143]}'
+  - time: 16:30
+    title: Študent, jej zdravo!, izvaja Erna Štrumbelj
+    description: >-
+      Uravnotežena prehrana brez kompliciranja
+
+
+      Pridruži se nam na praktični delavnici o uravnoteženi prehrani. Skupaj bomo spoznali, zakaj je pomembno, da se uravnoteženo prehranjujemo že v mladosti, ključna hranila, označbo na živilu in se naučili sestaviti uravnotežen obrok brez kompliciranja.
+    imageUrl: /img/zdravo-prehranjevanje-erna.png
+    location: Sejna soba v domu III
+    registerLink: "
+      https://docs.google.com/forms/d/e/1FAIpQLSdnjpueGXZQ2wD2M7T07n3lLHWOgGrie\
+      WvBU3ghlVYP0Znkhw/viewform?usp=publish-editor"
+    price: Brezplačno
+    geoLocation: '{"type":"Point","coordinates":[14.4884826,46.0511647]}'
+  - time: 18:00
+    title: Line dance, izvaja Colorado Country Line Dance
+    description: MI ŠE MANJKA!!!
     imageUrl: /img/343169401_980557789620925_3954934512170696496_n.jpg
     location: Kulturni otoček z domom III
   - time: 19:00

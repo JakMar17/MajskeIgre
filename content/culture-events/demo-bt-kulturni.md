@@ -1,6 +1,6 @@
 ---
-title: Majska predigra
-date: 2025-05-07T14:00:00.000Z
+title: Maj na žlico
+date: 2025-05-05T09:00:00.000+02:00
 imageUrl: /img/slideshow-5.jpg
 events:
   - time: 16:00

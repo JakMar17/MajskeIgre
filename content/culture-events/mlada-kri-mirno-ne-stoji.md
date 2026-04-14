@@ -1,7 +1,7 @@
 ---
 title: Majske toplice
 date: 2026-05-19T18:30:00.000+02:00
-imageUrl: /img/slideshow-3.jpg
+imageUrl: /img/kultura-2.jpg
 events:
   - time: 16:00
     title: Delavnica navtike, izvaja Zavod ŠOLT

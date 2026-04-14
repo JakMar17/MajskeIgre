@@ -1,7 +1,7 @@
 ---
 title: Maj na žlico
 date: 2026-05-05T09:00:00.000+02:00
-imageUrl: /img/bograč.jpg
+imageUrl: /img/kultura-3.jpg
 events:
   - title: Majski bograč
     description: >-
@@ -15,7 +15,7 @@ events:
 
 
       Prijavnino je potrebno poravnati na info točki (Dom III) v času uradnih ur.
-    imageUrl: /img/280478435_5617493311628028_7419904112479044013_n.jpg
+    imageUrl: /img/bograč.jpg
     time: 09:00
     location: Rožna dolina, teniško igrišče
     price: 55€ / skupino

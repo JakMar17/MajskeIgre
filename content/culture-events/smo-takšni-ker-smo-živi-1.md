@@ -1,7 +1,7 @@
 ---
 title: Glupi in mladi
 date: 2026-05-18T16:30:00.000+02:00
-imageUrl: /img/62034268_2611685045542218_665991574676570112_n.jpg
+imageUrl: /img/kultura-4.jpg
 events:
   - time: "16:30 "
     title: Poskrbi za svoje zdravje, izvaja Projekt Onko

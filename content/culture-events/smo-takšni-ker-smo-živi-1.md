@@ -1,46 +1,45 @@
 ---
-title: Luknjasta barka
-date: 2025-05-15T15:00:00.000Z
+title: Glupi in mladi
+date: 2026-05-18T16:30:00.000+02:00
 imageUrl: /img/62034268_2611685045542218_665991574676570112_n.jpg
 events:
-  - time: 17:00
-    title: Delavnica španščine, izvaja Zavod ŠOLT
-    description: >-
-      Delavnica španščine na Majskih igrah 2025 ponuja sproščen in zabaven uvod
-      v
-
-      učenje španščine. Vabljeni, da spoznate osnove jezika, ki ima pridih sonca, ritma in
-
-      dobre volje.
-
-      Delavnica bo potekala v sejni sobi doma III.
-    imageUrl: ""
+  - time: "16:30 "
+    title: Poskrbi za svoje zdravje, izvaja Projekt Onko
+    description: Rak v svetu predstavlja drugo najpogostejšo bolezen in vzrok smrti,
+      na delavnici pa bomo odkrito spregovorili o raku. Študentje medicine bodo
+      na poljuden način predali ključne strokovne informacije o zdravih navadah
+      in samopregledovanju. Delavnica bo sestavljena iz teoretičnega in
+      praktičnega dela.
+    imageUrl: /img/pregledovanje-dojk.jpg
     location: Sejna soba doma III
     price: Brezplačno
-    registerLink: https://forms.gle/fZ4qWatDS673LvjD6
-  - time: 17:00
-    title: Delavnica francoščine, izvaja Zavod ŠOLT
-    description: >-
-      V sproščenem in zabavnem vzdušju se bomo naučili osnovnih fraz, kako se
-      znajti v
-
-      pariški kavarni, pozdraviti s stilom in spoznali drobce francoske kulture. Brez stresa,
-
-      brez slovničnih zapletov – samo dober jezik, dobra družba in ščepec joie de vivre.
-
-      Delavnica poteka v mali kulturni dvorani, izvaja jo Zavod ŠOLT.
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSeQgweF6Gvpuba0PQJARPuaFI97ua8eR89YH8WFIic8qvn2Kg/viewform?usp=publish-editor
+    geoLocation: '{"type":"Point","coordinates":[14.4884701,46.0511806]}'
+  - time: "16:30 "
+    title: Delavnica Excela, izvaja Zavod ŠOLT
+    description: Postani mojster obdelave podatkov! Poleg obvladovanja osnov se
+      nauči tudi pomembnih napredne funkcije in spoznaj glavne trike pri uporabi
+      programa Excel. Pridruži se Excel delavnici na Majskih igrah! Na delavnici
+      boš spoznal tudi, kako si lahko pri obdelavi podatkov pomagamo  z umetno
+      inteligenco.
     location: Mala kulturna dvorana
     price: Brezplačno
-    imageUrl: ""
-    registerLink: https://forms.gle/HdGHc7erH5LWcAnGA
+    imageUrl: /img/delavnica-excel.png
+    registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSeJjCQdPyUUgpWo8gp8o-lK\
+      kOgTtbCkbACoHPl_1QO7y8rFsQ/viewform?usp=publish-editor "
+    geoLocation: '{"type":"Point","coordinates":[14.4878655,46.0514586]}'
   - time: 18:00
-    title: Delavnica navtike
-    description: Pridruži se navtični delavnici v sklopu Majskih iger 2025 in zapluj
-      v svet jadranja! Na delavnici boš spoznal osnove navtike, obenem pa
-      prisluhnil kratkemu predavanju o VHF postaji – kako jo uporabljati, kdaj
-      jo potrebujemo in zakaj je ključna za varnost na morju.
+    title: Delavnica Canve, izvaja Zavod ŠOLT
+    description: Ustvarjaj kot profesionalec! Se želiš naučiti kako enostavno
+      oblikuješ plakate, predstavitve, videe ali pa objave na družbenih
+      omrežjih? Pridruži se Canva delavnici na Majskih igrah! Na delavnici
+      spoznaš Canvo in v nekaj korakih ustvariš odlične vizualne izdelke.
     location: Mala kulturna dvorana
-    registerLink: https://forms.gle/gTg2rXEFfGiT9XGQ7
+    registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSfJLzJM2Z0yxYRKZsPMyouW\
+      _9fNzLULWuXZNPSEuHxw3pcl2A/viewform?usp=publish-editor "
+    imageUrl: /img/delavnica-canva.png
+    price: Brezplačno
+    geoLocation: '{"type":"Point","coordinates":[14.4878778,46.0514861]}'
   - time: 19:00
     title: Slackline
     description: Če bi rad preizkusil svoje ravnotežje na malo drugačen način ali pa

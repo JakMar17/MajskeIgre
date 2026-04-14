@@ -1,7 +1,7 @@
 ---
 title: Uspavanka za kulturo
 date: 2026-05-25T17:00:00.000+02:00
-imageUrl: /img/280448089_5631346656909360_368810459111457446_n.jpg
+imageUrl: /img/kultura-7.jpg
 events:
   - time: 14:00
     title: Majska izmenjevalnica

@@ -48,7 +48,7 @@ events:
       bivših, sedanjih in bodočih…dogodkih iz življenja. Trenutno jahajo novi
       val glasbenega ustvarjanja in furajo proti izdaji prvega EP-ja z naslovom
       LEPO.  Ajde lepo se mej!
-    imageUrl: ""
+    imageUrl: /img/img_2270.jpeg
     location: Kulturni otoček za Domom III
     registerLink: ""
   - time: 20:00

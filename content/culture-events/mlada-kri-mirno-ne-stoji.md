@@ -16,15 +16,19 @@ events:
       5YQit0RMrL2NXuLos5KTCaBwmw/viewform?usp=publish-editor "
     price: Brezplačno
     geoLocation: '{"type":"Point","coordinates":[14.4878567,46.0514449]}'
-  - time: 17:00
-    title: Delavnica mažoretk
-    description: Delavnica je namenjena vsem ljubiteljem in ljubiteljicam ritma,
-      elegance in usklajenosti gibanja. Tam se bomo naučili nekaj ponovnih
-      elementov tehnik dela z mažoretsko palico in cofi. Na koncu pa nas čaka še
-      krajši nastop mažoretk.
-    imageUrl: ""
-    registerLink: "https://forms.gle/TDxutKJ5nMh9NaGMA "
-    location: Travnik za Športno dvorano v Rožni dolini
+  - time: 16:00
+    title: Delavnica masaže, izvaja Center Possible
+    description: Z nami bo Mateja iz Centra Possible, ki je izvajalka masaž in
+      izobraževanj, kjer na praktičen in preprost način uči tehnik za boljše
+      počutje in lažje soočanje z vsakodnevnimi izzivi. Na delavnici bomo na
+      praktičen način spoznali preproste masažne tehnike za hitrejše učenje,
+      odpravo “mačka” ter zmanjšanje glavobolov in bolečin v vratu.
+    imageUrl: /img/masaža-mateja.jpg
+    registerLink: '"https://docs.google.com/forms/d/e/1FAIpQLSeg3-qhqp2-rMkxQsl2m-iMpIuxHyKK6SRTZSiZ9cZiynvrSw/viewform?usp=publish-editor
+      "'
+    location: Sejna soba v domu III
+    price: Brezplačno
+    geoLocation: '{"type":"Point","coordinates":[14.4884504,46.051156]}'
   - time: 18:45
     title: The Multicentral
     description: So novonastali severnoprimorski band, ki priredbe počasi nadomešča

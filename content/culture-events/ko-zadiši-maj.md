@@ -1,6 +1,6 @@
 ---
-title: Vroči špargerti v tvoji okolici
-date: 2025-05-06T07:00:00.000Z
+title: Maj na žlico
+date: 2025-05-05T09:00:00.000+02:00
 imageUrl: /img/slideshow-1.jpg
 events:
   - title: Majski bograč
@@ -11,7 +11,7 @@ events:
       strani tričlanske komisije, ki tudi razglasi zmagovalno trojico.
 
 
-      Če se rad zabavaš ob kuhi bograča in želiš pokazati svoj talent, ne odlašaj in se z ekipo prijavi preko spletne strani. Za vse ostalo poskrbimo mi. Letos bo tekmovanje potekalo v torek, 7. maja 2023 ob 9:00, na teniškem igrišču študentskega naselja v Rožni dolini. Prijave so odprte do petka, 3. maja oz. zapolnitve mest. Pri prijavi ima prednost ena ekipa na dom (v primeru prostih mest se lahko prijavi več ekip).
+      Če se rad zabavaš ob kuhi bograča in želiš pokazati svoj talent, ne odlašaj in se z ekipo prijavi preko spletne strani ali aplikacije. Za vse ostalo poskrbimo mi. Letos bo tekmovanje potekalo v torek, 5. maja 2026 ob 9:00, na teniškem igrišču študentskega naselja v Rožni dolini. Prijave so odprte do zapolnitve mest (20 ekip). Pri prijavi ima prednost ena ekipa na dom (v primeru prostih mest se lahko prijavi več ekip).
 
 
       Prijavnino je potrebno poravnati na info točki (Dom III) v času uradnih ur.
@@ -19,5 +19,6 @@ events:
     time: 09:00
     location: Rožna dolina, teniško igrišče
     price: 55€ / skupino
-    registerLink: https://forms.gle/y5D3GhN7B97DYFu57
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLScSEYuuXrUEgQIi_d3V8YfxhuInAUKeLLV-SgjXdXa6pFqDaw/viewform?usp=publish-editor
+    geoLocation: '{"type":"Point","coordinates":[14.488977,46.0514146]}'
 ---

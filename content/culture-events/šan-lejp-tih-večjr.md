@@ -30,16 +30,16 @@ events:
     registerLink: https://docs.google.com/forms/d/e/1FAIpQLSceys5DC9B1JsEllI7pTt6jK0GDpsCIDoCd0w2eFy4HahDecw/viewform?usp=publish-editor
     geoLocation: '{"type":"Point","coordinates":[14.4878495,46.0514872]}'
   - time: 18:00
-    title: Delavnica slovenskega znakovnega jezika
-    description: MI ŠE MANJKA
-    imageUrl: ""
-    location: Mala kulturna dvorana
+    title: Zelišča po študentsko
+    description: Na delavnici bomo spoznavali, kako pravilno vzgajati zelišča (ja,
+      tudi na okenski polici ali balkonu študentskega doma) ter kako jih
+      uporabiti v kulinariki. Če si želite popestriti svoje študentske obroke s
+      kančkom zelišč, potem je to prava priložnost za vas!
+    imageUrl: /img/zelišča-po-študentsko.jpg
+    location: Sejna soba v domu III
     price: Brezplačno
-    registerLink: https://forms.gle/4PLqdKoYzQpsAHb38
-  - time: 20:15
-    title: Podelitev medalj
-    description: Podelitev medalj za športe
-    location: Kulturni otoček za Domom III
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSc_5zmg4fyalc_eoLQKvT-2V0WJIldNsP3-DcTMVDLAURr_Jg/viewform?usp=publish-editor
+    geoLocation: '{"type":"Point","coordinates":[14.4884415,46.0511566]}'
   - time: 19:15
     title: Zina Ban
     description: Zina je 25-letna Istrska kantavtorica, občutljiva duša s trdno
@@ -51,6 +51,10 @@ events:
       Pristna besedila in čustven vokal stremijo k temu da nobenega poslušalca
       ne pustijo ravnodušnega.
     imageUrl: /img/slika-zina.jpg
+    location: Kulturni otoček za Domom III
+  - time: 20:15
+    title: Podelitev medalj
+    description: Podelitev medalj za športe
     location: Kulturni otoček za Domom III
   - time: 20:30
     title: Milan Kamnik

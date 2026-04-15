@@ -49,13 +49,13 @@ events:
       val glasbenega ustvarjanja in furajo proti izdaji prvega EP-ja z naslovom
       LEPO.  Ajde lepo se mej!
     imageUrl: /img/img_2270.jpeg
-    location: Kulturni otoček za Domom III
+    location: Kulturni otoček za domom III
     registerLink: ""
   - time: 20:00
     title: Podelitev medalj
     description: Podelitev medalj za športe
     imageUrl: ""
-    location: Kulturni otoček za Domom III
+    location: Kulturni otoček za domom III
   - time: 20:15
     title: The Homegrowns
     description: >-
@@ -66,8 +66,8 @@ events:
       akterji slovenskih reaggae prizorišč MC Krebl, Haris Pilton in Tadiman. 
 
       Radeška trio zasedba je konec leta 2020 začela ustvarjati avtorski material, prvi večji zagon pa doživela leta 2022 z izdajo treh singlov in prvim koncertom na Pristavi Počakovo. V naslednjih letih so nastopali po Sloveniji in tujini ter igrali kot predskupina uveljavljenim izvajalcem, kot so Del Arno Band, The Toasters in The Slackers, ter nastopili na festivalih, kot so Roots In The Woods, Natural Mystic in SeaSound.
-    location: Kulturni otoček za Domom III
-    imageUrl: /img/the-homegrows-36-2.jpg
+    location: Kulturni otoček za domom III
+    imageUrl: /img/promo.png
   - time: 21:30
     title: DEMM
     description: 𝗗𝗘𝗠𝗠 je punk. Skupina treh frendov - Jan, Marko in Urban, ki
@@ -75,6 +75,6 @@ events:
       Seveda pa vse zapakirano v (samo)ironijo in zajebancijo. So "brez enega
       hita", pa kljub temu zelo glasni. Od lejzbik, do gluposti in crknjenih
       rož.
-    location: Kulturni otoček za Domom III
+    location: Kulturni otoček za domom III
     imageUrl: /img/glupinmlad_fotoshoot2.jpg
 ---

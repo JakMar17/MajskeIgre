@@ -51,11 +51,11 @@ events:
       Pristna besedila in čustven vokal stremijo k temu da nobenega poslušalca
       ne pustijo ravnodušnega.
     imageUrl: /img/slika-zina.jpg
-    location: Kulturni otoček za Domom III
+    location: Kulturni otoček za domom III
   - time: 20:15
     title: Podelitev medalj
     description: Podelitev medalj za športe
-    location: Kulturni otoček za Domom III
+    location: Kulturni otoček za domom III
   - time: 20:30
     title: Milan Kamnik
     description: Kantavtor Milan Kamnik je koroška legenda, ambasador koroške
@@ -76,7 +76,7 @@ events:
       svojih tem, saj so vseživljenjske, vsekoroške, vsedušne. Je glasbenik,
       ibržnik, samorastnik in kleni Korošec.
     imageUrl: /img/untitled-foto-nika_hölcl-169.jpg
-    location: Kulturni otoček za Domom III
+    location: Kulturni otoček za domom III
   - time: 21:30
     title: Andrej Šifrer
     description: Kdor je že bil na koncertu Andreja Šifrerja, ve, da to ni le
@@ -86,5 +86,5 @@ events:
       plaz pojoče množice potegnil za seboj.  Obeta se nam prijeten večer poln
       pesmi in zgodb ter uspavanke :-).
     imageUrl: /img/aš-barva-velike-8-.jpg
-    location: Kulturni otoček za Domom III
+    location: Kulturni otoček za domom III
 ---

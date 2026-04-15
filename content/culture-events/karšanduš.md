@@ -59,17 +59,17 @@ events:
       tekmovanj na mednarodnih in domačih odrih, njihov zadnji uspeh je iz
       aprila 2024, ko so na državnem tekmovanju dosegli srebrno plaketo in s tem
       osvojili primat najboljšega moškega pevskega zbora v Sloveniji."
-    imageUrl: ""
+    imageUrl: /img/vodopivci.jpeg
     location: Kulturni otoček za domom III
     geoLocation: '{"type":"Point","coordinates":[14.4885824,46.0509282]}'
   - time: 20:15
     title: Podelitev medalj
-    description: "Podelitev medalj in pokalov za naslednje športe :"
+    description: Podelitev medalj in pokalov za športe.
     imageUrl: ""
     location: Kulturni otoček za domom III
     geoLocation: '{"type":"Point","coordinates":[14.4885916,46.0509581]}'
   - time: 20:30
-    title: Folklora ASF France Marolt
+    title: Folklora AFS France Marolt
     description: Najstarejša in največja akademska folklorna skupina pri nas že več
       kot sedem desetletij raziskuje, ohranja in na novo soustvarja slovensko
       ljudsko izročilo. S sodobnimi odrskimi postavitvami ter predanostjo
@@ -80,6 +80,7 @@ events:
       danes predstavljajo temelj naše zakladnice.
     location: Kulturni otoček za domom III
     geoLocation: '{"type":"Point","coordinates":[14.4884613,46.0508808]}'
+    imageUrl: /img/marolt-letni-koncert-2025-547.jpg
   - time: 21:00
     description: Mladinsko folklorno skupino sestavljajo plesalke in plesalci,
       dijaki in študentje, ki jih povezuje ljubezen do slovenskega ljudskega
@@ -97,8 +98,12 @@ events:
       generacije.
     title: Folklora MFS Mengeš
     location: Kulturni otoček za domom III
-  - time: "21.30"
+    imageUrl: /img/mfs-mengeš.jpg
+  - time: 21:30
     title: Kino na prostem
-    description: Te mika dobra družba in filmska čarovnija pod zvezdami?
+    description: >-
+      
+      Večer bomo zaključili s filmsko čarovnijo pod zvezdami. Zato zberi prijatelje in se nam pridruži.
     location: Kulturni otoček za domom III
+    imageUrl: /img/280448089_5631346656909360_368810459111457446_n.jpg
 ---

@@ -34,9 +34,15 @@ events:
     geoLocation: '{"type":"Point","coordinates":[14.4884826,46.0511647]}'
   - time: 18:00
     title: Line dance, izvaja Colorado Country Line Dance
-    description: MI ŠE MANJKA!!!
-    imageUrl: /img/343169401_980557789620925_3954934512170696496_n.jpg
-    location: Kulturni otoček z domom III
+    description: Vstopite v svet pod klobukom - z nami bo COLORADO Country LIne
+      Dance, ki bo za nas izvedel delavnico kavbojskih plesov. Predznanje ni
+      potrebno, vse kar potrebujete je pozitivna energija in nasmeh. Pridite se
+      razgibat z nami!
+    imageUrl: /img/colorado-country-line-dance.jpg
+    location: Rožna kuh´na
+    price: Brezplačno
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSfH8B-wEq2guwwJ8YDmMsE-EisShVSylT0qaS88ECbMqgbhdA/viewform?usp=publish-editor
+    geoLocation: '{"type":"Point","coordinates":[14.4876362,46.0516036]}'
   - time: 19:00
     title: Abnormala
     description: >-

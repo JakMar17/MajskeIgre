@@ -42,27 +42,26 @@ events:
     geoLocation: '{"type":"Point","coordinates":[14.4884167,46.0511914]}'
   - time: 20:00
     title: Podelitev medalj
-    description: |-
-      Podelitev medalj za športe: 
-
-      šah, kronometer
-    location: Kulturni otoček za Domom III
+    description: Podelitev medalj za športe
+    location: Kulturni otoček za domom III
   - time: 20:15
     title: Študentska poezija
-    description: Pridruži se večeru študentske poezije in stopi na oder s svojimi
-      deli! To je odlična priložnost, da svoje besede deliš z drugimi. Prijavi
-      se in pusti, da tvoja poezija zaživi.
+    description: >-
+      Tudi ti v prostem času loviš svoje misli v verze in jih zapisuješ na papir
+      ali telefon? 
+
+
+      Pridruži se večeru študentske poezije in stopi na oder s svojimi deli! To je odlična priložnost, da svoje besede deliš z drugimi. Prijavi se in pusti, da tvoja poezija zaživi.
     imageUrl: ""
-    location: Kulturni otoček za Domom III
+    location: Kulturni otoček za domom III
     registerLink: https://docs.google.com/forms/d/e/1FAIpQLScgRLkMhAR8Ec4fpSm4yzHNwb17qbCS5Iz2t0HaQOq8vtBsxQ/viewform?usp=publish-editor
   - time: 21:00
     title: "Stand-up "
-    description: >-
-      Ob 10-letnici Ficija v Rožni pripravljamo večer, ki ga ne smeš zamuditi.
-      Na odru
-
-      se bodo zvrstili vrhunski stand-up komiki: Marko Žerjal, David Gorinšek, Dejan Ikovic - Bushi, Aljaž Poredoš, Sebastian Spital in Alen Mastnak. Nastopil pa bo tudi slavljenec.
-    imageUrl: ""
-    location: Kulturni otoček za Domom III
+    description: "Ob 10-letnici Ficija v Rožni pripravljamo večer, ki ga ne smeš
+      zamuditi. Na odru se bodo zvrstili vrhunski stand-up komiki: Marko Žerjal,
+      David Gorinšek, Dejan Ikovic - Bushi, Aljaž Poredoš, Sebastian Spital in
+      Alen Mastnak. Nastopil pa bo tudi slavljenec."
+    imageUrl: /img/fici.jpg
+    location: Kulturni otoček za domom III
     price: ""
 ---

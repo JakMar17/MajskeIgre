@@ -51,24 +51,26 @@ events:
       za naklonjenost sodnikov ter občinstva. Celotna predstava poteka v obliki
       priznanega formata Theatresports TM, ki zabava občinstva po celem svetu.
       Pripravite se na buren večer poln smeha.
-    imageUrl: ""
-    price: Brezplačno
+    imageUrl: /img/20260208_presern_vs_2pac-16-1-.jpg
+    price: ""
     location: Kulturni otoček za domom III
   - time: 20:30
     title: Podelitev medalj
-    description: Razglasitev zmagovalcev ter podelitev nagrad.
+    description: Podelitev medalj za športe.
     location: Kulturni otoček za domom III
   - time: 20:45
     title: Stand up Mlade nade
-    description: Stand-up novincev
-    imageUrl: ""
-    location: Kulturni otoček za domom III
-    price: Brezplačno
-  - time: "22.00"
-    title: Ansambel Tram
     description: >-
       
-      Ansambel Tram so trije fantje iz Notranjske. Špilajo vedno na polno, da je žur pa veselo. Od nedeljskih pesmi za dušo pa do poskočnih ritmov pozno v noči. Pravijo, da je v njihovi družbi zmerej fajn.
-    imageUrl: ""
+      Pridruži se večeru svežega humorja, kjer bodo oder zavzeli stand-up novinci!
+    imageUrl: /img/mlade-nade.jpg
+    location: Kulturni otoček za domom III
+    price: ""
+  - time: "22.00"
+    title: Ansambel Tram
+    description: Ansambel Tram so trije fantje iz Notranjske. Špilajo vedno na
+      polno, da je žur pa veselo. Od nedeljskih pesmi za dušo do poskočnih
+      ritmov pozno v noči. Pravijo, da je v njihovi družbi zmerej fajn.
+    imageUrl: /img/tram-2-.jpg
     location: Kulturni otoček za domom III
 ---

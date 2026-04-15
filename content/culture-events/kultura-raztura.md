@@ -52,17 +52,11 @@ events:
 
       Skupino sestavljajo: Laura Palka: na vokalu, kjer ga zažiga, Fedja Lah in Timotej Milharčič: dva kitarista, ki dajeta energijo v vsako noto ritmov in solov, Jakob Dolhar: bobnar z offbeati, da te kar »skipa«, Mourad Kejji: vse skupaj poveže z groovy bass licki. Člani so iz cele Slovenije in segajo celo do Maroka!
     location: Kulturni otoček za domom III
-    price: Brezplačno
+    price: ""
+    imageUrl: /img/abnormala.jpg
   - time: 20:00
     title: Podelitev medalj
-    description: |-
-      Podelitev medalj za naslednje športe: 
-
-      \-košarka, pikado, briškula, 
-
-      \-nogomet Ž, nogomet M, med dvema ognjema, 
-
-      \-streetball, nogomet na mivki, briškula?
+    description: Podelitev medalj za športe.
     imageUrl: ""
     location: Kulturni otoček za domom III
   - time: 20:15
@@ -86,6 +80,7 @@ events:
       pokazali in dokazali, da so zreli glasbeniki."
     location: Kulturni otoček za domom III
     price: ""
+    imageUrl: /img/lg4-luka-kaše-.jpg
   - time: 21:30
     description: >-
       Kreera je indie/alternativna rock skupina, ki je bila ustanovljena leta
@@ -97,4 +92,5 @@ events:
       Zasedba je leta 2023 izdala prvi singel z naslovom Šamar, leta 2024 pa EP z naslovom Kreativna Era, ki ga sestavljajo skladbe Noč in dan, Sin hudiča in Diši po pravljici. Med drugim so se predstavili na Škisovi tržnici, v Kino Šiška, na Majskih igrah, na Glasbenemu Atlasu in si delili oder s skupinami Tabu, Mrfy, Siddharta, Dan D, Magnificom, Koala Voice, Vazzom, Jet Black Diamonds… Med svoje dosežke uvrščajo tudi zmage na raznih glasbenih natečajih kot je Cityband 2025, CMK Studio live Vol. 4, in Šourock 2025. Trenutno Kreera dela na ustvarjanju prvega albuma, katerega izid načrtujejo v pomladi leta 2026.
     title: Kreera
     location: Kulturni otoček za domom III
+    imageUrl: /img/kreera_foto-2025.jpg
 ---

@@ -24,13 +24,12 @@ events:
       praktičen način spoznali preproste masažne tehnike za hitrejše učenje,
       odpravo “mačka” ter zmanjšanje glavobolov in bolečin v vratu.
     imageUrl: /img/masaža-mateja.jpg
-    registerLink: '"https://docs.google.com/forms/d/e/1FAIpQLSeg3-qhqp2-rMkxQsl2m-iMpIuxHyKK6SRTZSiZ9cZiynvrSw/viewform?usp=publish-editor
-      "'
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSeg3-qhqp2-rMkxQsl2m-iMpIuxHyKK6SRTZSiZ9cZiynvrSw/closedform
     location: Sejna soba v domu III
     price: Brezplačno
     geoLocation: '{"type":"Point","coordinates":[14.4884504,46.051156]}'
   - time: 18:00
-    title: Vinska degustacija
+    title: Degustacija vina
     description: Si prijatelj vina in te je od nekdaj zanimalo, kako pravilno
       uživati vino? Na degustaciji vina bomo šli čez teoretične osnove
       preizkušnja vina, sledila pa bo degustacija vin iz različnih delov

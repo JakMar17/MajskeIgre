@@ -15,8 +15,7 @@ events:
     imageUrl: /img/pexels-mokhtar-med-1510192794-31776842.jpg
     location: Jasa pred domom IV
     price: Brezplačno
-    registerLink: '"https://docs.google.com/forms/d/e/1FAIpQLSeMrJhXcXJnGvfrnRDTXRZ9Lk5gm6u8_7kXIcl9XXd45LbHPg/viewform?usp=publish-editor
-      "'
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSeMrJhXcXJnGvfrnRDTXRZ9Lk5gm6u8_7kXIcl9XXd45LbHPg/viewform?usp=publish-editor
     geoLocation: '{"type":"Point","coordinates":[14.4870634,46.050044]}'
   - time: 16:30
     title: Degustacija salam

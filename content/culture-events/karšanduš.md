@@ -22,7 +22,7 @@ events:
     price: Brezplačno
     registerLink: https://docs.google.com/forms/d/e/1FAIpQLScIhuvciSOLvK3asNRywcRkeU7ckCs4Qe2orTeKH6yaf4joIg/viewform?usp=dialog
   - time: 17:00
-    title: Študentsko delo, izjava Mjob
+    title: Pravice študentskega dela, izjava Mjob
     description: >-
       Študentsko delo: odskočna deska ali past?
 
@@ -34,7 +34,7 @@ events:
     geoLocation: '{"type":"Point","coordinates":[14.4884673,46.0511766]}'
     price: Brezplačno
   - time: 18:00
-    title: Predstavitev knjižnih prvencev študentov
+    title: Književnost
     description: "Trije študentje bodo letos stopili pred občinstvo s svojimi
       knjižnimi prvenci: Metka u glavo (Matija Podbreznik), Tema se deduje po
       očetu (Eva Šubic) in da ne (Iris Vinski). Kako sploh prideš do svoje prve
@@ -44,7 +44,7 @@ events:
     geoLocation: '{"type":"Point","coordinates":[14.4878356,46.0514387]}'
     imageUrl: /img/dariuszsankowski-glasses-1052023.jpg
     price: Brezplačno
-    registerLink: '"https://docs.google.com/forms/d/e/1FAIpQLSdtG9i_lIQZRgauy8pZGLUUWqZ7_r9qYmyS2R-gEqpqz41SGQ/viewform?usp=publish-editor"'
+    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSdtG9i_lIQZRgauy8pZGLUUWqZ7_r9qYmyS2R-gEqpqz41SGQ/viewform?usp=publish-editor
   - time: 19:30
     title: PAZ Vinko Vodopivec
     description: Vodopivci vseskozi sledijo tradiciji moškega zborovskega petja.

@@ -12,7 +12,7 @@ events:
       strokovnjaki za kolesa. Pridi, tvoje kolo ti bo hvaležno.
 
 
-      Popravila izvaja Matej Jager.
+      Popravila izvaja Matej Jager, dogodek pa poteka v sodelovanju z Univerzo v Ljubljani.
     imageUrl: /img/popravljalnica-koles.jpg
     location: Pred domom I
     price: Brezplačno

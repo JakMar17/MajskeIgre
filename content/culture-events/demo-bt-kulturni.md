@@ -20,13 +20,14 @@ events:
     imageUrl: /img/poslikava-obraza.jpg
     geoLocation: '{"type":"Point","coordinates":[14.4875985,46.0516091]}'
     price: Brezplačno
-  - time: 16:30
-    title: Delavnica cirkuške pedagogike, izvaja združenje Cirkokrog
+  - time: 16:00
+    title: Delavnica žongliranja, izvaja združenje Cirkokrog
     description: Cirkuška pedagogika je sveža metoda gradnje skupine, vzajemnega
       zaupanja, učenja medsebojnega sodelovanja in krepi sposobnosti za
       premagovanje osebnih ter skupinskih ovir. Na delavnici se bomo naučili
       rokovanja z različnimi cirkuškimi rekviziti. Vabljeni, da se nam
-      pridružite.
+      pridružite v sproščenem vzdušju, delavnica bo namreč povsem pretočna, tako
+      da se le ustavite in preizkusite kakšen rekvizit.
     imageUrl: /img/delavnica-žongliranja.jpg
     location: Jasa med domom I in III
     registerLink: ""

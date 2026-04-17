@@ -4,7 +4,7 @@ location: Rožnik, zbor na teniškem igrišču v Rožni dolini
 date: 2026-05-20T15:00:00.000+02:00
 price: 8 €
 teamFormation: Študentski tek - posamezno (ločeno moški in ženske) in tek trojk (mešano)
-registerLink: ""
+registerLink: v opisu
 description: >-
   <!--StartFragment-->
 

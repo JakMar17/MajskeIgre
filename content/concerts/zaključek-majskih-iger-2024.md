@@ -1,5 +1,5 @@
 ---
-title: Zaključek Majskih iger 2025
+title: Zaključek Majskih iger 2026
 location: Kardeljeva ploščad
 date: 2026-05-26
 imageUrl: /img/fb_img_1709477196011.jpg.webp

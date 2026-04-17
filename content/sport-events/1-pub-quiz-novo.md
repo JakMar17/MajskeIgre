@@ -1,5 +1,5 @@
 ---
-title: "PUB QUIZ "
+title: PUB QUIZ - 1. termin
 location: Rožna dolina, Rožna Kuh'na
 date: 2026-05-13T18:00:00.000+02:00
 price: 10 €

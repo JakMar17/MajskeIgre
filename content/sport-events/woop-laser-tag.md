@@ -2,7 +2,7 @@
 title: WOOP! Laser tag
 location: WOOP! Arena, BTC
 date: 2026-05-19T16:30:00.000+02:00
-price: 12 €
+price: 10 €
 teamFormation: Ekipe po 6 tekmovalcev
 registerLink: https://docs.google.com/forms/d/e/1FAIpQLSezShEpS-9kgLqEAH6FiQ6HzVTeBDb3ieBBCxbEMo3CrhpNiA/viewform?usp=dialog
 description: >-

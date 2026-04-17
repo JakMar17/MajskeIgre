@@ -1,10 +1,10 @@
 ---
 title: BEERPONG
 location: " Rožna dolina, nogometno igrišče"
-date: 2025-05-19T14:00:00.000Z
+date: 2026-05-18T15:00:00.000+02:00
 price: 10 €
 teamFormation: Dvojice
-registerLink: https://forms.gle/wjhj2N7utJE3WTD29
+registerLink: https://forms.gle/Dm9XrJpuFrAsuBm66
 description: >-
   <!--StartFragment-->
 

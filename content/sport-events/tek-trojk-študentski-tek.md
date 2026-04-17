@@ -1,10 +1,11 @@
 ---
 title: TEK TROJK & ŠTUDENTSKI TEK
 location: Rožnik, zbor na teniškem igrišču v Rožni dolini
-date: 2025-05-21T13:00:00.000Z
+date: 2026-05-20T15:00:00.000+02:00
 price: 8 €
 teamFormation: Študentski tek - posamezno (ločeno moški in ženske) in tek trojk (mešano)
-registerLink: https://forms.gle/BdEVbxtjFwsGQoSD7
+registerLink: "Tek trojk: https://forms.gle/E9W4dUs8nkHXqaMy7   Štundetski tek:
+  https://forms.gle/6iKoZe6rAysSaaXS8  "
 description: >-
   <!--StartFragment-->
 

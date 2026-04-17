@@ -1,10 +1,10 @@
 ---
 title: OLD BIKE RACE
 location: Rožna dolina
-date: 2025-05-22T15:00:00.000Z
+date: 2026-05-11T17:00:00.000+02:00
 price: 8 €
-teamFormation: Posamezno. Ločene moški in ženske
-registerLink: https://forms.gle/L77UHYN3nqmaJPZw8
+teamFormation: Posamezno. Ločeno moški in ženske
+registerLink: " https://forms.gle/R18aLA5Y4MWwrvmh9"
 description: >-
   <!--StartFragment-->
 

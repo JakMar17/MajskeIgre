@@ -40,7 +40,7 @@ events:
     registerLink: https://docs.google.com/forms/d/e/1FAIpQLSc_5zmg4fyalc_eoLQKvT-2V0WJIldNsP3-DcTMVDLAURr_Jg/viewform?usp=publish-editor
     geoLocation: '{"type":"Point","coordinates":[14.4884415,46.0511566]}'
   - time: 19:15
-    title: Zina Ban
+    title: Zina
     description: Zina je 25-letna Istrska kantavtorica, občutljiva duša s trdno
       prezenco. Njena glasba pluje med folk in indie tokovi intime, glavno
       vodilo in zvezda severnica pa je surovost. Svoje glasbene korake je začela

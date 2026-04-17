@@ -1,5 +1,5 @@
 ---
-title: PUB KVIZ
+title: PUB KVIZ - 2. termin
 location: Rožna dolina, Rožna Kuh'na
 date: 2026-05-21T18:00:00.000+02:00
 price: 10 €

@@ -1,10 +1,10 @@
 ---
 title: IGRE BREZ MEJA
 location: Jasa na vrhu Rožnika
-date: 2025-05-21T12:00:00.000Z
+date: 2026-05-20T14:00:00.000+02:00
 price: Brezplačno
 teamFormation: 8 tekmovalcev (4 moški + 4 ženske)
-registerLink: https://forms.gle/qW5LfXKuUC1uWFmu9
+registerLink: PREDSTAVNIKI
 description: >-
   <!--StartFragment-->
 

@@ -1,18 +1,22 @@
 ---
-title: 2. PUB QUIZ
-location: Dom XIV
-date: 2025-05-12T16:00:00.000Z
+title: PUB KVIZ
+location: Rožna dolina, Rožna Kuh'na
+date: 2026-05-21T18:00:00.000+02:00
 price: 10 €
 teamFormation: Ekipe po 4 tekmovalce
-registerLink: https://forms.gle/azBXkwNyvZmRnDjo7
+registerLink: "https://forms.gle/WnkL9KaaXWRqTsMx7 "
 description: >-
   <!--StartFragment-->
 
 
-  Na letošnjih Majskih igrah bo 5 **PUB QUIZOV!** Pričakujete lahko raznovrstna vprašanja iz raznolikih tem in seveda mrzlo točeno Laško. 
+  Pub kvizi so spet na Majskih igrah! Tudi letos se boste tekmovalci v ekipah po štiri lahko pomerili v znanju na dveh kvizih, ki bosta 13. in 21. maja potekala v študentski menzi v Rožni dolini. Kdo bo osvojil prestižni naslov najbrihtnejše ekipe študentske populacije?
+
+  Termina:13. maj ob 18. uri21. maj ob 18. uri
+
+  Na spletni strani Majskih iger se prijavite na termin, ki vam bolj ustreza. 
 
 
-  Na kvize se lahko prijavijo le ekipe, ki so sestavljene izključno **iz 4 članov, ki prihajajo z istega doma**. Prijave bomo obravnavali po ključu prvi pride prvi melje, vendar bomo upoštevali, da bodo domovi sorazmerno zastopani na kvizih. **Prijave potekajo do nedelje, 4. 5.** V ponedeljek, 5. 5., zvečer bodo ekipe, ki so se uvrstile na kvize, obveščene o terminu preko e-maila. Prijavo potrdite s plačilom prijavnine na INFO točki Majskih iger 2025. **S prijavami pohitite, saj so mesta zelo omejena.**
+  **S prijavami pohitite, saj so mesta zelo omejena.**
 
 
   **Domovi boste na kvizih pridobivali točke. Trije domovi, ki v skupni razvrstitvi pridobite največ točk, boste prejeli 8, 6 in 4 točke za 1., 2. in 3. mesto, ki se bodo upoštevale v skupni seštevek športov za naziv najboljšega doma Majskih iger 2025. Zmagovalna ekipa vsakega kviza prejme nagrado.**

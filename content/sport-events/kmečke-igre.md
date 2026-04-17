@@ -1,10 +1,10 @@
 ---
 title: KMEČKE IGRE
 location: Rožna dolina, zelenica pred domom IV
-date: 2025-05-26T12:00:00.000Z
+date: 2026-05-25T14:00:00.000+02:00
 price: Brezplačno
 teamFormation: 8 tekmovalcev (4 moški + 4 ženske)
-registerLink: https://forms.gle/d5sShPbAjN3jDyg86
+registerLink: PREDSTAVNIKI
 description: >-
   <!--StartFragment-->
 

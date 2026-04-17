@@ -4,7 +4,7 @@ location: Rožnik, zbor na teniškem igrišču v Rožni dolini
 date: 2026-05-20T15:00:00.000+02:00
 price: 8 €
 teamFormation: Študentski tek - posamezno (ločeno moški in ženske) in tek trojk (mešano)
-registerLink: https://forms.gle/E9W4dUs8nkHXqaMy7
+registerLink: ""
 description: >-
   <!--StartFragment-->
 
@@ -13,6 +13,9 @@ description: >-
 
 
   Prijavnica za Študentski tek: https://forms.gle/6iKoZe6rAysSaaXS8 
+
+
+  Prijavnica za Tek trojk: https://forms.gle/E9W4dUs8nkHXqaMy7
 
 
   **Če se prijavite na študentski tek v okviru doma in se uvrstite med prve tri, boste svojemu domu za osvojeno 1. mesto prinesli 8 točk, za 2. mesto 6 točk in za 3. mesto 4 točke. Točkovanje bo ločeno v moški in ženski konkurenci. Če tekmujete v sklopu teka trojk in želite domu prinesti pike, pa mora ekipo sestavljati več kot polovica tekmovalcev iz istega študentskega doma (najmanj 2 tekmovalca/tekmovalki). Trojica ki se uvrsti na 1. mesto, tako prinese domu 10 točk, za 2. mesto 8 točk ter za 3. mesto 6 točk.**

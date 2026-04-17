@@ -1,10 +1,10 @@
 ---
 title: ROČNI NOGOMET
-location: Rožna dolina, za domom III
-date: 2025-05-26T14:00:00.000Z
+location: Rožna dolina, teniško igrišče
+date: 2026-05-21T16:00:00.000+02:00
 price: 8 €
 teamFormation: Dvojice
-registerLink: https://forms.gle/wKQU41rJWDQXJCg77
+registerLink: https://forms.gle/Uq8PYTfSXZrWkmRdA
 description: >-
   <!--StartFragment-->
 

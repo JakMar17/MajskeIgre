@@ -1,15 +1,16 @@
 ---
 title: Dan Mestnega loga
 location: Mestni log
-date: 2025-05-13
+date: 2026-05-12
 imageUrl: /img/fb_img_1709477437727.jpg.webp
 performers: |-
-  ### Ansambel Od Buata
+  ### Majmunska Posla
 
-  ## Ansambel Šepet
+  ## Raubarji
 
-  # Čuki
+  # Dejan Vunjak in Brendijeve barabe
 
-  ### Direkt
+  ### Nočni Skok
+playlist: https://open.spotify.com/playlist/3KAXQbwIiYTBtCWuKYLjya?si=0444e38d5c8647cf
 geoLocation: '{"type":"Point","coordinates":[14.4879898,46.0372471]}'
 ---

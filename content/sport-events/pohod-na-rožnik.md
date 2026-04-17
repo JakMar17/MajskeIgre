@@ -1,7 +1,7 @@
 ---
 title: POHOD NA ROŽNIK
 location: Rožna dolina, zbor pred domom III
-date: 2025-05-21T16:00:00.000Z
+date: 2026-05-20T18:00:00.000+02:00
 price: Brezplačno
 teamFormation: Neomejeno
 registerLink: Ni prijave

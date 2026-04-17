@@ -4,7 +4,7 @@ location: Rožna dolina in Rožnik, zbor pred domom III
 date: 2026-05-20T14:00:00.000+02:00
 price: 10 €
 teamFormation: Ekipe po 4 + nadzornik
-registerLink: https://forms.gle/4qGtjBVMgfcMcTcx6
+registerLink: https://forms.gle/EdPyRmarbu6BqUWdA
 description: >-
   <!--StartFragment-->
 

@@ -1,7 +1,7 @@
 ---
-title: NOGOMET 2. del
-location: Rožna dolina, nogometno igrišče.
-date: 2025-05-14T12:00:00.000Z
+title: NOGOMET MOŠKI 2. del
+location: Rožna dolina, nogometno igrišče
+date: 2026-05-13T13:00:00.000+02:00
 price: /
 description: >-
   <!--StartFragment-->

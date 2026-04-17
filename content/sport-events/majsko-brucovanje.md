@@ -1,20 +1,25 @@
 ---
 title: MAJSKO BRUCOVANJE
-location: Rožna dolina, pred domom IV
-date: 2025-05-06T14:00:00.000Z
+location: Rožna dolina, zelenica pred domom IV
+date: 2026-05-05T16:00:00.000+02:00
 price: Brezplačno
-teamFormation: 6 tekmovalcev
+teamFormation: minimalno 6 tekmovalcev
 registerLink: Pri predstavnikih domov
 description: >-
-  <!--StartFragment-->
+  
+
+  Majsko brucovanje je zabavna in malo tekmovalna preizkušnja, namenjena vsem brucem, kiprebivate v študentskih domovih. Vaša naloga? Dokazati, da ste pripravljeni napreživetje v študentskem domu – skozi znanje, iznajdljivost in ekipni duh!
 
 
-  Majsko brucovanje je preizkušnja, namenjena brucem iz študentskih domov, na kateri se boste morali izkazati v znanju in spretnostih, ki dokazujejo njihovo sposobnost preživetja v domu. Vse sveže krščene bruce pa potem zasluženo čaka mesec športa, kulture in zabave. Disciplina je namenjena le stanovalcem študentskih domov in bo potekala v obliki ekipnega tekmovanja, pogoj pa je, da so vsi člani ekipe bruci in stanovalci istega študentskega doma. Vse igre z natančnejšimi navodili bodo predstavljene na tekmovanju.
+  Tekmovanjebo potekalo v ekipah, sestavljenih iz brucev istega študentskega doma.Pomembno: vsi člani ekipe morajo biti bruci in imeti stalno bivanje v istemdomu.
 
 
-  **Vsak dom, ki na brucovanje pripelje ekipo najmanj 6-ih brucev, dobi za udeležbo 10 točk. Če se ekipa uvrsti med najboljše tri, za prvo mesto dobijo dodatnih 14 točk, za drugo 12 točk in za tretje 10 točk.**
+  Pripravise na zabavne izzive, nepredvidljive naloge in ogromno smeha – pravila in igrebodo razkrite šele na dan dogodka. Vse, ki uspešno prestanejo preizkušnjo, pačaka nepozaben mesec športa, kulture in zabave.
 
 
-  <!--EndFragment-->
+  Pokaži,da si pravi/a bruc/ka – se vidimo na Majskem brucovanju!
+
+
+  **Vsak dom, ki na brucovanje pripelje vsaj 6 brucev, dobi zaudeležbo 10 točk. Če se ekipa uvrsti med najboljše tri, za prvo mesto dobijododatnih 12 točk, za drugo 10 točk in za tretje 8 točk.**
 imageUrl: /img/slideshow_sport_7.jpg.webp
 ---

@@ -4,7 +4,7 @@ location: WOOP! Arena, BTC
 date: 2026-05-19T16:30:00.000+02:00
 price: 12 €
 teamFormation: Ekipe po 6 tekmovalcev
-registerLink: " https://forms.gle/Th1b8yXiYC9L7SDt7"
+registerLink: https://forms.gle/Th1b8yXiYC9L7SDt7
 description: >-
   <!--StartFragment-->
 

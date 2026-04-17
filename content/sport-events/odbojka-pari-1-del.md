@@ -1,23 +1,20 @@
 ---
 title: ODBOJKA PARI (MOŠKI)
-location: Rožna dolina in Mestni log, odbojkarsko igrišče na mivki
-date: 2025-05-14T10:00:00.000Z
+location: Rožna dolina, odbojkarsko igrišče na mivki
+date: 2026-05-06T12:00:00.000+02:00
 price: 8 €
 teamFormation: Dvojice
-registerLink: https://forms.gle/jKe2txHCU9daTBxq5
+registerLink: https://forms.gle/dBV2DTTz2DBfaKWt9
 description: >-
   Poleg odbojke 4+2 ter odbojkarskih trojk, Majske igre ponujajo tudi tekmovanje
   v odbojkarskih parih. Tekmovanje, ki vsako leto privabi veliko število
   udeležencev, gledalcev in navijačev, bo tudi letos postreglo z odličnim
-  turnirjem na mivki sredi Rožne doline in v Mestnem logu. Ekipo sestavljata
-  natanko 2 igralca. Sistem igranja bo določen na prizorišču in bo odvisen od
-  števila prijav. Na vseh tekmah do finala se bo igralo na en dobljeni set do 21
-  točk, v finalu pa bosta ekipi za zmago potrebovali dva dobljena seta, ki se
-  bosta igrala do 15 točk. Turnirja se lahko udeležijo vsi študentje. Disciplina
-  je **omejena na 64 parov. Prijavnino je potrebno poravnati najpozneje do 6.5.
-  V nasprotnem primeru bomo prijavo zbrisali in ponovno odprli prijavni obrazec
-  ter sproščena mesta prepustili prvim ekipam, ki na info točki poravnajo
-  prijavnino.** 
+  turnirjem na mivki sredi Rožne doline. Ekipo sestavljata natanko 2 igralca.
+  Sistem igranja bo odvisen od števila prijav. Vsem priavljenim bo vnaprej
+  sporočen po mailu, skupaj z razporedom. Na vseh tekmah do finala se bo igralo
+  na en dobljeni set do 21 točk, v finalu pa bosta ekipi za zmago potrebovali
+  dva dobljena seta, ki se bosta igrala do 15 točk. Turnirja se lahko udeležijo
+  vsi študentje.
 
 
   **Prve tri uvrščene dvojice prinesejo domu za 1. mesto 10 točk, 2. mesto 8 točk in 3. mesto 6 točk. Oba tekmovalca morata biti iz istega doma, da prineseta svojemu domu točke. Če sta oba tekmovalca iz različnih domov, izbereta za kateri dom bodo štele točke. Če je en član iz doma, drug pa ne, ne dobista točk.**

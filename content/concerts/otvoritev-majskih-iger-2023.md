@@ -1,18 +1,16 @@
 ---
-title: Otvoritev Majskih iger 2025
+title: Otvoritev Majskih iger 2026
 location: Rožna dolina
-date: 2025-05-06
+date: 2026-05-05
 imageUrl: /img/fb_img_1709478715402.jpg.webp
 performers: |-
-  ### Gammas
+  ### Lenart in Veliki Travni
 
-  ### 2Brothers & The Others
+  ### Odprava Zelenega Zmaja
 
-  ### TamburaTeam
+  # Orlek
 
-  # Tabu
-
-  ## Slon in Sadež
-playlist: https://open.spotify.com/playlist/1ng6EbZuh8Lqll3wgYvE4A?si=e9ebe83df0b24568
+  ## Društvo Mrtvih Pesnikov
+playlist: https://open.spotify.com/playlist/06q45UCa65vB97ots4oldl?si=ab2a9c270a0e4239
 geoLocation: '{"type":"Point","coordinates":[14.489096,46.0513604]}'
 ---

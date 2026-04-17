@@ -1,9 +1,9 @@
 ---
-title: WOOP! Pixels
+title: WOOP! Pixel
 location: WOOP! Arena, BTC
 date: 2026-05-12T16:30:00.000+02:00
 price: 12 €
-teamFormation: Posamično
+teamFormation: Ekipe 4 tekmovalcev
 registerLink: https://forms.gle/E3UvJWzYMUu5DgXn8
 description: >-
   

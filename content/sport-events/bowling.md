@@ -3,7 +3,7 @@ title: WOOP! Bowling
 location: WOOP! Arena, BTC
 date: 2026-05-13T16:30:00.000+02:00
 price: 12 €
-teamFormation: ekipe po 5 tekmovalcev
+teamFormation: Ekipe po 5 tekmovalcev
 registerLink: https://forms.gle/j88xhftMpMeZb4q19
 description: >-
   <!--StartFragment-->

@@ -4,7 +4,7 @@ location: ŠD Gerbičeva 59
 date: 2026-05-12T16:00:00.000+02:00
 price: 8 €
 teamFormation: Posamezno (mešano moški in ženske)
-registerLink: " https://forms.gle/EkRQpoGcYGoHyxWTA"
+registerLink: https://forms.gle/EkRQpoGcYGoHyxWTA
 description: >-
   <!--StartFragment-->
 

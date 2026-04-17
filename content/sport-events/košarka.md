@@ -1,10 +1,10 @@
 ---
 title: KOŠARKA
-location: " Rožna dolina, športna dvorana"
-date: 2025-05-13T06:00:00.000Z
+location: " Rožna dolina, Univerzitetna športna dvorana"
+date: 2026-05-12T08:00:00.000+02:00
 price: 8 €
 teamFormation: 5 + 3 rezerve
-registerLink: https://forms.gle/XX5HYfdwFj4qDwxU8
+registerLink: https://forms.gle/3dSUoD9zoNS9S8Nx8
 description: >-
   <!--StartFragment-->
 

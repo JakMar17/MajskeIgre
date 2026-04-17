@@ -1,10 +1,10 @@
 ---
 title: BADMINTON
 location: Rožna dolina, športna dvorana
-date: 2025-05-19T11:00:00.000Z
+date: 2026-05-18T12:00:00.000+02:00
 price: 8 €
-teamFormation: Posamezno. Ločeno moške in ženske ekipe.
-registerLink: https://forms.gle/dfzwJ9aspYcNR3Mm8
+teamFormation: Posamezno. Ločeno moški in ženske.
+registerLink: https://forms.gle/fX1qJTPLc9Y646a97
 description: >-
   <!--StartFragment-->
 
@@ -17,38 +17,29 @@ description: >-
 
   <!--EndFragment-->
 instructions: >-
-  # Naslov 1
-
-  ## Naslov 2
-
-  ### Naslov 3
-
-  #### Naslov 4
-
-  ##### Naslov 5
-
-  ###### Naslov 6
-
-
   #### Format tekmovanja
+
 
   Tekmovanje poteka v skupinskem delu in izločilnih bojih. V skupinskem delu igra vsak z vsakim (round-robin), nato se najboljši uvrstijo v izločilne boje.
 
 
   #### Pravila igre
 
+
   Igra se po uradnih pravilih Badminton World Federation (BWF). 
 
-  - Vsak dvoboj je na 2 dobljeni seti, vsak set do 21 točk (pri 20:20 zmaga tisti, ki prvi doseže prednost 2 točk, max 30:29). 
 
-  - Servis poteka izmenično; servis se pridobi z vsako točko. 
+  * Vsak dvoboj je na 2 dobljeni seti, vsak set do 21 točk (pri 20:20 zmaga tisti, ki prvi doseže prednost 2 točk, max 30:29). 
 
-  - Žogica ne sme dotakniti mreže pri servisu. 
+  * Servis poteka izmenično; servis se pridobi z vsako točko. 
 
-  - Igralec izgubi točko, če žogica pristane izven igrišča ali dvakrat zapored udari žogico.
+  * Žogica ne sme dotakniti mreže pri servisu. 
+
+  * Igralec izgubi točko, če žogica pristane izven igrišča ali dvakrat zapored udari žogico.
 
 
   #### Oprema
+
 
   Loparje in žogice zagotovi organizator. Lastne loparje je dovoljeno prinesti.
 imageUrl: /img/badminton.jpg

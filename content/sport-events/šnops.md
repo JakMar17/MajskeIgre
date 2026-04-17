@@ -1,10 +1,10 @@
 ---
 title: ŠNOPS
 location: Rožna dolina,  Rožna Kuh'na
-date: 2025-05-13T13:00:00.000Z
+date: 2026-05-25T15:00:00.000+02:00
 price: 8 €
 teamFormation: Dvojice
-registerLink: https://forms.gle/K7mMb3iy2Zr6hT8f8
+registerLink: https://forms.gle/baRmwge1WvBRuRAG8
 description: >-
   <!--StartFragment-->
 

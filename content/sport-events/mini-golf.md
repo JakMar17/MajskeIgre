@@ -2,7 +2,7 @@
 title: WOOP! MINI GOLF
 location: Woop! Karting arena, BTC
 date: 2026-05-13T16:30:00.000+02:00
-price: 12 eur
+price: 10 €
 teamFormation: Par
 registerLink: https://forms.gle/xGWa8a5eXiNLqMsS6
 description: >-

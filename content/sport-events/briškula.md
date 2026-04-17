@@ -4,7 +4,7 @@ location: " Rožna dolina, Rožna Kuh'na"
 date: 2026-05-12T16:00:00.000+02:00
 price: 8 €
 teamFormation: Dvojice
-registerLink: https://forms.gle/amVizGriUVPtsUQr6
+registerLink: https://forms.gle/QqpaH8q3pzFp5umDA
 description: >-
   <!--StartFragment-->
 

@@ -1,10 +1,10 @@
 ---
-title: WOOP! LASER TAG
+title: WOOP! Laser tag
 location: WOOP! Arena, BTC
-date: 2025-05-20T14:30:00.000Z
+date: 2026-05-19T16:30:00.000+02:00
 price: 12 €
 teamFormation: Ekipe po 6 tekmovalcev
-registerLink: https://forms.gle/wDn6H7YiA5zcHUJc8
+registerLink: " https://forms.gle/Th1b8yXiYC9L7SDt7"
 description: >-
   <!--StartFragment-->
 
@@ -12,10 +12,10 @@ description: >-
   WOOP! laser tag je skupinska igra z laserji, ki ponuja edinstveno okolje za doživetje pristnega pustolovskega adrenalina in ekipnega taktiziranja. Gre za strelski, a povsem varen način zabave, ki omogoča, da se tekmovalci pomerijo v igri, ki je podobna paintballu,  vendar na bolj varen in ne boleč način. 
 
 
-  Laserska bitka je odličen način zabave za odrasle in otroke, družino in prijatelje, pa tudi za skupine in podjetja, ki želijo energijo v svojih ekipah dvigniti na višji nivo. Izberi igro in se s svojo ekipo pridruži na najbolj zabavni misiji daleč naokoli! Tekmovanje bo potekalo na izpadanje.  **Zbor na lokaciji je pol ure pred dogodkom, torej ob 16.00.** 
+  Laserska bitka je odličen način zabave za odrasle in otroke, družino in prijatelje, pa tudi za skupine in podjetja, ki želijo energijo v svojih ekipah dvigniti na višji nivo. Izberi igro in se s svojo ekipo pridruži na najbolj zabavni misiji daleč naokoli! Tekmovanje bo potekalo na izpadanje.  **Zbor na lokaciji je 15 minut pred dogodkom, torej ob 16.15.** 
 
 
-  **T﻿ekmovanje je omejeno na 10 ekip.** **Prijavnino je potrebno poravnati najpozneje do 16.5. V nasprotnem primeru bomo prijavo zbrisali in ponovno odprli prijavni obrazec ter sproščena mesta prepustili prvim ekipam, ki na info točki poravnajo prijavnino.** 
+  **Prijave so omejene. Prijavnino je potrebno poravnati najpozneje do 16.5. V nasprotnem primeru bomo prijavo zbrisali in ponovno odprli prijavni obrazec ter sproščena mesta prepustili prvim ekipam, ki na info točki poravnajo prijavnino.** 
 
 
   **Če želite domu prinesti točke, mora biti VEČ kot polovica ekipe sestavljena iz stanovalcev istega doma, hkrati pa se morate uvrstiti med najboljše tri. 1. mesto prejme 12 točk, 2. mesto 10 točk ter 3. mesto 8 točk.**

@@ -2,7 +2,7 @@
 title: WOOP! Biljard
 location: WOOP! Arena
 date: 2026-05-19T16:30:00.000+02:00
-price: 12 eur
+price: 10 €
 teamFormation: Posameznik
 registerLink: https://forms.gle/UjUdr8MaksyiGeW49
 description: >-

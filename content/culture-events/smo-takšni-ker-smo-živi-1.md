@@ -67,7 +67,7 @@ events:
 
       Radeška trio zasedba je konec leta 2020 začela ustvarjati avtorski material, prvi večji zagon pa doživela leta 2022 z izdajo treh singlov in prvim koncertom na Pristavi Počakovo. V naslednjih letih so nastopali po Sloveniji in tujini ter igrali kot predskupina uveljavljenim izvajalcem, kot so Del Arno Band, The Toasters in The Slackers, ter nastopili na festivalih, kot so Roots In The Woods, Natural Mystic in SeaSound.
     location: Kulturni otoček za domom III
-    imageUrl: /img/promo.png
+    imageUrl: /img/the-homegrows.jpg
   - time: 21:30
     title: DEMM
     description: 𝗗𝗘𝗠𝗠 je punk. Skupina treh frendov - Jan, Marko in Urban, ki

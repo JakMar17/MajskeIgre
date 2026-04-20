@@ -40,11 +40,11 @@
             Kultura
           </NuxtLink>
         </div>
-        <!-- <div class="navbar-item">
+        <div class="navbar-item">
           <NuxtLink class="navbar-item" to="/info-tocka">
             Info točka
           </NuxtLink>
-        </div> -->
+        </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <NuxtLink class="navbar-item" to="/kontakt">
             Organizator & kontakt

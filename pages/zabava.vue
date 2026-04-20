@@ -2,26 +2,49 @@
   <main class="wrapper">
     <HeaderLogoComponent/>
     <CardComponent v-if="descriptionRef != null" style="margin-bottom: 3em" :content="descriptionRef?.description"/>
-    <section v-if="showScheduleRef" class="concert__section" v-for="(concert, index) in concertsRef">
-      <div class="concert__title__wrapper">
-        <div class="container concert__title__container">
-          <h1 class="title is-1 mb-2">{{ concert.title }}</h1>
-          <h2 class="title is-6">{{ concert.location.toUpperCase() }} - {{ concert.date }}</h2>
-          <a v-if="concert.playlist" :href="concert.playlist" target="_blank" class="is-link" style="background: #122b41; padding: 0.5em 1em; border-radius: 999px; display: flex; gap: 1em; align-items: center">
-            <div>
-              <img src="../assets/images/playlist.png" style="height: 32px"/>
-            </div>
-            <div style="color: white">
-              Predvajaj na Spotify
-            </div>
-          </a>
+    <template v-if="showScheduleRef" v-for="(concert, index) in concertsRef" :key="index">
+      <section class="concert__section">
+        <div class="concert__title__wrapper">
+          <div class="container concert__title__container">
+            <h1 class="title is-1 mb-2">{{ concert.title }}</h1>
+            <h2 class="title is-6">{{ concert.location.toUpperCase() }} - {{ concert.date }}</h2>
+            <a v-if="concert.playlist" :href="concert.playlist" target="_blank" class="is-link" style="background: #122b41; padding: 0.5em 1em; border-radius: 999px; display: flex; gap: 1em; align-items: center">
+              <div>
+                <img src="../assets/images/playlist.png" style="height: 32px"/>
+              </div>
+              <div style="color: white">
+                Predvajaj na Spotify
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
 
-      <CardImageComponent style="text-align: center" :imageUrl="concert.imageUrl" :content="concert.performers" :reversed="index % 2 === 0"/>
+        <!-- New design: performers list with clickable details -->
+        <CardImageComponent
+            v-if="concert.performersList && concert.performersList.length > 0"
+            :imageUrl="concert.imageUrl"
+            :reversed="index % 2 === 0"
+        >
+          <template v-slot:title></template>
+          <template v-slot:content>
+            <div class="container mt-4">
+              <EventsConcertPerformerComponent
+                  v-for="performer in concert.performersList"
+                  :key="performer.name"
+                  :performer="performer"
+                  :expanded="expandedPerformerRef[index] === performer.name"
+                  @toggle="togglePerformer(index, performer.name)"
+              />
+            </div>
+          </template>
+        </CardImageComponent>
 
-      <MapComponent :geoLocation="concert.geoLocation"/>
-    </section>
+        <!-- Fallback design: old markdown performers -->
+        <CardImageComponent v-else style="text-align: center" :imageUrl="concert.imageUrl" :content="concert.performers" :reversed="index % 2 === 0"/>
+
+        <MapComponent :geoLocation="concert.geoLocation"/>
+      </section>
+    </template>
 
     <EventsNoContentComponent v-else type="zabava" title="Kdo bo stopil na oder je še skrivnost" content="...a ne za dolgo - spremljaj naša socialna omrežja in bodi prvi, ki boš izvedel!"/>
 
@@ -56,6 +79,11 @@ import {createSeoFunction} from "~/functions/create-seo.function";
 const concertsRef = ref<ConcertEventModel[]>([]);
 const descriptionRef = ref<DescriptionModel | null>(null);
 const showScheduleRef = ref<boolean>(false);
+const expandedPerformerRef = ref<Record<number, string | null>>({});
+
+const togglePerformer = (concertIndex: number, performerName: string) => {
+  expandedPerformerRef.value[concertIndex] = expandedPerformerRef.value[concertIndex] === performerName ? null : performerName;
+};
 
 const fetchDescription = () => queryContent<DescriptionModel>('descriptions/concert').findOne().then((description) => {
   descriptionRef.value = description;

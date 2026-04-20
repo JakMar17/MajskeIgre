@@ -5,9 +5,7 @@
         <h1 v-if="title" :class="buildCssClass('title is-2 mb-0')">{{ title }}</h1>
         <h2 v-if="subtitle" :class="buildCssClass('title is-6 mt-2 has-text-primary')">{{ subtitle.toUpperCase() }}</h2>
       </div>
-      <div v-if="content" :class="buildContentCssClass('content')">
-        <ContentRendererMarkdown  :value="content"/>
-      </div>
+      <slot />
     </div>
   </div>
 </template>
@@ -15,24 +13,19 @@
 <script lang="ts" setup>
 import {parseMarkdown} from "~/utils/parseMarkdown";
 import type {CardModel} from "~/models";
+import { CardContentModel } from "~/models/card-content.model";
 
-const props = withDefaults(defineProps<CardModel>(), {
+const props = withDefaults(defineProps<CardContentModel>(), {
   centeredTitles: false,
-  centeredContent: false,
 });
 
-const {title, subtitle, centeredTitles, centeredContent} = toRefs(props);
+const {title, subtitle, centeredTitles} = toRefs(props);
 const content = ref<string | null>(null);
-
-parseMarkdown(props.content).then((parsed: string) => content.value = parsed);
 
 function buildCssClass(baseClass = "") {
   return `${baseClass} ${centeredTitles?.value ? "has-text-centered" : ""}`;
 }
 
-function buildContentCssClass(baseClass = "") {
-  return `${baseClass} ${centeredContent?.value ? "has-text-centered" : ""}`;
-}
 </script>
 
 <style lang="scss" scoped>

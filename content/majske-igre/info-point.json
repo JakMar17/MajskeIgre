@@ -1,4 +1,18 @@
 {
+  "scheduleObj": {
+    "title": "Urnik Info točke",
+    "entry": [
+      {
+        "day": "Ponedeljek - četrtek",
+        "time": "09:00 - 17:00"
+      },
+      {
+        "day": "Petek",
+        "time": "09:00 - 12:00"
+      }
+    ],
+    "notes": "*Info točka bo zaprta v tednu med ponedeljkom, 27. aprilom, in petkom, 1. majem.*\n\n*Info točka bo zaprta na dan Zaključka Majskih iger in na dan Koncerta na Rožniku. Na dan Otvoritve Majskih iger in Dan Mestnega loga bo Info točka odprta do 12. ure.*\n\n*Na dan Škisove tržnice je info točka zaprta.*"
+  },
   "sportInfo": {
     "description": "Za udeležbo na vseh športnih dogodkih se je potrebno predhodno prijaviti(1). Prijava je enostavna in vključuje spletno prijavo preko obrazca ter plačilo prijavnine na info točki:",
     "notes": "**Subvencioniranje prijavnin:** nekateri domovi za svoje prebivalce subvencionirajo prijavnine v vrednosti 50 %. Preveri pri svojem predstavniku doma ali na info točki! Subvencijo priznamo ob poravnavi prijavnine.*\n\n*(1) Za nekatere športne dogodke obstaja drugačen način prijave, saj prijavo v imenu doma opravi predstavnik. Tudi to bo zapisano ob razporedu športov.*\n\n*(2) Plačilo prijavnine (če si opravil spletno prijavo vsaj dan pred dogodkom) je mogoče tudi na dan dogodka do začetka dogodka oziroma najkasneje do 12. ure. Na dan dogodka je prijavnina 2 € višja.*\n\n*(3) Majice Majskih iger prevzameš za vse člane svoje ekipe pri športih, kjer je potrebno poravnati prijavnino. Če je prijavnina brezplačna, je tvoja prijava potrjena že s spletno prijavo in obisk info točke ni potreben.*",
@@ -55,8 +69,9 @@
     ],
     "notes": ""
   },
-  "imageUrl": "/img/pustovanje_2024-171-1-.jpg.webp",
+  "imageUrl": "/img/organizator.webp",
   "concertImage": "/img/347391426_580670594198749_7452858149497941656_n.jpg.webp",
+  "schedule": "# **Urnik Info točke**\n\n**Ponedeljek - četrtek**\n\n08:00 - 17:00\n\n**Petek**\n\n08:00 - 12:00\n\n\n\n*Info točka bo zaprta v tednu med 27. aprilom in 1. majem. Info točka bo na dan Zaključka Majskih iger zaprta*",
   "subtitle": "Dom 3 (Rožna dolina) · 1. nadstropje",
   "title": "Info točka",
   "cultureInfo": {

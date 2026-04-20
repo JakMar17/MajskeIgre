@@ -27,10 +27,17 @@ export interface InfoPointConcertInfo {
   notes?: string;
 }
 
+export interface ScheduleModel {
+  title: string;
+  entry?: {day: string; time: string}[];
+  notes?: string;
+}
+
 export interface InfoPoint {
   title: string;
   subtitle: string;
   description: string;
+  schedule: string;
   imageUrl: string;
   sportImage: string;
   cultureImage: string;
@@ -38,4 +45,5 @@ export interface InfoPoint {
   sportInfo: InfoPointSportInfo;
   cultureInfo: InfoPointCultureInfo;
   concertInfo: InfoPointConcertInfo;
+  scheduleObj: ScheduleModel;
 }

@@ -1,6 +1,6 @@
-export interface CardModel {
-    title?: string;
-    subtitle?: string;
+import { CardContentModel } from "./card-content.model";
+
+export interface CardModel extends CardContentModel {
     content?: string;
-    centeredTitles?: boolean;
+    centeredContent?: boolean;
 }

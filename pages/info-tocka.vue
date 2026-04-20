@@ -1,45 +1,49 @@
 <template>
   <main v-if="contentData">
-    <HeaderPageComponent
-      :title="contentData.title"
-      :subtitle="contentData.subtitle"
-      :image-url="contentData.imageUrl"
-    />
+    <HeaderPageComponent :title="contentData.title" :subtitle="contentData.subtitle"
+      :image-url="contentData.imageUrl" />
 
-    <CardComponent class="mb-6" :content="contentData.description" />
+    <CardComponent class="mb-3" :content="contentData.description" />
+
+    <CardContentComponent v-if="contentData.scheduleObj.entry != null && contentData.scheduleObj.entry?.length > 0"
+      :title="contentData.scheduleObj.title"
+      :centered-titles="true"
+      class="mb-6">
+      <div class="has-text-centered">
+        <div v-for="(day, i) of contentData.scheduleObj.entry" :key="i" class="mb-4">
+          <p class="is-size-6 has-text-weight-bold mb-1">{{ day.day }}</p>
+          <p class="is-size-6 mb-3">{{ day.time }}</p>          
+        </div>
+        <p v-if="parsedContent.scheduleNotes">
+          <ContentRendererMarkdown class="help" :value="parsedContent.scheduleNotes" />
+        </p>
+      </div>
+    </CardContentComponent>
 
     <section class="section__wrapper sport__wrapper pb-6">
-      <CardImageComponent
-        subtitle="Prijave na športne dogodke"
-        :image-url="contentData.sportImage"
-        :reversed="true"
-      >
+      <CardImageComponent subtitle="Prijave na športne dogodke" :image-url="contentData.sportImage" :reversed="true">
         <template #content>
           <div class="container mt-4">
             <ContentRendererMarkdown v-if="parsedContent.sportDescription" :value="parsedContent.sportDescription" />
 
             <div class="accordion mt-4">
-              <article
-                v-for="(step, index) in contentData.sportInfo.steps"
-                :key="`sport-${index}-${step.title}`"
-                class="accordion__item"
-              >
+              <article v-for="(step, index) in contentData.sportInfo.steps" :key="`sport-${index}-${step.title}`"
+                class="accordion__item">
                 <button class="accordion__trigger" @click="toggleSection('sport', index)">
                   <span v-if="step.type === 'number'" class="accordion__badge">
                     <template v-if="step.type === 'number'">{{ index + 1 }}</template>
                   </span>
                   <span class="accordion__title">{{ step.title }}</span>
-                  <i class="ri-arrow-down-s-line accordion__icon" :class="{ 'is-open': openPanels.sport === index }"></i>
+                  <i class="ri-arrow-down-s-line accordion__icon"
+                    :class="{ 'is-open': openPanels.sport === index }"></i>
                 </button>
                 <div v-if="openPanels.sport === index" class="accordion__content">
-                  <ContentRendererMarkdown
-                    v-if="parsedContent.sportSteps[index]"
-                    :value="parsedContent.sportSteps[index]"
-                  />
+                  <ContentRendererMarkdown v-if="parsedContent.sportSteps[index]"
+                    :value="parsedContent.sportSteps[index]" />
                 </div>
               </article>
 
-              <hr v-if="contentData.sportInfo.notes"/>
+              <hr v-if="contentData.sportInfo.notes" />
 
               <article v-if="contentData.sportInfo.notes" class="accordion__item">
                 <div class="accordion__content help">
@@ -53,35 +57,29 @@
     </section>
 
     <section class="section__wrapper culture__wrapper pb-6">
-      <CardImageComponent
-        subtitle="Prijave na kulturne otočke"
-        :image-url="contentData.cultureImage"
-      >
+      <CardImageComponent subtitle="Prijave na kulturne otočke" :image-url="contentData.cultureImage">
         <template #content>
           <div class="container mt-4">
-            <ContentRendererMarkdown v-if="parsedContent.cultureDescription" :value="parsedContent.cultureDescription" />
+            <ContentRendererMarkdown v-if="parsedContent.cultureDescription"
+              :value="parsedContent.cultureDescription" />
 
             <div class="accordion mt-4">
-              <article
-                v-for="(step, index) in contentData.cultureInfo.steps"
-                :key="`culture-${index}-${step.title}`"
-                class="accordion__item"
-              >
+              <article v-for="(step, index) in contentData.cultureInfo.steps" :key="`culture-${index}-${step.title}`"
+                class="accordion__item">
                 <button class="accordion__trigger" @click="toggleSection('culture', index)">
                   <span v-if="step.type === 'number'" class="accordion__badge">{{ index + 1 }}
                   </span>
                   <span class="accordion__title">{{ step.title }}</span>
-                  <i class="ri-arrow-down-s-line accordion__icon" :class="{ 'is-open': openPanels.culture === index }"></i>
+                  <i class="ri-arrow-down-s-line accordion__icon"
+                    :class="{ 'is-open': openPanels.culture === index }"></i>
                 </button>
                 <div v-if="openPanels.culture === index" class="accordion__content">
-                  <ContentRendererMarkdown
-                    v-if="parsedContent.cultureSteps[index]"
-                    :value="parsedContent.cultureSteps[index]"
-                  />
+                  <ContentRendererMarkdown v-if="parsedContent.cultureSteps[index]"
+                    :value="parsedContent.cultureSteps[index]" />
                 </div>
               </article>
 
-              <hr v-if="contentData.cultureInfo.notes"/>
+              <hr v-if="contentData.cultureInfo.notes" />
 
               <article v-if="contentData.cultureInfo.notes" class="accordion__item">
                 <div class="accordion__content help">
@@ -95,34 +93,28 @@
     </section>
 
     <section class="section__wrapper concert__wrapper pb-6">
-      <CardImageComponent
-        subtitle="Plačilna kartica Majskih iger na zabavi"
-        :image-url="contentData.concertImage"
-        :reversed="true"
-      >
+      <CardImageComponent subtitle="Plačilna kartica Majskih iger na zabavi" :image-url="contentData.concertImage"
+        :reversed="true">
         <template #content>
           <div class="container mt-4">
-            <ContentRendererMarkdown v-if="parsedContent.concertDescription" :value="parsedContent.concertDescription" />
+            <ContentRendererMarkdown v-if="parsedContent.concertDescription"
+              :value="parsedContent.concertDescription" />
 
             <div class="accordion mt-4">
-              <article
-                v-for="(item, index) in contentData.concertInfo.info"
-                :key="`concert-${index}-${item.title}`"
-                class="accordion__item"
-              >
+              <article v-for="(item, index) in contentData.concertInfo.info" :key="`concert-${index}-${item.title}`"
+                class="accordion__item">
                 <button class="accordion__trigger" @click="toggleSection('concert', index)">
                   <span class="accordion__title">{{ item.title }}</span>
-                  <i class="ri-arrow-down-s-line accordion__icon" :class="{ 'is-open': openPanels.concert === index }"></i>
+                  <i class="ri-arrow-down-s-line accordion__icon"
+                    :class="{ 'is-open': openPanels.concert === index }"></i>
                 </button>
                 <div v-if="openPanels.concert === index" class="accordion__content">
-                  <ContentRendererMarkdown
-                    v-if="parsedContent.concertItems[index]"
-                    :value="parsedContent.concertItems[index]"
-                  />
+                  <ContentRendererMarkdown v-if="parsedContent.concertItems[index]"
+                    :value="parsedContent.concertItems[index]" />
                 </div>
               </article>
 
-              <hr v-if="contentData.concertInfo.notes"/>
+              <hr v-if="contentData.concertInfo.notes" />
 
               <article v-if="contentData.concertInfo.notes" class="accordion__item">
                 <div class="accordion__content help">
@@ -166,6 +158,7 @@ const parsedContent = ref<{
   concertDescription: any | null;
   concertItems: any[];
   concertNotes: any | null;
+  scheduleNotes: any | null;
 }>({
   sportDescription: null,
   sportSteps: [],
@@ -175,7 +168,8 @@ const parsedContent = ref<{
   cultureNotes: null,
   concertDescription: null,
   concertItems: [],
-  concertNotes: null
+  concertNotes: null,
+  scheduleNotes: null,
 });
 
 const toggleSection = (section: 'sport' | 'culture' | 'concert', index: number) => {
@@ -204,6 +198,12 @@ watch(contentData, async (value) => {
     value.concertInfo.info.map(item => parseMarkdown(item.description))
   );
   parsedContent.value.concertNotes = await parseMarkdown(value.concertInfo.notes ?? '');
+
+  if(value.scheduleObj.notes != null) {
+    const scheduleNotesParsed = await parseMarkdown(value.scheduleObj.notes);
+    parsedContent.value.scheduleNotes = scheduleNotesParsed;
+  }
+
 }, { immediate: true });
 
 createSeoFunction({

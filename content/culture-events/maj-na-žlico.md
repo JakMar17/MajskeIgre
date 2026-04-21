@@ -18,7 +18,7 @@ events:
     imageUrl: /img/bograč.jpg
     time: 09:00
     location: Rožna dolina, teniško igrišče
-    price: 55€ / skupino
+    price: 55€ / skupino (plačilo le v gotovini)
     registerLink: https://docs.google.com/forms/d/e/1FAIpQLScSEYuuXrUEgQIi_d3V8YfxhuInAUKeLLV-SgjXdXa6pFqDaw/viewform?usp=publish-editor
     geoLocation: '{"type":"Point","coordinates":[14.488977,46.0514146]}'
 ---

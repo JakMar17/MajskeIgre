@@ -31,6 +31,7 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
+    '/admin': { redirect: '/admin/' },
     '/**': { prerender: true }
   },
   plugins: [],

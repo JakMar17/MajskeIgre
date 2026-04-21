@@ -1,4 +1,14 @@
 services:
+  decap-server:
+    image: node:22-alpine
+    working_dir: /app
+    command: npx --yes decap-server
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/app
+    restart: unless-stopped
+
   app:
     build:
       context: .

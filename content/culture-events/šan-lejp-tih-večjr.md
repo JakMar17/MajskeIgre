@@ -84,6 +84,6 @@ events:
       slučajno niste med prvimi in niti med drugimi, se ne bojte, saj vas bo
       plaz pojoče množice potegnil za seboj.  Obeta se nam prijeten večer poln
       pesmi in zgodb ter uspavanke :-).
-    imageUrl: /img/aš-barva-velike-8-.jpg
+    imageUrl: /img/aš-barva-velike-18-.jpg
     location: Kulturni otoček za domom III
 ---

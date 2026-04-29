@@ -81,7 +81,7 @@ events:
     location: Kulturni otoček za domom III
     geoLocation: '{"type":"Point","coordinates":[14.4884613,46.0508808]}'
     imageUrl: /img/marolt-letni-koncert-2025-547.jpg
-  - time: 21:00
+  - time: 20:55
     description: Mladinsko folklorno skupino sestavljajo plesalke in plesalci,
       dijaki in študentje, ki jih povezuje ljubezen do slovenskega ljudskega
       plesa, pesmi in izročila. Skupina deluje v okviru Kulturnega društva

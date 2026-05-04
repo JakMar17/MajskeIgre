@@ -8,7 +8,7 @@
           <div class="container concert__title__container">
             <h1 class="title is-1 mb-2">{{ concert.title }}</h1>
             <h2 class="title is-6">{{ concert.location.toUpperCase() }} - {{ concert.date }}</h2>
-            <a v-if="concert.playlist" :href="concert.playlist" target="_blank" class="is-link" style="background: #122b41; padding: 0.5em 1em; border-radius: 999px; display: flex; gap: 1em; align-items: center">
+            <a v-if="concert.playlist" :href="concert.playlist" target="_blank" class="is-link" style="background: #122b41; padding: 0.5em 1em; border-radius: 999px; display: flex; gap: 1em; align-items: center" @click="trackAnalyticsEvent('concert_spotify_click')">
               <div>
                 <img src="../assets/images/playlist.png" style="height: 32px"/>
               </div>
@@ -59,7 +59,7 @@
         <p class="predmajski__description">
           Preden zasedbe stopijo na glavni oder, se morajo najprej dokazati. Predmajski špil je tekmovalni glasbeni večer, kjer mladi izvajalci tekmujejo za priložnost nastopa na Majskih igrah.
         </p>
-        <NuxtLink to="/predmajski-spil" class="button is-rounded is-primary">
+        <NuxtLink to="/predmajski-spil" class="button is-rounded is-primary" @click="trackAnalyticsEvent('predmajski_teaser_click')">
           <i class="ri-trophy-line mr-2"></i> Več o Predmajskem špilu
         </NuxtLink>
       </div>
@@ -75,6 +75,8 @@
 import {ConcertEventModel} from "~/models/events/concert-event.model";
 import {DescriptionModel} from "~/models/description.model";
 import {createSeoFunction} from "~/functions/create-seo.function";
+
+const { trackAnalyticsEvent } = useAnalytics();
 
 const concertsRef = ref<ConcertEventModel[]>([]);
 const descriptionRef = ref<DescriptionModel | null>(null);

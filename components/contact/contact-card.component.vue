@@ -9,7 +9,7 @@
     </div>
     <div v-if="email" class="contact-row">
       <i class="ri-mail-fill"></i>
-      <a :href="'mailto:' + email">{{email}}</a>
+      <a :href="'mailto:' + email" @click="trackAnalyticsEvent('contact_email_click')">{{email}}</a>
     </div>
   </div>
 </template>
@@ -17,6 +17,8 @@
 
 <script lang="ts" setup>
 import {MemberModel} from "~/models/member.model";
+
+const { trackAnalyticsEvent } = useAnalytics();
 
 const props = defineProps<MemberModel>();
 
@@ -62,5 +64,3 @@ img {
   gap: 2em;
 }
 </style>
-<script setup lang="ts">
-</script>

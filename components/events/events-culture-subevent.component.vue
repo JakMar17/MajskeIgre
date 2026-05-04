@@ -14,7 +14,7 @@
       <div v-if="event.registerLink" class="content__header-row">
         <i class="ri-edit-line"></i>
         <div class="has-text-weight-bold">
-          <a :href="event.registerLink" target="_blank" v-if="isRegisterLinkValidUrl">
+          <a :href="event.registerLink" target="_blank" v-if="isRegisterLinkValidUrl" @click="trackAnalyticsEvent('culture_registration_click')">
             {{ event.registerLink }}
           </a>
           <span v-else>{{ event.registerLink }}</span>
@@ -32,6 +32,8 @@
 
 import {CultureSubEventModel} from "~/models/events/culture-event.model";
 
+const { trackAnalyticsEvent } = useAnalytics();
+
 const elementRef = ref(null);
 
 const parsedDescriptionRef = ref<string | null>(null);
@@ -39,7 +41,6 @@ const showDetailsRef = ref<boolean>(false);
 
 const props = defineProps<{ event: CultureSubEventModel }>();
 const {event} = toRefs(props);
-console.log(event.value)
 
 parseMarkdown(event.value.description).then((d) => parsedDescriptionRef.value = d);
 

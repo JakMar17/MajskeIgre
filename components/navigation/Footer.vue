@@ -22,11 +22,11 @@
           <img class="img__logo" src="@/assets/images/svgs/logo-majske-crn.svg"/>
 
            <div v-if="appLinks?.googlePlayStore || appLinks?.appleAppStore" class="buttons is-centered">
-             <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-primary is-outlined is-rounded button__icon">
+             <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-primary is-outlined is-rounded button__icon" @click="trackAnalyticsEvent('footer_app_store_click')">
                <span class="icon"><i class="ri-apple-fill"></i></span>
                <span>App Store</span>
              </a>
-            <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-primary is-outlined is-rounded button__icon">
+            <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-primary is-outlined is-rounded button__icon" @click="trackAnalyticsEvent('footer_google_play_click')">
               <span class="icon"><i class="ri-google-play-fill"></i></span>
               <span>Google Play</span>
             </a>
@@ -35,20 +35,20 @@
         <div class="column mt-6">
           <hr class="is-hidden-touch"/>
           <div class="is-centered mb-0">
-            <a href="https://www.facebook.com/majskeigre" target="_blank" class="button is-ghost button__icon">
+            <a href="https://www.facebook.com/majskeigre" target="_blank" class="button is-ghost button__icon" @click="trackAnalyticsEvent('footer_facebook_click')">
               <span>
                 <i class="ri-facebook-circle-fill"></i>
               </span>
               <span>Facebook</span>
             </a>
-            <a href="https://www.instagram.com/majskeigre/" target="_blank" class="button is-ghost button__icon">
+            <a href="https://www.instagram.com/majskeigre/" target="_blank" class="button is-ghost button__icon" @click="trackAnalyticsEvent('footer_instagram_click')">
               <span class="icon">
                 <i class="ri-instagram-fill"></i>
               </span>
               <span>Instagram</span>
             </a>
           </div>
-          <a href="https://www.tiktok.com/@majskeigre" target="_blank" class="button is-ghost button__icon">
+          <a href="https://www.tiktok.com/@majskeigre" target="_blank" class="button is-ghost button__icon" @click="trackAnalyticsEvent('footer_tiktok_click')">
             <i class="ri-tiktok-fill"></i>
             <span>TikTok</span>
           </a>
@@ -90,6 +90,8 @@ hr {
 </style>
 <script setup lang="ts">
 import type { AppLinksModel } from '~/models';
+
+const { trackAnalyticsEvent } = useAnalytics();
 
 const { data: appLinks } = await useAsyncData<AppLinksModel>('fetchAppLinks', () =>
   queryContent<AppLinksModel>('descriptions/app-links').findOne()

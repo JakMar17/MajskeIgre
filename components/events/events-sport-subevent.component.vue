@@ -18,11 +18,11 @@
       <div v-if="event.registerLink" class="header-row">
         <i class="ri-edit-line"></i>
         <span class="has-text-weight-bold">
-          <a v-if="isRegisterLinkUrl" :href="event.registerLink" target="_blank">{{ event.registerLink }}</a>
+          <a v-if="isRegisterLinkUrl" :href="event.registerLink" target="_blank" @click="trackAnalyticsEvent('sport_registration_click')">{{ event.registerLink }}</a>
           <span v-else>{{ event.registerLink }}</span>
         </span>
       </div>
-      <div v-if="event.instructions" class="header-row is-clickable" @click="showModal = true">
+      <div v-if="event.instructions" class="header-row is-clickable" @click="openInstructions">
         <i class="ri-file-list-line"></i>
         <span class="has-text-weight-bold has-text-primary" style="text-decoration: underline;">
           Navodila
@@ -33,7 +33,7 @@
     <ContentRendererMarkdown v-if="parsedDescription" :value="parsedDescription"/>
 
     <div class="buttons mt-3">
-      <a v-if="event.registerLink && isRegisterLinkUrl" :href="event.registerLink" target="_blank" class="button is-primary is-rounded is-fullwidth button-icon">
+      <a v-if="event.registerLink && isRegisterLinkUrl" :href="event.registerLink" target="_blank" class="button is-primary is-rounded is-fullwidth button-icon" @click="trackAnalyticsEvent('sport_registration_click')">
         <i class="ri-edit-line"></i>
         <span>Prijava</span>
       </a>
@@ -56,6 +56,8 @@
 
 import {SportEventModel} from "~/models/events/sport-event.model";
 
+const { trackAnalyticsEvent } = useAnalytics();
+
 const elementRef = ref(null);
 const parsedDescription = ref<string | null>(null);
 const showDetails = ref(false);
@@ -72,6 +74,11 @@ const toggleDetails = () => {
     setTimeout(() => elementRef.value?.scrollIntoView({behavior: 'smooth'}), 100);
   }
 }
+
+const openInstructions = () => {
+  trackAnalyticsEvent('sport_instructions_open');
+  showModal.value = true;
+};
 
 const eventDate = computed(() => {
   const d = new Date(event.value.date);

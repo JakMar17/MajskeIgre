@@ -6,19 +6,19 @@
         <img id="majske_logo" alt="logo" src="../../assets/images/svgs/logo-majske.svg"/>
 
         <div class="posastko__row">
-          <NuxtLink to="/sport" id="sportko" class="posastko__wrapper">
+          <NuxtLink to="/sport" id="sportko" class="posastko__wrapper" @click="trackAnalyticsEvent('homepage_sport_click')">
             <div>
               <img id="sportko-static" class="posastko__img" alt="logo" src="../../assets/images/majske-igre/sportko.svg"/>
               <img id="sportko-gif" class="posastko__img" alt="logo" src="../../assets/images/gifs/sport_gif.gif"/>
             </div>
             <h2 class="title is-5 m-0">Šport</h2>
           </NuxtLink>
-          <NuxtLink to="/zabava" id="zabavko" class="posastko__wrapper">
+          <NuxtLink to="/zabava" id="zabavko" class="posastko__wrapper" @click="trackAnalyticsEvent('homepage_zabava_click')">
             <img id="zabavko-static" class="posastko__img" alt="logo" src="../../assets/images/majske-igre/zabavko.svg"/>
             <img id="zabavko-gif" class="posastko__img" alt="logo" src="../../assets/images/gifs/zabavko_gif.gif"/>
             <h2 class="title is-5 m-0">Zabava</h2>
           </NuxtLink>
-          <NuxtLink to="/kultura" id="kulturko" class="posastko__wrapper">
+          <NuxtLink to="/kultura" id="kulturko" class="posastko__wrapper" @click="trackAnalyticsEvent('homepage_kultura_click')">
             <img id="kulturko-static" class="posastko__img" alt="logo" src="../../assets/images/majske-igre/kulturko.svg"/>
             <img id="kulturko-gif" class="posastko__img" alt="logo" src="../../assets/images/gifs/kulturko_gif.gif"/>
             <h2 class="title is-5 m-0">Kultura</h2>
@@ -33,18 +33,18 @@
 
         <hr/>
         <div v-if="appLinks?.googlePlayStore || appLinks?.appleAppStore" class="app-links">
-          <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-rounded is-white">
+          <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-rounded is-white" @click="trackAnalyticsEvent('homepage_google_play_click')">
             <span class="icon"><i class="ri-google-play-fill"></i></span>
             <span>Google Play</span>
           </a>
-          <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-rounded is-white">
+          <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-rounded is-white" @click="trackAnalyticsEvent('homepage_app_store_click')">
             <span class="icon"><i class="ri-apple-fill"></i></span>
             <span>App Store</span>
           </a>
         </div>
         <div class="social">
-          <a href="https://www.facebook.com/majskeigre" target="_blank" title="Majske igre"><i class="ri-facebook-circle-fill" style="color: white; font-size: 2em"></i></a>
-          <a href="https://www.instagram.com/majskeigre" target="_blank" title="Majske igre"><i class="ri-instagram-fill" style="color: white; font-size: 2em"></i></a>
+          <a href="https://www.facebook.com/majskeigre" target="_blank" title="Majske igre" @click="trackAnalyticsEvent('homepage_facebook_click')"><i class="ri-facebook-circle-fill" style="color: white; font-size: 2em"></i></a>
+          <a href="https://www.instagram.com/majskeigre" target="_blank" title="Majske igre" @click="trackAnalyticsEvent('homepage_instagram_click')"><i class="ri-instagram-fill" style="color: white; font-size: 2em"></i></a>
         </div>
 
       </div>
@@ -62,6 +62,8 @@
 
 <script lang="ts" setup>
 import type { AppLinksModel } from '~/models';
+
+const { trackAnalyticsEvent } = useAnalytics();
 
 const images = defineProps<{ imageUrls: Array<{images: {}}> }>();
 

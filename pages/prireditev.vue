@@ -5,11 +5,11 @@
     </div>
 
     <div v-if="appLinks?.googlePlayStore || appLinks?.appleAppStore" class="flex justify-content--center app-links">
-      <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-primary is-rounded">
+      <a v-if="appLinks?.googlePlayStore" :href="appLinks.googlePlayStore" target="_blank" class="button is-primary is-rounded" @click="trackAnalyticsEvent('prireditev_google_play_click')">
         <span class="icon"><i class="ri-google-play-fill"></i></span>
         <span>Google Play</span>
       </a>
-      <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-primary is-rounded">
+      <a v-if="appLinks?.appleAppStore" :href="appLinks.appleAppStore" target="_blank" class="button is-primary is-rounded" @click="trackAnalyticsEvent('prireditev_app_store_click')">
         <span class="icon"><i class="ri-apple-fill"></i></span>
         <span>App Store</span>
       </a>
@@ -60,6 +60,8 @@
 
 <script lang="ts" setup>
 import { createSeoFunction } from "~/functions/create-seo.function";
+
+const { trackAnalyticsEvent } = useAnalytics();
 
 const links = {
   concerts: {

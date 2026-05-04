@@ -14,7 +14,7 @@
       <div v-if="event.registerLink" class="content__header-row">
         <i class="ri-edit-line"></i>
         <div class="has-text-weight-bold">
-          <a :href="event.registerLink" target="_blank" v-if="isRegisterLinkValidUrl" @click="trackAnalyticsEvent('culture_registration_click')">
+          <a :href="event.registerLink" target="_blank" v-if="isRegisterLinkValidUrl" @click="trackCultureRegistrationClick">
             {{ event.registerLink }}
           </a>
           <span v-else>{{ event.registerLink }}</span>
@@ -44,12 +44,22 @@ const {event} = toRefs(props);
 
 parseMarkdown(event.value.description).then((d) => parsedDescriptionRef.value = d);
 
+const cultureRegistrationProps = computed(() => ({
+  event_slug: createAnalyticsSlug(event.value.title),
+  event_title: event.value.title,
+  event_category: 'culture',
+}));
+
 const toggleDetails = () => {
   showDetailsRef.value = !showDetailsRef.value;
   if (showDetailsRef.value) {
     setTimeout(() => elementRef.value?.scrollIntoView({behavior: 'smooth'}), 100);
   }
 }
+
+const trackCultureRegistrationClick = () => {
+  trackAnalyticsEvent('culture_registration_click', cultureRegistrationProps.value);
+};
 
 const isRegisterLinkValidUrl = computed(() => {
   try {

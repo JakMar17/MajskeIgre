@@ -8,7 +8,7 @@
           <div class="container concert__title__container">
             <h1 class="title is-1 mb-2">{{ concert.title }}</h1>
             <h2 class="title is-6">{{ concert.location.toUpperCase() }} - {{ concert.date }}</h2>
-            <a v-if="concert.playlist" :href="concert.playlist" target="_blank" class="is-link" style="background: #122b41; padding: 0.5em 1em; border-radius: 999px; display: flex; gap: 1em; align-items: center" @click="trackAnalyticsEvent('concert_spotify_click')">
+            <a v-if="concert.playlist" :href="concert.playlist" target="_blank" class="is-link" style="background: #122b41; padding: 0.5em 1em; border-radius: 999px; display: flex; gap: 1em; align-items: center" @click="trackConcertSpotifyClick(concert)">
               <div>
                 <img src="../assets/images/playlist.png" style="height: 32px"/>
               </div>
@@ -85,6 +85,14 @@ const expandedPerformerRef = ref<Record<number, string | null>>({});
 
 const togglePerformer = (concertIndex: number, performerName: string) => {
   expandedPerformerRef.value[concertIndex] = expandedPerformerRef.value[concertIndex] === performerName ? null : performerName;
+};
+
+const trackConcertSpotifyClick = ({ title }: ConcertEventModel) => {
+  trackAnalyticsEvent('concert_spotify_click', {
+    concert_slug: createAnalyticsSlug(title),
+    concert_title: title,
+    event_category: 'concert',
+  });
 };
 
 const fetchDescription = () => queryContent<DescriptionModel>('descriptions/concert').findOne().then((description) => {

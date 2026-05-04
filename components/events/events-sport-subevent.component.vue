@@ -18,7 +18,7 @@
       <div v-if="event.registerLink" class="header-row">
         <i class="ri-edit-line"></i>
         <span class="has-text-weight-bold">
-          <a v-if="isRegisterLinkUrl" :href="event.registerLink" target="_blank" @click="trackAnalyticsEvent('sport_registration_click')">{{ event.registerLink }}</a>
+          <a v-if="isRegisterLinkUrl" :href="event.registerLink" target="_blank" @click="trackSportRegistrationClick">{{ event.registerLink }}</a>
           <span v-else>{{ event.registerLink }}</span>
         </span>
       </div>
@@ -33,7 +33,7 @@
     <ContentRendererMarkdown v-if="parsedDescription" :value="parsedDescription"/>
 
     <div class="buttons mt-3">
-      <a v-if="event.registerLink && isRegisterLinkUrl" :href="event.registerLink" target="_blank" class="button is-primary is-rounded is-fullwidth button-icon" @click="trackAnalyticsEvent('sport_registration_click')">
+      <a v-if="event.registerLink && isRegisterLinkUrl" :href="event.registerLink" target="_blank" class="button is-primary is-rounded is-fullwidth button-icon" @click="trackSportRegistrationClick">
         <i class="ri-edit-line"></i>
         <span>Prijava</span>
       </a>
@@ -68,12 +68,22 @@ const {event} = toRefs(props);
 
 parseMarkdown(event.value.description).then((d) => parsedDescription.value = d);
 
+const sportRegistrationProps = computed(() => ({
+  event_slug: createAnalyticsSlug(event.value.title),
+  event_title: event.value.title,
+  event_category: 'sport',
+}));
+
 const toggleDetails = () => {
   showDetails.value = !showDetails.value;
   if (showDetails.value) {
     setTimeout(() => elementRef.value?.scrollIntoView({behavior: 'smooth'}), 100);
   }
 }
+
+const trackSportRegistrationClick = () => {
+  trackAnalyticsEvent('sport_registration_click', sportRegistrationProps.value);
+};
 
 const openInstructions = () => {
   trackAnalyticsEvent('sport_instructions_open');

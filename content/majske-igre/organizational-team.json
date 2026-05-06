@@ -6,55 +6,55 @@
       "functionTitle": "vodja prireditve",
       "email": "primoz.hrovat@ssvets.si",
       "phone": "041 398 407",
-      "imageUrl": "/img/primož-hrovat.jpg"
+      "imageUrl": "/img/primož.png"
     },
     {
       "name": "Nejc Mikec",
       "functionTitle": "vodja trženja in odnosov s sponzorji, pomočnik vodje prireditve",
       "email": "nejc.mikec@ssvets.si",
       "phone": "041 337 631",
-      "imageUrl": "/img/nejc-mikec.jpg"
+      "imageUrl": "/img/mikec.png"
     },
     {
       "name": "Karmen Lubšina",
       "functionTitle": "odnosi z javnostjo (PR)",
       "email": "pr.promocija@ssvets.si",
       "phone": "031 850 462",
-      "imageUrl": "/img/karmen-lubšina.jpg"
+      "imageUrl": "/img/karmen.png"
     },
     {
       "name": "Tina Seme",
       "functionTitle": "vodja športnega programa",
       "email": "sport@ssvets.si",
       "phone": "040 366 623",
-      "imageUrl": "/img/2g5a2022.jpg"
+      "imageUrl": "/img/tina.png"
     },
     {
       "name": "Sara Žmavc",
       "functionTitle": "pomočnica vodje športnega programa",
       "phone": "030 676 523",
       "email": "sport@ssvets.si",
-      "imageUrl": "/img/sara-žmavc.jpg"
+      "imageUrl": "/img/sara.png"
     },
     {
       "name": "Ema Metulj",
       "functionTitle": "vodja zabavnega programa",
       "email": "zabava@ssvets.si",
       "phone": "041 504 629",
-      "imageUrl": "/img/ema-metulj.jpg"
+      "imageUrl": "/img/ema.png"
     },
     {
       "name": "Andraž Fidel",
       "functionTitle": "pomočnik vodje zabave",
       "email": "zabava@ssvets.si",
       "phone": "041 856 055",
-      "imageUrl": "/img/andraž-fidel.jpg"
+      "imageUrl": "/img/andraž.png"
     },
     {
       "name": "Ana Turk",
       "functionTitle": "vodja kulturnega programa",
       "email": "kultura@ssvets.si",
-      "imageUrl": "/img/ana-turk.jpg",
+      "imageUrl": "/img/ana.png",
       "phone": "051 248 286"
     },
     {
@@ -62,28 +62,42 @@
       "functionTitle": "Pomočnica vodje kulturnega programa",
       "email": "kultura@ssvets.si",
       "phone": "031 804 656",
-      "imageUrl": "/img/urška-filipič.jpg"
+      "imageUrl": "/img/urška.png"
     },
     {
       "name": "Nika Kovačič",
       "functionTitle": "grafično oblikovanje",
       "email": "grafika@ssvets.si",
       "phone": "051 204 716",
-      "imageUrl": "/img/nika-kovačič.jpg"
+      "imageUrl": "/img/nika.png"
     },
     {
       "name": "Nejc Gajšak",
       "functionTitle": "vodja gostinstva",
       "email": "gostinstvo@ssvets.si",
       "phone": "051 415 207",
-      "imageUrl": "/img/nejc-gajšak.jpg"
+      "imageUrl": "/img/gajšak.png"
     },
     {
       "name": "Jakob Račič",
       "functionTitle": "pomočnik vodje gostinstva",
       "phone": "040 762 886",
       "email": "gostinstvo@ssvets.si",
-      "imageUrl": "/img/jakob-račič.jpg"
+      "imageUrl": "/img/jakob.png"
+    },
+    {
+      "name": "Klemen Žbogar",
+      "functionTitle": "vodja tehnike",
+      "phone": "051 840 475",
+      "email": "tehnika@ssvets.si",
+      "imageUrl": "/img/klemen.png"
+    },
+    {
+      "name": "Gašper Trbanc",
+      "functionTitle": "pomočnik vodje tehnike",
+      "email": "tehnika@ssvets.si",
+      "phone": "040 602 907",
+      "imageUrl": "/img/gašper.png"
     }
   ],
   "coverImg": "/img/organizator.webp"

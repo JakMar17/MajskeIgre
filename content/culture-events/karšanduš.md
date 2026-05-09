@@ -100,10 +100,18 @@ events:
     location: Kulturni otoček za domom III
     imageUrl: /img/mfs-mengeš.jpg
   - time: 21:30
-    title: Kino na prostem
+    title: Kino na prostem, Kajmak in marmelada
     description: >-
-      
-      Večer bomo zaključili s filmsko čarovnijo pod zvezdami. Zato zberi prijatelje in se nam pridruži.
+      Za konec Kulturnega večera si bomo skupaj ogledali priljubljen slovenski
+      celovečerni film Kajmak in marmelada režiserja Branka Đurića, ki skozi
+      humor, čustvene trenutke in zanimive zaplete prikazuje razmerje med
+      Bosancem Božom in Slovenko Špelo. Film na zabaven, a hkrati iskren način
+      odpira teme ljubezni, kulturnih razlik, predsodkov in vsakdanjih
+      življenjskih izzivov, zaradi česar je postal ena najbolj prepoznavnih
+      slovenskih filmskih klasik.
+
+
+      Smeha, sproščenega vzdušja in dobre družbe zagotovo ne bo manjkalo. Vabljeni!
     location: Kulturni otoček za domom III
-    imageUrl: /img/280448089_5631346656909360_368810459111457446_n.jpg
+    imageUrl: /img/kajmak_in_marmelada.jpg
 ---

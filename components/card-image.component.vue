@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-content--center align-items--center">
-    <section id="wrapper" ref="wrapper" :class="buildCssClass('wrapper')">
-      <div ref="content" class="content">
+    <section id="wrapper" ref="wrapper" class="wrapper">
+      <div ref="content" :class="buildCssClass('content')">
         <div ref="content__card" class="content__card">
           <slot name="title">
             <h1 v-if="title" class="title is-2 mb-0">{{ title }}</h1>
@@ -20,7 +20,6 @@
         </div>
       </div>
       <div v-if="imageUrl" :class="buildCssClass('background')">
-        <div></div>
         <img ref="backgroundImage" :src="imageUrl" loading="lazy"/>
       </div>
     </section>
@@ -102,9 +101,8 @@ export default {
   position: relative;
   height: 38em;
   width: 100%;
-  max-width: 120em;
+  max-width: 128em;
   margin-bottom: 2em;
-  display: flex;
 
   @media only screen and (min-width: 1024px) {
     margin-bottom: 0;
@@ -116,12 +114,15 @@ export default {
   height: 100%;
   position: absolute;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-end;
+  inset: 0;
+  width: 100%;
+  box-sizing: border-box;
 
   @media only screen and (min-width: 768px) {
-    margin-left: 4em;
-    margin-right: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
   }
 
   @media only screen and (min-width: 1024px) {
@@ -138,8 +139,18 @@ export default {
 
     @media only screen and (min-width: 1024px) {
       border-radius: 1em;
-      width: 50vw;
+      width: min(100%, 56rem);
     }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+      width: 100%;
+    }
+  }
+}
+
+.content.reversed {
+  @media only screen and (min-width: 1024px) {
+    justify-content: flex-end;
   }
 }
 
@@ -149,33 +160,40 @@ export default {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  box-sizing: border-box;
 
   margin-bottom: 4em;
 
   @media only screen and (min-width: 768px) {
-    margin-left: 4em;
-    margin-right: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
   }
 
   @media only screen and (min-width: 1024px) {
     margin-bottom: 0;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
   }
 
   img {
     object-fit: cover;
     height: 35em;
+    width: auto;
+    max-width: 100%;
+    display: block;
     border-radius: 1em 1em 0 0;
 
     @media only screen and (min-width: 1024px) {
+      width: min(100%, 64rem);
       border-radius: 1em;
     }
   }
 }
 
-.reversed {
-  flex-direction: row-reverse;
+.background.reversed {
+  @media only screen and (min-width: 1024px) {
+    justify-content: flex-start;
+  }
 }
 </style>
 <script lang="ts" setup>

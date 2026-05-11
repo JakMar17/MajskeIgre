@@ -1,8 +1,6 @@
 <template>
-    <div class="snap-y__wrapper">
-        <div class="snap-y__section">
+    <div style="height: 100vh; width: 100vw; overflow: hidden">
             <HomeSlideIntroComponent v-if="indexSlideshowRef != null" :image-urls="indexSlideshowRef"/>
-        </div>
     </div>
 </template>
 

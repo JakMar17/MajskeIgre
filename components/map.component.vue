@@ -1,7 +1,7 @@
 <template>
     <div v-if="mapUrl" class="concert__map__wrapper">
         <div class="container">
-            <iframe :src="mapUrl" width="100%" :height="props.height ?? 220" style="border: 0; border-radius: 1rem;" loading="lazy"
+            <iframe :src="mapUrl" width="100%" :height="props.height ?? 220" class="concert__map__frame" style="border: 0; border-radius: 1rem;" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade" title="Lokacija dogodka" />
         </div>
     </div>
@@ -50,3 +50,9 @@ const mapUrl = computed(() => {
 });
 
 </script>
+
+<style scoped>
+.concert__map__frame {
+    pointer-events: none;
+}
+</style>

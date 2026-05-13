@@ -1,7 +1,7 @@
 ---
 title: Igraj majske z Galaxy S26 Ultra
 location: Rožna dolina
-date: 2026-05-14T12:00:00.000+02:00
+date: 2026-05-18T12:00:00.000+02:00
 price: Brezplačno
 teamFormation: " posamezno ali skupinsko"
 description: >-

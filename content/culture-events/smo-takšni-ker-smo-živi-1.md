@@ -4,18 +4,6 @@ date: 2026-05-18T16:30:00.000+02:00
 imageUrl: /img/kultura-4.jpg
 events:
   - time: "16:30 "
-    title: Poskrbi za svoje zdravje, izvaja Projekt Onko
-    description: Rak v svetu predstavlja drugo najpogostejšo bolezen in vzrok smrti,
-      na delavnici pa bomo odkrito spregovorili o raku. Študentje medicine bodo
-      na poljuden način predali ključne strokovne informacije o zdravih navadah
-      in samopregledovanju. Delavnica bo sestavljena iz teoretičnega in
-      praktičnega dela.
-    imageUrl: /img/pregledovanje-dojk.jpg
-    location: Sejna soba doma III
-    price: Brezplačno
-    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSeQgweF6Gvpuba0PQJARPuaFI97ua8eR89YH8WFIic8qvn2Kg/viewform?usp=publish-editor
-    geoLocation: '{"type":"Point","coordinates":[14.4884701,46.0511806]}'
-  - time: "16:30 "
     title: Delavnica Excela, izvaja Zavod ŠOLT
     description: Postani mojster obdelave podatkov! Poleg obvladovanja osnov se
       nauči tudi pomembnih napredne funkcije in spoznaj glavne trike pri uporabi

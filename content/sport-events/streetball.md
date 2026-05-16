@@ -1,7 +1,7 @@
 ---
 title: STREETBALL
 location: Kardeljeva ploščad, med domovi
-date: 2026-05-14T12:00:00.000+02:00
+date: 2026-05-19T09:00:00.000+02:00
 price: 8 €
 teamFormation: 3 + 1 rezerva, ločeno moške in ženske ekipe
 registerLink: https://forms.gle/R26TgTQQL2M1vgco9

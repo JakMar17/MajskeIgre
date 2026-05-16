@@ -1,7 +1,7 @@
 ---
 title: ODBOJKA PARI (ŽENSKE)
 location: Rožna dolina, odbojkarsko igrišče na mivki
-date: 2026-05-12T12:00:00.000+02:00
+date: 2026-05-19T09:00:00.000+02:00
 price: 8 €
 teamFormation: Dvojice
 registerLink: https://forms.gle/yuJnHCCVdBnNpwj98

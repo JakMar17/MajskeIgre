@@ -3,12 +3,10 @@ title: NOGOMET MOŠKI 2. del
 location: Rožna dolina, nogometno igrišče
 date: 2026-05-19T09:00:00.000+02:00
 price: /
-description: >-
+description: |-
   <!--StartFragment-->
 
-
-  Zaradi velike udeležbe ekip, se tekmovanje v nogometu izvede v dveh dneh, pri čemer prvi dan skozi skupinski del dobimo najboljše ekipe, ki se nato v drugem dnevu pomerijo v sistemu na izpadanje. 
-
+  Nadaljevanje skupinskega dela in izločilni boji.
 
 
 

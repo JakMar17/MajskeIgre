@@ -51,11 +51,11 @@ events:
       ne pustijo ravnodušnega.
     imageUrl: /img/slika-zina.jpg
     location: Kulturni otoček za domom III
-  - time: 20:15
+  - time: 20:00
     title: Podelitev medalj
     description: Podelitev medalj za športe
     location: Kulturni otoček za domom III
-  - time: 20:30
+  - time: 20:20
     title: Milan Kamnik
     description: Kantavtor Milan Kamnik je koroška legenda, ambasador koroške
       besede, ponos in glas Koroške, ki že več kot pol stoletja poje o rojstvu

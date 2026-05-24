@@ -3,20 +3,6 @@ title: Uspavanka za kulturo
 date: 2026-05-25T17:00:00.000+02:00
 imageUrl: /img/kultura-7.jpg
 events:
-  - time: 14:00
-    title: Majska izmenjevalnica
-    description: Majska izmenjevalnica je namenjena praktično vsemu! Ti v omari
-      ostajajo kosi oblačil in bi jih rad podaril naprej? Morda imaš ogromno
-      podtaknjencev? Ali pa izdeluješ domače omakice? Morda si čebelar, 3D print
-      ustvarjalec ali pa kaj drugega. Če si na karkoli izmed tega odgovoril z
-      “DA”, potem iščemo tebe! Majska izmenjevalnica bo potekala sočasno s
-      kmečkimi igrami, razstavljalci pa dobite na razpolago mizo, da svoje
-      izdelke podelite oziroma predstavite širokemu občinstvu.
-    imageUrl: /img/pexels-mokhtar-med-1510192794-31776842.jpg
-    location: Jasa pred domom IV
-    price: Brezplačno
-    registerLink: https://docs.google.com/forms/d/e/1FAIpQLSeMrJhXcXJnGvfrnRDTXRZ9Lk5gm6u8_7kXIcl9XXd45LbHPg/viewform?usp=publish-editor
-    geoLocation: '{"type":"Point","coordinates":[14.4870634,46.050044]}'
   - time: 16:30
     title: Degustacija salam
     description: Degustacija salam je namenjena vsem ljubiteljem kvalitetnih salam.

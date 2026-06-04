@@ -19,5 +19,5 @@ description: >-
 
 
   <!--EndFragment-->
-imageUrl: /img/bowling.jpg
+imageUrl: ""
 ---

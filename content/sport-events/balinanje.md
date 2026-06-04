@@ -19,5 +19,5 @@ description: >-
 
 
   <!--EndFragment-->
-imageUrl: /img/balinčkanje.jpg
+imageUrl: /img/balinanje.jpg
 ---

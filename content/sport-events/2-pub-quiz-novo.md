@@ -23,5 +23,5 @@ description: >-
 
 
   <!--EndFragment-->
-imageUrl: /img/pub-quiz.jpg
+imageUrl: /img/pub-kviz2.jpg
 ---
